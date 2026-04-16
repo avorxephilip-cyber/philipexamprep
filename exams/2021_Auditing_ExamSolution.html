@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2021 Auditing Exam Solutions</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+        :root {
+            --primary: #4f46e5;
+            --primary-light: #eef2ff;
+            --text-main: #334155;
+            --text-heading: #0f172a;
+            --bg-page: #f8fafc;
+            --bg-card: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        body { 
+            font-family: 'Inter', system-ui, -apple-system, sans-serif; 
+            line-height: 1.7; 
+            color: var(--text-main); 
+            margin: 0; 
+            padding: 50px 20px;
+            background-color: var(--bg-page);
+            background-image: radial-gradient(var(--border-color) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .container { 
+            max-width: 960px; 
+            margin: auto; 
+            padding: 60px 80px; 
+            background: var(--bg-card);
+            border-radius: 24px;
+            box-shadow: 0 20px 40px -15px rgba(0,0,0,0.05); 
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        h1 { 
+            text-align: center; 
+            font-weight: 800;
+            color: var(--text-heading); 
+            margin-bottom: 50px;
+            letter-spacing: -1px;
+            font-size: 2.5em;
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2 { 
+            border-bottom: 3px solid var(--primary-light); 
+            padding-bottom: 12px; 
+            margin-top: 60px; 
+            color: var(--text-heading); 
+            font-weight: 700;
+            font-size: 1.8em;
+            letter-spacing: -0.5px;
+        }
+        h3 { 
+            color: var(--primary); 
+            margin-top: 35px; 
+            font-weight: 600;
+            font-size: 1.3em;
+        }
+        .question-box { 
+            background-color: var(--primary-light);
+            padding: 24px 32px; 
+            border-radius: 12px;
+            border-left: 6px solid var(--primary);
+            margin-bottom: 30px; 
+            font-size: 1em;
+            color: #1e293b;
+            transition: all 0.3s ease;
+        }
+        .question-box:hover {
+            transform: translateX(5px);
+            box-shadow: -5px 10px 20px rgba(79, 70, 229, 0.1);
+        }
+        .solution-box { 
+            margin-bottom: 60px; 
+        }
+        .assertion-table { 
+            width: 100%; 
+            border-collapse: separate; 
+            border-spacing: 0;
+            margin: 30px 0; 
+            font-size: 0.95em; 
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+        .assertion-table th, .assertion-table td { 
+            padding: 16px 24px; 
+            text-align: left; 
+            border-bottom: 1px solid var(--border-color);
+        }
+        .assertion-table th { 
+            background-color: #f1f5f9; 
+            color: var(--text-heading); 
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.85em;
+            letter-spacing: 1px;
+        }
+        .assertion-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+        .assertion-table tbody tr:hover {
+            background-color: #f8fafc;
+        }
+        .cite { 
+            color: var(--primary); 
+            font-weight: 600; 
+            font-size: 0.8em; 
+            background: var(--primary-light);
+            padding: 4px 8px;
+            border-radius: 6px;
+            display: inline-block;
+            margin: 0 4px;
+        }
+        ul { 
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        li { 
+            margin-bottom: 14px; 
+            position: relative;
+            padding-left: 28px;
+        }
+        li::before {
+            content: "→";
+            color: var(--primary);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            font-size: 1.1em;
+        }
+        strong {
+            color: var(--text-heading);
+            font-weight: 600;
+        }
+        em {
+            color: #64748b;
+            font-style: normal;
+            font-weight: 500;
+            background: #f1f5f9;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>AUDITING 2021 EXAM - SOLUTIONS</h1>
+
+    <h2>Question 1</h2>
+    <div class="question-box">
+        <strong>a) Financial Statement Assertions — Year-End Inventory</strong><br>
+        I. Identify and explain four financial statement assertions relevant to account balances at the year end; and<br>
+        II. For each identified assertion, describe a substantive/verification procedure relevant to the audit of year-end inventory.<br>
+        <br><em>[8 marks]</em>
+    </div>
+    <div class="solution-box">
+        <h3>Solution to Q1a</h3>
+        <table class="assertion-table">
+            <tr>
+                <th>Assertion</th>
+                <th>Explanation</th>
+                <th>Substantive Procedure</th>
+            </tr>
+            <tr>
+                <td><strong>Existence</strong></td>
+                <td>Assets, liabilities, and equity interests exist at the period end.</td>
+                <td>Observe the physical inventory count and perform test counts of selected items from records to the warehouse floor.</td>
+            </tr>
+            <tr>
+                <td><strong>Rights and Obligations</strong></td>
+                <td>The entity holds or controls the rights to assets.</td>
+                <td>Inspect purchase invoices and shipping documents to verify legal ownership of inventory items.</td>
+            </tr>
+            <tr>
+                <td><strong>Completeness</strong></td>
+                <td>All assets that should have been recorded have been recorded.</td>
+                <td>Perform cutoff tests by inspecting the last Goods Received Notes (GRNs) of the year to ensure they are included in inventory.</td>
+            </tr>
+            <tr>
+                <td><strong>Valuation and Allocation</strong></td>
+                <td>Assets are included at appropriate amounts.</td>
+                <td>Compare the unit cost of inventory to its Net Realizable Value (NRV) by checking post-year-end sales prices.</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="question-box">
+        <strong>b) Quality International Plc (QIP) — Internal Controls</strong><br><br>
+        Quality International Plc (QIP) is a manufacturer of electrical equipment. It has factories across the country and its customer base includes retailers as well as individuals, to whom direct sales are made through their website. The company's year end is 30 September 2020. You are an audit supervisor of Tackie & Co (the external auditors of QIP) and are currently reviewing documentation of QIP's internal control in preparation for the interim audit.<br><br>
+        QIP's website allows individuals to order goods directly, and full payment is taken in advance. Currently the website is not integrated into the inventory system and inventory levels are not checked at the time when orders are placed.<br><br>
+        Goods are despatched via local couriers; however, they do not always record customer signatures as proof that the customer has received the goods. Over the past 12 months there have been customer complaints about the delay between sales orders and receipt of goods. QIP has investigated these and found that, in each case, the sales order had been entered into the sales system correctly but was not forwarded to the despatch department for fulfilling.<br><br>
+        QIP's retail customers undergo credit checks prior to being accepted and credit limits are set accordingly by sales ledger clerks. These customers place their orders through one of the sales team, who decides on sales discount levels. Raw materials used in the manufacturing process are purchased from a wide range of suppliers. As a result of staff changes in the purchase ledger department, supplier statement reconciliations are no longer performed. Additionally, changes to supplier details in the purchase ledger master file can be undertaken by purchase ledger clerks as well as supervisors.<br><br>
+        In the past six months QIP has changed part of its manufacturing process and as a result some new equipment has been purchased; however, there are considerable levels of plant and equipment which are now surplus to requirement. Purchase requisitions for all new equipment have been authorised by production supervisors and little has been done to reduce the surplus of old equipment.<br><br>
+        <strong>Required — In respect of the internal control of QIP:</strong><br>
+        - Identify and explain four deficiencies;<br>
+        - Recommend a control procedure to address each of these deficiencies; and<br>
+        - Describe a test of control Tackie & Co would perform to assess if each of these controls is operating effectively.<br>
+        <br><em>[12 marks]</em>
+    </div>
+    <div class="solution-box">
+        <h3>Solution to Q1b</h3>
+        <ul>
+            <li><strong>Deficiency:</strong> Website not integrated with inventory system.
+                <br><em>Risk:</em> Goods may be sold that are out of stock, causing delays and loss of customer goodwill.
+                <br><em>Recommendation:</em> Integrate the website with the real-time inventory system to block orders for out-of-stock items.
+                <br><em>Test of Control:</em> Attempt to place an order for an item known to be out of stock and observe if the system allows it.</li>
+            <li><strong>Deficiency:</strong> Couriers do not always obtain customer signatures.
+                <br><em>Risk:</em> Lack of proof of delivery makes resolving disputes difficult and increases risk of theft.
+                <br><em>Recommendation:</em> Mandate that couriers obtain digital/physical signatures for all deliveries.
+                <br><em>Test of Control:</em> Inspect a sample of despatched orders for valid customer signatures on delivery notes.</li>
+            <li><strong>Deficiency:</strong> Supplier statement reconciliations are not performed.
+                <br><em>Risk:</em> Errors or fraudulent payments in the purchase ledger may go undetected.
+                <br><em>Recommendation:</em> Assign a dedicated clerk to perform monthly supplier reconciliations.
+                <br><em>Test of Control:</em> Review the file of completed monthly reconciliations for evidence of management sign-off.</li>
+            <li><strong>Deficiency:</strong> Clerks have access to change supplier master file details.
+                <br><em>Risk:</em> Unauthorized changes to supplier bank details could lead to fraud.
+                <br><em>Recommendation:</em> Restrict master file access to senior management only.
+                <br><em>Test of Control:</em> Attempt to change a supplier's detail using a clerk's login credentials to verify access is blocked.</li>
+        </ul>
+    </div>
+
+    <h2>Question 2</h2>
+    <div class="question-box">
+        <strong>a) Going Concern — Audit Procedures</strong><br>
+        Describe four audit procedures that you should perform in assessing whether or not a company is a going concern.<br>
+        <br><em>[4 marks]</em>
+    </div>
+    <div class="solution-box">
+        <h3>Solution to Q2a</h3>
+        <ul>
+            <li>Review management's cash flow, profit, and other relevant forecasts for at least 12 months from year-end.</li>
+            <li>Analyze the latest available interim financial statements to identify any downward trends.</li>
+            <li>Examine minutes of board and management meetings for references to financial difficulties or loan breaches.</li>
+            <li>Inquire of the entity’s legal counsel regarding the existence of significant litigation or claims.</li>
+        </ul>
+    </div>
+
+    <div class="question-box">
+        <strong>b) Siaw & Co / Boafo Financial Services Plc — Ethical Threats</strong><br><br>
+        You are the audit manager of Siaw & Co, a firm of chartered accountants, and you are planning the audit of Boafo Financial Services Plc (Boafo), which specialises in the provision of loans and financial advice to individuals and companies. Siaw & Co has audited Boafo for many years. The directors are planning to list Boafo on a stock exchange within the next few months and have asked if the engagement partner can attend the meetings with potential investors. In addition, as the finance director of Boafo is likely to be quite busy with the listing, he has asked if Siaw & Co can produce the financial statements for the current year.<br><br>
+        During the year, the assistant finance director of Boafo left and joined Siaw & Co as a partner. It has been suggested that due to his familiarity with Boafo, he should be appointed to provide an independent partner review for the audit. Once Boafo obtains its stock exchange listing, it will require several assignments to be undertaken, for example, obtaining advice about corporate governance best practice. Siaw & Co is very keen to be appointed to these engagements. However, Boafo has implied that in order to gain this work, Siaw & Co needs to complete the external audit quickly and with minimal questions/issues.<br><br>
+        The finance director has informed you that once the stock exchange listing has been completed, he would like the engagement team to attend a weekend away at a luxury hotel with his team, as a thank you for all their hard work. In addition, he has offered a senior member of the engagement team a short-term loan at a significantly reduced interest rate.<br><br>
+        <strong>Required:</strong><br>
+        - Explain four ethical threats which may affect the independence of Siaw & Co's audit of Boafo; and<br>
+        - For each threat, explain how it might be mitigated.<br>
+        <br><em>[8 marks]</em>
+    </div>
+    <div class="solution-box">
+        <h3>Solution to Q2b</h3>
+        <ul>
+            <li><strong>Self-Review Threat:</strong> The request to prepare financial statements that Siaw & Co will later audit.
+                <br><em>Mitigation:</em> The firm should refuse to prepare financial statements for a public interest entity audit client.</li>
+            <li><strong>Familiarity Threat:</strong> The former assistant finance director of the client is now a partner at the audit firm.
+                <br><em>Mitigation:</em> This partner must not be involved in the audit of Boafo for at least two years.</li>
+            <li><strong>Self-Interest Threat (Gifts):</strong> Offer of a luxury weekend and low-interest loan to an auditor.
+                <br><em>Mitigation:</em> Prohibit acceptance of gifts unless they are clearly insignificant in value.</li>
+            <li><strong>Intimidation/Self-Interest Threat:</strong> Client pressure to conduct a "quick audit" to secure future advisory work.
+                <br><em>Mitigation:</em> Communicate that professional standards cannot be compromised. Consider resigning if pressure persists.</li>
+        </ul>
+    </div>
+
+    <div class="question-box">
+        <strong>c) Goaso Beach Hotel Plc (GBHP) — Substantive Procedures</strong><br><br>
+        Goaso Beach Hotel Plc (GBHP) operates a hotel providing accommodation, leisure facilities and restaurants. Its latest year end was 31 December 2013. You are the audit senior of Boafo & Co Chartered Accountants and are currently preparing the audit programmes for the year end audit of GBHP. You are reading through the notes of last week's meeting between the audit manager and finance director where two material issues were discussed.<br><br>
+        <strong>Depreciation</strong><br>
+        GBHP incurred significant capital expenditure during the year on upgrading the leisure facilities for the hotel. The finance director has proposed that the new leisure equipment should be depreciated over 10 years using the straight-line method.<br><br>
+        <strong>Receivables</strong><br>
+        GBHP's trade receivables have historically been low as most clients pay in cash on check out. However, during the year, a number of companies have taken up corporate client credit facility and hence the receivables balance is now material. The audit senior has undertaken a receivables circularisation for the balances at the year end. However, there are a number of corporate clients who have not responded and a number of responses with differences.<br><br>
+        <strong>Required:</strong><br>
+        Describe substantive procedures to obtain sufficient and appropriate audit evidence in relation to the above two issues.<br>
+        <br><em>[8 marks]</em>
+    </div>
+    <div class="solution-box">
+        <h3>Solution to Q2c</h3>
+        <strong>Substantive Procedures for Depreciation:</strong>
+        <ul>
+            <li>Review the reasonableness of the 10-year useful life by comparing it to hotel industry standards.</li>
+            <li>Recalculate the depreciation charge for the year to ensure mathematical accuracy.</li>
+        </ul>
+        <strong>Substantive Procedures for Receivables:</strong>
+        <ul>
+            <li>Perform a debtors circularization to confirm outstanding balances directly with customers.</li>
+            <li>For non-responses, inspect subsequent cash receipts in the bank statement to verify payment.</li>
+        </ul>
+    </div>
+
+    <h2>Question 3</h2>
+    <div class="question-box">
+        <strong>a) Written Representations</strong><br><br>
+        Explain three purposes of, and two procedures for, obtaining written representations.<br>
+        <br><em>[5 marks]</em>
+    </div>
+    <div class="solution-box">
+        <h3>Solution to Q3a</h3>
+        <strong>Purposes:</strong>
+        <ul>
+            <li>To obtain management's acknowledgement of responsibility for the fair presentation of financial statements.</li>
+            <li>To document management’s responses to inquiries where other evidence is limited.</li>
+            <li>To reduce the risk of misunderstandings regarding the audit scope.</li>
+        </ul>
+        <strong>Procedures:</strong>
+        <ul>
+            <li>Inquire of management regarding specific matters like subsequent events or related parties.</li>
+            <li>Obtain a formal, signed Letter of Representation from the CEO or CFO.</li>
+        </ul>
+    </div>
+
+    <div class="question-box">
+        <strong>b) Dinpa Plc — Acceptance of Appointment</strong><br><br>
+        Your firm has been approached by the board of directors of Dinpa Plc who would like to engage your firm as the company's auditors for the next financial year, ending on 31 December 2020. The directors feel that their current auditors do not give them a good service and they will be asked to resign.<br><br>
+        <strong>Required:</strong><br>
+        What ethical and statutory matters would you consider and what investigations would you undertake before your firm could accept appointment and be appointed as auditors of Dinpa Plc?<br>
+        <br><em>[10 marks]</em>
+    </div>
+    <div class="solution-box">
+        <h3>Solution to Q3b</h3>
+        <ul>
+            <li><strong>Statutory:</strong> Ensure the predecessor auditor was properly removed or resigned.</li>
+            <li><strong>Professional Clearance:</strong> Communicate with the retiring auditor to ask if there are professional reasons not to accept.</li>
+            <li><strong>Management Integrity:</strong> Investigate the reputation of the directors.</li>
+            <li><strong>Competence:</strong> Assess if the firm has the skills and independence required for the assignment.</li>
+        </ul>
+    </div>
+
+    <div class="question-box">
+        <strong>c) Dinpa Plc — Audit Committee</strong><br><br>
+        Dinpa Plc is seeking to get listed on the stock market and is aware that subsequent to the stock exchange listing, it will need to establish an audit committee and has asked for some advice in relation to this.<br><br>
+        Explain five benefits to Dinpa Plc for establishing an audit committee.<br>
+        <br><em>[5 marks]</em>
+    </div>
+    <div class="solution-box">
+        <h3>Solution to Q3c</h3>
+        <ul>
+            <li>Increases public confidence in the credibility of financial reports.</li>
+            <li>Strengthens internal audit by providing an independent reporting line.</li>
+            <li>Enhances external auditor independence by providing a buffer from management.</li>
+            <li>Assists directors in fulfilling their financial reporting responsibilities.</li>
+            <li>Improves communication between management, internal, and external auditors.</li>
+        </ul>
+    </div>
+
+    <h2>Question 4</h2>
+    <div class="question-box">
+        <strong>a) Procedures for Obtaining Audit Evidence</strong><br><br>
+        Describe five types of procedures for obtaining audit evidence, and for each procedure, describe an example relevant to the audit of property, plant and equipment.<br>
+        <br><em>[10 marks]</em>
+    </div>
+    <div class="solution-box">
+        <h3>Solution to Q4a</h3>
+        <ul>
+            <li><strong>Inspection:</strong> Physically inspecting a newly purchased delivery truck to verify existence.</li>
+            <li><strong>Observation:</strong> Watching the client's staff perform the year-end count of small plant and tools.</li>
+            <li><strong>Inquiry:</strong> Asking management about the remaining useful life of specialized machinery.</li>
+            <li><strong>Recalculation:</strong> Manually re-computing the annual depreciation charge for accuracy.</li>
+            <li><strong>Analytical Procedures:</strong> Comparing repair costs to the total value of PPE to identify mis-categorized items.</li>
+        </ul>
+    </div>
+
+    <div class="question-box">
+        <strong>b) Gloryland Supermarket — Internal Audit Department</strong><br><br>
+        Gloryland Supermarket operates a chain of 10 shops located across the country. Customers pay cash directly to the shop cashiers. During the year, management noticed an increased level of cash discrepancies and inventory discrepancies, and they suspect that some employees have been stealing cash and goods from the shop. They are keen to prevent this from re-occurring and are considering establishing an internal audit department to undertake a fraud investigation.<br><br>
+        <strong>Required:</strong><br>
+        Explain three ways by which the new internal audit department of Gloryland Supermarket could assist the directors in preventing and detecting fraud and error.<br>
+        <em>[3 marks]</em><br><br>
+        Describe two limitations of Gloryland Supermarket establishing and maintaining an internal audit department.<br>
+        <em>[2 marks]</em><br><br>
+        The directors would like the internal audit department to have as broad a role as possible, as this will make the decision to establish an internal audit department more cost effective.<br><br>
+        Describe five additional functions, other than fraud investigations, the directors of Gloryland Supermarket could ask the internal audit department to undertake.<br>
+        <em>[5 marks]</em>
+    </div>
+    <div class="solution-box">
+        <h3>Solution to Q4b</h3>
+        <strong>3 IA Fraud Prevention Ways:</strong>
+        <ul>
+            <li>Reviewing cash handling and inventory control systems for weaknesses.</li>
+            <li>Performing unannounced shop visits to check compliance with policies.</li>
+            <li>Conducting forensic reviews of cash register logs to pinpoint discrepancies.</li>
+        </ul>
+        <strong>2 IA Limitations:</strong>
+        <ul>
+            <li>Lack of independence as they are employees of the company.</li>
+            <li>High cost of maintaining a department for 10 shop locations.</li>
+        </ul>
+        <strong>5 Additional IA Functions:</strong>
+        <ul>
+            <li>Operational audits to improve shop efficiency.</li>
+            <li>Value for money audits on supplier pricing.</li>
+            <li>Risk management assessment beyond fraud.</li>
+            <li>IT systems review of the point-of-sale systems.</li>
+            <li>Compliance audits against local laws and regulations.</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
