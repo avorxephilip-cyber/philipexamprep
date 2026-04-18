@@ -1,0 +1,80 @@
+Question 1
+a) Explain agency theory and show how it creates demand for external auditing. (6 marks)
+b) Discuss four responsibilities of an audit committee. (8 marks)
+c) Explain three types of audits and state one use of each. (3 marks)
+d) Differentiate between internal audit and external audit. (3 marks)
+[Total = 20 marks]
+Question 2
+a) Kumasi Textiles Ltd has been audited by the same audit firm for the past 10 years. During the current audit, the audit senior accepted a gift from the Finance Manager during fieldwork. The audit firm also provides tax consultancy services to the company. The Management of Kumasi Textiles Ltd requested the auditor to overlook certain misstatements, promising future engagements. The engagement partner is under pressure to retain the client due to declining firm revenue.
+Required:
+i) Discuss five ethical threats present in the case. (5 marks)
+ii) Recommend four safeguards that should be applied by the audit firm. (2 marks)
+b) Nhyira Pharmaceuticals Ltd introduced a new inventory management system during the year. The system is complex and staff are inadequately trained. The company operates in a highly regulated environment. Prior audits revealed inventory valuation errors.
+Required:
+i) Explain five factors the auditor should consider during audit planning. (5 marks)
+ii) Describe four audit procedures the auditor should plan in response to the identified risks. (8 marks)
+[Total = 20 Marks]
+Question 3
+a) Savanna Construction Ltd undertakes long-term contracts. During audit planning, the auditor noted the following:
+1. Rapid business expansion without corresponding internal controls.
+2. High staff turnover in the accounts department.
+3. Revenue recognized based on management estimates.
+4. Weak documentation of contract costs.
+Required:
+i) Explain five risks the auditor should identify at the planning stage of the audit. (5 marks)
+ii) Describe four audit planning responses to these risks. (8 marks)
+b)
+i) Explain the five methods of sampling (statistical and non-statistical) in accordance with ISA 530 Audit Sampling. (5 marks)
+ii) Explain sampling risk. (2 marks)
+[Total = 20 marks]
+
+Question 4
+Keta Engineering Services Ltd (KESL) is a Ghanaian company that provides heavy engineering and fabrication services. The company owns a wide range of equipment, including welding machines, generators, vehicles, cranes, and production tools. The equipment represents a significant portion of the company's total assets. Recently, management has observed the following issues:
+Some equipment listed in the asset register cannot be physically located
+Repairs and maintenance expenses have increased significantly
+Equipment purchases are sometimes initiated verbally by department heads
+There is no formal capital expenditure approval limit
+Disposal of obsolete equipment is not properly documented
+One accountant calculates depreciation without an independent review
+Required:
+As a member of the audit engagement team reviewing the internal controls over equipment,
+a) Explain four weaknesses in the internal controls over equipment at Keta Engineering Services Ltd. (8 marks)
+b) For each weakness identified in part (i), recommend appropriate internal control measures that should be implemented to improve control over equipment. (8 marks)
+c) Design two tests of controls for any of the recommended internal controls that an external auditor could perform to assess whether the controls are operating effectively. (4 marks)
+[Total = 20 marks]
+Question 5
+a) Describe the three phases of the audit where analytical procedures can be performed and the specific procedures performed in each phase. (3 marks)
+b) The reliability of evidence refers to the degree to which evidence is considered believable or trustworthy. Explain the six factors that affect the reliability of audit evidence. (6 marks)
+c) Below are 10 documents typically examined during an audit. Classify each document as either internal or external. (5 marks)
+
+d) Below are 12 audit procedures. Classify each procedure according to the type of audit evidence. (6 marks)
+
+[Total = 20 marks]
+ACC 403: Audit and Internal Review
+©University of Cape Coast
+
+--- TABLES ---
+Type of Document | Documents
+ | 1. Cancelled checks for payments of accounts payable
+ | 2. Payroll time cards
+ | 3. Duplicate sales invoices
+ | 4. Vendors' invoices
+ | 5. Bank statements
+ | 6. Minutes of the board of directors' meetings
+ | 7. Signed lease agreements
+ | 8. Notes receivable
+ | 9. Subsidiary accounts receivable records
+ | 10. Remittance advices
+Type of Evidence | Audit Procedures
+ | 1. Watch client employees count inventory to determine whether company procedures are being followed.
+ | 2. Count inventory items and record the amount in the audit files.
+ | 3. Trace postings from the sales journal to the general ledger accounts.
+ | 4. Calculate the ratio of cost of goods sold to sales as a test of overall reasonableness of gross margin relative to the preceding year.
+ | 5. Obtain information about the client's system of internal controls by asking questions of client personnel.
+ | 6. Trace column totals from the cash disbursements journal to the general ledger.
+ | 7. Examine a piece of equipment to make sure a recent purchase of equipment was actually received and is in operation.
+ | 8. Review the total of repairs and maintenance for each month to determine whether any month's total was unusually large.
+ | 9. Compare vendor names and amounts on purchase invoices with entries in the purchases journal.
+ | 10. Foot entries in the sales journal to determine whether they were correctly totaled by the client.
+ | 11. Make a surprise count of petty cash to verify that the amount of the petty cash fund is intact.
+ | 12. Obtain a written statement from the client's bank stating the client's year-end balance on deposit.
