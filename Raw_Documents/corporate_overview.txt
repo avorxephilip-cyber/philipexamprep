@@ -1,0 +1,150 @@
+ First printed in 2019 by UCC Press, Cape Coast 
+ 
+ 
+ 
+©   COLLEGE OF DISTANCE EDUCATION, UNIVERSITY OF CAPE COAST (CoDE UCC), 
+2019 
+ 
+ 
+ 
+  
+ 
+CoDE PUBLICATIONS, 2019 
+ 
+ 
+ 
+ 
+ 
+ 
+All right reserved.  No part of this publication should be reproduced, stored in a retrieval system or 
+transmitted by any form or means, electronic, mechanical, photocopying or otherwise without the prior 
+permission of the copyright holder. 
+ 
+ 
+ 
+ 
+Cover page illustrated by William Jacobs 
+ 
+  ABOUT THIS BOOK  
+This Course Book “Corporate Financial Analysis ” has been exclusively written by 
+experts in the discipline to up -date your general knowledge of Business  in order to 
+equip you with the basic tool you will require for your professional training as a teacher  
+and an administrator. 
+ 
+This three-credit course book of t hirty-six (36) sessions has been structured to reflect 
+the weekly t hree-hour lecture for this course in the University.  Thus, each session is 
+equivalent to a one -hour lecture on campus.  As a distanc e learner, however, you are 
+expected to spend a minimum of three hours and a maximum of five hours on each 
+session. 
+ 
+To help you do this effectively, a Study Guide has been particularly designed to show 
+you how this book can be used.  In this study guide, your weekly schedules are clearly 
+spelt out as well as dates for quizzes, assignments and examinations. 
+  
+Also included in this book is a list of all symbols and their meanings. They are meant to 
+draw your attention to vital issues of concern and activities you are expected to perform. 
+ 
+Blank sheets have been also inserted for your comments on topics that you may find 
+difficult.  Remember to bring these to the attention of your course tutor during your 
+face-to-face meetings. 
+ 
+We wish you a happy and successful study. 
+ 
+ 
+Seyram Kawor  
+John Gartchie Gatsi  
+ 
+CoDEUCC/Bachelor of Commerce 
+ 
+i  ACKNOWLEDGEMENT 
+ 
+It has become a tradition in academic circles to acknowledge the assistance one 
+received from colleagues in the writing of an academic document. Those who 
+contributed in diverse ways toward the production of this particular course book merit 
+more than mere  acknowledgement for two main reasons. First, they worked beyond 
+their normal limits in writing, editing and providing constant support and 
+encouragement without which the likelihood of giving up the task was very high. 
+Second, the time span for the writing and editing of this particular course book was so 
+short that their exceptional commitment and dedication were the major factors that 
+contributed to its accomplishment. 
+ 
+It is in the foregoing context that the names of  Seyram Kawor and John Gartchie Gatsi  
+University of Cape Coast, who wrote and edited the content of this course book for 
+CoDEUCC, will ever remain in the annals of the C ollege. This special remembrance 
+also applies to those who assisted me in the final editing of the document. 
+ 
+I wish to than k the Vice -Chancellor, Prof
+. Joseph Ghartey -Ampiah and the Pro- Vice-
+Chancellor, Prof. Dora Edu- Buandoh and all the staff of the University’s 
+Administration without whose diverse support this course book would not have been 
+completed. 
+ 
+Finally, I am greatly indebted to the entire staff of CoDEUCC, especially Mrs. Khadijah 
+A. M. Nurudeen and Mrs. Christina Hesse for formatting the scripts. 
+ 
+Any limitations in this course book, however, are exclusively mine. But the good 
+comments must be shared among those named above. 
+ 
+ 
+Prof. Isaac Galyuon 
+                                                                       (Provost) 
+ 
+ 
+ 
+   CoDEUCC/
+Bachelor of Commerce 
+ 
+ii  TABLE OF CONTENTS 
+ 
+Content            Page 
+ 
+About this book … … ... … … … … … i 
+Acknowledgement … … … … … … … … ii 
+Table of Contents ... ... ... ... ... ... ... ... iii 
+Symbols and their Meanings ... … … … … ... … ix 
+ 
+UNIT 1:  FINANCIAL ANALYSIS     1 
+Session 1: Tools for Analyzing Financial Statement … … … 3 
+1.1 Tools For Analyzing Company’s Financial Information … 3 
+1.2 Economic Analysis ... ... ... ... ... ... 3 
+1.3 Industry Analysis ... ... ... ... ... ... 4 
+1.4 Company Analysis ... ... ... ... ... ... 5 
+Session 2: Understanding Financial Statements and  
+  Annual Reports ... ... ... ... ... ... 7 
+2.1 Understanding Financial Statements and Annual Reports ... 7 
+2.2 What the Financial Statements Do Not Tell Us ... ... 7 
+2.3 What To Watch For In Financial Disclosure? ... ... 8 
+2.4 Financial Statement ... ... ... ... ... ... 9 
+2.5 Annual Reports ... ... ... ... ... ... 10 
+Session 3: Nature and Limitations of Financial Statements ... ... 11 
+3.1 Nature of Financial Statement ... ... ... ... 11 
+3.2 Limitations of Financial Statement ... ... ... ... 12 
+Session 4: Analysis and Interpretation ... ... ... ... ... 15
+ 4.1 Meaning of Analysis and Interpretation ... ... ... 15  
+4.2 Types of Analysis ... ... ... ... ... ... 16  
+4.3 Limitations of Analysis and Interpretation ... ... ... 17 
+Session 5: Importance and Benefits of Financial Statements   
+Analysis and Interpretation ... ... ... ... ... 19 
+5.1 To the Management ... ... ... ... ... ... 19 
+5.2 To the Suppliers ... ... ... ... ... ... 19 
+5.3 To the Owners ... ... ... ... ... ... ... 20 
+5.4 To the Investor ... ... ... ... ... ... 20 
+5.5 To the Banker ... ... ... ... ... ... ... 20 
+5.6 To the Government ... ... ... ... ... ... 20 
+5.7 To the Stock Exchange ... ... ... ... ... 21 
+5.8 To the Employees and Trade Unions ... ... ... ... 21 
+5.9 To the Customers ... ... ... ... ... ... 21 
+5.10 To the Research Scholar ... ... ... ... ... 21 
+5.11 To Economists ... ... ... ... ... ... 22 
+ 
+CoDEUCC/Bachelor of Commerce iii   
+TABLE OF CONTENTS 
+ 
+ 
+Session 6: Traditional Approach Verses Modern Approach to Analysis 23 
+6.1 Traditional Approach ... ... ... ... ... ... 23 
+6.2 Modern Approach ... ... ... ... ... ... 23 
+6.3 Differences between Traditional Approach and Modern  
+Approach ... ... ... ... ... ... ... 23 
+ 
+UNIT 2: ANALYSIS OF S

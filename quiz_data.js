@@ -1,421 +1,174 @@
 const QUIZ_DATA = {
+
+  // ─────────────────────────────────────────────
+  // 1. AUDITING AND INTERNAL REVIEW
+  // ─────────────────────────────────────────────
   audit: {
-    label: "Auditing",
+    label: "Auditing & Internal Review",
     icon: "🔍",
     color: "#10b981",
     questions: [
-      // Financial Statement Assertions
-      {
-        q: "Which financial statement assertion confirms that assets, liabilities and equity interests actually exist at the period end?",
-        options: ["Completeness", "Existence", "Valuation and Allocation", "Rights and Obligations"],
-        answer: 1,
-        explanation: "The 'Existence' assertion confirms that items recorded in the financial statements actually exist at the period end. The auditor verifies this by physically counting or inspecting assets."
-      },
-      {
-        q: "An auditor performs cutoff tests by inspecting the last Goods Received Notes of the year. Which assertion is this designed to test?",
-        options: ["Existence", "Valuation", "Completeness", "Presentation"],
-        answer: 2,
-        explanation: "Cutoff tests address the 'Completeness' assertion — ensuring that all transactions and events that should have been recorded have indeed been recorded, especially around year-end."
-      },
-      {
-        q: "Inspecting purchase invoices and shipping documents to verify legal ownership of inventory addresses which assertion?",
-        options: ["Valuation", "Rights and Obligations", "Accuracy", "Completeness"],
-        answer: 1,
-        explanation: "'Rights and Obligations' confirms the entity holds or controls rights to its assets. Verifying ownership documents proves the entity legally owns the inventory."
-      },
-      {
-        q: "The NRV check — comparing unit cost of inventory to post-year-end sales prices — addresses which assertion?",
-        options: ["Completeness", "Existence", "Valuation and Allocation", "Occurrence"],
-        answer: 2,
-        explanation: "The 'Valuation and Allocation' assertion is that assets are included at appropriate amounts. IAS 2 requires inventory to be valued at the lower of cost and NRV."
-      },
-      // Ethical Threats
-      {
-        q: "When a former finance director of an audit client joins the audit firm and is proposed to review that same client's audit, this creates which ethical threat?",
-        options: ["Self-interest threat", "Self-review threat", "Familiarity threat", "Intimidation threat"],
-        answer: 2,
-        explanation: "A Familiarity Threat arises when an auditor becomes too sympathetic to a client's interests due to a close relationship. The former employee joining the firm creates this threat. They must not be involved in the audit for at least two years."
-      },
-      {
-        q: "An audit firm preparing the financial statements that it subsequently audits creates which type of threat?",
-        options: ["Self-review threat", "Advocacy threat", "Intimidation threat", "Familiarity threat"],
-        answer: 0,
-        explanation: "A Self-Review Threat occurs when auditors review work they or their firm previously performed. Preparing then auditing financial statements is a classic example — the firm cannot objectively review its own work."
-      },
-      {
-        q: "A client offers an auditor a luxury weekend at a hotel as a 'thank you'. This is primarily which type of ethical threat?",
-        options: ["Familiarity", "Advocacy", "Self-interest", "Intimidation"],
-        answer: 2,
-        explanation: "A Self-Interest Threat arises when the audit firm or its members could benefit financially or otherwise from a client relationship. Accepting lavish gifts can compromise objectivity and independence."
-      },
-      {
-        q: "A client pressures auditors to 'complete quickly with minimal questions' to secure future advisory contracts. Which threat is this?",
-        options: ["Self-review", "Advocacy", "Intimidation / Self-interest", "Familiarity"],
-        answer: 2,
-        explanation: "This is both an Intimidation Threat (pressure to comply) and a Self-Interest Threat (desire for future fees). Both compromise audit independence. The auditor should communicate that professional standards cannot be compromised."
-      },
-      // Going Concern
-      {
-        q: "Which of the following is a going concern audit procedure?",
-        options: [
-          "Perform a physical inventory count",
-          "Review management's cash flow forecasts for at least 12 months from year-end",
-          "Confirm accounts receivable with customers",
-          "Recompute depreciation on fixed assets"
-        ],
-        answer: 1,
-        explanation: "Reviewing management's cash flow and profit forecasts for at least 12 months from year-end is a primary going concern procedure under ISA 570, as it assesses the entity's ability to continue as a going concern."
-      },
-      {
-        q: "When assessing going concern, what period of cash flow forecasts should an auditor review?",
-        options: ["3 months", "6 months", "At least 12 months from year-end", "24 months"],
-        answer: 2,
-        explanation: "ISA 570 (Going Concern) requires auditors to assess events and conditions for a period of at least 12 months from the date of the financial statements."
-      },
-      // Internal Controls
-      {
-        q: "QIP's website is not integrated with the inventory system. What is the primary risk?",
-        options: [
-          "Customer data may be stolen",
-          "Goods may be sold that are out of stock",
-          "Sales tax may be miscalculated",
-          "Shipping costs may increase"
-        ],
-        answer: 1,
-        explanation: "Without real-time inventory integration, orders can be placed for out-of-stock items, leading to unfulfilled orders, customer complaints, and damage to the company's reputation and cash flow."
-      },
-      {
-        q: "What is the risk when only one accountant calculates depreciation with no independent review?",
-        options: [
-          "Assets may be over-depreciated only",
-          "Errors or fraud go undetected due to lack of segregation of duties",
-          "Depreciation rates may increase each year",
-          "The asset register will be incomplete"
-        ],
-        answer: 1,
-        explanation: "Lack of segregation of duties means errors (both honest mistakes and fraud) may not be detected. An independent review creates a check that would catch miscalculations or manipulation."
-      },
-      // Written Representations
-      {
-        q: "What is the primary purpose of a Written Representation from a client?",
-        options: [
-          "To replace physical audit evidence",
-          "To obtain management's acknowledgement of their responsibility for the financial statements",
-          "To confirm the auditor's independence",
-          "To set the audit fee"
-        ],
-        answer: 1,
-        explanation: "Per ISA 580, Written Representations obtain management's formal acknowledgement of its responsibility for the preparation and fair presentation of the financial statements, and to document responses where other evidence is limited."
-      },
-      {
-        q: "Supplier statement reconciliations have not been performed. What is the main risk?",
-        options: [
-          "Tax returns may be filed late",
-          "Errors or fraudulent payments may go undetected in the purchase ledger",
-          "Inventory may be understated",
-          "Revenue may be overstated"
-        ],
-        answer: 1,
-        explanation: "Without supplier reconciliations, discrepancies between the company's ledger and supplier records — including duplicated payments, fraudulent invoices, or mispostings — will remain undetected."
-      },
-      // Audit Committee
-      {
-        q: "Which of the following is a benefit of an audit committee?",
-        options: [
-          "It eliminates the need for external auditors",
-          "It increases management's control over financial reporting",
-          "It enhances external auditor independence by providing a buffer from management",
-          "It allows the board to set its own salaries"
-        ],
-        answer: 2,
-        explanation: "An audit committee serves as an independent oversight body between management and auditors, enhancing independence and strengthening both internal and external audit functions."
-      },
-      // Evidence Procedures
-      {
-        q: "Physically inspecting a newly purchased truck to verify it was received is an example of which audit procedure?",
-        options: ["Inquiry", "Observation", "Inspection", "Recalculation"],
-        answer: 2,
-        explanation: "Inspection involves examining records or tangible assets. Physically viewing the truck confirms its existence and that it is in operation — an inspection of a physical asset."
-      },
-      {
-        q: "Watching client staff perform an inventory count is an example of which audit procedure?",
-        options: ["Inspection", "Observation", "Recalculation", "External confirmation"],
-        answer: 1,
-        explanation: "Observation involves looking at a process being performed by others. Watching the client count inventory is observation — the auditor is monitoring the client's procedure."
-      },
-      {
-        q: "Manually re-computing the depreciation charge to check accuracy is which audit procedure?",
-        options: ["Inquiry", "Analytical procedures", "Recalculation", "Inspection"],
-        answer: 2,
-        explanation: "Recalculation involves checking the mathematical accuracy of documents or records. Re-computing depreciation manually and comparing it to the client's figure is a classic recalculation."
-      },
-      // Internal Audit
-      {
-        q: "Which is a limitation of an internal audit department?",
-        options: [
-          "It can detect fraud",
-          "Lack of independence as internal auditors are employees of the company",
-          "It can perform tax reviews",
-          "Internal auditors have specialist skills"
-        ],
-        answer: 1,
-        explanation: "The primary limitation of internal audit is a lack of independence. Since internal auditors are employees appointed by and reporting to management, their ability to objectively report on management's actions is inherently limited."
-      },
-      {
-        q: "Before accepting a new audit engagement, which action is most critical?",
-        options: [
-          "Agree on the fee immediately",
-          "Set the audit timetable",
-          "Obtain professional clearance from the predecessor auditor",
-          "Issue the audit report"
-        ],
-        answer: 2,
-        explanation: "Professional clearance involves contacting the previous auditor to inquire whether there are any professional reasons (e.g., unpaid fees, management integrity concerns) that should prevent acceptance of the new engagement."
-      }
+      { q: "Which assertion confirms that all recorded assets actually exist at the period end?", options: ["Completeness","Existence","Valuation","Rights and Obligations"], answer: 1, explanation: "The Existence assertion verifies that assets, liabilities and equity interests exist at the reporting date." },
+      { q: "Cutoff tests — inspecting the last Goods Received Notes of the year — primarily address which assertion?", options: ["Existence","Valuation","Completeness","Presentation"], answer: 2, explanation: "Completeness ensures all transactions that should be recorded have been recorded, particularly those near year-end." },
+      { q: "Inspecting purchase invoices to verify legal ownership of inventory tests which assertion?", options: ["Valuation","Rights and Obligations","Accuracy","Completeness"], answer: 1, explanation: "Rights and Obligations confirms the entity holds or controls rights to its assets — verified by ownership documents." },
+      { q: "Comparing inventory unit cost to NRV by checking post-year-end sales prices tests which assertion?", options: ["Completeness","Existence","Valuation and Allocation","Occurrence"], answer: 2, explanation: "IAS 2 requires inventory at the lower of cost and NRV — verified by the Valuation and Allocation assertion." },
+      { q: "What is agency theory in the context of auditing?", options: ["Management auditing themselves","The relationship between principals (owners) and agents (managers) that creates demand for independent verification","Government regulation of accounting","Tax compliance monitoring"], answer: 1, explanation: "Agency theory states that because owners (principals) delegate management to agents (managers), a conflict of interest arises. External auditors provide independent verification that agents have acted in the owners' interests." },
+      { q: "Which of the following is NOT a responsibility of an audit committee?", options: ["Overseeing the external audit process","Reviewing financial reporting","Preparing the company's management accounts","Monitoring internal controls"], answer: 2, explanation: "An audit committee oversees — it does not prepare — management accounts. Preparation is management's responsibility." },
+      { q: "Which type of audit focuses on efficiency and effectiveness of operations?", options: ["Financial audit","Compliance audit","Operational/Performance audit","Forensic audit"], answer: 2, explanation: "An operational or performance audit (value for money audit) evaluates whether resources are used efficiently and effectively." },
+      { q: "What is the key distinction between internal and external audit?", options: ["Internal auditors are paid more","External auditors are employees of the company","External auditors are independent of the entity and report to shareholders; internal auditors are employees","Internal auditors focus only on fraud"], answer: 2, explanation: "External auditors are independent third parties appointed by shareholders. Internal auditors are employed by the entity and report to management or the audit committee." },
+      { q: "A former finance director joins the audit firm and is proposed to review that client's audit. This creates which threat?", options: ["Self-interest","Self-review","Familiarity","Intimidation"], answer: 2, explanation: "A Familiarity Threat arises from a close relationship — a former employee of the client joining the firm and reviewing that client's work is a classic example." },
+      { q: "Preparing financial statements and then auditing them creates which ethical threat?", options: ["Self-review","Advocacy","Intimidation","Familiarity"], answer: 0, explanation: "A Self-Review Threat occurs when auditors review their own work — preparing then auditing financial statements is a textbook case." },
+      { q: "A client offering a luxury hotel weekend to the audit team is primarily which threat?", options: ["Familiarity","Advocacy","Self-interest","Intimidation"], answer: 2, explanation: "A Self-Interest Threat arises when the auditor or firm might benefit personally. Gifts compromise objectivity." },
+      { q: "ISA 570 Going Concern requires auditors to review cash flow forecasts for at least how long from year-end?", options: ["3 months","6 months","12 months","24 months"], answer: 2, explanation: "ISA 570 requires auditors to cover a period of at least twelve months from the balance sheet date when assessing going concern." },
+      { q: "Which audit procedure involves looking at a process being performed by others?", options: ["Inspection","Observation","Inquiry","Recalculation"], answer: 1, explanation: "Observation involves the auditor watching a process — such as watching client staff count inventory." },
+      { q: "Manually re-computing the depreciation charge is which type of audit procedure?", options: ["Inquiry","Analytical procedures","Recalculation","Inspection"], answer: 2, explanation: "Recalculation involves checking mathematical accuracy of documents or records by independently computing them." },
+      { q: "A debtors confirmation sent directly to customers to verify balances is called a:", options: ["Test of control","Substantive procedure — circularisation","Analytical procedure","Walk-through test"], answer: 1, explanation: "A debtors' circularisation (external confirmation) is a substantive procedure where auditors contact customers directly to verify balances." },
+      { q: "What is the primary purpose of a Letter of Representation?", options: ["Replace all other audit evidence","Management formally acknowledges responsibility for the financial statements","Set the audit fee","Confirm auditor independence"], answer: 1, explanation: "Per ISA 580, a Written Representation is a formal letter from management acknowledging its responsibility for the financial statements and confirming specific representations." },
+      { q: "Before accepting a new audit client, the most critical step is:", options: ["Agree the audit fee","Issue a draft audit report","Obtain professional clearance from the predecessor auditor","Start fieldwork immediately"], answer: 2, explanation: "Professional clearance involves contacting the outgoing auditor to check for professional reasons (integrity concerns, unpaid fees) that may prevent acceptance." },
+      { q: "Which sampling method gives every item an equal chance of selection?", options: ["Haphazard sampling","Systematic sampling","Random sampling","Judgement sampling"], answer: 2, explanation: "Random sampling uses a random number table or generator so that every item in the population has an equal probability of selection." },
+      { q: "Sampling risk in auditing means:", options: ["The auditor missed a material misstatement entirely","The risk that the auditor's conclusion from the sample differs from the conclusion if the entire population were tested","The cost of sampling is too high","The client refuses to provide sample items"], answer: 1, explanation: "Sampling risk arises because the auditor examines less than 100% of the population — the sample may not be representative, leading to incorrect conclusions." },
+      { q: "Which of the following would be considered external audit evidence?", options: ["Sales invoices raised by the client","Internal memos","Bank statements received from the bank","Management's written representations"], answer: 2, explanation: "Bank statements are received from a third party (the bank) and so are external evidence — considered more reliable than internally generated documents." },
+      { q: "In which audit phase are analytical procedures used to form an overall view of whether the financial statements are consistent with the auditor's understanding?", options: ["Planning only","Fieldwork/testing only","Completion/Final review","Acceptance phase"], answer: 2, explanation: "Analytical procedures are used in all three phases, but the completion phase specifically uses them to form an overall conclusion on whether the financial statements are consistent as a whole." },
+      { q: "A weakness where one accountant calculates depreciation with no independent review is best described as:", options: ["Segregation of duties failure","Revenue recognition issue","Valuation policy error","Going concern indicator"], answer: 0, explanation: "Lack of segregation of duties means one person controls the entire process, making errors or fraud undetectable." },
+      { q: "Which procedure would best detect fictitious suppliers in the purchase ledger?", options: ["Review of cash receipts","Comparison of supplier details against a verified master file","Analysis of sales margins","Inspection of customer contracts"], answer: 1, explanation: "Comparing supplier details (names, bank accounts, addresses) against an independently verified master file detects suppliers that do not have legitimate business identities." },
+      { q: "What does ISA 530 govern?", options: ["Audit documentation","Audit sampling","Going concern","Written representations"], answer: 1, explanation: "ISA 530 provides guidance on audit sampling — the process of selecting and evaluating a sample from a population to draw conclusions about the whole population." },
+      { q: "The risk that the auditor issues an incorrect opinion BECAUSE of using a sample is:", options: ["Non-sampling risk","Inherent risk","Sampling risk","Detection risk"], answer: 2, explanation: "Sampling risk is the risk that the auditor's conclusion based on the sample would differ from the conclusion if the entire population were tested." }
     ]
   },
 
-  project: {
-    label: "Project Management",
-    icon: "📋",
-    color: "#fbbf24",
-    questions: [
-      {
-        q: "What is the correct definition of a project?",
-        options: [
-          "A permanent, routine operation carried out to produce a standard product",
-          "A temporary, planned, complex, one-time, customer-focused endeavor to create a unique outcome",
-          "A long-term business strategy for growth",
-          "An ongoing process of maintaining existing systems"
-        ],
-        answer: 1,
-        explanation: "A project is defined as a temporary, planned, complex, one-time, customer-focused endeavor undertaken to create a unique outcome with a limited budget, schedule, and resources. The key distinguishing feature is that it is temporary and unique."
-      },
-      {
-        q: "Which of the following is NOT a characteristic of a project?",
-        options: ["It has an objective to be achieved", "It has a defined schedule to closure", "It is a repetitive, ongoing operation", "It requires specific resources"],
-        answer: 2,
-        explanation: "A 'repetitive, ongoing operation' describes operations management, not a project. Projects are temporary and unique, whereas operations are ongoing and repetitive."
-      },
-      {
-        q: "The Triple Constraint in project management refers to which three elements?",
-        options: [
-          "Quality, Risk, and Stakeholders",
-          "Time, Cost, and Scope",
-          "Budget, Resources, and Communication",
-          "Initiation, Planning, and Closure"
-        ],
-        answer: 1,
-        explanation: "The Triple Constraint (also called the Iron Triangle) consists of Time (schedule), Cost (budget), and Scope (what is to be delivered). Changing any one of these affects the others."
-      },
-      {
-        q: "The primary constraints of project management include: Time, Cost, Scope and also which additional three?",
-        options: [
-          "Revenue, Profit, and Growth",
-          "Resources, Risk, and Quality",
-          "Stakeholders, Budget, and Communication",
-          "Leadership, Teamwork, and Innovation"
-        ],
-        answer: 1,
-        explanation: "Beyond the Triple Constraint, modern project management recognizes Resources, Risk, and Quality as additional constraints that a project manager must balance."
-      },
-      {
-        q: "Who are project stakeholders?",
-        options: [
-          "Only the project manager and sponsors",
-          "Only external clients and customers",
-          "Individuals and organizations who may have an interest in and be actively involved in the project",
-          "Only the government and regulatory bodies"
-        ],
-        answer: 2,
-        explanation: "Stakeholders are broadly defined as individuals and organizations who may have an interest in and may be actively involved in the project — including owners, sponsors, customers, contractors, and the public."
-      },
-      {
-        q: "What is the correct order of the four phases in the Project Life Cycle?",
-        options: [
-          "Planning → Initiation → Execution → Closure",
-          "Initiation → Planning → Execution & Controls → Closure",
-          "Execution → Planning → Initiation → Closure",
-          "Initiation → Execution → Planning → Closure"
-        ],
-        answer: 1,
-        explanation: "The Project Life Cycle follows four sequential phases: Initiation, Planning, Execution & Controls, and Termination/Closure. Each phase must complete before the next one begins in traditional project management."
-      },
-      {
-        q: "What is a project delay?",
-        options: [
-          "A project that finishes ahead of schedule",
-          "A change in the project scope",
-          "The inability of a project team to complete all stipulated activities within the estimated duration",
-          "An increase in the project budget"
-        ],
-        answer: 2,
-        explanation: "Project delay is defined as the inability of a project team to complete all stipulated activities within the estimated duration. This can be critical (affecting the end date) or non-critical."
-      },
-      {
-        q: "Which of the following is an example of an 'excusable' project delay?",
-        options: [
-          "Poor resource planning by the project team",
-          "A natural disaster (force majeure event)",
-          "Failure to meet quality standards",
-          "Scope creep due to poor requirements gathering"
-        ],
-        answer: 1,
-        explanation: "An 'excusable' delay is one caused by events outside the contractor's control, such as force majeure events (natural calamities, acts of God, pandemics). In contrast, delays caused by poor planning are 'non-excusable'."
-      },
-      {
-        q: "Which of the following best describes the role of a Project Manager?",
-        options: [
-          "Only monitoring budgets and costs",
-          "Linking strategy, reporting progress, and managing stakeholder communications throughout the project",
-          "Only resolving technical problems within the project",
-          "Only managing the project team's personal development"
-        ],
-        answer: 1,
-        explanation: "A project manager's role is broad: linking strategy and the project, reporting and receiving updates on the team's efforts, and sharing progress reports with sponsors and all stakeholders to keep everyone aligned."
-      },
-      {
-        q: "When workers within a project team experience conflict due to individual differences and unhealthy competition, what type of conflict is this?",
-        options: ["Technical conflict", "Communication conflict", "Group differences conflict", "Resource conflict"],
-        answer: 2,
-        explanation: "Group Differences conflict occurs when workers do not work efficiently together due to individual differences, personalities, or unhealthy competition. Resolution methods include Avoidance or Smoothing."
-      },
-      {
-        q: "What is the first step in managing a project?",
-        options: [
-          "Setting up communication among stakeholders",
-          "Balancing competing project constraints",
-          "Identification of requirements/needs",
-          "Managing stakeholder expectations"
-        ],
-        answer: 2,
-        explanation: "The first step in project management is the Identification of requirements and needs. Only once needs are identified can the project manager address stakeholder concerns, set up communications, and plan execution accordingly."
-      },
-      {
-        q: "Three interpersonal skills required of a Project Manager are:",
-        options: [
-          "Technical expertise, Budgeting, and Scheduling",
-          "Leadership, Team building, and Motivational skills",
-          "Financial analysis, Risk management, and Reporting",
-          "Communication, Conflict avoidance, and Delegation"
-        ],
-        answer: 1,
-        explanation: "Key interpersonal (soft) skills for a project manager include Leadership Skills, Team Building Skills, and Motivational Skills. These enable them to inspire, unite, and drive the project team towards the objective."
-      }
-    ]
-  },
-
+  // ─────────────────────────────────────────────
+  // 2. ADVANCED ACCOUNTING
+  // ─────────────────────────────────────────────
   advanced: {
-    label: "Advanced Financial Reporting",
+    label: "Advanced Accounting",
     icon: "📊",
     color: "#818cf8",
     questions: [
-      // IFRS 10 Exemptions
-      {
-        q: "Under IFRS 10, a parent may be exempt from preparing consolidated financial statements if all conditions are met. Which of the following is NOT one of those conditions?",
-        options: [
-          "Its debt or equity instruments are not traded in a public market",
-          "Its other owners do not object to the parent not presenting consolidated statements",
-          "The parent has fewer than 50 employees",
-          "Its ultimate parent produces IFRS-compliant consolidated financial statements"
-        ],
-        answer: 2,
-        explanation: "The number of employees is irrelevant to consolidation exemptions under IFRS 10. The four conditions relate to: (1) Ownership consent, (2) Not publicly traded, (3) No regulatory filings for public markets, and (4) Parent compliance with IFRS."
-      },
-      {
-        q: "Under IFRS 10, a parent's exemption from consolidation requires that its ultimate parent produces consolidated statements available for public use that comply with:",
-        options: ["Local GAAP", "IFRS only", "IFRSs or an equivalent", "Any internationally recognized standard"],
-        answer: 1,
-        explanation: "IFRS 10 specifically requires the ultimate or intermediate parent to produce consolidated financial statements that comply with IFRSs (International Financial Reporting Standards). This ensures the group accounts are still produced at a higher level."
-      },
-      // Pole and South Consolidation
-      {
-        q: "Pole acquired 75% of South on 1 April 2023. The reporting year end is 30 September 2023. For how many months should South's results be consolidated into Pole's profit or loss?",
-        options: ["12 months", "9 months", "3 months", "6 months"],
-        answer: 3,
-        explanation: "Pole acquired South on 1 April 2023. The year ends 30 September 2023, which is 6 months later. Under IFRS 10, only post-acquisition results are consolidated, so South's P&L items are included for 6 months (the x 6/12 time-apportionment)."
-      },
-      {
-        q: "In the Pole & South consolidation, South sold goods to Pole at a transfer price of GH¢13,000 with a margin of 25%. One-fifth remains in inventory. What is the Provision for Unrealized Profit (PUP)?",
-        options: ["GH¢2,600", "GH¢3,250", "GH¢650", "GH¢1,300"],
-        answer: 2,
-        explanation: "Step 1: Gross profit = GH¢13,000 x 25% = GH¢3,250. Step 2: Unsold fraction = 1/5. Step 3: PUP = GH¢3,250 x 1/5 = GH¢650. The PUP eliminates unrealized profit that is still sitting in the group's closing inventory."
-      },
-      {
-        q: "In the Pole & South consolidation, the NCI is measured at fair value (GH¢3.6m). NCI's share of South's post-acquisition adjusted loss is 25% x (GH¢3,050). What is the closing NCI value?",
-        options: ["GH¢3,600", "GH¢2,837.5", "GH¢762.5", "GH¢2,300"],
-        answer: 1,
-        explanation: "NCI at acquisition = GH¢3,600. Less: 25% x (GH¢3,050) post-acquisition adjusted net asset decrease = (GH¢762.5). Closing NCI = GH¢3,600 - GH¢762.5 = GH¢2,837.5."
-      },
-      {
-        q: "The fair value of a contingent consideration DECREASED from GH¢1,800 at acquisition to GH¢1,500 at year-end. How is the change of GH¢300 treated in the consolidated financial statements?",
-        options: [
-          "As an adjustment to goodwill",
-          "As a gain recognized in the consolidated profit or loss",
-          "Taken directly to other comprehensive income",
-          "Ignored as it is a contingent amount"
-        ],
-        answer: 1,
-        explanation: "Under IFRS 3, subsequent changes in the fair value of contingent consideration classified as a liability are recognized in profit or loss. A decrease in the liability (from 1,800 to 1,500) means a gain of GH¢300 is recognized in the P&L."
-      },
-      {
-        q: "In the Pole & South consolidation, Pole's investment in South involved a cash payment of GH¢1.50 per share for 75% of 12,000,000 shares. How many shares did Pole acquire and what was the total cash paid?",
-        options: [
-          "6,000,000 shares; GH¢9,000,000",
-          "9,000,000 shares; GH¢13,500,000",
-          "12,000,000 shares; GH¢18,000,000",
-          "3,000,000 shares; GH¢4,500,000"
-        ],
-        answer: 1,
-        explanation: "South has GH¢6,000 share capital at GH¢0.50 each = 12,000,000 shares total. Pole acquired 75% = 9,000,000 shares. Cash paid = 9,000,000 x GH¢1.50 = GH¢13,500,000 (GH¢13.5m)."
-      },
-      // Goodwill
-      {
-        q: "In the Pole & South consolidation, total consideration was GH¢15,300 and fair value of NCI was GH¢3,600. Fair value of net assets at acquisition was GH¢22,300. What is the result?",
-        options: [
-          "Goodwill of GH¢3,400",
-          "A gain on bargain purchase of GH¢3,400",
-          "Goodwill of GH¢18,900",
-          "No goodwill or gain — the figures balance"
-        ],
-        answer: 1,
-        explanation: "Total value of entity = GH¢15,300 + GH¢3,600 = GH¢18,900. Less FV of net assets = (GH¢22,300). Negative difference = (GH¢3,400). A negative goodwill is a 'Bargain Purchase Gain', recognized immediately in the consolidated P&L."
-      },
-      {
-        q: "At acquisition, South's property had a fair value GH¢2m above carrying amount with a remaining life of 10 years. All depreciation is in cost of sales. What is the additional depreciation charge in the post-acquisition 6-month period?",
-        options: ["GH¢200", "GH¢400", "GH¢100", "GH¢2,000"],
-        answer: 2,
-        explanation: "Annual additional depreciation = GH¢2,000 / 10 years = GH¢200 per year. For the post-acquisition period of 6 months: GH¢200 x 6/12 = GH¢100. This GH¢100 increases the group's cost of sales and reduces the net assets of South."
-      },
-      // OGUAA/Prestige concepts
-      {
-        q: "OGUAA Ltd acquired 60% of PEDU Ltd. The policy is to measure NCI at its proportionate share of the fair value of the subsidiary's net assets. This means NCI at acquisition is measured using which method?",
-        options: [
-          "Fair value method (full goodwill method)",
-          "Proportionate share method (partial goodwill method)",
-          "Book value method",
-          "Market capitalization method"
-        ],
-        answer: 1,
-        explanation: "IFRS 3 allows two methods: (1) Fair Value method, where NCI is measured at its fair value (resulting in full goodwill), OR (2) Proportionate Share method, where NCI is measured as its percentage of the subsidiary's identifiable net assets (resulting in partial goodwill). OGUAA uses the proportionate share method."
-      },
-      {
-        q: "When OGUAA acquired 60% of PEDU Ltd, the fair value of identifiable net assets was GH¢3,900m. The NCI is measured at proportionate share. What is the NCI value at acquisition?",
-        options: ["GH¢1,560m", "GH¢2,340m", "GH¢2,500m", "GH¢3,900m"],
-        answer: 0,
-        explanation: "NCI = 40% (non-controlling share) x GH¢3,900m (fair value of net assets) = GH¢1,560m. Note: OGUAA acquired 60%, so NCI = 100% - 60% = 40%."
-      },
-      {
-        q: "Under IFRS 9, if an entity irrevocably elects to account for equity investments at FVOCI (Fair Value through Other Comprehensive Income), where are changes in fair value recognized?",
-        options: [
-          "In retained earnings directly",
-          "In profit or loss",
-          "In other comprehensive income (OCI) — never recycled to P&L",
-          "As an adjustment to the cost of the investment"
-        ],
-        answer: 2,
-        explanation: "Under IFRS 9, the irrevocable FVOCI election for equity instruments means fair value gains and losses are always recognized in OCI and are NEVER recycled (reclassified) to profit or loss, even on disposal. This contrasts with debt instruments at FVOCI where gains ARE recycled."
-      }
+      { q: "Under IFRS 10, control exists when an investor has which three elements?", options: ["Majority shares, voting rights, and dividends","Power over the investee, exposure to variable returns, and ability to use power to affect returns","Board representation, auditing rights, and profit sharing","Ownership above 50%, veto rights, and liquidation preference"], answer: 1, explanation: "IFRS 10 defines control through three elements: (1) Power over the investee, (2) Exposure or rights to variable returns, and (3) The ability to use power to affect returns." },
+      { q: "Under IFRS 10, which condition is NOT required for a parent to be exempt from preparing consolidated financial statements?", options: ["Its debt/equity instruments are not publicly traded","The parent has fewer than 200 employees","Other owners consent to non-consolidation","The ultimate parent produces IFRS-compliant consolidated statements"], answer: 1, explanation: "Employee headcount is irrelevant to consolidation exemptions under IFRS 10. The four conditions focus on ownership, public trading status, regulatory filings, and parent compliance." },
+      { q: "Under IFRS 3, a Gain on Bargain Purchase arises when:", options: ["Goodwill exceeds fair value of net assets","Consideration paid is less than the fair value of identifiable net assets acquired","NCI is measured at full fair value","The subsidiary has a deficit in retained earnings"], answer: 1, explanation: "A Gain on Bargain Purchase (negative goodwill) occurs when the fair value of identifiable net assets acquired exceeds the total consideration transferred plus NCI. It is recognised immediately in Profit or Loss." },
+      { q: "How is a Gain on Bargain Purchase treated in consolidated financial statements?", options: ["Deducted from goodwill","Recognised directly in equity","Recognised immediately in consolidated profit or loss","Amortised over 5 years"], answer: 2, explanation: "Under IFRS 3, a gain on bargain purchase is recognised immediately in profit or loss in the period of acquisition after re-assessment of all fair values." },
+      { q: "Under the proportionate share method (partial goodwill), NCI at acquisition is measured as:", options: ["Fair value of NCI shares in the market","NCI percentage × fair value of the subsidiary's identifiable net assets","NCI percentage × book value of the subsidiary's net assets","A fixed amount set by management"], answer: 1, explanation: "The proportionate share (partial goodwill) method measures NCI as the NCI's percentage ownership multiplied by the fair value of the subsidiary's identifiable net assets — resulting in goodwill attributable to the parent only." },
+      { q: "Under the full goodwill (fair value) method, NCI at acquisition is measured at:", options: ["Its proportionate share of net assets","The parent's cost of investment","The fair value of the NCI shares","Book value of the NCI shares"], answer: 2, explanation: "Under the full goodwill method, NCI is measured at its own fair value — this results in goodwill being recognised for both the parent's and the NCI's share." },
+      { q: "An unrealized profit on goods sold from a subsidiary to a parent (upstream sale) remaining in the parent's closing inventory should be:", options: ["Added to consolidated retained earnings","Eliminated in full with the adjustment shared between parent and NCI","Ignored as it is between group companies","Recognised only for the parent's share"], answer: 1, explanation: "For upstream sales (subsidiary to parent), the full PUP is eliminated. The adjustment reduces retained earnings shared between the parent and NCI in proportion to their ownership." },
+      { q: "An unrealized profit on goods sold from a parent to a subsidiary (downstream sale) is:", options: ["Shared between parent and NCI","Borne entirely by the parent's retained earnings","Borne entirely by the NCI","Added to consolidated goodwill"], answer: 1, explanation: "For downstream sales (parent to subsidiary), the full PUP is eliminated, and the adjustment is borne entirely by the parent's retained earnings since the profit originated from the parent." },
+      { q: "A Provision for Unrealized Profit (PUP) arises when:", options: ["A group company sells goods to an external customer and the goods are unsold","A group company sells goods to another group company and the goods remain unsold within the group at year-end","A subsidiary declares a dividend","A parent writes down an asset"], answer: 1, explanation: "The PUP eliminates profit that has not yet been realized through an external sale. Goods sold between group companies but remaining in inventory at year-end must have their intra-group profit eliminated." },
+      { q: "What is the formula for Goodwill under IFRS 3?", options: ["FV of net assets − Consideration","Consideration paid + NCI at acquisition − FV of identifiable net assets acquired","Share capital + Retained earnings","Book value of assets − Liabilities"], answer: 1, explanation: "Goodwill = Consideration transferred + NCI at acquisition (±Fair value of previously held interest) − Fair value of identifiable net assets acquired." },
+      { q: "Goodwill is reviewed for impairment under IFRS:", options: ["Systematically over 10 years","Annually or when there is an indicator of impairment","Every 5 years","Only on disposal of the subsidiary"], answer: 1, explanation: "Under IAS 36 and IFRS 3, goodwill is not amortised but is tested for impairment at least annually or whenever there is an indicator of impairment." },
+      { q: "Under IAS 28, an associate is an entity over which the investor has:", options: ["Control","Joint control","Significant influence (typically 20%–50% ownership)","No influence"], answer: 2, explanation: "IAS 28 defines an associate as an entity over which the investor has significant influence — presumed when holding 20%–50% of voting power." },
+      { q: "Associates are accounted for using which method in consolidated financial statements?", options: ["Full consolidation","Proportionate consolidation","Equity method","Cost method"], answer: 2, explanation: "Under IAS 28, associates are accounted for using the equity method — the investment is initially recognised at cost and adjusted for the investor's share of post-acquisition profits/losses." },
+      { q: "Under IFRS 9, if an entity irrevocably elects FVOCI for equity investments, gains and losses are:", options: ["Always recycled to P&L on disposal","Recognised in P&L during the year","Recognised in OCI and never recycled to P&L","Taken directly to retained earnings"], answer: 2, explanation: "The irrevocable FVOCI election for equity instruments under IFRS 9 means fair value changes go to OCI and are permanently locked there — they are NOT recycled to P&L even on disposal." },
+      { q: "A subsidiary is acquired on 1 July during a financial year ending 31 December. For how many months are the subsidiary's results consolidated?", options: ["12 months","9 months","6 months","3 months"], answer: 2, explanation: "Only post-acquisition results are consolidated. From 1 July to 31 December is 6 months, so the subsidiary's revenues, expenses etc. are time-apportioned at × 6/12." },
+      { q: "When the fair value of a subsidiary's net assets exceeds their book value at acquisition, the difference is called a:", options: ["Goodwill","Fair value adjustment","Retained earnings surplus","Share premium"], answer: 1, explanation: "A fair value adjustment uplifts the carrying value of specific assets (e.g. property, plant) to their fair value at the date of acquisition. This must then be depreciated/amortised in post-acquisition periods." },
+      { q: "A fair value adjustment to property of GH¢2m with a 10-year remaining life creates additional depreciation of:", options: ["GH¢200,000 per year","GH¢2,000,000 per year","GH¢20,000 per year","No depreciation — land does not depreciate"], answer: 0, explanation: "Annual additional depreciation = GH¢2,000,000 ÷ 10 years = GH¢200,000. This increases post-acquisition cost of sales/depreciation and reduces the subsidiary's net assets for consolidation purposes." },
+      { q: "A contingent consideration classified as a liability must subsequently be measured at:", options: ["Cost","Fair value, with changes in P&L","Amortised cost","Nominal value"], answer: 1, explanation: "Under IFRS 3, contingent consideration classified as a financial liability is remeasured to fair value at each reporting date, with changes recognised in profit or loss." },
+      { q: "Under IFRS 10, a Special Purpose Entity (SPE) should be consolidated if:", options: ["It has a majority shareholding","The reporting entity controls it regardless of legal ownership percentage","It is jointly owned","It is a public company"], answer: 1, explanation: "Control under IFRS 10 is based on substance, not legal form. An entity controls an SPE if it has power over it, exposure to variable returns, and uses its power to affect those returns — regardless of the equity percentage held." },
+      { q: "Post-acquisition retained earnings attributable to non-controlling interest are included in:", options: ["Consolidated share capital","Goodwill calculation","NCI within the equity section of the consolidated SFP","Group retained earnings"], answer: 2, explanation: "NCI in the consolidated SFP includes NCI at acquisition plus NCI's share of all post-acquisition changes in equity, presented as a separate component within total equity." },
+      { q: "Which IFRS standard governs the preparation of Consolidated Financial Statements?", options: ["IAS 27","IFRS 3","IFRS 10","IAS 28"], answer: 2, explanation: "IFRS 10 Consolidated Financial Statements provides the definition of control and the requirements for consolidation." },
+      { q: "IFRS 3 governs:", options: ["Consolidated financial statements","Business combinations — the accounting at acquisition date","Associates and joint ventures","Financial instrument classification"], answer: 1, explanation: "IFRS 3 Business Combinations provides the acquisition method for accounting for business combinations, including goodwill, fair value of assets and liabilities, and NCI measurement." }
+    ]
+  },
+
+  // ─────────────────────────────────────────────
+  // 3. CORPORATE FINANCIAL ANALYSIS
+  // ─────────────────────────────────────────────
+  corporate: {
+    label: "Corporate Financial Analysis",
+    icon: "📈",
+    color: "#f472b6",
+    questions: [
+      { q: "The three main tools for analysing a company's financial statements are:", options: ["Ratio analysis, cash flow, and profit forecast","Economic analysis, industry analysis, and company analysis","SWOT, PESTLE, and Porter's Five Forces","Balance sheet, income statement, and cash flow statement"], answer: 1, explanation: "Corporate financial analysis uses a top-down approach: Economic Analysis (macroeconomic environment) → Industry Analysis (sector performance) → Company Analysis (specific firm evaluation)." },
+      { q: "Corporate distress is best defined as:", options: ["A company with declining profits","A situation where a firm is unable to meet its debts — when total assets are insufficient to discharge external liabilities","A firm with surplus inventory","A company experiencing rapid growth"], answer: 1, explanation: "Corporate distress (or corporate sickness) is when the value of total assets is insufficient to discharge external liabilities, moving the company towards insolvency or bankruptcy." },
+      { q: "Which of the following is an indicator of corporate distress?", options: ["Increasing sales revenue","Favourable liquidity position","Adverse long-term solvency position","Improving return on equity"], answer: 2, explanation: "Indicators of corporate distress include: unfavourable liquidity, adverse long-term solvency, outdated production processes, deteriorating sales, poor administrative setup, and overall adverse economic conditions." },
+      { q: "What do financial statements NOT tell analysts?", options: ["Profitability trends","Management's integrity and future strategic intentions","Asset values","Debt levels"], answer: 1, explanation: "Financial statements show quantitative historical data. They do not disclose management's integrity, future plans, competitive positioning, or off-balance sheet risks." },
+      { q: "Which ratio measures a company's ability to meet short-term obligations using only its most liquid assets?", options: ["Current ratio","Quick (acid-test) ratio","Debt-to-equity ratio","Return on assets"], answer: 1, explanation: "The Quick Ratio = (Current Assets − Inventory) ÷ Current Liabilities. It excludes inventory (the least liquid current asset) to give a more conservative view of liquidity." },
+      { q: "The current ratio is calculated as:", options: ["Total Assets ÷ Total Liabilities","Current Assets ÷ Current Liabilities","Revenue ÷ Net Income","Equity ÷ Total Assets"], answer: 1, explanation: "Current Ratio = Current Assets ÷ Current Liabilities. A ratio above 1 indicates the company can cover its short-term obligations with current assets." },
+      { q: "Return on Equity (ROE) is best described as:", options: ["Net income ÷ Total Assets","Net income ÷ Shareholders' Equity","Revenue ÷ Total Equity","Gross Profit ÷ Revenue"], answer: 1, explanation: "ROE = Net Income ÷ Shareholders' Equity. It measures how effectively management generates profits from the equity invested by shareholders." },
+      { q: "The Debt-to-Equity ratio measures:", options: ["A company's short-term liquidity","The proportion of financing from debt relative to equity — financial leverage","Profitability of operations","Asset turnover efficiency"], answer: 1, explanation: "Debt/Equity Ratio = Total Debt ÷ Shareholders' Equity. A high ratio indicates greater financial leverage and higher financial risk." },
+      { q: "Which analytical approach examines interest rates, GDP growth, and inflation affecting all companies?", options: ["Company analysis","Ratio analysis","Economic analysis","Industry analysis"], answer: 2, explanation: "Economic analysis examines macroeconomic factors — interest rates, inflation, GDP, exchange rates — that affect the overall investment environment and all companies." },
+      { q: "An annual report differs from financial statements because it also includes:", options: ["Only the balance sheet","Management commentary, corporate governance disclosures, and strategic information","Tax computations","Audit working papers"], answer: 1, explanation: "An annual report contains the financial statements PLUS management discussion and analysis, corporate governance report, directors' report, and other narrative disclosures." },
+      { q: "Which of the following is a limitation of financial statement analysis?", options: ["It provides too much information","Historical data may not predict future performance; accounting policies differ across companies","It is too expensive","It requires no specialist knowledge"], answer: 1, explanation: "Key limitations include: (1) Historical nature, (2) Different accounting policy choices between firms makes comparisons difficult, (3) Inflation distorts values, (4) Window dressing." },
+      { q: "Gross profit margin is calculated as:", options: ["Net income ÷ Revenue","(Revenue − Cost of Sales) ÷ Revenue","Operating income ÷ Total Assets","Revenue ÷ Total Equity"], answer: 1, explanation: "Gross Profit Margin = (Revenue − Cost of Goods Sold) ÷ Revenue × 100. It measures the percentage of revenue retained after direct production costs." },
+      { q: "Asset turnover ratio indicates:", options: ["How profitably a company uses its equity","How efficiently a company uses its assets to generate revenue","The company's debt management","Dividend payout efficiency"], answer: 1, explanation: "Asset Turnover = Revenue ÷ Total Assets. A higher ratio indicates the company generates more revenue per unit of assets — greater operational efficiency." },
+      { q: "The DuPont analysis decomposes Return on Equity into:", options: ["Liquidity × Solvency × Growth","Profit margin × Asset turnover × Financial leverage (equity multiplier)","Revenue × Cost × Tax","Dividend × EPS × P/E"], answer: 1, explanation: "DuPont Analysis: ROE = Net Profit Margin × Asset Turnover × Equity Multiplier. This reveals whether performance is driven by profitability, efficiency, or leverage." },
+      { q: "Industry analysis helps investors understand:", options: ["Individual company management quality","The competitive dynamics, regulation, and growth prospects of the sector","Only macroeconomic trends","Just the company's debt levels"], answer: 1, explanation: "Industry analysis examines sector-specific factors: competitive intensity (Porter's Five Forces), industry lifecycle stage, regulation, and barriers to entry — which affect all companies within the sector." }
+    ]
+  },
+
+  // ─────────────────────────────────────────────
+  // 4. ENTREPRENEURSHIP
+  // ─────────────────────────────────────────────
+  entrepreneur: {
+    label: "Entrepreneurship",
+    icon: "💡",
+    color: "#fb923c",
+    questions: [
+      { q: "An entrepreneur is best described as:", options: ["Any employee of a large corporation","A person who identifies opportunities, takes risks, and creates new business ventures","A government official who regulates businesses","A consultant who advises existing businesses"], answer: 1, explanation: "An entrepreneur identifies opportunities, assumes the risks of creating and managing a new business venture, and innovates to create value in the marketplace." },
+      { q: "Which characteristic is most associated with successful entrepreneurs?", options: ["Risk aversion","Comfort with ambiguity and willingness to take calculated risks","Preference for routine tasks","Dependence on formal structures"], answer: 1, explanation: "Successful entrepreneurs are comfortable with uncertainty and take calculated risks. They see uncertainty as opportunity rather than threat." },
+      { q: "The entrepreneurial process begins with:", options: ["Obtaining finance","Identifying and evaluating an opportunity","Registering a business","Hiring employees"], answer: 1, explanation: "The entrepreneurial process starts with opportunity recognition — identifying a gap or need in the market before moving to evaluation, resource mobilization, and business plan development." },
+      { q: "Which of the following best describes an 'intrapreneuship'?", options: ["Starting a new external business","Entrepreneurship practised within an existing organization","Government-funded entrepreneurship","Traditional farming entrepreneurship"], answer: 1, explanation: "Intrapreneurship (corporate entrepreneurship) is the practice of entrepreneurial behavior within an established organization — employees act entrepreneurially to create new products, processes, or ventures for their employer." },
+      { q: "A business plan primarily serves to:", options: ["Replace the need for market research","Provide a roadmap for the business and attract investors/lenders by demonstrating viability","Guarantee business success","Satisfy legal registration requirements only"], answer: 1, explanation: "A business plan serves as an internal roadmap for the entrepreneur and an external communication tool to attract funding. It outlines the business concept, market, strategy, finances, and management team." },
+      { q: "Which environmental factor directly affects entrepreneurship by controlling what businesses are allowed to do?", options: ["Economic environment","Legal environment","Competitive environment","Technological environment"], answer: 1, explanation: "The legal environment includes laws governing business registration, taxation, intellectual property, employment, and industry regulation — directly determining what businesses can and cannot do." },
+      { q: "Firm resources include:", options: ["Only financial capital","Knowledge, physical assets, human capital, and other tangible and intangible factors owned and controlled by the business","Only physical equipment","Only human resources"], answer: 1, explanation: "Firm resources encompass all productive factors: financial, physical, human, informational, and technological resources — including intangibles like brand reputation and intellectual property." },
+      { q: "What is the primary advantage of entrepreneurship?", options: ["Guaranteed income","Independence, personal fulfilment, and potential for unlimited financial gain","Job security","Fixed working hours"], answer: 1, explanation: "Key advantages of entrepreneurship include independence (being your own boss), personal fulfilment, potential for significant financial reward, and the ability to create employment for others." },
+      { q: "A key disadvantage of small business entrepreneurship is:", options: ["Too much staff support","High personal financial risk and uncertainty of income","Unlimited resources","No competition"], answer: 1, explanation: "Key disadvantages include: high personal financial risk, income uncertainty, long working hours, administrative burden, difficulty accessing capital, and isolation from colleagues." },
+      { q: "The term 'opportunity cost' in entrepreneurship refers to:", options: ["The cost of office space","The value of the next best alternative foregone when choosing to start a business","The total startup cost","The marketing budget"], answer: 1, explanation: "Opportunity cost is what the entrepreneur gives up by choosing one course of action over the next best alternative — e.g., the salary foregone by leaving employment to start a business." },
+      { q: "Local resource mobilization by entrepreneurs refers to:", options: ["Importing all materials from abroad","Using locally available resources — raw materials, labour, and capital — to run the business","Hiring only international consultants","Entirely replacing technology with manual labour"], answer: 1, explanation: "Local resource mobilization involves identifying and using resources available within the local community and environment, reducing dependence on imported inputs and contributing to local economic development." },
+      { q: "Which type of entrepreneur starts a business specifically to solve a social problem rather than primarily for profit?", options: ["Serial entrepreneur","Social entrepreneur","Lifestyle entrepreneur","Growth entrepreneur"], answer: 1, explanation: "A social entrepreneur applies entrepreneurial principles to create social value — addressing societal challenges like poverty, education, or healthcare — while the financial return is secondary to the social mission." },
+      { q: "Bootstrapping in entrepreneurship means:", options: ["Taking a large bank loan","Funding the business using personal savings and revenue generated by the business, avoiding external funding","Seeking venture capital","Listing on the stock exchange"], answer: 1, explanation: "Bootstrapping refers to starting and growing a business using personal savings, sweat equity, and reinvested revenues without external investment — maintaining full ownership but limiting growth speed." },
+      { q: "A feasibility study is conducted to:", options: ["Register the business","Determine if the business idea is viable before significant investment is committed","Train employees","File tax returns"], answer: 1, explanation: "A feasibility study assesses the technical, financial, market, and operational viability of a business concept BEFORE committing significant resources — it answers 'Should we proceed?'" }
+    ]
+  },
+
+  // ─────────────────────────────────────────────
+  // 5. PROJECT MANAGEMENT
+  // ─────────────────────────────────────────────
+  project: {
+    label: "Intro to Project Management",
+    icon: "📋",
+    color: "#fbbf24",
+    questions: [
+      { q: "A project is best defined as:", options: ["A permanent, routine ongoing operation","A temporary, unique endeavor with a defined beginning and end to create a specific outcome","A department within a company","A long-term business strategy"], answer: 1, explanation: "A project is temporary (has a defined start and end), unique (creates a unique product, service, or result), and purposeful (aimed at achieving specific objectives within constraints)." },
+      { q: "Which of the following is NOT a characteristic of a project?", options: ["Temporary nature","Specific objective","Repetitive and ongoing","Requires resources"], answer: 2, explanation: "Projects are NOT repetitive and ongoing — that describes operations. Projects are temporary, unique, goal-oriented, and complex." },
+      { q: "The Triple Constraint in project management consists of:", options: ["Quality, Risk, and Stakeholders","Time, Cost, and Scope","Budget, Resources, and Communication","Initiation, Planning, and Closure"], answer: 1, explanation: "The Triple Constraint (Iron Triangle) is Time (schedule), Cost (budget), and Scope (deliverables). Changing any one constraint affects the others." },
+      { q: "What is the correct sequence of the Project Life Cycle?", options: ["Planning → Execution → Initiation → Closure","Initiation → Planning → Execution & Control → Closure","Execution → Planning → Initiation → Closure","Initiation → Execution → Planning → Closure"], answer: 1, explanation: "The Project Life Cycle follows: Initiation → Planning → Execution & Controls → Termination/Closure. Each phase has specific deliverables and decision points." },
+      { q: "A project stakeholder is:", options: ["Only the project sponsor","Any individual or organization who may have an interest in and be actively involved in the project","Only the project team","Only the project's end users"], answer: 1, explanation: "Stakeholders include all individuals and organizations with an interest in the project outcome — sponsors, customers, team members, suppliers, regulators, and the public." },
+      { q: "Which document formally authorizes a project and appoints the project manager?", options: ["Project scope statement","Project charter","Gantt chart","Risk register"], answer: 1, explanation: "The Project Charter formally authorizes the existence of the project, defines its objectives, scope, and constraints, and appoints the project manager with the authority to use organizational resources." },
+      { q: "A Gantt chart is primarily used to:", options: ["Track project costs","Show the project schedule with activities and their durations displayed against a timeline","Identify project risks","Manage stakeholder relationships"], answer: 1, explanation: "A Gantt chart is a bar chart showing project tasks plotted against time. It visually represents the project schedule, showing start/end dates, durations, dependencies, and progress." },
+      { q: "The Critical Path in a project network is:", options: ["The path with the least activities","The longest sequence of dependent tasks through the project — determining the minimum project duration","The most expensive set of activities","Activities the project manager finds most critical"], answer: 1, explanation: "The Critical Path is the longest sequence of dependent activities. Any delay on the critical path delays the entire project. It determines the minimum possible project duration." },
+      { q: "What does 'float' (or 'slack') mean in project scheduling?", options: ["The contingency budget","The amount of time a task can be delayed without delaying the project completion date","The number of resources on standby","The project buffer time at the end"], answer: 1, explanation: "Float (slack) is the amount of time a non-critical activity can be delayed without affecting the project's final deadline. Critical path activities have zero float." },
+      { q: "The Work Breakdown Structure (WBS) is:", options: ["A bar chart showing the project schedule","A hierarchical decomposition of the total project scope into smaller, manageable work packages","A risk assessment tool","A stakeholder analysis diagram"], answer: 1, explanation: "The WBS decomposes the project scope into progressively smaller work packages — making the scope manageable, assignable, and measurable. It is the foundation for cost and schedule planning." },
+      { q: "A project delay is defined as:", options: ["Finishing one day after the planned completion","The inability of a project team to complete all stipulated activities within the estimated duration","Having too many resources","Any scope change"], answer: 1, explanation: "Project delay is the team's inability to complete all project activities within the originally planned timeframe. Delays can be critical (affecting overall completion) or non-critical." },
+      { q: "An 'excusable' delay is one:", options: ["Caused by poor planning by the contractor","Caused by events beyond the contractor's control — such as natural disasters or client-caused delays","Caused by scope creep","Due to underestimated task durations"], answer: 1, explanation: "Excusable delays result from unforeseeable events outside the contractor's control — acts of God, government actions, client-caused delays. The contractor is typically granted a time extension but no additional compensation." },
+      { q: "Which conflict resolution strategy seeks a win-win outcome?", options: ["Forcing/Competing","Problem solving/Collaborating","Avoidance/Withdrawal","Smoothing/Accommodating"], answer: 1, explanation: "Problem Solving (Collaborating) seeks a win-win outcome by addressing the root cause of the conflict. It is the most effective long-term conflict resolution strategy in project management." },
+      { q: "Risk management in a project involves:", options: ["Ignoring low-probability risks","Identifying, analyzing, and developing responses to potential events that could affect project objectives","Only managing financial risks","Assigning all risks to the client"], answer: 1, explanation: "Project risk management is a systematic process of identifying, analyzing (probability × impact), planning responses (avoid, transfer, mitigate, accept), and monitoring risks throughout the project lifecycle." },
+      { q: "The role of a Project Sponsor is to:", options: ["Do detailed project work","Provide strategic direction, secure resources, remove high-level obstacles, and be the project's executive champion","Manage the day-to-day schedule","Conduct risk assessments"], answer: 1, explanation: "The Project Sponsor is the senior executive who owns the project at the organizational level — providing funding, strategic direction, removing obstacles, making high-level decisions, and accepting the final deliverable." }
+    ]
+  },
+
+  // ─────────────────────────────────────────────
+  // 6. INVESTMENT MANAGEMENT
+  // ─────────────────────────────────────────────
+  investment: {
+    label: "Investment Management",
+    icon: "💰",
+    color: "#34d399",
+    questions: [
+      { q: "Investment is best defined as:", options: ["Spending money on current consumption","The commitment of current funds to assets expected to generate future income or appreciation","Borrowing money for business expansion","Holding cash as savings"], answer: 1, explanation: "Investment is the commitment of current resources (time, money) to earn future returns in the form of income, capital gains, or both. It involves sacrificing current consumption for future benefit." },
+      { q: "The primary market is:", options: ["Where existing securities are traded among investors","Where new securities are issued and sold for the first time by the issuing entity to raise capital","Only for government bonds","Where commodities are traded"], answer: 1, explanation: "The Primary Market is where new issues of securities (IPOs, bond issues) are sold DIRECTLY from the issuer to investors to raise fresh capital. The issuer receives the proceeds." },
+      { q: "The secondary market is:", options: ["The first sale of securities","A market where previously issued securities are traded between investors — the issuer receives no new funds","Only for derivatives","The market for physical goods"], answer: 1, explanation: "The Secondary Market is where already-issued securities trade between investors. The Ghana Stock Exchange is a secondary market. The issuing company receives no new capital from these trades." },
+      { q: "The Ghana Stock Exchange (GSE) primarily functions as:", options: ["A primary market only","The main secondary market for buying and selling previously issued securities in Ghana","A money market institution","A commodity exchange"], answer: 1, explanation: "The GSE is Ghana's main secondary market, providing a regulated platform for buying and selling listed equities and bonds, ensuring price discovery and liquidity for investors." },
+      { q: "Nominal return on an investment measures:", options: ["How much more goods and services you can buy","How much more money you have — unadjusted for inflation","The tax-adjusted return","The risk-adjusted return"], answer: 1, explanation: "Nominal return is the actual monetary percentage gain on an investment before adjusting for inflation. It tells you how much more money you have, but not its purchasing power." },
+      { q: "Real rate of return is calculated using:", options: ["Nominal return + Inflation","(1 + Nominal rate) ÷ (1 + Inflation) − 1","Nominal return × Inflation","Revenue ÷ Capital invested"], answer: 1, explanation: "Real Rate of Return = [(1 + Nominal Rate) ÷ (1 + Inflation Rate)] − 1. It shows how much more purchasing power your investment generates after adjusting for inflation." },
+      { q: "The risk-return trade-off states that:", options: ["Lower risk always generates higher returns","Higher expected returns are generally associated with higher risk","All investments carry the same risk","Government bonds offer the highest returns"], answer: 1, explanation: "The fundamental risk-return trade-off: investors demand higher returns to compensate for taking on higher risk. Government bonds (low risk) offer lower returns; equities (higher risk) offer higher potential returns." },
+      { q: "Diversification reduces risk because:", options: ["It eliminates all investment risk","It spreads investments across uncorrelated assets, reducing the impact of any single asset's poor performance on the overall portfolio","It guarantees higher returns","It eliminates systematic risk"], answer: 1, explanation: "Diversification reduces unsystematic (specific) risk by combining assets whose returns do not move in perfect correlation. However, systematic (market) risk cannot be diversified away." },
+      { q: "Systematic risk is:", options: ["Risk specific to one company or industry — diversifiable","Market-wide risk affecting all investments — non-diversifiable","The risk of default on a bond","Liquidity risk of a specific asset"], answer: 1, explanation: "Systematic (market) risk affects all investments — caused by macroeconomic factors like recessions, interest rate changes, or wars. It CANNOT be eliminated through diversification." },
+      { q: "A bond's coupon rate is:", options: ["The market price of the bond","The fixed annual interest payment as a percentage of the bond's face value","The bond's yield to maturity","The inflation adjustment on the bond"], answer: 1, explanation: "The coupon rate is the fixed annual interest rate stated on the bond, expressed as a percentage of face (par) value. Coupon payment = Coupon rate × Face value." },
+      { q: "When market interest rates rise, bond prices will:", options: ["Rise","Fall","Stay the same","Become more volatile but unchanged in the long run"], answer: 1, explanation: "Bond prices and interest rates move inversely. When market rates rise, new bonds offer higher coupons, making existing lower-coupon bonds less attractive — their prices fall to compensate." },
+      { q: "The Yield to Maturity (YTM) of a bond is:", options: ["The bond's coupon rate","The total return anticipated on a bond if held until it matures, accounting for current price, all coupon payments, and the repayment of face value","The bond's credit rating","The annual coupon divided by face value"], answer: 1, explanation: "YTM is the total expected annual return of a bond if purchased at its current market price and held until maturity. It accounts for the current price, annual coupons, and face value repayment." },
+      { q: "A brokerage firm primarily performs which function?", options: ["Issuing new securities","Acting as an intermediary that executes buy and sell orders on behalf of investors in securities markets","Regulating the stock exchange","Providing banking services"], answer: 1, explanation: "A brokerage firm acts as an agent between investors and the market — executing buy and sell orders, providing investment advice, and facilitating access to securities markets." },
+      { q: "An investment objective is set based on:", options: ["Only the investor's age","The investor's financial goals, time horizon, risk tolerance, and liquidity needs","The performance of last year's investments","Only market conditions"], answer: 1, explanation: "Investment objectives are highly personal and depend on: (1) Financial goals (growth, income, capital preservation), (2) Time horizon, (3) Risk tolerance, and (4) Liquidity requirements." },
+      { q: "Capital gain on an investment is:", options: ["Regular income paid annually","The increase in value of an investment above its purchase price — realised when sold","A guaranteed return","The coupon payment on a bond"], answer: 1, explanation: "A capital gain is the profit from selling an asset for more than its purchase price. It is only realised (and potentially taxable) upon sale of the investment." }
     ]
   }
 };

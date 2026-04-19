@@ -1,0 +1,234 @@
+ UNIVERSITY OF CAPE COAST 
+COLLEGE OF DISTANCE EDUCATION 
+ 
+ 
+ 
+ 
+ 
+ 
+COURSE TITLE: 
+ACC 403D Audit and Internal Review  
+ 
+©   COLLEGE OF DISTANCE EDUCATION, UNIVERSITY OF CAPE COAST 
+CODE PUBLICATIONS, 2019   
+ACC 403D AUDIT AND 
+INTERNAL REVIEW 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mr. Augustine Addo 
+Prof. Edward Marfo-Yiadom 
+Dr. Clement Lamboi Arthur 
+  First published in 2021 by UCC Press, Cape Coast 
+Second publication in 2022 by Technick’s Ware Services 
+ 
+ 
+ 
+ 
+ 
+© COLLEGE OF DISTANCE EDUCATION, UNIVERSITY OF CAPE COAST (CoDEUCC) 
+2021, 2022 
+  
+ 
+ 
+ 
+ISBN 978–9988–8465–1-0 
+ 
+ 
+ 
+  
+First Publication, 2021 
+ 
+ 
+ 
+  
+ 
+ 
+All rights reserved. No part of this publication should be reproduced, stored in 
+a retrieval system or transmitted by any form or means, electronic, 
+mechanical, photocopying or otherwise without the prior permission of the 
+copyright holder. 
+ 
+ 
+ 
+ 
+ 
+Cover illustrated by William Jacobs 
+ 
+ 
+ 
+  
+ 
+   
+ABOUT THIS BOOK 
+ 
+CoDEUCC/ Bachelor of Commerce                                                                              i 
+ 
+This Course Book “ACC 403D  Audit and Internal Review ” has 
+been exclusively written by experts in the discipline to up -date your 
+general knowledge in Business  in order to equip you with the basic 
+tool you will require for your professional training as an accountant 
+and administrator. 
+ 
+This three -credit course book of thirty -six (36) sessions has been 
+structured to reflect the weekly three-hour lecture for this course in the 
+University.  Thus, each session is equivalent to a one -hour lecture on 
+campus.  As a  distance learner, however, you are expected to spend a 
+minimum of three hours and a maximum of five hours on each 
+session. 
+ 
+To help you do this effectively, a Study Guide has been particularly 
+designed to show you how this book can be used.  In this study guide, 
+your weekly schedules are clearly spelt out as well as dates for 
+quizzes, assignments and examinations. 
+ 
+Also included in this book is a list of all symbols and their meanings.  
+They are meant to draw your attention to vital issues of concern and 
+activities you are expected to perform. 
+ 
+Blank sheets have been also inserted for your comments on topics that 
+you may find difficult. Remember to bring these to the attention of 
+your course tutor during your face-to-face meetings. 
+ 
+We wish you a happy and successful study. 
+ 
+ 
+     Mr. Augustine Addo 
+     Prof. Edward Marfo-Yiadom 
+Dr. Clement Lamboi Arthur 
+ 
+    
+    
+    
+ 
+ 
+   INTERNAL CONTROL SYSTEM 
+ 
+CoDEUCC/Bachelor of Commerce 207 
+UNIT 4 
+SESSION 4 
+ 
+SESSION 4:  TESTS OF CONTROL 
+ 
+We are now in session 4 of unit 4.  In this session, we are going to look at 
+specific tests of control s that the auditor can apply to  assess the extent of 
+compliance with internal control systems. 
+ 
+Objectives 
+At the end of the session, you should be able to list the specific test of control 
+appropriate for various areas in the income cycle. 
+ 
+Now read on…  
+ 
+4.1 Tests of Control Relating to Sales System 
+Tests of Control should be designed to check that the control procedures a re being 
+applied and that objectives are being achieved. Tests may be appropriate under the 
+following broad headings 
+ 
+4.1.1 Sequence Test Checks 
+• Carry out sequence test checks on invoices, credit notes, dispatch notes and 
+orders.  Ensure that all items are included and that there are no omissions or 
+duplications. 
+ 
+4.1.2 Authorisation 
+Check the authorisation for the: 
+•  Acceptance   of the order (credit-worthiness check) 
+• Discounts applied to orders 
+•  Dispatch of goods 
+• Raising of the invoice or credit notes 
+• Pricing and discounts 
+• Write-off of bad debts 
+• Check that the relevant signature exists and that the control has been 
+applied, e.g. check pricing for accuracy and credit limits to ensure that they 
+have not been exceeded.  This last test will also serve as a substantive 
+procedure. 
+ 
+4.1.3 Evidence of checking   of the arithmetical accuracy of: 
+• Invoices, 
+• Credit notes 
+• VAT/NHIL 
+   TESTS OF CONTROL  
+                                                            CoDEUCC/Bachelor of Commerce 208 
+UNIT 4 
+SESSION 4 
+This is often done by means of a grid stamp, containing several signatures on the face of 
+the invoice.  Ensure that the control has in fact b een applied by checking the accuracy 
+of such invoices and credit notes.  This last test will also serve as a substantive 
+procedure.  
+ 
+4.1.4 Arithmetical Accuracy 
+Seek evidence of checking of the arithmetical accuracy of: 
+• Invoices 
+• Credit notes 
+• VAT 
+ 
+This is often done by means of a ‘grid stamp’ containing several signatures on the face 
+of the invoice.  Ensure that the control has in fact been applied by checking the 
+accuracy   of such invoices and retail notes.  This last test will also serve as a 
+substantive procedure. 
+ 
+4.1.5 Dispatch Notes 
+• Check dispatch notes and notes and goods returned notes to ensure that they are 
+referenced to invoices and credit notes and vice versa. 
+ 
+4.1.6 Control Account Reconciliations 
+• Check that control account reconciliations have been performed and reviewed 
+• Re-perform the control by checking the reconciliation to source documentation 
+• Ensure that batch total controls have been applied by seeking signatures and 
+tracing batches from inputs to output. 
+• Check that exceptions and managem ent information reporting on sales have 
+been produced and reviewed, with evidence of action sales on unusual trends or 
+level of discounts or unusual prices. 
+• In all cases, tests should be performed on a sample basis.  The auditor should 
+investigate errors and consider the need for further testing to obtain comfort on 
+the proper application of the control procedure.  
+ 
+4.2 Tests of Control Relating to Purchasing System 
+Tests of control should be drawn up so as to check that control procedures are being 
+applied and to achieve control objectives 
+• Test for evidence of a sequence check   of purchase order 
+• Test for evidence of approval of PO 
+• Test for adherence to authority limits in respect of PO 
+• Test for evidence of sequence check of GRN 
+• Check for evidence of a sequence check of goods returns note 
+• Test for serial numbering of purchase invoice   INTERNAL CONTROL SYSTEM 
+ 
+CoDEUCC/Bachelor of Commerce 209 
+UNIT 4 
+SESSION 4 
+ 
+• Test for evidence of a sequence check of purchase invoice 
+• Test for evidence of matching purchase invoices with   goods received note 
+• Test for evidence of checking casts, extensions and VAT treatment 
+• Test for approval purchase invoice for further processing 
+• Test for evidence of matching credit notes to goods returned note 
+• Test for evidence of authorization of adjustments to purchase ledger  
+• Test for evidence of authorization of adjustments to purchase ledger listing 
+ 
+4.3 Tests of Control Relating to Payroll System 
+The programme of tests should ensure that the following key controls are in existence 
+and working efficiently: 
+• Employees can be paid only for work done. 
+• Employees are paid at the correct rate. 
+• Errors cannot occur in the calculation of the payroll or the deductions from 
+gross pay. 
+ 
+A suggested programme of tests of control is as follows: 
+• Test sample of time sheet, clock cards or other records, for approval by 
+responsible official. Pay particular attention to the approval of overtime. 
+• Test authority for payment of causal labour, particularly if in cash. 
+• Observe wage distribution for adherence to procedures ensuring 
+employees sign for wages, that unclaimed wages re-banked, etc. 
+• Test authourisation for payroll amendments by reference to personnel 
+records. 
+• Test control over payroll amendments. 
+• Examine evidence of checking of payroll calculation (e.g. a signature of 
+the financial controller). 
+• Examine evidence of approval of payroll by a responsible official. 
+• Examine evidence of independent checks of payrolls (e.g. by internal 
+audit). 
+• Inspect payroll reconciliations

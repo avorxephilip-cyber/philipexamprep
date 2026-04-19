@@ -1,0 +1,240 @@
+ First Printing in 2010 by  Nyakod Printing Press Ltd., Cape Coast 
+Second printing in 2011 by Hampton Press Ltd., Cape Coast 
+Third printing in 2012 by Paramount Printing Works, Accra 
+Printed in 2017 by Paramount Printing Works, Accra 
+Printed in 2018 by Adjumakoman Press, Takoradi 
+Printed in 2019 by Brenya Distribution Ltd., Accra 
+Printed in 2019 by UCC Press, Cape Coast 
+ 
+ 
+ 
+ 
+©   COLLEGE OF DISTANCE EDUCATION, UNIVERSITY OF CAPE COAST 
+(CoDEUCC), 2006, 2010, 2011, 2012, 2017, 2018, 2019 
+ 
+ 
+ 
+ 
+ 
+ 
+ISBN 978-9988-8467-1-8 
+ 
+ 
+ 
+ 
+CoDE PUBLICATIONS, 2019 
+ 
+ 
+ 
+ 
+ 
+All right reserved.  No part of this publication should be reproduced, stored in a retrieval 
+system or transmitted by any form or means, electronic, mechanical, photocopying or 
+otherwise without the prior permission of the copyright holder. 
+ 
+ 
+ 
+Cover page illustrated by R. Y. Essiam 
+ 
+ 
+ 
+Printed and bound in Ghana by       
+ABOUT THIS BOOK 
+ 
+ 
+This Course Book “Investment Management ” has been exclusively written by 
+experts in the discipline to up -date your general knowledge of English Language in 
+order to equip you with the basic tool you will require for your professional work as 
+a teacher and an administrator. 
+ 
+This three-credit course book of thirty-six (36) sessions has been structured to reflect 
+the weekly three-hour lecture for this course in the University.  Thus, each session is 
+equivalent to a one-hour lecture on campus.  As a distance learner, however, you are 
+expected to spend a minimum of three hours and a maximum of five hours on each 
+session. 
+ 
+To help you do this effectively, a Study Guide has been particularly designed to 
+show you how this book can be used.  In this study guide, your weekly schedules are 
+clearly spelt out as well as dates for quizzes, assignments and examinations. 
+ 
+Also included in this book is a list of all symbols and their meanings.  They are 
+meant to draw your attention to vital issues of concern and activities you are 
+expected to perform. 
+ 
+Blank sheets have been also inserted for your comments on topics that you may find 
+difficult. Remember to bring these to the attention of your  course tutor during your 
+face-to-face meetings. 
+ 
+We wish you a happy and successful study. 
+ 
+ 
+ 
+    
+    Mr. Patrick Kwashie Akorsu  
+Mr. Siaw Frimpong 
+    
+    
+ 
+ 
+ 
+CoDEUCC/ Post-Diploma in Commerce and Management Studies  ACKNOWLEDGEMENT 
+ 
+It has become a tradition in academic circles to acknowledge the assistance one 
+received from colleagues in the writing of an academic document. Those who 
+contributed in diverse ways toward the production of this particular course book 
+merit more than mere acknowledgement for two main reasons. First, they worked 
+beyond their normal limits in writing, editing and providing constant support and 
+encouragement without which the likelihood of giving up the task was very high. 
+Second, the time span for the writing and editing of this particular course book was 
+so short that their exceptional commitment and dedication were the major factors 
+that contributed to its accomplishment. 
+ 
+It is in the foregoin g context that the names of Mr. Patrick Kwashie Akorsu and 
+Mr. Siaw Frimpong of University of Cape Coast, who wrote and edited the content 
+of this course book for CoDEUCC, will ever re main in the annals of the College . 
+This special remembrance also applies to those who assisted me in the final editing 
+of the document. 
+ 
+I wish to thank the Vice -Chancellor Prof Joseph Ghartey -Ampiah, the Pro-Vice-
+Chancellor, Prof Dora Edu- Buandoh, and all the staff of the University’s 
+Administration without whose diverse support this course book would not have been 
+completed. 
+ 
+Finally, I am greatly indebted to the entire staff of  CoDEUCC, especially Francis 
+Eshun for determining the scripts. 
+ 
+Any limitations in this course book, however, are exclusively mine. But the good 
+comments must be shared among those named above. 
+ 
+ 
+                                                                             
+                                                                              Prof. Isaac Galyuon 
+                            (Provost) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+viii   
+TABLE OF CONTENTS 
+ 
+ 
+PAGE 
+ 
+About This Book . ….  ….  …..  ….                    i 
+ 
+Acknowledgement  … … …. …. …      ii 
+ 
+Table of Content … … … … …                 iii 
+ 
+Symbols and Their Meaning … … …              vii 
+ 
+UNIT 1: THE SCOPE OF INVESTMENT … … … … … 1 
+ 
+SESSION 1: Introduction to Investment    … … 6 
+ 
+       2: Setting Investment Objectives    ... … 9 
+ 
+3: Investment Instruments     … … 13 
+ 
+4: Investment Instruments (Continued)   … … 17 
+  
+5: Steps in Investment     … … 21 
+ 
+6: Investment Procedures In Ghana   … … 25 
+ 
+ 
+ 
+UNIT 2: SECURITIES MARKET    … … 27  
+ 
+SESSION 1: Types of Securities market  … … … … 29 
+1.1 Meaning Of Securities Market  … … … … 29 
+1.2 Types of Securities Market … … … … … 29 
+ 
+SESSION 2: Functions of the Securities Market … … … … 33 
+  2.1 Functions of the Securities Markets  … … 33 
+ 
+SESSION 3: The Ghana Stock Exchange … … … … … 37 
+  3.1 The Ghana Stock Exchange  … … … 37
+   
+SESSION 4: Brokerage Business    … … … 43 
+  4.1 Options for Small Business Buyers … … … 43 
+   
+SESSION 5: Functions of Brokerage Business and Section of Brokerage Business … 45 
+  5.1 Functions of a Brokerage Firm  … … … 45 
+  5.2 Selecting a Brokerage Firm   … … … 46 
+ 
+ 
+CoDEUCC/Post-Diploma in Management/Commerce 1  INVESTMENT RETURN AND RISK      
+ 
+    
+ 
+UNIT 4 
+ 
+ 
+Solution 
+Percentage Return   =   Capital gain (1-T) + dividend 
+                                              Initial share price 
+ 
+                                      =   4GP (1-0.20) + 2GP    = 0.14857 = 14.86% 
+                                                       35GP 
+ 
+Using the above example, assume that dividend is taxed instead of capital gain. What is 
+the Percentage Return? 
+ 
+Percentage Return   =   
+Capital gain  + dividend (1-T) 
+                                              Initial share price 
+ 
+                                      =   4GP+ 2GP (1-0.20)     = 0.16 = 16% 
+                                                       35GP 
+ 
+Now let us assume that both dividend and capital gains are taxed. Using the above 
+example what is the Percentage Return? 
+ 
+Percentage Return   =   (
+Capital gain + dividend)(1-T) 
+                                              Initial share price 
+ 
+                                      =   (4GP+ 2GP)(1-0.20) 
+    = 0.1371 = 13.71% 
+                                                       35GP 
+ 
+ 
+Real Rate of Return 
+The Percentage Return as calculated above is the nominal rate of return on an 
+investment. The nominal return measures how much more money you will have at the 
+end of the year if you invest today. It does not tell you the quantu m of goods and 
+services you can buy with it. This shortcoming is addressed by the real rate of return. 
+The real rate of return tells you how much more you will be able to buy with your return 
+on an investment at the end of the year if you invest today. 
+   
+To convert from nominal to real rate of return, we use the following relationship:  
+1 + real rate of return =   1 + nominal rate of return 
+   
+                                                 1 + Inflation 
+Real rate of return =   1 + nominal rate of return   -1 
+                                                 1 + Inflation 
+ 
+CoDEUCC Post-Diploma in Commerce/Management Studies 79                      THE CONCEPT OF RETURN 
+ 
+UNIT 4 
+SESSION 1 
+Assume inflation was 11% in the year under consideration. Using the above example 
+where both dividend and capital gains were taxed, calculate the real rate of return.  
+ 
+Real rate of return =   1 + 0.1371 
+  - 1 
+                                1 + 0.11  
+ 
+                         =     1.0244 – 1 = 0.0244 = 2.44% 
+ 
+Question 
+Suppose you buy a bond for GH¢1020 with a 15 year maturity paying an annual coupon 
+of GH¢80.  A year later 

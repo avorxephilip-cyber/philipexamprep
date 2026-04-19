@@ -1,0 +1,194 @@
+ UNIVERSITY OF CAPE COAST 
+COLLEGE OF DISTANCE EDUCATION 
+ 
+ 
+ 
+ 
+ 
+ 
+COURSE TITLE: 
+ACC 403D Audit and Internal Review  
+ 
+©   COLLEGE OF DISTANCE EDUCATION, UNIVERSITY OF CAPE COAST 
+CODE PUBLICATIONS, 2019   
+ACC 403D AUDIT AND 
+INTERNAL REVIEW 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mr. Augustine Addo 
+Prof. Edward Marfo-Yiadom 
+Dr. Clement Lamboi Arthur 
+  First published in 2021 by UCC Press, Cape Coast 
+Second publication in 2022 by Technick’s Ware Services 
+ 
+ 
+ 
+ 
+ 
+© COLLEGE OF DISTANCE EDUCATION, UNIVERSITY OF CAPE COAST (CoDEUCC) 
+2021, 2022 
+  
+ 
+ 
+ 
+ISBN 978–9988–8465–1-0 
+ 
+ 
+ 
+  
+First Publication, 2021 
+ 
+ 
+ 
+  
+ 
+ 
+All rights reserved. No part of this publication should be reproduced, stored in 
+a retrieval system or transmitted by any form or means, electronic, 
+mechanical, photocopying or otherwise without the prior permission of the 
+copyright holder. 
+ 
+ 
+ 
+ 
+ 
+Cover illustrated by William Jacobs 
+ 
+ 
+ 
+  
+ 
+   
+ABOUT THIS BOOK 
+ 
+CoDEUCC/ Bachelor of Commerce                                                                              i 
+ 
+This Course Book “ACC 403D  Audit and Internal Review ” has 
+been exclusively written by experts in the discipline to up -date your 
+general knowledge in Business  in order to equip you with the basic 
+tool you will require for your professional training as an accountant 
+and administrator. 
+ 
+This three -credit course book of thirty -six (36) sessions has been 
+structured to reflect the weekly three-hour lecture for this course in the 
+University.  Thus, each session is equivalent to a one -hour lecture on 
+campus.  As a  distance learner, however, you are expected to spend a 
+minimum of three hours and a maximum of five hours on each 
+session. 
+ 
+To help you do this effectively, a Study Guide has been particularly 
+designed to show you how this book can be used.  In this study guide, 
+your weekly schedules are clearly spelt out as well as dates for 
+quizzes, assignments and examinations. 
+ 
+Also included in this book is a list of all symbols and their meanings.  
+They are meant to draw your attention to vital issues of concern and 
+activities you are expected to perform. 
+ 
+Blank sheets have been also inserted for your comments on topics that 
+you may find difficult. Remember to bring these to the attention of 
+your course tutor during your face-to-face meetings. 
+ 
+We wish you a happy and successful study. 
+ 
+ 
+     Mr. Augustine Addo 
+     Prof. Edward Marfo-Yiadom 
+Dr. Clement Lamboi Arthur 
+ 
+    
+    
+    
+ 
+ 
+  ACKNOWLEDGEMENT 
+ viii 
+Driven by the desire to always deliver quality, cost -effective tertiary 
+education to clients, it is necessary to appreciate all colleagues and 
+staff of the College of Distance Education (CoDEUCC) who have 
+contributed in attaining this objective.  The revision of this module has 
+been made possible through the support and commitment of several 
+people whose contribution in diverse ways is making CoDEUCC 
+attain its mission in the history of distance education in Ghana. 
+ 
+First, I acknowledge the hard work of the  authors of the reviewed 
+modules.  The purpose of the review was to bring to bear new 
+knowledge and trends in the subject content.  I therefore appreciate the 
+work of the reviewers of this module for making the content of this 
+module indispensable in attai ning success for all clients.  Thus, much 
+thanks go to the following Mr. Augustine Addo and Prof. Edward 
+Marfo-Yiadom and Dr. Clement Lamboi Arthur of School of Business, 
+University of Cape Coast for their painstaking effort. 
+ 
+I also acknowledge the suppor t of the Co- ordinator and Staff of the 
+Reprographic, Productions and Dispatch Unit, CoDE, who worked 
+hard to bring this material into print.   The support of the Advisory 
+Committee, particularly Heads of Department and Chief Examiners, 
+has also been invaluable. 
+ 
+I thank the Vice Chancellor, Prof. Joseph Ghartey- Ampiah, all UCC 
+Management and the various printing houses without whose support 
+this module would not have been produced. 
+ 
+Special thanks go to Mrs. Christina Hesse for  typesetting into the 
+house style of CoDE. 
+ 
+Prof. Isaac Galyuon 
+(Provost) 
+ 
+ 
+ 
+   iii 
+TABLE OF CONTENTS 
+ 
+About this Book … … … … … … …   i 
+Acknowledgement … … … … … …        …  ii 
+Table of Contents … … … … … … … iii 
+Symbols and their Meanings  … … … …    
+  
+UNIT 1: THE NATURE, PURPOSE AND SCOPE OF  
+AUDITING … … … … ... ... 1 
+Session 1: Development of Auditing … … … … 3 
+1.1 Historical Background … … … … 3 
+1.2 Development of Auditing of Today … ... 3 
+1.3 The Case of Ghana … … … … 4 
+Session 2: Definition of and the Need for Auditing ... … 5 
+2.1 Definition of Auditing … … ... ... 5 
+2.2 Need for Audit … … … … ... 6 
+2.3 Objective and General Principles Governing an Audit 
+ of Financial Statements … … … … 7 
+2.4 Objectives of Auditing … … … … 18 
+2.5 Advantages of Audit … … … … 19 
+2.6 Disadvantages of an Audit … … … 19 
+2.7 Limitations of Audit … … … … 20 
+2.8 The Expectation Gap … … … … 20 
+2.9 The Structure of an Audit Firm … … … 21 
+Session 3: Types of Audits  … … … … 25 
+3.1 Private Audit and Statutory Audit … … 25 
+3.2 External and Internal Audit … … … 25 
+3.3 Complete Audit, Interim Audit and Continuous  
+Audit … … … … … …  26 
+Session 4:   The Stages of Audit Process ... … … … 29 
+4.1 Stage 1 … … … … … … 29 
+4.2 Stage 2 … … … … … … 29 
+4.3 Stage 3 … … … … … … 29 
+4.4 Stage 4 … … … … … … 29 
+4.5 Stage 5 … … ... ... … … 30 
+4.6 Stage 6 … … ... ... … … 30 
+4.7 Stage 7 … … … … … … 30 
+4.8 Stage 8 … … … … … … 30 
+Session 5: Audit Committee ... ... ... ... ... 33 
+5.1 The Need for Audit Committee ... ... … 33   iv 
+5.2 Cadbury Committee Report … … … 33 
+5.3 Membership of an Audit Committee … … 34 
+5.4 Functions/Responsibilities of an Audit Committee 34 
+Session 6: The Agency Theory and Auditing ... … … 37 
+6.1    Agents and Principals … … … … 37 
+6.2    Agency Relationship Conflict     … … … 37 
+6.3    The Application of the Agency Theory to Auditing 38 
+UNIT 2:  REGULATORY FRAMEWORK OF AU
