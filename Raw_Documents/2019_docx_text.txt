@@ -1,0 +1,54 @@
+EXAM CODE 03
+
+SECTION B
+ANSWER TWO QUESTIONS FROM THIS SECTION, QUESTION ONE IS COMPULSORY
+
+Question 1(a)
+
+OGUAA Ltd, a public limited liability company in Ghana, operates in the manufacturing sector. The entity has investments in two other Ghanaian companies. The draft statements of financial position as at 31 December 2019 are as follows:
+
+
+EXAM CODE 03
+Additional information:
+
+i. On 1 January 2018, OGUAA Ltd acquired 14% of the equity interest of ABURA Ltd for a cash consideration of GH₵520 million and PEDU Ltd acquired 70% of the equity interest of ABURA Ltd for a cash consideration of GH₵2,540 million. On that date, the identifiable net assets of ABURA Ltd had a fair value of GH₵1,890 million, retained earnings were GH₵380 million and other components of equity were GH₵104 million.
+At 1 January 2019, the identifiable net assets of ABURA Ltd had a fair value of GH₵2,300 million, retained earnings were GH₵480 million and other components of equity were GH₵140 million. The excess in fair value is due to an item of plant with remaining useful life of three years. The fair value of the 14% holding of OGUAA Ltd in ABURA Ltd, which was classified as fair value through profit or loss, was GH₵560 million at 31 December 2018.
+
+ii. On 1 January 2019, OGUAA Ltd acquired 60% of the equity interests of PEDU Ltd, a public limited liability company in Ghana. The cost of investment comprised cash of GH₵2,500 million. On 1 January 2019, the fair value of the identifiable net assets acquired was GH₵3,900 million and retained earnings of PEDU Ltd were GH₵1,700 million and other component of equity were GH₵110 million. The excess in fair value is due to non-depreciable land. It is the group's policy to measure the non-controlling interest at acquisition at its proportionate share of the fair value of the subsidiary's net assets.
+
+iii. Goodwill of PEDU Ltd and ABURA Ltd were tested for impairment at 31 December 2019 and found that there was no impairment relating to PEDU Ltd. However, 50% of the goodwill of ABURA Ltd was impaired by the reporting date.
+
+iv. The portfolio of equity investments in the books are held for long-term trading and the entity has elected irrevocably to account for changes in fair value through other comprehensive income as provided for under IFRS 9.
+
+EXAM CODE 03
+The fair value of the investment at 31 December 2019 was determined to be GH₵650 million.
+
+Required:
+Prepare the group consolidated statement of financial position of OGUAA Group as at 31 December 2019.                    [14 marks]
+
+Question 1(b)
+On 1 January 2018, Ephron Ltd acquired 18% of the equity shares of Novant Ltd at a cost of GH₵5,000,000. At the date of acquisition, Novant had retained earnings of 7,400,000. No other single shareholder owns more than 5% of Novant Ltd's equity shares and there are no agreements in place for any of the other equity shareholders to collaborate to influence Novant Ltd's operating or financial policies. Ephron Ltd has the right to appoint four of the ten directors of Grace Ltd.
+Novant prepares financial statements to 30 June 2018 and its post-acquisition after tax profit was 2,100,000 and paid dividend of GH₵1,000,000. The investment in Novant Ltd has suffered impairment of 50,000 since acquisition.
+Required: Explain how Ephron Ltd's investment in Novant Ltd should be accounted for and calculate the carrying value to be included in the financial statements at 30 June 2018
+[6 marks]
+[Total = 20 marks]
+
+--- TABLES ---
+STATEMENT OF FINANCIAL POSITION AS AT 31 DECEMBER 2019 | OGUAA GH₵Million | PEDU GH₵Million | ABURA GH₵Million
+Assets |  |  | 
+Non-current assets |  |  | 
+Property plant and equipment | 2,880 | 2,200 | 2,600
+Investment in PEDU Ltd | 2,500 | - | -
+Investment in ABURA Ltd | 560 | 2,540 | -
+Financial assets | 600 | 42 | 282
+ |  |  | 
+Current assets | 1,830 | 1,362 | 300
+Total assets | 8,370 | 6,144 | 3,182
+Equity and Liabilities |  |  | 
+Share capital | 3,500 | 2,420 | 1,600
+Retained earnings | 2,420 | 1,860 | 700
+Other components of equity | 250 | 160 | 190
+ |  |  | 
+Non-current liabilities | 1,970 | 1,530 | 300
+Current liabilities | 230 | 174 | 392
+Total equity and liabilities | 8,370 | 6,144 | 3,182

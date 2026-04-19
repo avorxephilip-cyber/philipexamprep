@@ -1,0 +1,31 @@
+**Working 2: Net Assets of South Ltd**
+*Note: Retained earnings at acquisition (1 April 2023) is calculated by taking the closing retained earnings (GH¢12,000) and subtracting the 6-month post-acquisition profit/loss. South's profit for the year is a loss of (GH¢4,600). The 6-month post-acquisition loss is (GH¢2,300). Therefore, RE at acquisition = 12,000 - (-2,300) = GH¢14,300.*
+| | **At Acquisition (1 Apr 2023)** | **At Reporting (30 Sept 2023)** | **Post-Acquisition Change** |
+| :--- | :--- | :--- | :--- |
+| **Ordinary shares** | 6,000 | 6,000 | - |
+| **Retained earnings** | 14,300 | 12,000 | (2,300) |
+| **Total Net Assets (GH¢'000)** | **22,300** | **19,250** | **(3,050)** |
+
+**b) (ii) Consolidated Statement of Financial Position**
+**Pole Group - As at 30 September 2023**
+
+| **Assets** | **Calculation Reference** | **GH¢'000** |
+| :--- | :--- | :--- |
+| **Non-current assets** | | |
+| Property, Plant and Equipment | 41,000 + 21,000 + 2,000 FV adj - 100 depr | 63,900 |
+| **Current assets** | | |
+| Current assets | 19,000 + 4,800 - 650 PUP | 23,150 |
+| **Total Assets** | | **87,050** |
+| | | |
+| **Equity and Liabilities** | | |
+| **Equity attributable to owners** | | |
+| Ordinary shares | *Parent only* | 30,000 |
+| Retained earnings | *From Working 5* | 29,912.5 |
+| *Total Equity attributable to parent*| | *59,912.5* |
+| Non-controlling interest | *From Working 4* | 2,837.5 |
+| **Total Equity** | | **62,750** |
+| | | |
+| **Liabilities** | | |
+| Current liabilities | 15,000 + 7,800 | 22,800 |
+| Contingent consideration | *Fair value at year-end* | 1,500 |
+| **Total Equity and Liabilities** | | **87,050** |

@@ -1,7 +1,9 @@
 :root {
-  --primary: #10b981; /* Emerald */
+  --primary: #10b981;
+  /* Emerald */
   --primary-dark: #064e3b;
-  --accent: #fbbf24; /* Gold */
+  --accent: #fbbf24;
+  /* Gold */
   --bg-color: #050505;
   --text-main: #f4f4f5;
   --text-muted: #a1a1aa;
@@ -21,7 +23,7 @@ body {
   color: var(--text-main);
   line-height: 1.6;
   overflow-x: hidden;
-  background-image: 
+  background-image:
     radial-gradient(circle at 15% 50%, rgba(16, 185, 129, 0.08), transparent 25%),
     radial-gradient(circle at 85% 30%, rgba(251, 191, 36, 0.05), transparent 25%);
   background-attachment: fixed;
@@ -393,6 +395,7 @@ footer p {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -421,14 +424,18 @@ footer p {
   .hero h1 {
     font-size: 2.5rem;
   }
+
   nav ul {
-    display: none; /* simple mobile nav */
+    display: none;
+    /* simple mobile nav */
   }
+
   .hero-buttons {
     flex-direction: column;
     width: 100%;
     max-width: 300px;
   }
+
   .btn {
     width: 100%;
   }
