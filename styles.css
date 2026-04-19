@@ -56,6 +56,26 @@ header {
   text-decoration: none;
 }
 
+/* Hamburger — hidden on desktop */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 6px;
+  background: none;
+  border: none;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--text-main);
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
 nav ul {
   display: flex;
   list-style: none;
@@ -413,21 +433,83 @@ footer p {
   transform: translateY(0);
 }
 
-/* Responsive */
+/* ===================== */
+/* RESPONSIVE / MOBILE   */
+/* ===================== */
+
+/* Tablet */
 @media (max-width: 900px) {
   .info-section {
     grid-template-columns: 1fr;
   }
+
+  .exams-grid {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.2rem;
+  }
+
+  section {
+    padding: 4rem 5%;
+  }
 }
 
+/* Mobile */
 @media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2.5rem;
+
+  /* Navigation */
+  header {
+    padding: 1rem 5%;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  /* Show hamburger on mobile */
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* Collapsible nav */
+  nav {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+    order: 3;
+  }
+
+  nav.open {
+    max-height: 300px;
   }
 
   nav ul {
-    display: none;
-    /* simple mobile nav */
+    flex-direction: column;
+    gap: 0;
+    padding: 0.5rem 0 1rem;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--glass-border);
+    font-size: 1rem;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 0 5%;
+    padding-top: 100px;
+  }
+
+  .hero h1 {
+    font-size: clamp(1.9rem, 8vw, 2.8rem);
+  }
+
+  .hero p {
+    font-size: 1rem;
   }
 
   .hero-buttons {
@@ -438,5 +520,71 @@ footer p {
 
   .btn {
     width: 100%;
+    text-align: center;
+  }
+
+  /* Sections */
+  section {
+    padding: 3rem 4%;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-header {
+    margin-bottom: 2.5rem;
+  }
+
+  /* Exam Cards — single column */
+  .exams-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .exam-card {
+    padding: 1.5rem 1.2rem;
+  }
+
+  .exam-card h3 {
+    font-size: 1.15rem;
+  }
+
+  /* About / Info cards */
+  .info-card {
+    padding: 1.5rem;
+  }
+
+  .info-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .info-card p {
+    font-size: 0.95rem;
+  }
+
+  /* Quiz Banner */
+  #quiz-banner > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  footer {
+    padding: 2rem 5%;
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .exam-card {
+    padding: 1.2rem 1rem;
   }
 }

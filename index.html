@@ -20,12 +20,15 @@
     <!-- Navigation -->
     <header>
         <a href="#" class="logo">PhilipExamPrep</a>
-        <nav>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <nav id="main-nav">
             <ul>
-                <li><a href="#materials">Exam Resources</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#credits">Credits</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#materials" onclick="closeNav()">Exam Resources</a></li>
+                <li><a href="quiz.html" onclick="closeNav()">Practice Quiz</a></li>
+                <li><a href="#about" onclick="closeNav()">About Me</a></li>
+                <li><a href="#contact" onclick="closeNav()">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -328,6 +331,17 @@
 
     <!-- Main JavaScript -->
     <script src="main.js"></script>
+    <script>
+        // Hamburger menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const mainNav = document.getElementById('main-nav');
+        menuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('open');
+        });
+        function closeNav() {
+            mainNav.classList.remove('open');
+        }
+    </script>
 </body>
 
 </html>
