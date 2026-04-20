@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 Corporate Financial Analysis — Q1 | AA Limited DCF Valuation</title>
+    <meta name="description" content="2025 Corporate Financial Analysis Exam Question 1 — Free Cash Flow Model valuation of AA Limited. Full worked solution with NPV, tax depreciation schedule, and terminal value.">
+    <link rel="stylesheet" href="exam_theme.css">
+</head>
+<body>
+<div class="container">
+
+    <h1>CORPORATE FINANCIAL ANALYSIS — 2025 EXAM</h1>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- QUESTION                                   -->
+    <!-- ═══════════════════════════════════════════ -->
+    <h2>Question 1 (Compulsory)</h2>
+
+    <div class="question-box">
+        <p>
+            AA Limited operates in a highly competitive market and is considering introducing a new product to expand its current range.
+            The new product will require the purchase of a specialised machine costing <strong>GH₵825,000</strong>.
+            The machine has a useful life of <strong>four years</strong> and is expected to have a scrap value at the end of Year 4 of <strong>GH₵50,000</strong>.
+            The company uses the straight-line method of depreciation. The machine would be used exclusively for the new product.
+        </p>
+        <p>
+            Due to a shortage of space in the factory, investment in the new machine would necessitate the disposal, for <strong>GH₵80,000</strong>,
+            of an existing machine which has a net book value of GH₵69,000. This machine, if retained for a further year, would have earned a contribution
+            of <strong>GH₵100,000</strong> before being scrapped for nil value. The machine had a zero-tax written down value and therefore
+            there will be no effect on tax depreciation arising from the disposal of the machine.
+        </p>
+        <p>
+            The company employed the services of a consultant, at a cost of <strong>GH₵120,000</strong>, to determine the demand for the new product.
+        </p>
+        <p>The consultant's estimated demand is given below:</p>
+        <table>
+            <tr><th>Year</th><th>Demand (Units)</th></tr>
+            <tr><td>Year 1</td><td>10,000</td></tr>
+            <tr><td>Year 2</td><td>26,000</td></tr>
+            <tr><td>Year 3</td><td>28,000</td></tr>
+            <tr><td>Year 4</td><td>25,000</td></tr>
+        </table>
+        <p>
+            The new product is expected to earn a contribution of <strong>GH₵50 per unit</strong>.
+            Fixed costs of <strong>GH₵380,000 per annum</strong>, excluding depreciation of the new machine, will arise as a direct result of manufacture.
+            The new machine will attract an additional maintenance fee of <strong>GH₵20,000 each year</strong>.
+        </p>
+        <p><strong>Taxation</strong></p>
+        <ul>
+            <li>Tax depreciation: <strong>20% per annum on the reducing balance</strong>, with a balancing adjustment in the year of disposal.</li>
+            <li>Taxation rate: <strong>30% of taxable profits</strong>. Tax is payable in the year in which it arises.</li>
+        </ul>
+        <p><strong>Other information</strong></p>
+        <ul>
+            <li>Weighted average cost of capital (WACC): <strong>15% per annum</strong></li>
+            <li>Growth rate after the horizon period: <strong>5%</strong></li>
+        </ul>
+        <br>
+        <p><strong>Required:</strong><br>
+        Using the <strong>free cash flow model</strong>, estimate the value of AA Limited. <em>[20 marks]</em></p>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SOLUTION                                   -->
+    <!-- ═══════════════════════════════════════════ -->
+    <h2>Solution to Question 1</h2>
+
+    <div class="solution-box">
+
+        <!-- STEP 1 -->
+        <h3>Step 1 — Identifying Relevant and Irrelevant Costs</h3>
+        <p>Before building the cash flow model, we must apply the golden rule of investment appraisal: <strong>only incremental, future cash flows are relevant.</strong></p>
+        <table>
+            <tr><th>Item</th><th>Treatment</th><th>Reason</th></tr>
+            <tr>
+                <td>Consultant fee — GH₵120,000</td>
+                <td style="color:#f87171; font-weight:600;">EXCLUDED (Sunk Cost)</td>
+                <td>Already paid — cannot be recovered regardless of the decision. Has no bearing on future cash flows.</td>
+            </tr>
+            <tr>
+                <td>Disposal proceeds — GH₵80,000</td>
+                <td style="color:#34d399; font-weight:600;">INCLUDED at T₀ (Inflow)</td>
+                <td>A real incremental cash inflow — only arising because the project is proceeding.</td>
+            </tr>
+            <tr>
+                <td>Tax on disposal gain</td>
+                <td style="color:#34d399; font-weight:600;">INCLUDED at T₀ (Outflow)</td>
+                <td>Gain = GH₵80,000 − GH₵69,000 = GH₵11,000. Tax = 30% × GH₵11,000 = GH₵3,300.</td>
+            </tr>
+            <tr>
+                <td>Lost contribution — GH₵100,000</td>
+                <td style="color:#34d399; font-weight:600;">INCLUDED Year 1 (Opportunity Cost)</td>
+                <td>By disposing of the old machine now, one year's contribution is sacrificed. Treated as a gross incremental cost in Year 1.</td>
+            </tr>
+            <tr>
+                <td>NBV of old machine — GH₵69,000</td>
+                <td style="color:#f87171; font-weight:600;">EXCLUDED</td>
+                <td>A sunk (book) value — not a future cash flow. The disposal proceeds (GH₵80,000) are what matter.</td>
+            </tr>
+        </table>
+
+        <!-- STEP 2 -->
+        <h3>Step 2 — Working 1: Tax on Disposal of Old Machine</h3>
+        <table>
+            <tr><th>Item</th><th>GH₵</th></tr>
+            <tr><td>Disposal proceeds of old machine</td><td>80,000</td></tr>
+            <tr><td>Less: Net Book Value (NBV) of old machine</td><td>(69,000)</td></tr>
+            <tr><td><strong>Gain on disposal</strong></td><td><strong>11,000</strong></td></tr>
+            <tr><td>Tax on gain @ 30%</td><td>(3,300)</td></tr>
+        </table>
+
+        <!-- STEP 3 -->
+        <h3>Step 3 — Working 2: Tax Depreciation Schedule (Reducing Balance @ 20%)</h3>
+        <p>
+            For tax purposes, capital allowances are claimed on the <strong>reducing balance method at 20% per annum</strong> — not the straight-line method used in the management accounts.
+            Tax depreciation drives the taxable profit calculation. In Year 4, a <strong>balancing allowance</strong> is applied:
+            WDV GH₵422,400 − Scrap Value GH₵50,000 = <strong>GH₵372,400</strong>, ensuring full tax relief in the final year.
+        </p>
+        <table>
+            <tr><th>Year</th><th>WDV b/f (GH₵)</th><th>Rate</th><th>Tax Dep. (GH₵)</th><th>WDV c/f (GH₵)</th></tr>
+            <tr><td>Y₁</td><td>825,000</td><td>20%</td><td>165,000</td><td>660,000</td></tr>
+            <tr><td>Y₂</td><td>660,000</td><td>20%</td><td>132,000</td><td>528,000</td></tr>
+            <tr><td>Y₃</td><td>528,000</td><td>20%</td><td>105,600</td><td>422,400</td></tr>
+            <tr><td>Y₄</td><td>422,400</td><td>Bal.</td><td>372,400</td><td>50,000 *</td></tr>
+        </table>
+        <p><em>* GH₵50,000 scrap value appears as a cash inflow in Year 4 of the main schedule.</em></p>
+
+        <!-- STEP 4 -->
+        <h3>Step 4 — Cash Flow Schedule (Income Statement Approach)</h3>
+        <p>The cash flow is computed using the income statement approach: Revenue → PBT → Tax → PAT → Add back non-cash tax depreciation.</p>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>T₀ (GH₵)</th>
+                <th>Year 1 (GH₵)</th>
+                <th>Year 2 (GH₵)</th>
+                <th>Year 3 (GH₵)</th>
+                <th>Year 4 (GH₵)</th>
+            </tr>
+            <tr style="background:rgba(16,185,129,0.06)">
+                <td colspan="6"><strong>Revenue</strong></td>
+            </tr>
+            <tr>
+                <td>Contribution per unit (GH₵/unit)</td>
+                <td>—</td><td>50</td><td>50</td><td>50</td><td>50</td>
+            </tr>
+            <tr>
+                <td>Annual Demand (Units)</td>
+                <td>—</td><td>10,000</td><td>26,000</td><td>28,000</td><td>25,000</td>
+            </tr>
+            <tr style="font-weight:600;">
+                <td>Total Contribution (GH₵)</td>
+                <td>—</td><td>500,000</td><td>1,300,000</td><td>1,400,000</td><td>1,250,000</td>
+            </tr>
+            <tr style="background:rgba(16,185,129,0.06)">
+                <td colspan="6"><strong>Less: Costs</strong></td>
+            </tr>
+            <tr>
+                <td>Lost Contribution — Old Machine (Opportunity Cost)</td>
+                <td>—</td><td>(100,000)</td><td>—</td><td>—</td><td>—</td>
+            </tr>
+            <tr>
+                <td>Fixed Costs</td>
+                <td>—</td><td>(380,000)</td><td>(380,000)</td><td>(380,000)</td><td>(380,000)</td>
+            </tr>
+            <tr>
+                <td>Maintenance Cost</td>
+                <td>—</td><td>(20,000)</td><td>(20,000)</td><td>(20,000)</td><td>(20,000)</td>
+            </tr>
+            <tr>
+                <td>Tax Depreciation — Working 2 (GH₵)</td>
+                <td>—</td><td>(165,000)</td><td>(132,000)</td><td>(105,600)</td><td>(372,400)</td>
+            </tr>
+            <tr style="font-weight:600; background:rgba(251,191,36,0.08);">
+                <td>Profit Before Tax (PBT)</td>
+                <td>—</td><td>(165,000)</td><td>768,000</td><td>894,400</td><td>477,600</td>
+            </tr>
+            <tr>
+                <td>Tax @ 30% × PBT</td>
+                <td>—</td><td>—</td><td>(230,400)</td><td>(268,320)</td><td>(143,280)</td>
+            </tr>
+            <tr style="font-weight:600;">
+                <td>Profit After Tax (PAT)</td>
+                <td>—</td><td>(165,000)</td><td>537,600</td><td>626,080</td><td>334,320</td>
+            </tr>
+            <tr>
+                <td>Add Back: Tax Depreciation (Working 2)</td>
+                <td>—</td><td>165,000</td><td>132,000</td><td>105,600</td><td>372,400</td>
+            </tr>
+            <tr style="background:rgba(16,185,129,0.06)">
+                <td colspan="6"><strong>Capital Items</strong></td>
+            </tr>
+            <tr>
+                <td>Initial Investment — New Machine</td>
+                <td>(825,000)</td><td>—</td><td>—</td><td>—</td><td>—</td>
+            </tr>
+            <tr>
+                <td>Disposal Proceeds — Old Machine</td>
+                <td>80,000</td><td>—</td><td>—</td><td>—</td><td>—</td>
+            </tr>
+            <tr>
+                <td>Tax on Disposal Gain — Working 1</td>
+                <td>(3,300)</td><td>—</td><td>—</td><td>—</td><td>—</td>
+            </tr>
+            <tr>
+                <td>Scrap Value of New Machine (end Year 4)</td>
+                <td>—</td><td>—</td><td>—</td><td>—</td><td>50,000</td>
+            </tr>
+            <tr style="font-weight:700; background:rgba(251,191,36,0.12); font-size:1.05rem;">
+                <td>Total Cash Flow (GH₵)</td>
+                <td>(748,300)</td><td>0</td><td>669,600</td><td>731,680</td><td>756,720</td>
+            </tr>
+        </table>
+        <p><em><strong>Note:</strong> Year 1 nets to zero because the PAT loss of (GH₵165,000) is exactly offset by the add-back of the same tax depreciation figure. No tax is payable in Year 1 as PBT is a loss.</em></p>
+
+        <!-- STEP 5 -->
+        <h3>Step 5 — Net Present Value of Operating Cash Flows</h3>
+        <p>Each year's cash flow is discounted at WACC = 15%. Discount factors: Y0 = 1.0000 | Y1 = 0.8696 | Y2 = 0.7561 | Y3 = 0.6575 | Y4 = 0.5718</p>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Cash Flow (GH₵)</th>
+                <th>Discount Factor @ 15%</th>
+                <th>Present Value (GH₵)</th>
+            </tr>
+            <tr>
+                <td>Year 0 — Initial Investment</td>
+                <td>(748,300)</td><td>1.0000</td><td>(748,300)</td>
+            </tr>
+            <tr>
+                <td>Year 1</td>
+                <td>0</td><td>0.8696</td><td>0</td>
+            </tr>
+            <tr>
+                <td>Year 2</td>
+                <td>669,600</td><td>0.7561</td><td>506,285</td>
+            </tr>
+            <tr>
+                <td>Year 3</td>
+                <td>731,680</td><td>0.6575</td><td>481,080</td>
+            </tr>
+            <tr>
+                <td>Year 4</td>
+                <td>756,720</td><td>0.5718</td><td>432,692</td>
+            </tr>
+            <tr style="font-weight:700; background:rgba(16,185,129,0.12);">
+                <td colspan="3">NPV of Operating Cash Flows</td>
+                <td>671,757</td>
+            </tr>
+        </table>
+
+        <!-- STEP 6 -->
+        <h3>Step 6 — Terminal Value Using the Gordon Growth Model</h3>
+        <p>
+            After the 4-year forecast period, future cash flows are assumed to grow at a perpetual rate of <strong>5%</strong>.
+            The Gordon Growth Model converts this into a single terminal value at the end of Year 4:
+        </p>
+        <div style="background:rgba(251,191,36,0.08); border-left: 4px solid #fbbf24; padding: 1rem 1.2rem; border-radius: 8px; margin: 1rem 0; font-size: 0.95rem;">
+            <strong>Terminal Value = CF₄ × (1 + g) ÷ (r − g)</strong><br><br>
+            = GH₵756,720 × (1 + 0.05) ÷ (0.15 − 0.05)<br>
+            = GH₵756,720 × 1.05 ÷ 0.10<br>
+            = GH₵794,556 ÷ 0.10<br>
+            = <strong>GH₵7,945,560</strong>
+        </div>
+        <table>
+            <tr><th>Item</th><th>GH₵</th></tr>
+            <tr><td>Year 4 Free Cash Flow (CF₄)</td><td>756,720</td></tr>
+            <tr><td>× Growth factor (1 + g) = (1 + 0.05)</td><td>× 1.05</td></tr>
+            <tr><td>÷ Spread (r − g) = (0.15 − 0.05)</td><td>÷ 0.10</td></tr>
+            <tr style="font-weight:600;"><td>Terminal Value (TV) at end of Year 4</td><td>7,945,560</td></tr>
+            <tr><td>× Year 4 Discount Factor @ 15%</td><td>× 0.5718</td></tr>
+            <tr style="font-weight:700; background:rgba(16,185,129,0.12);"><td>Present Value of Terminal Value</td><td>4,543,271</td></tr>
+        </table>
+
+        <!-- STEP 7 -->
+        <h3>Step 7 — Total Value of AA Limited</h3>
+        <table>
+            <tr><th>Component</th><th>GH₵</th></tr>
+            <tr><td>NPV of Operating Cash Flows (Years 0–4)</td><td>671,757</td></tr>
+            <tr><td>Add: Present Value of Terminal Value</td><td>4,543,271</td></tr>
+            <tr style="font-weight:800; background:rgba(16,185,129,0.15); font-size:1.1rem;">
+                <td>VALUE OF AA LIMITED</td><td>5,215,028</td>
+            </tr>
+        </table>
+
+        <h3>Conclusion</h3>
+        <p>
+            Using the Free Cash Flow model, the estimated value of AA Limited is <strong>GH₵5,215,028</strong>.
+            This represents the present value of all future free cash flows the firm is expected to generate, discounted at its WACC of 15%.
+        </p>
+        <ul>
+            <li>The <strong>consultant's fee of GH₵120,000</strong> was correctly excluded as a sunk cost.</li>
+            <li>The <strong>lost contribution of GH₵100,000</strong> was treated as a gross opportunity cost in Year 1.</li>
+            <li>Tax of <strong>GH₵3,300</strong> on the disposal gain of GH₵11,000 was applied at T₀.</li>
+            <li>The <strong>Gordon Growth Model</strong> captured perpetual value beyond Year 4 using a 5% sustainable growth rate.</li>
+        </ul>
+
+        <!-- SUMMARY BOX -->
+        <div style="background:rgba(16,185,129,0.06); border: 1px solid rgba(16,185,129,0.3); border-radius:10px; padding:1.2rem; margin-top:1.5rem;">
+            <strong style="color:#10b981;">Summary of Key Figures</strong><br>
+            T₀ Net Investment: GH₵(748,300) &nbsp;|&nbsp; Year 1 FCF: GH₵0 &nbsp;|&nbsp; Year 2 FCF: GH₵669,600<br>
+            Year 3 FCF: GH₵731,680 &nbsp;|&nbsp; Year 4 FCF: GH₵756,720 &nbsp;|&nbsp; Terminal Value: GH₵7,945,560<br>
+            NPV (Years 0–4): GH₵671,757 &nbsp;|&nbsp; PV of Terminal Value: GH₵4,543,271<br>
+            <strong>VALUE OF AA LIMITED: GH₵5,215,028</strong>
+        </div>
+
+    </div><!-- end solution-box -->
+
+</div><!-- end container -->
+<script src="../security.js"></script>
+</body>
+</html>

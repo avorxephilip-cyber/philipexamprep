@@ -1,0 +1,20 @@
+﻿Question 1(Compulsory)
+AA Limited operates in a highly competitive market and is considering introducing a new product to expand its current range. The new product will require the purchase of a specialised machine costing GHΓé╡825,000. The machine has a useful life of four years and is expected to have a scrap value at the end of Year 4 of GHΓé╡50,000. The company uses the straight-line method of depreciation. The machine would be used exclusively for the new product.
+Due to a shortage of space in the factory, investment in the new machine would necessitate the disposal, for GHΓé╡80,000, of an existing machine which has a net book value of GHΓé╡69,000. This machine, if retained for a further year, would have earned a contribution of GHΓé╡100,000 before being scrapped for nil value. The machine had a zero-tax written down value and therefore there will be no effect on tax depreciation arising from the disposal of the machine.
+The company employed the services of a consultant, at a cost of GHΓé╡120,000, to determine the demand for the new product.
+The consultant's estimated demand is given below:
+Year 1          10,000 units
+Year 2          26,000 units
+Year 3          28,000 units
+Year 4          25,000 units
+The new product is expected to earn a contribution of GHΓé╡50 per unit. Fixed costs of GHΓé╡380,000 per annum, excluding depreciation of the new machine, will arise as a direct result of the manufacture of the new product. The new machine will attract additional maintenance fee of GHΓé╡20,000 each year.
+EXAM CODE 01
+Taxation
+AA's Financial Director has provided the following taxation information:
+Tax depreciation: 20% per annum of the reducing balance, with a balancing adjustment in the year of disposal.
+Taxation rate: 30% of taxable profits. Tax payable in the year in which it arises.
+Other information
+A weighted average cost of capital of 15% per annum is used to evaluate projects of this type.
+The growth rate after the horizon period is 5%.
+REQUIRED
+Using the free cash flow model, estimate the value of AA Limited.    (20 marks)

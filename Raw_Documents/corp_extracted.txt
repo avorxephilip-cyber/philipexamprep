@@ -1,0 +1,127 @@
+﻿=== 2025_Corporate_Financial_Analysis_Q1.docx ===
+Question 1(Compulsory)
+AA Limited operates in a highly competitive market and is considering introducing a new product to expand its current range. The new product will require the purchase of a specialised machine costing GHΓé╡825,000. The machine has a useful life of four years and is expected to have a scrap value at the end of Year 4 of GHΓé╡50,000. The company uses the straight-line method of depreciation. The machine would be used exclusively for the new product.
+Due to a shortage of space in the factory, investment in the new machine would necessitate the disposal, for GHΓé╡80,000, of an existing machine which has a net book value of GHΓé╡69,000. This machine, if retained for a further year, would have earned a contribution of GHΓé╡100,000 before being scrapped for nil value. The machine had a zero-tax written down value and therefore there will be no effect on tax depreciation arising from the disposal of the machine.
+The company employed the services of a consultant, at a cost of GHΓé╡120,000, to determine the demand for the new product.
+The consultant's estimated demand is given below:
+Year 1          10,000 units
+Year 2          26,000 units
+Year 3          28,000 units
+Year 4          25,000 units
+The new product is expected to earn a contribution of GHΓé╡50 per unit. Fixed costs of GHΓé╡380,000 per annum, excluding depreciation of the new machine, will arise as a direct result of the manufacture of the new product. The new machine will attract additional maintenance fee of GHΓé╡20,000 each year.
+EXAM CODE 01
+Taxation
+AA's Financial Director has provided the following taxation information:
+Tax depreciation: 20% per annum of the reducing balance, with a balancing adjustment in the year of disposal.
+Taxation rate: 30% of taxable profits. Tax payable in the year in which it arises.
+Other information
+A weighted average cost of capital of 15% per annum is used to evaluate projects of this type.
+The growth rate after the horizon period is 5%.
+REQUIRED
+Using the free cash flow model, estimate the value of AA Limited.    (20 marks)
+
+=== AA_Lecturer_Solution_v2.docx ===
+AA Limited
+Corporate Financial Analysis ΓÇö Question 1 (Compulsory)
+Free Cash Flow Valuation Model  |  Step-by-Step Solution
+Date: 19 / 04 / 2026
+Introduction & Approach
+AA Limited is considering introducing a new product requiring a specialised machine. We are required to estimate the value of the firm using the Free Cash Flow (FCF) model ΓÇö discounting projected incremental cash flows over a 4-year horizon at the company's Weighted Average Cost of Capital (WACC) of 15%, then applying the Gordon Growth Model to capture value beyond the horizon period.
+The solution follows the income-statement-based approach taught in class: starting from contribution, deducting all relevant costs including tax depreciation, computing Profit Before Tax (PBT), applying the 30% tax charge, and then adding back the non-cash tax depreciation charge to arrive at the true operating cash flow.
+Step 1 ΓÇö Classifying Costs: Relevant vs Irrelevant
+Before any numbers are computed, we must decide which items belong in the cash flow analysis. Only future, incremental cash flows are relevant.
+Irrelevant ΓÇö Excluded:
+Sunk Cost: The consultant's fee of GH┬ó120,000 was incurred before this decision was made. It cannot be recovered whether or not the project goes ahead. It is therefore excluded from all cash flow calculations.
+Accounting Book Value: The net book value (NBV) of the old machine (GH┬ó69,000) is an accounting figure, not a cash flow. It is used only to determine the taxable gain on disposal ΓÇö it does not appear directly in the cash flow table.
+Relevant ΓÇö Included:
+New machine cost (GH┬ó825,000), disposal proceeds of old machine (GH┬ó80,000), lost contribution from old machine (GH┬ó100,000 ΓÇö opportunity cost), ongoing revenue contribution, fixed costs, maintenance fees, taxation, and terminal scrap value (GH┬ó50,000) are all incremental and relevant.
+Step 2 ΓÇö Working 1: Tax Liability on Disposal of Old Machine
+When the old machine is sold, HMRC (or GRA in Ghana's context) taxes any gain made above the tax written-down value. The question states the old machine has a zero tax written-down value ΓÇö meaning the net book value of GH┬ó69,000 represents its accounting value, but for tax purposes the gain is calculated against the disposal proceeds minus the NBV since the question says there is no tax depreciation effect from disposal of the balancing adjustment but there IS a taxable gain on the book profit:
+Key reasoning: The disposal proceeds of GH┬ó80,000 exceed the NBV of GH┬ó69,000 by GH┬ó11,000. This represents a book profit. Taxed at 30%, the company must pay GH┬ó3,300 in tax ΓÇö a cash outflow at TΓéÇ.
+This tax of GH┬ó3,300 is deducted from the disposal proceeds at TΓéÇ. So instead of receiving a net GH┬ó80,000, the company nets GH┬ó76,700 from the disposal transaction ΓÇö and together with the machine purchase of GH┬ó825,000, the TΓéÇ net cash flow is (GH┬ó748,300).
+Step 3 ΓÇö Working 2: Tax Depreciation Schedule (Reducing Balance @ 20%)
+For tax purposes, the company claims capital allowances using the reducing balance method at 20% per annum ΓÇö not the straight-line method used in the management accounts. This is important because tax depreciation determines the taxable profit each year, not the accounting depreciation.
+Why use tax depreciation in the PBT computation? Because we are calculating taxable profit (which determines how much tax is paid in cash), not accounting profit. Tax is a real cash outflow, so we must compute it on the correct basis.
+In Year 4, no regular 20% allowance is taken. Instead, a balancing allowance is computed: the WDV of GH┬ó422,400 minus the scrap value of GH┬ó50,000 = GH┬ó372,400. This ensures all remaining tax value is relieved in the final year.
+* The GH┬ó50,000 scrap value at Year 4 is the residual disposal value ΓÇö it appears as a cash inflow in the main cash flow schedule.
+Step 4 ΓÇö Computation of Cash Flows (Income Statement Approach)
+With both workings complete, we can now build the main cash flow schedule. The lecturer's method builds this as a condensed income statement that converts to cash by adding back the non-cash tax depreciation at the end.
+Key decisions in this table:
+Opportunity Cost (Lost Contribution): The old machine, if kept, would have earned GH┬ó100,000 contribution in Year 1 before being scrapped for nil. By disposing of it now, this contribution is sacrificed. It is therefore an incremental cash cost in Year 1 ΓÇö shown gross (before tax), because the tax effect is automatically captured through the PBT and tax calculation rows below.
+Tax in Year 1: Since PBT in Year 1 is a loss of GH┬ó165,000, no tax is payable. In this approach, a tax-loss company simply pays zero tax ΓÇö the loss is not carried forward for simplicity in this exam model.
+Add Back Tax Depreciation: Once PAT is computed using tax depreciation as a deduction, that same tax depreciation must be added back ΓÇö because it is not a real cash payment. The cash consequence of the asset has already been captured in the initial investment row at TΓéÇ.
+Note: The TΓéÇ column captures three items ΓÇö machine purchase (GH┬ó825,000 outflow), disposal proceeds (GH┬ó80,000 inflow), and tax on disposal (GH┬ó3,300 outflow) ΓÇö giving a net TΓéÇ cash flow of GH┬ó(748,300).
+Note: Year 1 cash flow nets to zero because the PAT loss of (165,000) is exactly offset by the add-back of tax depreciation of 165,000.
+Step 5 ΓÇö Net Present Value of Operating Cash Flows
+Each year's cash flow is discounted at the company's WACC of 15% to bring all values to today's terms (TΓéÇ). The discount factors are derived from the formula 1 ├╖ (1 + 0.15)Γü┐ where n is the year number.
+Discount factors used: Y0 = 1.0000 | Y1 = 0.8696 | Y2 = 0.7561 | Y3 = 0.6575 | Y4 = 0.5718
+The NPV of GH┬ó671,757 represents the net present value of the cash flows generated by the new product investment over the explicit 4-year forecast horizon only. However, the business is assumed to continue beyond Year 4, so we must also capture the value of those future cash flows through the Terminal Value.
+Step 6 ΓÇö Terminal Value Using the Gordon Growth Model
+After the 4-year forecast period, the company is assumed to grow its free cash flows at a steady, perpetual rate of 5% per annum. The Gordon Growth Model (also known as the Dividend Growth Model adapted for firm valuation) converts this perpetual stream into a single value at the end of Year 4.
+Terminal Value  =  CFΓéä  ├ù  (1 + g)  ├╖  (r ΓêÆ g)
+=  756,720  ├ù  (1 + 0.05)  ├╖  (0.15 ΓêÆ 0.05)
+=  756,720  ├ù  1.05  ├╖  0.10
+=  794,556  ├╖  0.10  =  GH┬ó7,945,560
+This terminal value of GH┬ó7,945,560 is a future value ΓÇö it represents the lump sum value of all cash flows from Year 5 onwards, expressed at the end of Year 4. It must therefore be discounted back to today using the Year 4 discount factor of 0.5718.
+Why is the terminal value so large? Because we are capturing the entire future life of the business beyond Year 4 in perpetuity. Even a modest annual cash flow, when grown forever, accumulates to a significant present value.
+Step 7 ΓÇö Total Value of AA Limited
+The total value of the business is the sum of two components: the present value of the near-term (explicit) cash flows captured in the NPV, and the present value of all long-term future cash flows captured in the Terminal Value.
+Value of AA Limited  =  GH┬ó671,757  +  GH┬ó4,543,271  =  GH┬ó5,215,028
+Conclusion
+Using the Free Cash Flow model, the estimated value of AA Limited is GH┬ó5,215,028. This figure represents the present value of all future free cash flows the firm is expected to generate, discounted at its WACC of 15%.
+The analysis correctly excluded the sunk cost consultant's fee (GH┬ó120,000), treated the old machine's lost contribution as a gross opportunity cost in Year 1, computed tax on the disposal gain at TΓéÇ (GH┬ó3,300), and applied the Gordon Growth Model to project perpetual value beyond the 4-year horizon using a sustainable growth rate of 5%.
+Item | GH┬ó | GH┬ó
+Disposal proceeds of old machine | ΓÇö | 80,000
+Less: Net Book Value (NBV) of old machine | ΓÇö | (69,000)
+Gain on disposal | ΓÇö | 11,000
+Tax on gain @ 30%  (GH┬ó11,000 ├ù 30%) | ΓÇö | 3,300
+ | A | B | A ├ù B = C | A ΓêÆ C
+Year | WDV b/f  GH┬ó | Rate | Tax Dep.  GH┬ó | WDV c/f  GH┬ó
+YΓéü | 825,000 | 20% | 165,000 | 660,000
+YΓéé | 660,000 | 20% | 132,000 | 528,000
+YΓéâ | 528,000 | 20% | 105,600 | 422,400
+YΓéä | 422,400 | Bal. | 372,400 | 50,000 *
+Item | TΓéÇ  GH┬ó | Year 1  GH┬ó | Year 2  GH┬ó | Year 3  GH┬ó | Year 4  GH┬ó
+Revenue
+Contribution per unit (GH┬ó/unit) | ΓÇö | 50 | 50 | 50 | 50
+Annual Demand (Units) | ΓÇö | 10,000 | 26,000 | 28,000 | 25,000
+Total Contribution  (GH┬ó) | ΓÇö | 500,000 | 1,300,000 | 1,400,000 | 1,250,000
+Less: Costs
+Loss of Contribution ΓÇö Old Machine (Opportunity Cost) | ΓÇö | (100,000) | ΓÇö | ΓÇö | ΓÇö
+Fixed Costs | ΓÇö | (380,000) | (380,000) | (380,000) | (380,000)
+Maintenance Cost | ΓÇö | (20,000) | (20,000) | (20,000) | (20,000)
+Tax Depreciation ΓÇö Working 2 (GH┬ó) | ΓÇö | (165,000) | (132,000) | (105,600) | (372,400)
+Profit Before Tax (PBT) | ΓÇö | (165,000) | 768,000 | 894,400 | 477,600
+Tax @ 30% ├ù PBT  (payable in year arising) | ΓÇö | ΓÇö | (230,400) | (268,320) | (143,280)
+Profit After Tax (PAT) | ΓÇö | (165,000) | 537,600 | 626,080 | 334,320
+Add Back: Tax Depreciation (Working 2) | ΓÇö | 165,000 | 132,000 | 105,600 | 372,400
+Capital Items
+Initial Investment ΓÇö New Machine | (825,000) | ΓÇö | ΓÇö | ΓÇö | ΓÇö
+Disposal Proceeds ΓÇö Old Machine | 80,000 | ΓÇö | ΓÇö | ΓÇö | ΓÇö
+Tax on Disposal Gain ΓÇö Working 1 | (3,300) | ΓÇö | ΓÇö | ΓÇö | ΓÇö
+Scrap Value of New Machine (end Year 4) | ΓÇö | ΓÇö | ΓÇö | ΓÇö | 50,000
+Total Cash Flow  (GH┬ó) | (748,300) | 0 | 669,600 | 731,680 | 756,720
+Year | Cash Flow  GH┬ó | Discount Factor @ 15% | Present Value  GH┬ó
+Year 0 ΓÇö Initial investment | (748,300) | 1 | (748,300)
+Year 1 | 0 | 0.8696 | 0
+Year 2 | 669,600 | 0.7561 | 506,285
+Year 3 | 731,680 | 0.6575 | 481,080
+Year 4 | 756,720 | 0.5718 | 432,692
+NPV of Operating Cash Flows |  |  | 671,757
+Item | GH┬ó
+Year 4 Free Cash Flow (CFΓéä) | 756,720
+├ù Growth factor  (1 + g)  =  (1 + 0.05) | ├ù 1.05
+├╖ Spread  (r ΓêÆ g)  =  (0.15 ΓêÆ 0.05) | ├╖ 0.10
+Terminal Value (TV) at end of Year 4 | 7,945,560
+├ù Year 4 Discount Factor @ 15% | ├ù 0.5718
+Present Value of Terminal Value | 4,543,271
+Component | GH┬ó
+NPV of Operating Cash Flows (Years 0ΓÇô4) | 671,757
+Add: Present Value of Terminal Value | 4,543,271
+VALUE OF AA LIMITED | 5,215,028
+Summary of Key Figures
+TΓéÇ Net Investment: GH┬ó(748,300)   |   Year 1 FCF: GH┬ó0   |   Year 2 FCF: GH┬ó669,600
+Year 3 FCF: GH┬ó731,680   |   Year 4 FCF: GH┬ó756,720   |   Terminal Value: GH┬ó7,945,560
+NPV (Years 0ΓÇô4): GH┬ó671,757   |   PV of Terminal Value: GH┬ó4,543,271
+VALUE OF AA LIMITED: GH┬ó5,215,028
+
