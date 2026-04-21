@@ -1,9 +1,7 @@
 import os
+import re
 
-def parse_txt_to_html(txt_path, title):
-    with open(txt_path, 'r', encoding='utf-8') as f:
-        lines = f.read().split('\n')
-        
+def create_html(title, sections):
     html = f"""<!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +21,7 @@ def parse_txt_to_html(txt_path, title):
     in_question = False
     in_answer = False
     
-    for line in lines:
+    for line in sections:
         line = line.strip()
         if not line:
             continue
@@ -81,14 +79,43 @@ def parse_txt_to_html(txt_path, title):
 
     return html
 
+def process_file(txt_path):
+    with open(txt_path, 'r', encoding='utf-8') as f:
+        lines = f.read().split('\n')
+        
+    exams = {}
+    current_year = None
+    current_sections = []
+    
+    for line in lines:
+        if "EXAMINATION" in line and "SECTION" in line and not line.startswith("Question") and not line.startswith("Part"):
+            # Try to extract year like "2020", "2020A", "2023C"
+            match = re.search(r'(202[0-9][A-Z]?)\s+EXAMINATION', line)
+            if match:
+                if current_year:
+                    exams[current_year] = current_sections
+                current_year = match.group(1)
+                current_sections = [line]
+                continue
+        if current_year:
+            current_sections.append(line)
+            
+    if current_year:
+        exams[current_year] = current_sections
+        
+    for year, sections in exams.items():
+        title = f"{year} Entrepreneurship Exam Solutions"
+        out_file = f"exams/{year}_Entrepreneurship_ExamSolution.html"
+        html_content = create_html(title, sections)
+        with open(out_file, "w", encoding="utf-8") as f:
+            f.write(html_content)
+        print(f"Generated {out_file}")
+
 files_to_process = [
-    ("Raw_Documents/Entrepreneurship_2020-2022Exam_Answers.txt", "2020-2022 Entrepreneurship Exam Solutions", "exams/2020_2022_Entrepreneurship_ExamSolution.html"),
-    ("Raw_Documents/Entrepreneurship_2023_Answers.txt", "2023 Entrepreneurship Exam Solutions", "exams/2023_Entrepreneurship_ExamSolution.html"),
-    ("Raw_Documents/Entrepreneurship_2024_2025_Answers.txt", "2024-2025 Entrepreneurship Exam Solutions", "exams/2024_2025_Entrepreneurship_ExamSolution.html")
+    "Raw_Documents/Entrepreneurship_2020-2022Exam_Answers.txt",
+    "Raw_Documents/Entrepreneurship_2023_Answers.txt",
+    "Raw_Documents/Entrepreneurship_2024_2025_Answers.txt"
 ]
 
-for txt_file, title, out_file in files_to_process:
-    html_content = parse_txt_to_html(txt_file, title)
-    with open(out_file, "w", encoding="utf-8") as f:
-        f.write(html_content)
-    print(f"Generated {out_file}")
+for txt_file in files_to_process:
+    process_file(txt_file)
