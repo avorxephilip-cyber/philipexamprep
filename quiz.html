@@ -444,6 +444,14 @@
         <p>Choose your course and difficulty. Test your knowledge!</p>
     </div>
 
+    
+    <div class="section-label">Special Trial</div>
+    <div style="margin-bottom: 2rem;">
+        <button onclick="startExamTrial()" style="width: 100%; padding: 1.2rem; border-radius: 12px; background: linear-gradient(135deg, var(--gold), #d97706); color: #000; font-family: 'Inter', sans-serif; font-size: 1.1rem; font-weight: 800; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3); transition: transform 0.2s;">
+            🎯 Advance Financial Reporting Pasco 2025 Trial
+        </button>
+    </div>
+
     <div class="section-label">Select Course(s)</div>
     <div class="course-grid" id="course-grid">
         <div class="course-card" data-course="audit" onclick="toggleCourse(this)">
@@ -525,6 +533,12 @@
         <div class="timer-num" id="timer-num">30</div>
     </div>
 
+    
+    <div class="preamble-box" id="preamble-box" style="display:none; background: var(--surface-2); border-left: 4px solid var(--gold); padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem; font-style: italic; color: #d4d4d8; font-size: 0.95rem; line-height: 1.6;">
+        <div style="font-weight: bold; color: var(--gold); margin-bottom: 0.5rem; font-size: 0.8rem; text-transform: uppercase;">Scenario / Preamble</div>
+        <div id="preamble-text"></div>
+    </div>
+
     <div class="question-card">
         <div class="question-text" id="question-text">Loading...</div>
     </div>
@@ -580,6 +594,30 @@ let bestStreak = 0;
 let timerInterval = null;
 let timeLeft = 0;
 let answered = false;
+
+let isExamTrial = false;
+
+function startExamTrial() {
+    isExamTrial = true;
+    selectedTimer = 0; // No limit for trial usually, or maybe 60s? Let's use whatever is selected or no limit
+    // Actually, let's just use what they selected in the timer grid
+    lastConfig = { courses: ['acc402d'], timer: selectedTimer, trial: true };
+    
+    // Select ALL 20 questions in order
+    if (QUIZ_DATA['acc402d']) {
+        questions = [...QUIZ_DATA['acc402d'].questions];
+    } else {
+        alert("Trial data not loaded!");
+        return;
+    }
+    
+    currentQ = 0; score = 0; streak = 0; bestStreak = 0;
+    document.getElementById('lobby').style.display = 'none';
+    document.getElementById('results').style.display = 'none';
+    document.getElementById('quiz').style.display = 'block';
+    renderQuestion();
+}
+
 let lastConfig = { courses: [], timer: 30 };
 
 // ---- LOBBY ----
@@ -645,7 +683,8 @@ function buildQuestions() {
 }
 
 function startQuiz() {
-    lastConfig = { courses: [...selectedCourses], timer: selectedTimer };
+    isExamTrial = false;
+    lastConfig = { courses: [...selectedCourses], timer: selectedTimer, trial: false };
     questions = buildQuestions();
     currentQ = 0; score = 0; streak = 0; bestStreak = 0;
     document.getElementById('lobby').style.display = 'none';
@@ -667,6 +706,14 @@ function renderQuestion() {
     document.getElementById('streak-pill').textContent = `\uD83D\uDD25 Streak: ${streak}`;
     document.getElementById('progress-fill').style.width = `${(currentQ / total) * 100}%`;
     document.getElementById('question-text').textContent = q.q;
+
+    if (q.preamble && q.preamble.trim() !== '') {
+        document.getElementById('preamble-box').style.display = 'block';
+        document.getElementById('preamble-text').textContent = q.preamble;
+    } else {
+        document.getElementById('preamble-box').style.display = 'none';
+    }
+
 
     // Options
     const grid = document.getElementById('options-grid');
@@ -722,7 +769,7 @@ function autoFail() {
         btn.disabled = true;
         if (i === q.answer) btn.classList.add('correct');
     });
-    showExplanation(q.explanation);
+    if(q.explanation) { showExplanation(q.explanation); }
     document.getElementById('next-btn').style.display = 'block';
 }
 
@@ -738,14 +785,21 @@ function selectAnswer(selected, btn) {
         score++;
         streak++;
         if (streak > bestStreak) bestStreak = streak;
+        document.getElementById('score-pill').textContent = `Score: ${score}`;
+        document.getElementById('streak-pill').textContent = `\uD83D\uDD25 Streak: ${streak}`;
+        
+        // Auto move on if right
+        setTimeout(() => {
+            nextQuestion();
+        }, 800);
     } else {
         btn.classList.add('wrong');
         streak = 0;
+        document.getElementById('score-pill').textContent = `Score: ${score}`;
+        document.getElementById('streak-pill').textContent = `\uD83D\uDD25 Streak: ${streak}`;
+        if(q.explanation) { showExplanation(q.explanation); }
+        document.getElementById('next-btn').style.display = 'block';
     }
-    document.getElementById('score-pill').textContent = `Score: ${score}`;
-    document.getElementById('streak-pill').textContent = `\uD83D\uDD25 Streak: ${streak}`;
-    showExplanation(q.explanation);
-    document.getElementById('next-btn').style.display = 'block';
 }
 
 function showExplanation(text) {
@@ -803,7 +857,11 @@ function showLobby() {
 }
 
 function restartSame() {
-    questions = buildQuestions();
+    if (lastConfig && lastConfig.trial) {
+        questions = [...QUIZ_DATA['acc402d'].questions];
+    } else {
+        questions = buildQuestions();
+    }
     currentQ = 0; score = 0; streak = 0; bestStreak = 0;
     document.getElementById('results').style.display = 'none';
     document.getElementById('quiz').style.display = 'block';

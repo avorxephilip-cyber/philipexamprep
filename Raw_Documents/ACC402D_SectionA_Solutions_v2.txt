@@ -1,0 +1,221 @@
+
+UNIVERSITY OF CAPE COAST
+College of Distance Education
+ACC402D: Advanced Financial Reporting II
+End of Semester II Examinations — 2024/2025
+SECTION A — MODEL ANSWERS & WORKED SOLUTIONS
+Philip Yesutor Avorxe  |  BSc Cyber Security & Forensic Computing, University of Portsmouth
+All 20 questions answered with full workings, highlighted correct options, and explanations
+
+SHARED SCENARIO FOR QUESTIONS 1 AND 2
+Premier has owned 90% of Sweed for many years. During the year, Sweed sold goods to Premier for GH₵12,000,000. These goods had originally cost Sweed GH₵8,000,000. Premier sold 60% of these goods by the year-end. The cost of sales figures for the two companies were as follows: Premier GH₵35,000,000, Sweed GH₵20,000,000.
+Question 1   |   Unrealised Profit on Intragroup Sale
+
+THE QUESTION
+The unrealised profit on the sale is calculated as ____________.
+
+
+SOLUTION — ANSWER: D
+WORKINGS
+
+Sweed is a subsidiary selling upstream to Premier (parent). Only unsold goods give rise to unrealised profit because the group has not yet recognised that profit externally. 40% of goods remain in Premier’s closing inventory, so 40% of the GH₵4M profit = GH₵1,600,000 is unrealised and must be eliminated on consolidation.
+Question 2   |   Consolidated Cost of Sales — Premier & Sweed
+
+THE QUESTION
+At what value will cost of sales appear in the consolidated statement of profit or loss?
+
+
+SOLUTION — ANSWER: C
+WORKINGS
+
+In consolidation, intragroup transactions are fully eliminated. Sweed’s GH₵12M sale to Premier is removed. However, the URP of GH₵1.6M must be added back to COS because it inflates the inventory value sitting in Premier’s books — the group’s COS must reflect the true cost of goods still held.
+Question 3   |   Cost of Investment — Paapa Ltd / Maami Ltd
+
+THE QUESTION
+Paapa Ltd acquired 80% of the ordinary share capital of Maami Ltd on 30 August 2024. On 31 December 2024, the share capital and retained earnings of Maami Ltd were as follows:
+
+
+The profit for Maami Ltd has accrued evenly throughout 2024 and non-controlling interest is measured at fair value of GH₵600,000. Bargain purchase arising on acquisition of Maami Ltd was GH₵300,000. What was the cost of the investment in Maami Ltd?
+
+
+SOLUTION — ANSWER: D
+WORKINGS
+Acquisition date: 30 August 2024. Profit accrues evenly → time-apportion to acquisition (8 months out of 12).
+
+
+Using the goodwill formula:   Goodwill = Cost of Investment + NCI − Net Assets at Acquisition
+A bargain purchase means Goodwill is negative, i.e. Goodwill = −GH₵300,000
+
+SHARED SCENARIO FOR QUESTIONS 4 AND 5
+Tinda is a parent and also holds a 40% investment in Bruce at GH₵3,600,000, measured at cost in the individual financial statement on 1 January 2020. On that date, share capital and retained earnings of Bruce were GH₵4,000,000 and GH₵3,040,000 respectively. A further 20% of shares were acquired on 1 January 2024 in Bruce for GH₵2,800,000. On this date, the fair value of the existing holding in Bruce was GH₵4,200,000 and the retained earnings were GH₵4,000,000. Non-controlling interest is measured using proportion of net assets method. The fair value of Bruce’s net assets on 1 January 2024 was GH₵8,000,000.
+Question 4   |   Fair Value Gain on Step Acquisition — Tinda / Bruce
+
+THE QUESTION
+The fair value gain on the 40% original investment to be recognised in consolidated statement of profit or loss on 1 January 2024 is:
+
+
+SOLUTION — ANSWER: C
+WORKINGS
+When Tinda acquires an additional 20% to achieve control (step acquisition), the pre-existing 40% associate interest is remeasured to fair value at the acquisition date. The resulting gain is recognised in consolidated profit or loss (IFRS 3).
+
+Question 5   |   Goodwill on Step Acquisition — Tinda / Bruce
+
+THE QUESTION
+The value of goodwill on 1 January 2024 is calculated as _________.
+
+
+SOLUTION — ANSWER: B
+WORKINGS
+NCI is measured using proportion of net assets. Total post-acquisition interest = 60%; NCI = 40% × GH₵8,000,000 = GH₵3,200,000.
+
+Question 6   |   Capital Maintenance Concept
+
+THE QUESTION
+Which capital maintenance concept focuses on maintaining productive capacity? __________ concept.
+
+
+SOLUTION — ANSWER: D
+Physical capital maintenance defines profit only after ensuring the entity can maintain the same physical productive capacity (i.e., volume of goods/services produced). Financial capital maintenance, by contrast, focuses on maintaining the monetary value of net assets. Options A and C are not recognised capital maintenance concepts under the IASB Conceptual Framework.
+SHARED SCENARIO FOR QUESTIONS 7, 8 AND 9
+A company bought an item of plant on 30 June 2019 at a cost of GH₵400,000. Its expected useful life was ten years, with a nil value at the end. An identical model of plant is no longer available, but the following specific price indices are considered suitable: 30 June 2019 — Index = 132; 31 December 2024 — Index = 195.
+Question 7   |   Gross Replacement Cost at 31 December 2024
+
+THE QUESTION
+The gross replacement cost at 31 December 2024 would be ______.
+
+
+SOLUTION — ANSWER: C
+WORKINGS
+
+Under Current Cost Accounting (CCA), assets are restated to their current replacement cost using specific price indices. The gross replacement cost is the full cost to replace the asset at current prices, before deducting depreciation.
+Question 8   |   Accumulated Depreciation on Gross Replacement Cost
+
+THE QUESTION
+The accumulated depreciation on the gross replacement cost at 31 December 2024 would be ____________.
+
+
+SOLUTION — ANSWER: B
+WORKINGS
+Asset purchased 30 June 2019. Reporting date: 31 December 2024. Age = 5 years and 6 months = 5.5 years.
+
+Question 9   |   Net Replacement Cost at 31 December 2024
+
+THE QUESTION
+The net replacement cost at 31 December 2024 would be ________.
+
+
+SOLUTION — ANSWER: D
+WORKINGS
+SHARED SCENARIO FOR QUESTIONS 10, 11 AND 12
+The following are extracts from the group statement of financial position of Kayla as at 31 December: Inventory — 2024: GH₵1,500,000; 2023: GH₵1,100,000. Receivables — 2024: GH₵900,000; 2023: GH₵1,250,000. Payables — 2024: GH₵1,950,000; 2023: GH₵1,700,000. During 2024, Jak was acquired (Inventory: GH₵105,000; Receivables: GH₵160,000; Payables: GH₵180,000) and all shares in Bob were disposed of (Inventory: GH₵130,000; Receivables: GH₵140,000; Payables: GH₵120,000).
+Question 10   |   Movement in Inventories — Group Cash Flows
+
+THE QUESTION
+Calculate the movement in inventories, for inclusion in the group statement of cash flows.
+
+
+SOLUTION — ANSWER: D
+WORKINGS
+For group cash flows, working capital movements are adjusted to exclude balances of subsidiaries acquired or disposed of during the year (these are shown separately as investing activities).
+
+Question 11   |   Movement in Receivables — Group Cash Flows
+
+THE QUESTION
+Calculate the movement in receivables and for inclusion in the group statement of cash flows.
+
+
+SOLUTION — ANSWER: D
+WORKINGS
+Question 12   |   Movement in Payables — Group Cash Flows
+
+THE QUESTION
+Calculate the movement in payables for inclusion in the group statement of cash flows.
+
+
+SOLUTION — ANSWER: A
+WORKINGS
+Question 13   |   Price Level Changes & Historical Cost Accounting
+
+THE QUESTION
+Which of the following statements is TRUE in a period of upward price level changes?
+
+
+SOLUTION — ANSWER: C
+In a period of rising prices, owing money (monetary liabilities) becomes advantageous because you repay with money of lower real value than when borrowed. This real gain is called a net holding gain on monetary items and it arises when monetary liabilities exceed monetary assets.
+Why the other options are wrong:
+A: HCA actually OVERSTATES profit because depreciation is based on lower historical cost, not the higher replacement cost of the asset consumed.
+B: Holding MORE monetary assets than liabilities in a period of inflation causes a LOSS in real value, not a gain.
+D: HCA depreciation is LOWER than the fair value of asset usage (since cost is lower than current value), not higher.
+Question 14   |   Consolidation — Entity A, B and C (Preference Shares)
+
+THE QUESTION
+Entity A has 80% preference shares in Entity B: Entity A has 40% equity shares in Entity C and Entity B has 30% equity shares in Entity C. Entity A controls both entities B and C and must therefore consolidate both entities.
+
+
+SOLUTION — ANSWER: B (TRUE)
+The statement asserts that Entity A controls both B and C. Under IFRS 10, control depends on power over the investee, exposure to variable returns, and ability to use that power to affect those returns. Preference shares can confer control where they carry voting rights or other mechanisms. The question explicitly states control exists, so consolidation of both entities is required. The statement is TRUE.
+Question 15   |   Effective Interest in Entity C — Is the 70% Claim Correct?
+
+THE QUESTION
+Entity A has 40% equity shares in Entity B: Entity A has 40% equity shares in Entity C and Entity B has 30% equity shares in Entity C. Entity A controls entity C with total of 70% equity shares and must therefore consolidate Entity A.
+
+
+SOLUTION — ANSWER: B (FALSE)
+The statement contains TWO errors:
+Error 1 — Wrong percentage: Entity A’s effective interest in C is NOT 70%. The correct calculation is:
+
+
+Error 2 — Wrong entity named: The statement says Entity A ‘must consolidate Entity A’ which is nonsensical. It should say Entity A must consolidate Entity C. The statement is therefore FALSE.
+Question 16   |   NCI Dividend — WAGIM Group
+
+THE QUESTION
+The following information has been extracted from the consolidated financial statements of WAGIM:
+
+
+The dividend paid to non-controlling interest is:
+
+
+SOLUTION — ANSWER: B
+WORKINGS
+NCI dividends reduce the NCI balance. We reconcile the NCI movement:
+
+Question 17   |   Dividend Received from Associate
+
+THE QUESTION
+Given an entity’s share of associate’s profit after tax for the year to 31 December 2023 and 2024 as GH₵28,000 and GH₵30,000: Investment in associate balance for 2023 and 2024 as GH₵264,000 and GH₵276,000 respectively, the dividend received for the year to 31 December 2024 is calculated as ____________
+
+
+SOLUTION — ANSWER: A
+WORKINGS
+The investment in associate account is maintained under the equity method:
+Opening balance + Share of profit − Dividend received = Closing balance
+
+Question 18   |   Definition of Historical Cost Accounting (HCA)
+
+THE QUESTION
+Under Historical Cost Accounting (HCA), assets are recorded at the amounts at which they are acquired and liabilities at the amount at which they are contracted with a revision to reflect changes in their monetary value.
+
+
+SOLUTION — ANSWER: B (FALSE)
+The statement is FALSE. Under HCA, assets ARE recorded at original acquisition cost and liabilities at the contracted amount — that part is correct. However, the statement adds “with a revision to reflect changes in their monetary value” which is INCORRECT. HCA does NOT revise values for changes in purchasing power or price levels. That feature belongs to current value methods such as CPP or CCA.
+Question 19   |   CPP vs CCA — Key Distinction
+
+THE QUESTION
+The main difference between Current Purchasing Power (CPP) method and Current Cost Accounting (CCA) method is that CPP accounts for the effects of general price changes in goods and services whiles CCA accounts for the effects of specific price change in assets and liabilities in the underlying financial statements.
+
+
+SOLUTION — ANSWER: A (TRUE)
+The statement is TRUE and correctly captures the core distinction: CPP uses a general price index (such as CPI) to restate all items uniformly, reflecting changes in general purchasing power. CCA, on the other hand, uses specific price indices relevant to each individual asset or liability held by the entity. This means CCA provides more entity-specific information about the cost of maintaining operating capacity.
+Question 20   |   Environmental Expenditure as an Asset
+
+THE QUESTION
+If environmental expenditure provides access to future economic benefits, it meets the IASB’s definition of an asset. It would normally be capitalised and depreciated over the useful life of the asset.
+
+
+SOLUTION — ANSWER: A (TRUE)
+The statement is TRUE. Under the IASB Conceptual Framework, an asset is a present economic resource controlled by the entity as a result of past events from which future economic benefits are expected to flow. If environmental expenditure (e.g., pollution-control equipment, site restoration infrastructure) creates or gives access to future economic benefits, it satisfies this definition. It should be recognised as an asset on the balance sheet and depreciated over its useful economic life.
+
+SECTION A — ANSWER SUMMARY
+
+
+Prepared by Claude (Anthropic) for academic study — ACC402D Advanced Financial Reporting II, UCC 2024/2025
