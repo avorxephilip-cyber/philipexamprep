@@ -1,454 +1,511 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Philip Exam Prep | Multi-Course Excellence</title>
-    <meta name="description"
-        content="Premium exam preparation resources across multiple courses. Access complete solutions, study guides, and comprehensive exam walk-throughs curated by Philip.">
-    <!-- Google Fonts for premium typography -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
-</head>
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Philip Exam Prep | Multi-Course Excellence</title>
+<meta content="Premium exam preparation resources across multiple courses. Access complete solutions, study guides, and comprehensive exam walk-throughs curated by Philip." name="description"/>
+<!-- Google Fonts for premium typography -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Main Stylesheet -->
+<link href="styles.css" rel="stylesheet"/>
+<link href="favicon.ico" rel="icon" type="image/x-icon"/><meta content="Philip Exam Prep | UCC BCom Excellence" property="og:title"/><meta content="Premium exam preparation resources across multiple courses tailored for University of Cape Coast (UCC) students." property="og:description"/></head>
 <body>
-
-    <!-- Navigation -->
-    <header>
-        <a href="#" class="logo">PhilipExamPrep</a>
-        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
-            <span></span><span></span><span></span>
-        </button>
-        <nav id="main-nav">
-            <ul>
-                <li><a href="#materials" onclick="closeNav()">Exam Resources</a></li>
-                <li><a href="quiz.html" onclick="closeNav()">Practice Quiz</a></li>
-                <li><a href="#about" onclick="closeNav()">About Me</a></li>
-                <li><a href="#contact" onclick="closeNav()">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-badge">Welcome to the Hub</div>
-        <h1>Master Your Exams Across <span>Multiple Courses</span></h1>
-        <p>Comprehensive solutions, beautifully presented. Dive into an elite archive of exam materials spanning
-            multiple courses designed to give you the competitive edge in your studies.</p>
-        <div class="hero-buttons">
-            <a href="#materials" class="btn btn-primary">Explore Solutions</a>
-            <a href="#about" class="btn btn-secondary">Learn More</a>
-        </div>
-    </section>
-
-    <!-- Quiz Banner -->
-    <section id="quiz-banner" style="padding: 1.5rem 2rem; background: linear-gradient(135deg, rgba(16,185,129,0.08), rgba(251,191,36,0.05)); border-top: 1px solid rgba(16,185,129,0.2); border-bottom: 1px solid rgba(16,185,129,0.2);">
-        <div style="max-width: 900px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
-            <div>
-                <div style="font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase; color: #10b981; font-weight: 600; margin-bottom: 0.3rem;">New Feature</div>
-                <div style="font-size: 1.15rem; font-weight: 700; color: #e4e4e7;">&#127918; Practice Quiz Mode</div>
-                <div style="font-size: 0.88rem; color: #71717a; margin-top: 0.2rem;">Test yourself on Auditing, Project Management &amp; Financial Reporting with instant feedback.</div>
-            </div>
-            <a href="quiz.html" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.65rem 1.4rem; border-radius: 10px; background: linear-gradient(135deg, #10b981, #059669); color: white; text-decoration: none; font-weight: 700; font-size: 0.92rem; white-space: nowrap; box-shadow: 0 4px 16px rgba(16,185,129,0.3);">
-                Start Playing &rarr;
+<!-- Navigation -->
+<header>
+<a class="logo" href="#">PhilipExamPrep</a>
+<button aria-label="Toggle navigation" class="menu-toggle" id="menu-toggle">
+<span></span><span></span><span></span>
+</button>
+<nav id="main-nav">
+<ul>
+<li><a href="#materials" onclick="closeNav()">Exam Resources</a></li>
+<li><a href="quiz.html" onclick="closeNav()">Practice Quiz</a></li>
+<li><a href="#about" onclick="closeNav()">About Me</a></li>
+<li><a href="#contact" onclick="closeNav()">Contact</a></li>
+</ul>
+</nav>
+</header>
+<!-- Hero Section -->
+<section class="hero" id="home">
+<div class="hero-badge">Welcome to the Hub</div>
+<h1>Master Your UCC BCom Exams Across <span>Multiple Courses</span></h1>
+<p>Past exam solutions, model answers, and practice quizzes for Auditing, Financial Reporting, Entrepreneurship, Project Management, and more. Tailored for University of Cape Coast (UCC) students.</p>
+<div class="hero-stats" style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 2rem; transform: translateY(20px); opacity: 0; animation: fadeUp 0.8s ease forwards 0.7s;"><div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 0.5rem 1rem; border-radius: 50px; font-size: 0.9rem; font-weight: 600;">📚 25+ Solutions Available</div><div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 0.5rem 1rem; border-radius: 50px; font-size: 0.9rem; font-weight: 600;">🎓 6 Courses Covered</div></div><div class="hero-buttons">
+<a class="btn btn-primary" href="#materials">Explore Solutions</a>
+<a class="btn btn-secondary" href="#about">Learn More</a>
+</div>
+</section>
+<!-- Quiz Banner -->
+<section id="recently-updated" style="padding-top: 2rem; padding-bottom: 2rem;">
+<div class="section-header" style="margin-bottom: 2rem;">
+<h2 class="section-title" style="font-size: 2rem;">Recently <span>Updated</span></h2>
+</div>
+<div class="exams-grid" id="recent-grid">
+<!-- Cards will be cloned here -->
+<a class="exam-card" data-course="Auditing" data-year="2026" href="exams/2026_Campus_Exam_Audit.html" style=" opacity: 0.7;">
+<span class="exam-badge">New</span>
+<div class="exam-icon">📄</div>
+<h3>2026 Campus Audit Exam</h3>
+<p>Ethics, sampling, evidence &amp; internal review answers. <br/><br/><a class="notify-btn" href="mailto:avorxephilip@gmail.com?subject=Notify me when 2026 Campus Audit Exam is ready">🔔 Notify me when ready</a></p>
+<div class="exam-year">26</div>
+</a><a class="exam-card" data-course="Auditing" data-year="2025" href="exams/2025_Auditing_ExamSolution.html">
+<div class="exam-icon">📄</div>
+<h3>2025 Exam Solutions</h3>
+<p>Latest comprehensive answers covering ISAs, Statutory Audits, and internal controls.</p>
+<div class="exam-year">25</div>
+</a><a class="exam-card" data-course="Entrepreneurship" data-year="2025" href="exams/2025_Entrepreneurship_ExamSolution.html">
+<span class="exam-badge">Latest</span>
+<div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">💡</div>
+<h3>2025 Entrepreneurship</h3>
+<p>Complete solutions and case studies for the 2025 Entrepreneurship exam.</p>
+<div class="exam-year" style="font-size: 1.8rem;">2025</div>
+</a><a class="exam-card" data-course="Corporate Financial Analysis" data-year="2025" href="exams/2025_Corporate_Financial_Analysis_Q1.html">
+<span class="exam-badge">New</span>
+<div class="exam-icon" style="color:#f472b6; border-color:rgba(244,114,182,0.3); background:rgba(244,114,182,0.08);">📄</div>
+<h3>2025 Corporate Financial Analysis — Q1</h3>
+<p>AA Limited — Free Cash Flow Model: Full question &amp; step-by-step solution. NPV, Tax Depreciation Schedule &amp; Terminal Value (Gordon Growth Model).</p>
+<div class="exam-year" style="font-size: 2rem;">25</div>
+</a></div>
+</section>
+<section id="quiz-banner" style="padding: 1.5rem 2rem; background: linear-gradient(135deg, rgba(16,185,129,0.08), rgba(251,191,36,0.05)); border-top: 1px solid rgba(16,185,129,0.2); border-bottom: 1px solid rgba(16,185,129,0.2);">
+<div style="max-width: 900px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+<div>
+<div style="font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase; color: #10b981; font-weight: 600; margin-bottom: 0.3rem;">New Feature</div>
+<div style="font-size: 1.15rem; font-weight: 700; color: #e4e4e7;">🎮 Practice Quiz Mode</div>
+<div style="font-size: 0.88rem; color: #71717a; margin-top: 0.2rem;">Test yourself on Auditing, Project Management &amp; Financial Reporting with instant feedback.</div>
+</div>
+<a href="quiz.html" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.65rem 1.4rem; border-radius: 10px; background: linear-gradient(135deg, #10b981, #059669); color: white; text-decoration: none; font-weight: 700; font-size: 0.92rem; white-space: nowrap; box-shadow: 0 4px 16px rgba(16,185,129,0.3);">
+                Start Playing →
             </a>
-        </div>
-    </section>
-
-    <!-- Exam Materials Grid -->
-    <section id="materials">
-        <div class="section-header">
-            <h2 class="section-title">Course <span>Materials</span></h2>
-            <p class="section-subtitle">Select a module below to view the latest solutions and study materials.</p>
-        </div>
-
-        <h3
-            style="color: var(--primary); margin-bottom: 2rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">
+</div>
+</section>
+<!-- Exam Materials Grid -->
+<section id="materials">
+<div class="section-header">
+<h2 class="section-title">Course <span>Materials</span></h2>
+<p class="section-subtitle">Select a module below to view the latest solutions and study materials.</p>
+</div>
+<div class="filter-section" id="filter-bar" style="margin-bottom: 3rem; background: var(--glass-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--glass-border); position: sticky; top: 80px; z-index: 90; backdrop-filter: blur(15px);">
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between;">
+<div style="flex: 1; min-width: 250px;">
+<input id="search-input" placeholder="🔍 Search solutions by title or keyword..." style="width: 100%; padding: 0.8rem 1rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.5); color: #fff; font-family: 'Inter', sans-serif;" type="text"/>
+</div>
+<div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+<select id="year-filter" style="padding: 0.8rem 1rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.5); color: #fff; font-family: 'Inter', sans-serif;">
+<option value="all">All Years</option>
+<option value="2026">2026</option>
+<option value="2025">2025</option>
+<option value="2024">2024</option>
+<option value="2023">2023</option>
+<option value="2022">2022</option>
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+</select>
+<button class="btn btn-secondary" id="clear-filters" style="padding: 0.8rem 1.5rem;">Clear Filters</button>
+</div>
+</div>
+<div id="course-chips" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem;">
+<button class="chip active" data-filter="all">All Courses</button>
+<button class="chip" data-filter="Auditing">Auditing</button>
+<button class="chip" data-filter="Intro to Project Management">Project Management</button>
+<button class="chip" data-filter="Advanced Financial Reporting">Adv. Financial Reporting</button>
+<button class="chip" data-filter="Corporate Financial Analysis">Corporate Finance</button>
+<button class="chip" data-filter="Entrepreneurship">Entrepreneurship</button>
+<button class="chip" data-filter="Investment Management">Investment Management</button>
+</div>
+</div>
+<h3 style="color: var(--primary); margin-bottom: 2rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">
             Auditing</h3>
-        <div class="exams-grid" style="margin-bottom: 5rem;">
-            <!-- 2026 Campus Audit -->
-            <a href="exams/2026_Campus_Exam_Audit.html" class="exam-card">
-                <span class="exam-badge">New</span>
-                <div class="exam-icon">&#x1F4C4;</div>
-                <h3>2026 Campus Audit Exam</h3>
-                <p>Ethics, sampling, evidence &amp; internal review answers. Awaiting solution.</p>
-                <div class="exam-year">26</div>
-            </a>
-
-            <!-- 2025 -->
-            <a href="exams/2025_Auditing_ExamSolution.html" class="exam-card">
-                <div class="exam-icon">&#x1F4C4;</div>
-                <h3>2025 Exam Solutions</h3>
-                <p>Latest comprehensive answers covering ISAs, Statutory Audits, and internal controls.</p>
-                <div class="exam-year">25</div>
-            </a>
-
-            <!-- 2024 -->
-            <a href="exams/2024_Auditing_ExamSolution.html" class="exam-card">
-                <div class="exam-icon">&#x1F4C4;</div>
-                <h3>2024 Exam Solutions</h3>
-                <p>Complete breakdown of the 2024 auditing standard examination.</p>
-                <div class="exam-year">24</div>
-            </a>
-
-            <!-- 2023 -->
-            <a href="exams/2023_Auditing_ExamSolution.html" class="exam-card">
-                <div class="exam-icon">&#x1F4C4;</div>
-                <h3>2023 Exam Solutions</h3>
-                <p>Detailed analysis of audit planning, risk assessment, and ethics.</p>
-                <div class="exam-year">23</div>
-            </a>
-
-            <!-- 2022 -->
-            <a href="exams/2022_Auditing_ExamSolution.html" class="exam-card">
-                <div class="exam-icon">&#x1F4C4;</div>
-                <h3>2022 Exam Solutions</h3>
-                <p>In-depth coverage of statutory audits and reporting objectives.</p>
-                <div class="exam-year">22</div>
-            </a>
-
-            <!-- 2021 -->
-            <a href="exams/2021_Auditing_ExamSolution.html" class="exam-card">
-                <div class="exam-icon">&#x1F4C4;</div>
-                <h3>2021 Exam Solutions</h3>
-                <p>Foundational auditing principles, independence, and substantive procedures.</p>
-                <div class="exam-year">21</div>
-            </a>
-        </div>
-
-        <h3
-            style="color: var(--primary); margin-bottom: 2rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">
+<div class="exams-grid" style="margin-bottom: 5rem;">
+<!-- 2026 Campus Audit -->
+<a class="exam-card" data-course="Auditing" data-year="2026" href="exams/2026_Campus_Exam_Audit.html" style=" opacity: 0.7;">
+<span class="exam-badge">New</span>
+<div class="exam-icon">📄</div>
+<h3>2026 Campus Audit Exam</h3>
+<p>Ethics, sampling, evidence &amp; internal review answers. <br/><br/><a class="notify-btn" href="mailto:avorxephilip@gmail.com?subject=Notify me when 2026 Campus Audit Exam is ready">🔔 Notify me when ready</a></p>
+<div class="exam-year">26</div>
+</a>
+<!-- 2025 -->
+<a class="exam-card" data-course="Auditing" data-year="2025" href="exams/2025_Auditing_ExamSolution.html">
+<div class="exam-icon">📄</div>
+<h3>2025 Exam Solutions</h3>
+<p>Latest comprehensive answers covering ISAs, Statutory Audits, and internal controls.</p>
+<div class="exam-year">25</div>
+</a>
+<!-- 2024 -->
+<a class="exam-card" data-course="Auditing" data-year="2024" href="exams/2024_Auditing_ExamSolution.html">
+<div class="exam-icon">📄</div>
+<h3>2024 Exam Solutions</h3>
+<p>Complete breakdown of the 2024 auditing standard examination.</p>
+<div class="exam-year">24</div>
+</a>
+<!-- 2023 -->
+<a class="exam-card" data-course="Auditing" data-year="2023" href="exams/2023_Auditing_ExamSolution.html">
+<div class="exam-icon">📄</div>
+<h3>2023 Exam Solutions</h3>
+<p>Detailed analysis of audit planning, risk assessment, and ethics.</p>
+<div class="exam-year">23</div>
+</a>
+<!-- 2022 -->
+<a class="exam-card" data-course="Auditing" data-year="2022" href="exams/2022_Auditing_ExamSolution.html">
+<div class="exam-icon">📄</div>
+<h3>2022 Exam Solutions</h3>
+<p>In-depth coverage of statutory audits and reporting objectives.</p>
+<div class="exam-year">22</div>
+</a>
+<!-- 2021 -->
+<a class="exam-card" data-course="Auditing" data-year="2021" href="exams/2021_Auditing_ExamSolution.html">
+<div class="exam-icon">📄</div>
+<h3>2021 Exam Solutions</h3>
+<p>Foundational auditing principles, independence, and substantive procedures.</p>
+<div class="exam-year">21</div>
+</a>
+</div>
+<h3 style="color: var(--primary); margin-bottom: 2rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">
             Intro to Project Management</h3>
-        <div class="exams-grid">
-            <!-- Unit 1 -->
-            <a href="exams/Project_unit1.html" class="exam-card">
-                <div class="exam-icon">&#x1F4CB;</div>
-                <h3>Unit 1</h3>
-                <p>Self Assessment Questions & Answers on basic project definitions.</p>
-                <div class="exam-year" style="font-size: 2rem;">U1</div>
-            </a>
-
-            <!-- Unit 2 -->
-            <a href="exams/Unit%202%20Project.html" class="exam-card">
-                <div class="exam-icon">&#x1F4CB;</div>
-                <h3>Unit 2</h3>
-                <p>Key concepts and self assessment answers for project lifecycles.</p>
-                <div class="exam-year" style="font-size: 2rem;">U2</div>
-            </a>
-
-            <!-- Unit 3 -->
-            <a href="exams/Unit%203Project.html" class="exam-card">
-                <div class="exam-icon">&#x1F4CB;</div>
-                <h3>Unit 3</h3>
-                <p>In-depth coverage of project planning and scheduling.</p>
-                <div class="exam-year" style="font-size: 2rem;">U3</div>
-            </a>
-
-            <!-- Unit 4 -->
-            <a href="exams/Unit4%20project.html" class="exam-card">
-                <div class="exam-icon">&#x1F4CB;</div>
-                <h3>Unit 4</h3>
-                <p>Resource management, budget planning, and cost estimation.</p>
-                <div class="exam-year" style="font-size: 2rem;">U4</div>
-            </a>
-
-            <!-- Unit 5 -->
-            <a href="exams/Unit5%20Project.html" class="exam-card">
-                <div class="exam-icon">&#x1F4CB;</div>
-                <h3>Unit 5</h3>
-                <p>Risk management, identification, and mitigation strategies.</p>
-                <div class="exam-year" style="font-size: 2rem;">U5</div>
-            </a>
-
-            <!-- Unit 6 -->
-            <a href="exams/Unit6%20Project.html" class="exam-card">
-                <div class="exam-icon">&#x1F4CB;</div>
-                <h3>Unit 6</h3>
-                <p>Project execution, monitoring, and final evaluation self assessments.</p>
-                <div class="exam-year" style="font-size: 2rem;">U6</div>
-            </a>
-
-            <!-- Placeholder for future addition -->
-            <a href="#materials" class="exam-card" style="opacity: 0.6; pointer-events: none;">
-                <div class="exam-icon" style="color: var(--text-muted); border-color: rgba(255,255,255,0.1)">&#x2795;</div>
-                <h3>More Coming Soon</h3>
-                <p>Continuous updates to project management content.</p>
-            </a>
-        </div>
-
-        <h3
-            style="color: var(--primary); margin-bottom: 2rem; margin-top: 4rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">
+<div class="exams-grid">
+<!-- Unit 1 -->
+<a class="exam-card" data-course="Intro to Project Management" data-year="U1" href="exams/Project_unit1.html">
+<div class="exam-icon">📋</div>
+<h3>Unit 1</h3>
+<p>Self Assessment Questions &amp; Answers on basic project definitions.</p>
+<div class="exam-year" style="font-size: 2rem;">U1</div>
+</a>
+<!-- Unit 2 -->
+<a class="exam-card" data-course="Intro to Project Management" data-year="U2" href="exams/Unit%202%20Project.html">
+<div class="exam-icon">📋</div>
+<h3>Unit 2</h3>
+<p>Key concepts and self assessment answers for project lifecycles.</p>
+<div class="exam-year" style="font-size: 2rem;">U2</div>
+</a>
+<!-- Unit 3 -->
+<a class="exam-card" data-course="Intro to Project Management" data-year="U3" href="exams/Unit%203Project.html">
+<div class="exam-icon">📋</div>
+<h3>Unit 3</h3>
+<p>In-depth coverage of project planning and scheduling.</p>
+<div class="exam-year" style="font-size: 2rem;">U3</div>
+</a>
+<!-- Unit 4 -->
+<a class="exam-card" data-course="Intro to Project Management" data-year="U4" href="exams/Unit4%20project.html">
+<div class="exam-icon">📋</div>
+<h3>Unit 4</h3>
+<p>Resource management, budget planning, and cost estimation.</p>
+<div class="exam-year" style="font-size: 2rem;">U4</div>
+</a>
+<!-- Unit 5 -->
+<a class="exam-card" data-course="Intro to Project Management" data-year="U5" href="exams/Unit5%20Project.html">
+<div class="exam-icon">📋</div>
+<h3>Unit 5</h3>
+<p>Risk management, identification, and mitigation strategies.</p>
+<div class="exam-year" style="font-size: 2rem;">U5</div>
+</a>
+<!-- Unit 6 -->
+<a class="exam-card" data-course="Intro to Project Management" data-year="U6" href="exams/Unit6%20Project.html">
+<div class="exam-icon">📋</div>
+<h3>Unit 6</h3>
+<p>Project execution, monitoring, and final evaluation self assessments.</p>
+<div class="exam-year" style="font-size: 2rem;">U6</div>
+</a>
+<!-- Placeholder for future addition -->
+<a class="exam-card" data-course="Intro to Project Management" href="#materials" style="opacity: 0.6; pointer-events: none;">
+<div class="exam-icon" style="color: var(--text-muted); border-color: rgba(255,255,255,0.1)">➕</div>
+<h3>More Coming Soon</h3>
+<p>Continuous updates to project management content.</p>
+</a>
+</div>
+<h3 style="color: var(--primary); margin-bottom: 2rem; margin-top: 4rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">
             Advanced Financial Reporting</h3>
-        <div class="exams-grid">
-            <!-- 2026 Campus Exam Q1 -->
-            <a href="exams/2026_Campus_Q1.html" class="exam-card">
-                <span class="exam-badge">New</span>
-                <div class="exam-icon">&#x1F4C4;</div>
-                <h3>2026- Campus Exam Q1</h3>
-                <p>Awaiting solution for 2026 Campus Exam Question 1.</p>
-                <div class="exam-year" style="font-size: 2rem;">Q1</div>
-            </a>
-            
-            <!-- 2021 Pasco Advance Accounting Q1 -->
-            <a href="exams/2021_Pasco_Advance_Accounting_Q1.html" class="exam-card">
-                <span class="exam-badge">New</span>
-                <div class="exam-icon">&#x1F4C4;</div>
-                <h3>2021 Pasco Advance Acct Q1</h3>
-                <p>Prestige vs. Samite - Consolidated statements. Awaiting solution.</p>
-                <div class="exam-year" style="font-size: 2rem;">Q1</div>
-            </a>
-            
-            <!-- 2019 Advanced Pasco Q1 -->
-            <a href="exams/2019_Advanced_Pasco_Q1.html" class="exam-card">
-                <span class="exam-badge">New</span>
-                <div class="exam-icon">&#x1F4C4;</div>
-                <h3>2019 Pasco Advance Acct Q1</h3>
-                <p>OGUAA Ltd & Ephron Ltd - Consolidations & IFRS. Awaiting solution.</p>
-                <div class="exam-year" style="font-size: 2rem;">Q1</div>
-            </a>
-        </div>
-
-        <!-- Corporate Financial Analysis -->
-        <h3 style="color: var(--primary); margin-bottom: 2rem; margin-top: 4rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">Corporate Financial Analysis</h3>
-        <div class="exams-grid" style="margin-bottom: 5rem;">
-
-            <!-- 2025 Corporate Financial Analysis Q1 &mdash; Question & Solution card -->
-            <a href="exams/2025_Corporate_Financial_Analysis_Q1.html" class="exam-card">
-                <span class="exam-badge">New</span>
-                <div class="exam-icon" style="color:#f472b6; border-color:rgba(244,114,182,0.3); background:rgba(244,114,182,0.08);">&#x1F4C4;</div>
-                <h3>2025 Corporate Financial Analysis &mdash; Q1</h3>
-                <p>AA Limited &mdash; Free Cash Flow Model: Full question &amp; step-by-step solution. NPV, Tax Depreciation Schedule &amp; Terminal Value (Gordon Growth Model).</p>
-                <div class="exam-year" style="font-size: 2rem;">25</div>
-            </a>
-
-            <!-- Placeholder -->
-            <a href="#" class="exam-card" style="opacity: 0.65; pointer-events: none;">
-                <span class="exam-badge">Coming Soon</span>
-                <div class="exam-icon" style="color:#f472b6; border-color:rgba(244,114,182,0.3); background:rgba(244,114,182,0.08);">&#x1F4C9;</div>
-                <h3>Unit 4 &mdash; Corporate Distress Analysis</h3>
-                <p>Causes, indicators, and analysis of corporate financial failure. Materials being prepared.</p>
-                <div class="exam-year" style="font-size: 2rem;">U4</div>
-            </a>
-        </div>
-
-        <!-- Entrepreneurship -->
-        <h3 style="color: var(--primary); margin-bottom: 2rem; margin-top: 4rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">Entrepreneurship</h3>
-        <div class="exams-grid" style="margin-bottom: 5rem;">
-            <a href="exams/2025_Entrepreneurship_ExamSolution.html" class="exam-card">
-                <span class="exam-badge">Latest</span>
-                <div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">&#x1F4A1;</div>
-                <h3>2025 Entrepreneurship</h3>
-                <p>Complete solutions and case studies for the 2025 Entrepreneurship exam.</p>
-                <div class="exam-year" style="font-size: 1.8rem;">2025</div>
-            </a>
-            <a href="exams/2024_Entrepreneurship_ExamSolution.html" class="exam-card">
-                <span class="exam-badge">Latest</span>
-                <div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">&#x1F4A1;</div>
-                <h3>2024 Entrepreneurship</h3>
-                <p>Complete solutions and case studies for the 2024 Entrepreneurship exam.</p>
-                <div class="exam-year" style="font-size: 1.8rem;">2024</div>
-            </a>
-            <a href="exams/2023C_Entrepreneurship_ExamSolution.html" class="exam-card">
-                <span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
-                <div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">&#x1F3ED;</div>
-                <h3>2023C Entrepreneurship</h3>
-                <p>Detailed model answers and case analysis for the 2023C Entrepreneurship exam.</p>
-                <div class="exam-year" style="font-size: 1.8rem;">2023C</div>
-            </a>
-            <a href="exams/2023B_Entrepreneurship_ExamSolution.html" class="exam-card">
-                <span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
-                <div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">&#x1F3ED;</div>
-                <h3>2023B Entrepreneurship</h3>
-                <p>Detailed model answers and case analysis for the 2023B Entrepreneurship exam.</p>
-                <div class="exam-year" style="font-size: 1.8rem;">2023B</div>
-            </a>
-            <a href="exams/2023_Entrepreneurship_ExamSolution.html" class="exam-card">
-                <span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
-                <div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">&#x1F3ED;</div>
-                <h3>2023 Entrepreneurship</h3>
-                <p>Detailed model answers and case analysis for the 2023 Entrepreneurship exam.</p>
-                <div class="exam-year" style="font-size: 1.8rem;">2023</div>
-            </a>
-            <a href="exams/2022_Entrepreneurship_ExamSolution.html" class="exam-card">
-                <span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
-                <div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">&#x1F4DA;</div>
-                <h3>2022 Entrepreneurship</h3>
-                <p>Comprehensive exam solutions covering the 2022 academic year.</p>
-                <div class="exam-year" style="font-size: 1.8rem;">2022</div>
-            </a>
-            <a href="exams/2021_Entrepreneurship_ExamSolution.html" class="exam-card">
-                <span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
-                <div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">&#x1F4DA;</div>
-                <h3>2021 Entrepreneurship</h3>
-                <p>Comprehensive exam solutions covering the 2021 academic year.</p>
-                <div class="exam-year" style="font-size: 1.8rem;">2021</div>
-            </a>
-            <a href="exams/2020A_Entrepreneurship_ExamSolution.html" class="exam-card">
-                <span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
-                <div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">&#x1F4DA;</div>
-                <h3>2020A Entrepreneurship</h3>
-                <p>Comprehensive exam solutions covering the 2020A academic year.</p>
-                <div class="exam-year" style="font-size: 1.8rem;">2020A</div>
-            </a>
-            <a href="exams/2020_Entrepreneurship_ExamSolution.html" class="exam-card">
-                <span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
-                <div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">&#x1F4DA;</div>
-                <h3>2020 Entrepreneurship</h3>
-                <p>Comprehensive exam solutions covering the 2020 academic year.</p>
-                <div class="exam-year" style="font-size: 1.8rem;">2020</div>
-            </a>
-        </div>
-
-        <!-- Investment Management -->
-        <h3 style="color: var(--primary); margin-bottom: 2rem; margin-top: 4rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">Investment Management</h3>
-        <div class="exams-grid" style="margin-bottom: 2rem;">
-            <a href="#" class="exam-card" style="opacity: 0.65; pointer-events: none;">
-                <span class="exam-badge">Coming Soon</span>
-                <div class="exam-icon" style="color:#34d399; border-color:rgba(52,211,153,0.3); background:rgba(52,211,153,0.08);">&#x1F4B0;</div>
-                <h3>Unit 1 &mdash; Scope of Investment</h3>
-                <p>Introduction to investment objectives, instruments & procedures in Ghana. Materials being prepared.</p>
-                <div class="exam-year" style="font-size: 2rem;">U1</div>
-            </a>
-            <a href="#" class="exam-card" style="opacity: 0.65; pointer-events: none;">
-                <span class="exam-badge">Coming Soon</span>
-                <div class="exam-icon" style="color:#34d399; border-color:rgba(52,211,153,0.3); background:rgba(52,211,153,0.08);">&#x1F4CA;</div>
-                <h3>Unit 2 &mdash; Securities Market</h3>
-                <p>Ghana Stock Exchange, brokerage, primary & secondary markets. Materials being prepared.</p>
-                <div class="exam-year" style="font-size: 2rem;">U2</div>
-            </a>
-            <a href="#" class="exam-card" style="opacity: 0.65; pointer-events: none;">
-                <span class="exam-badge">Coming Soon</span>
-                <div class="exam-icon" style="color:#34d399; border-color:rgba(52,211,153,0.3); background:rgba(52,211,153,0.08);">&#x1F3E6;</div>
-                <h3>Unit 4 &mdash; Return & Risk</h3>
-                <p>Nominal vs real return, risk-return tradeoff, and portfolio theory. Materials being prepared.</p>
-                <div class="exam-year" style="font-size: 2rem;">U4</div>
-            </a>
-        </div>
-    </section>
-
-    <!-- About & Credits Sections -->
-    <section id="about" class="reveal">
-        <div class="section-header">
-            <h2 class="section-title">Behind the <span>Preparation</span></h2>
-            <p class="section-subtitle">Get to know the team dedicated to your success across multiple courses.</p>
-        </div>
-
-        <div class="info-section">
-            <div class="info-card">
-                <h3>&#x1F468;&#x200D;&#x1F393; About Me</h3>
-                <p><strong>Hi, I'm Philip.</strong> Drawing on my diverse background&mdash;from serving as a Police
+<div class="exams-grid">
+<!-- 2026 Campus Exam Q1 -->
+<a class="exam-card" data-course="Advanced Financial Reporting" data-year="Q1" href="exams/2026_Campus_Q1.html" style=" opacity: 0.7;">
+<span class="exam-badge">New</span>
+<div class="exam-icon">📄</div>
+<h3>2026- Campus Exam Q1</h3>
+<p>for 2026 Campus Exam Question 1. <br/><br/><a class="notify-btn" href="mailto:avorxephilip@gmail.com?subject=Notify me when 2026- Campus Exam Q1 is ready">🔔 Notify me when ready</a></p>
+<div class="exam-year" style="font-size: 2rem;">Q1</div>
+</a>
+<!-- 2021 Pasco Advance Accounting Q1 -->
+<a class="exam-card" data-course="Advanced Financial Reporting" data-year="Q1" href="exams/2021_Pasco_Advance_Accounting_Q1.html" style=" opacity: 0.7;">
+<span class="exam-badge">New</span>
+<div class="exam-icon">📄</div>
+<h3>2021 Pasco Advance Acct Q1</h3>
+<p>Prestige vs. Samite - Consolidated statements. <br/><br/><a class="notify-btn" href="mailto:avorxephilip@gmail.com?subject=Notify me when 2021 Pasco Advance Acct Q1 is ready">🔔 Notify me when ready</a></p>
+<div class="exam-year" style="font-size: 2rem;">Q1</div>
+</a>
+<!-- 2019 Advanced Pasco Q1 -->
+<a class="exam-card" data-course="Advanced Financial Reporting" data-year="Q1" href="exams/2019_Advanced_Pasco_Q1.html" style=" opacity: 0.7;">
+<span class="exam-badge">New</span>
+<div class="exam-icon">📄</div>
+<h3>2019 Pasco Advance Acct Q1</h3>
+<p>OGUAA Ltd &amp; Ephron Ltd - Consolidations &amp; IFRS. <br/><br/><a class="notify-btn" href="mailto:avorxephilip@gmail.com?subject=Notify me when 2019 Pasco Advance Acct Q1 is ready">🔔 Notify me when ready</a></p>
+<div class="exam-year" style="font-size: 2rem;">Q1</div>
+</a>
+</div>
+<!-- Corporate Financial Analysis -->
+<h3 style="color: var(--primary); margin-bottom: 2rem; margin-top: 4rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">Corporate Financial Analysis</h3>
+<div class="exams-grid" style="margin-bottom: 5rem;">
+<!-- 2025 Corporate Financial Analysis Q1 &mdash; Question & Solution card -->
+<a class="exam-card" data-course="Corporate Financial Analysis" data-year="2025" href="exams/2025_Corporate_Financial_Analysis_Q1.html">
+<span class="exam-badge">New</span>
+<div class="exam-icon" style="color:#f472b6; border-color:rgba(244,114,182,0.3); background:rgba(244,114,182,0.08);">📄</div>
+<h3>2025 Corporate Financial Analysis — Q1</h3>
+<p>AA Limited — Free Cash Flow Model: Full question &amp; step-by-step solution. NPV, Tax Depreciation Schedule &amp; Terminal Value (Gordon Growth Model).</p>
+<div class="exam-year" style="font-size: 2rem;">25</div>
+</a>
+<!-- Placeholder -->
+<a class="exam-card" data-course="Corporate Financial Analysis" data-year="U4" href="#" style="opacity: 0.65; pointer-events: none; opacity: 0.7;">
+<span class="exam-badge">Coming Soon</span>
+<div class="exam-icon" style="color:#f472b6; border-color:rgba(244,114,182,0.3); background:rgba(244,114,182,0.08);">📉</div>
+<h3>Unit 4 — Corporate Distress Analysis</h3>
+<p>Causes, indicators, and analysis of corporate financial failure. <br/><br/><a class="notify-btn" href="mailto:avorxephilip@gmail.com?subject=Notify me when Unit 4 — Corporate Distress Analysis is ready">🔔 Notify me when ready</a></p>
+<div class="exam-year" style="font-size: 2rem;">U4</div>
+</a>
+</div>
+<!-- Entrepreneurship -->
+<h3 style="color: var(--primary); margin-bottom: 2rem; margin-top: 4rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">Entrepreneurship</h3>
+<div class="exams-grid" style="margin-bottom: 5rem;">
+<a class="exam-card" data-course="Entrepreneurship" data-year="2025" href="exams/2025_Entrepreneurship_ExamSolution.html">
+<span class="exam-badge">Latest</span>
+<div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">💡</div>
+<h3>2025 Entrepreneurship</h3>
+<p>Complete solutions and case studies for the 2025 Entrepreneurship exam.</p>
+<div class="exam-year" style="font-size: 1.8rem;">2025</div>
+</a>
+<a class="exam-card" data-course="Entrepreneurship" data-year="2024" href="exams/2024_Entrepreneurship_ExamSolution.html">
+<span class="exam-badge">Latest</span>
+<div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">💡</div>
+<h3>2024 Entrepreneurship</h3>
+<p>Complete solutions and case studies for the 2024 Entrepreneurship exam.</p>
+<div class="exam-year" style="font-size: 1.8rem;">2024</div>
+</a>
+<a class="exam-card" data-course="Entrepreneurship" data-year="2023C" href="exams/2023C_Entrepreneurship_ExamSolution.html">
+<span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
+<div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">🏭</div>
+<h3>2023C Entrepreneurship</h3>
+<p>Detailed model answers and case analysis for the 2023C Entrepreneurship exam.</p>
+<div class="exam-year" style="font-size: 1.8rem;">2023C</div>
+</a>
+<a class="exam-card" data-course="Entrepreneurship" data-year="2023B" href="exams/2023B_Entrepreneurship_ExamSolution.html">
+<span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
+<div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">🏭</div>
+<h3>2023B Entrepreneurship</h3>
+<p>Detailed model answers and case analysis for the 2023B Entrepreneurship exam.</p>
+<div class="exam-year" style="font-size: 1.8rem;">2023B</div>
+</a>
+<a class="exam-card" data-course="Entrepreneurship" data-year="2023" href="exams/2023_Entrepreneurship_ExamSolution.html">
+<span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
+<div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">🏭</div>
+<h3>2023 Entrepreneurship</h3>
+<p>Detailed model answers and case analysis for the 2023 Entrepreneurship exam.</p>
+<div class="exam-year" style="font-size: 1.8rem;">2023</div>
+</a>
+<a class="exam-card" data-course="Entrepreneurship" data-year="2022" href="exams/2022_Entrepreneurship_ExamSolution.html">
+<span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
+<div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">📚</div>
+<h3>2022 Entrepreneurship</h3>
+<p>Comprehensive exam solutions covering the 2022 academic year.</p>
+<div class="exam-year" style="font-size: 1.8rem;">2022</div>
+</a>
+<a class="exam-card" data-course="Entrepreneurship" data-year="2021" href="exams/2021_Entrepreneurship_ExamSolution.html">
+<span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
+<div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">📚</div>
+<h3>2021 Entrepreneurship</h3>
+<p>Comprehensive exam solutions covering the 2021 academic year.</p>
+<div class="exam-year" style="font-size: 1.8rem;">2021</div>
+</a>
+<a class="exam-card" data-course="Entrepreneurship" data-year="2020A" href="exams/2020A_Entrepreneurship_ExamSolution.html">
+<span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
+<div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">📚</div>
+<h3>2020A Entrepreneurship</h3>
+<p>Comprehensive exam solutions covering the 2020A academic year.</p>
+<div class="exam-year" style="font-size: 1.8rem;">2020A</div>
+</a>
+<a class="exam-card" data-course="Entrepreneurship" data-year="2020" href="exams/2020_Entrepreneurship_ExamSolution.html">
+<span class="exam-badge" style="background: rgba(255, 255, 255, 0.1); color: #fff;">Archive</span>
+<div class="exam-icon" style="color:#fb923c; border-color:rgba(251,146,60,0.3); background:rgba(251,146,60,0.08);">📚</div>
+<h3>2020 Entrepreneurship</h3>
+<p>Comprehensive exam solutions covering the 2020 academic year.</p>
+<div class="exam-year" style="font-size: 1.8rem;">2020</div>
+</a>
+</div>
+<!-- Investment Management -->
+<h3 style="color: var(--primary); margin-bottom: 2rem; margin-top: 4rem; font-size: 1.8rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">Investment Management</h3>
+<div class="exams-grid" style="margin-bottom: 2rem;">
+<a class="exam-card" data-course="Investment Management" data-year="U1" href="#" style="opacity: 0.65; pointer-events: none; opacity: 0.7;">
+<span class="exam-badge">Coming Soon</span>
+<div class="exam-icon" style="color:#34d399; border-color:rgba(52,211,153,0.3); background:rgba(52,211,153,0.08);">💰</div>
+<h3>Unit 1 — Scope of Investment</h3>
+<p>Introduction to investment objectives, instruments &amp; procedures in Ghana. <br/><br/><a class="notify-btn" href="mailto:avorxephilip@gmail.com?subject=Notify me when Unit 1 — Scope of Investment is ready">🔔 Notify me when ready</a></p>
+<div class="exam-year" style="font-size: 2rem;">U1</div>
+</a>
+<a class="exam-card" data-course="Investment Management" data-year="U2" href="#" style="opacity: 0.65; pointer-events: none; opacity: 0.7;">
+<span class="exam-badge">Coming Soon</span>
+<div class="exam-icon" style="color:#34d399; border-color:rgba(52,211,153,0.3); background:rgba(52,211,153,0.08);">📊</div>
+<h3>Unit 2 — Securities Market</h3>
+<p>Ghana Stock Exchange, brokerage, primary &amp; secondary markets. <br/><br/><a class="notify-btn" href="mailto:avorxephilip@gmail.com?subject=Notify me when Unit 2 — Securities Market is ready">🔔 Notify me when ready</a></p>
+<div class="exam-year" style="font-size: 2rem;">U2</div>
+</a>
+<a class="exam-card" data-course="Investment Management" data-year="U4" href="#" style="opacity: 0.65; pointer-events: none; opacity: 0.7;">
+<span class="exam-badge">Coming Soon</span>
+<div class="exam-icon" style="color:#34d399; border-color:rgba(52,211,153,0.3); background:rgba(52,211,153,0.08);">🏦</div>
+<h3>Unit 4 — Return &amp; Risk</h3>
+<p>Nominal vs real return, risk-return tradeoff, and portfolio theory. <br/><br/><a class="notify-btn" href="mailto:avorxephilip@gmail.com?subject=Notify me when Unit 4 — Return &amp; Risk is ready">🔔 Notify me when ready</a></p>
+<div class="exam-year" style="font-size: 2rem;">U4</div>
+</a>
+</div>
+</section>
+<!-- About & Credits Sections -->
+<section class="reveal" id="about">
+<div class="section-header">
+<h2 class="section-title">Behind the <span>Preparation</span></h2>
+<p class="section-subtitle">Get to know the team dedicated to your success across multiple courses.</p>
+</div>
+<div class="info-section">
+<div class="info-card">
+<h3>👨‍🎓 About Me</h3>
+<p><strong>Hi, I'm Philip.</strong> Drawing on my diverse background—from serving as a Police
                     Intelligence Officer in Accra to earning a First-class diploma in Accounting and currently pursuing
-                    a BSc in Cyber Security & Forensic Computing at the University of Portsmouth&mdash;my approach blends
+                    a BSc in Cyber Security &amp; Forensic Computing at the University of Portsmouth—my approach blends
                     analytical discipline with technological insight.</p>
-                <p>I try my best in making complex subjects across multiple courses accessible and straightforward. My
+<p>I try my best in making complex subjects across multiple courses accessible and straightforward. My
                     goal is to provide a comprehensive learning experience that helps you truly understand core academic
                     principles and their practical applications.</p>
-                <a href="https://philipavor.netlify.app/" target="_blank" class="btn btn-secondary"
-                    style="display: inline-block; margin-top: 1rem; font-size: 0.9rem; padding: 0.8rem 1.5rem;">Visit
+<a class="btn btn-secondary" href="https://philipavor.netlify.app/" style="display: inline-block; margin-top: 1rem; font-size: 0.9rem; padding: 0.8rem 1.5rem;" target="_blank">Visit
                     Full Portfolio</a>
-            </div>
-
-            <!-- Credits Card -->
-            <div class="info-card" id="credits">
-                <h3>&#x1F91D; Credits & Acknowledgements</h3>
-                <p>This repository of knowledge wouldn't be possible without the extensive help and dedication of my
+</div>
+<!-- Credits Card -->
+<div class="info-card" id="credits">
+<h3>🤝 Credits &amp; Acknowledgements</h3>
+<p>This repository of knowledge wouldn't be possible without the extensive help and dedication of my
                     esteemed colleagues. Thank you for the peer reviews, challenging debates, and continuous support.
                 </p>
-
-                <ul class="credits-list">
-                    <li>
-                        <div class="credit-avatar">MC</div>
-                        <div>
-                            <strong>My Colleagues & Mentors</strong>
-                            <div style="font-size: 0.85rem; color: var(--text-muted);">For rigorous review of solutions
+<ul class="credits-list">
+<li>
+<div class="credit-avatar">MC</div>
+<div>
+<strong>My Colleagues &amp; Mentors</strong>
+<div style="font-size: 0.85rem; color: var(--text-muted);">For rigorous review of solutions
                                 and standards across multiple courses.</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="credit-avatar">FA</div>
-                        <div>
-                            <strong>Felix Bortier Angenu</strong>
-                            <div style="font-size: 0.85rem; color: var(--text-muted);">For helping capture pictures of
+</div>
+</li>
+<li>
+<div class="credit-avatar">FA</div>
+<div>
+<strong>Felix Bortier Angenu</strong>
+<div style="font-size: 0.85rem; color: var(--text-muted);">For helping capture pictures of
                                 the content used to extract data for the auditing material.</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="credit-avatar">AG</div>
-                        <div>
-                            <strong>Antigravity AI</strong>
-                            <div style="font-size: 0.85rem; color: var(--text-muted);">For technical assistance in
+</div>
+</li>
+<li>
+<div class="credit-avatar">AG</div>
+<div>
+<strong>Antigravity AI</strong>
+<div style="font-size: 0.85rem; color: var(--text-muted);">For technical assistance in
                                 generating the website and formatting the exam files seamlessly.</div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="reveal">
-        <div class="section-header">
-            <h2 class="section-title">Let's <span>Connect</span></h2>
-            <p class="section-subtitle">Whether you have an opportunity, a question, or just want to say hello &mdash; I'd
+</div>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="reveal" id="contact">
+<div class="section-header">
+<h2 class="section-title">Let's <span>Connect</span></h2>
+<p class="section-subtitle">Whether you have an opportunity, a question, or just want to say hello — I'd
                 love to hear from you.</p>
-        </div>
-
-        <div class="info-section" style="display: flex; justify-content: center; margin-top: 0;">
-            <div class="info-card" style="text-align: center; width: 100%; max-width: 800px;">
-                <h3><span style="font-size: 1.5rem; margin-right: 10px;">&#x1F44B;</span> Get in Touch</h3>
-
-                <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 2rem 0;">
-                    <a href="mailto:avorxephilip@gmail.com" class="btn btn-secondary"
-                        style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;">
-                        <span style="font-size: 1.2em;">&#x2709;&#xFE0F;</span> avorxephilip@gmail.com
+</div>
+<div class="info-section" style="display: flex; justify-content: center; margin-top: 0;">
+<div class="info-card" style="text-align: center; width: 100%; max-width: 800px;">
+<h3><span style="font-size: 1.5rem; margin-right: 10px;">👋</span> Get in Touch</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 2rem 0;">
+<a class="btn btn-secondary" href="mailto:avorxephilip@gmail.com" style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+<span style="font-size: 1.2em;">✉️</span> avorxephilip@gmail.com
                     </a>
-                    <a href="tel:+447826978481" class="btn btn-secondary"
-                        style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;">
-                        <span style="font-size: 1.2em;">&#x1F4DE;</span> +44 782 697 8481
+<a class="btn btn-secondary" href="tel:+447826978481" style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+<span style="font-size: 1.2em;">📞</span> +44 782 697 8481
                     </a>
-                    <a href="https://wa.me/233500652244" target="_blank" class="btn btn-secondary"
-                        style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;">
-                        <span style="font-size: 1.2em;">&#x1F4AC;</span> WhatsApp
+<a class="btn btn-secondary" href="https://wa.me/233500652244" style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;" target="_blank">
+<span style="font-size: 1.2em;">💬</span> WhatsApp
                     </a>
-                    <a href="https://www.linkedin.com/in/philip-yesutor-avorxe-8038112a6" target="_blank"
-                        class="btn btn-secondary"
-                        style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;">
-                        <span style="font-size: 1.2em;">&#x1F4BC;</span> LinkedIn
+<a class="btn btn-secondary" href="https://www.linkedin.com/in/philip-yesutor-avorxe-8038112a6" style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;" target="_blank">
+<span style="font-size: 1.2em;">💼</span> LinkedIn
                     </a>
-                    <a href="https://www.facebook.com/SmartFix" target="_blank" class="btn btn-secondary"
-                        style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;">
-                        <span style="font-size: 1.2em;">&#x1F4D8;</span> SmartFix
+<a class="btn btn-secondary" href="https://www.facebook.com/SmartFix" style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;" target="_blank">
+<span style="font-size: 1.2em;">📘</span> SmartFix
                     </a>
-                    <a href="https://www.facebook.com/share/1HyEARw2pq/?mibextid=wwXIfr" target="_blank"
-                        class="btn btn-secondary"
-                        style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;">
-                        <span style="font-size: 1.2em;">&#x1F4D8;</span> Fb Profile
+<a class="btn btn-secondary" href="https://www.facebook.com/share/1HyEARw2pq/?mibextid=wwXIfr" style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;" target="_blank">
+<span style="font-size: 1.2em;">📘</span> Fb Profile
                     </a>
-                    <a href="https://www.instagram.com/philip.avorxe" target="_blank" class="btn btn-secondary"
-                        style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;">
-                        <span style="font-size: 1.2em;">&#x1F4F8;</span> Instagram
+<a class="btn btn-secondary" href="https://www.instagram.com/philip.avorxe" style="font-size: 0.9rem; padding: 0.8rem 1.5rem; text-decoration: none; display: flex; align-items: center; gap: 8px;" target="_blank">
+<span style="font-size: 1.2em;">📸</span> Instagram
                     </a>
-                </div>
-
-                <p
-                    style="color: var(--text-muted); font-size: 0.95rem; margin-top: 1rem; padding-top: 1.5rem; border-top: 1px solid var(--glass-border);">
+</div>
+<p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 1rem; padding-top: 1.5rem; border-top: 1px solid var(--glass-border);">
                     Based in Accra, Ghana</p>
+</div>
+</div>
+</section>
+<section id="trust-email" style="padding-top: 2rem; padding-bottom: 4rem;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+<!-- Trust Signals -->
+<div class="info-card" style="padding: 2rem;">
+<h3><span style="font-size: 1.5rem; margin-right: 10px;">💡</span> How to use this site</h3>
+<div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem;">
+<div style="display: flex; align-items: flex-start; gap: 1rem;">
+<div style="font-size: 1.8rem; background: rgba(16,185,129,0.1); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; border-radius: 12px; color: var(--primary);">1</div>
+<div>
+<strong style="color: #fff; font-size: 1.1rem;">Browse Materials</strong>
+<p style="margin-bottom: 0; font-size: 0.9rem;">Find your course and year in the comprehensive archive.</p>
+</div>
+</div>
+<div style="display: flex; align-items: flex-start; gap: 1rem;">
+<div style="font-size: 1.8rem; background: rgba(251,191,36,0.1); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; border-radius: 12px; color: var(--accent);">2</div>
+<div>
+<strong style="color: #fff; font-size: 1.1rem;">Study the Solutions</strong>
+<p style="margin-bottom: 0; font-size: 0.9rem;">Review step-by-step model answers and deep explanations.</p>
+</div>
+</div>
+<div style="display: flex; align-items: flex-start; gap: 1rem;">
+<div style="font-size: 1.8rem; background: rgba(16,185,129,0.1); width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; border-radius: 12px; color: var(--primary);">3</div>
+<div>
+<strong style="color: #fff; font-size: 1.1rem;">Practice with Quiz</strong>
+<p style="margin-bottom: 0; font-size: 0.9rem;">Test your knowledge in the interactive Quiz Mode.</p>
+</div>
+</div>
+</div>
+<!-- Placeholder for Testimonials
+            <div style="margin-top: 3rem;">
+                <h4>What Students Say</h4>
+                <div style="background: rgba(255,255,255,0.05); padding: 1rem; border-radius: 8px; margin-top: 1rem;">
+                    <p style="font-style: italic; font-size: 0.9rem;">"This site saved my auditing grade!" - John D.</p>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Philip Exam Prep. Built for perfection and educational excellence.</p>
-    </footer>
-
-    <!-- Main JavaScript -->
-    <script src="main.js"></script>
-    <script>
+            -->
+</div>
+<!-- Email Capture -->
+<div class="info-card" style="padding: 2rem; border-color: rgba(251,191,36,0.3); background: linear-gradient(180deg, rgba(251,191,36,0.05) 0%, transparent 100%);">
+<h3><span style="font-size: 1.5rem; margin-right: 10px;">📬</span> Stay Updated</h3>
+<p>Get notified immediately when new exam solutions, study guides, and quiz updates drop. No spam, ever.</p>
+<form action="https://formspree.io/f/YOUR_ENDPOINT" method="POST" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+<label for="email" style="display: none;">Email Address</label>
+<input id="email" name="email" placeholder="Your best email address" required="" style="width: 100%; padding: 1rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.5); color: #fff; font-family: 'Inter', sans-serif;" type="email"/>
+<button class="btn btn-primary" style="width: 100%;" type="submit">Subscribe</button>
+</form>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+<p>© 2026 Philip Exam Prep. Built for perfection and educational excellence.</p>
+</footer>
+<!-- Main JavaScript -->
+<script src="main.js"></script>
+<script>
         // Hamburger menu toggle
         const menuToggle = document.getElementById('menu-toggle');
         const mainNav = document.getElementById('main-nav');
@@ -459,7 +516,6 @@
             mainNav.classList.remove('open');
         }
     </script>
-    <script src="support.js"></script>
+<script src="support.js"></script>
 </body>
-
 </html>
