@@ -72,22 +72,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const chips = document.querySelectorAll('.chip');
     const allCards = document.querySelectorAll('#materials .exam-card');
     
+    const searchContainer = document.querySelector('.search-container');
+    
     let currentCourseFilter = 'all';
 
-    // Sticky Search Bar on Mobile
+    // Sticky Search Bar
     window.addEventListener('scroll', () => {
-        if (window.innerWidth <= 640 && searchCol && searchInput) {
+        if (searchContainer && searchInput) {
             const filterBar = document.getElementById('filter-bar');
             if (filterBar) {
                 const filterBarRect = filterBar.getBoundingClientRect();
+                // When filter bar starts to scroll out of view
                 if (filterBarRect.top <= 60 && window.scrollY > 0) {
-                    searchCol.classList.add('fixed-mobile-search');
+                    searchContainer.classList.add('fixed-search');
                 } else {
-                    searchCol.classList.remove('fixed-mobile-search');
+                    searchContainer.classList.remove('fixed-search');
                 }
             }
-        } else if (searchCol) {
-            searchCol.classList.remove('fixed-mobile-search');
+        } else if (searchContainer) {
+            searchContainer.classList.remove('fixed-search');
         }
     });
 
