@@ -1,0 +1,483 @@
+INTRODUCTION TO PROJECT MANAGEMENT
+Past Examination Questions & Model Answers  |  2019 – 2025
+All answers sourced from: CoDEUCC Introduction to Project Management — Nyamah & Yeboah, 2019
+Format Note: Questions are reproduced exactly as written in the exam papers. LIST = concise points; EXPLAIN = brief elaboration; DISCUSS = examine both sides where appropriate.
+  2019 EXAMINATION  
+SECTION B — Answer ANY TWO (2) Questions from this section
+  Question 1
+a.  Explain the key responsibility of the project manager in defining project scope  [2 Marks]
+Model Answer:
+The project manager's key responsibility is to ensure that only the required work — and nothing more — will be performed, and that each deliverable can be completed within the allotted time and budget. Scope management means defining and controlling what is included in the project and what is not.
+📖 Source: Unit 3, Session 1 — Introduction to Project Scope Management, p.55
+b.  Explain four (4) common problems associated with project scope management  [8 Marks]
+Model Answer:
+Ambiguity: Ambiguity in scope leads to unnecessary work and confusion. The scope must be clearly defined and precise to avoid misinterpretations among team members and stakeholders.
+Incomplete Definition: Incomplete scopes lead to schedule slips and cost overruns. The scope must be complete and accurate from the outset so that all deliverables are fully identified.
+Transience (Scope Creep): Transient or unstable scopes lead to scope creep — the primary cause of late deliveries and never-ending projects. Once finalized, the scope document must remain unaltered for the duration of the project.
+Uncollaborated Scope: A scope not collaboratively prepared causes misinterpretations in requirements and design. The scope document must be shared with and agreed upon by all stakeholders at every step.
+📖 Source: Unit 3, Session 1 — Common Problems in Project Scope Management, p.56
+c.  Explain any five (5) importance of project scope management  [10 marks]
+Model Answer:
+Shared Understanding: Scope management ensures that stakeholders and team members alike understand the project scope and agree on how goals will be met.
+Verification of Completed Work: Scope management sets up procedures for how work that is completed will be verified and approved, ensuring quality and formal acceptance of deliverables.
+Controls Scope Bloat: Scope management helps avoid challenges with bloating scope and unruly requirements lists — it checks what gets added or removed during execution.
+Defines Exclusions: Scope management defines what is NOT part of the project, ensuring excluded items are not included during the execution stage.
+Enables Accurate Estimation: Without defining project scope, the cost and time that the project will take cannot be estimated. Scope changes directly affect cost and disturb the schedule, causing losses.
+📖 Source: Unit 3, Session 1 — Importance of Project Scope Management, pp.55–56
+
+  Question 2
+a.  State the four (4) main types of project termination  [4 Marks]
+Model Answer:
+Termination by Starvation: Occurs when needed resources are lacking, inadequate, or unavailable. The project may be kept on file for reactivation when the economic situation improves.
+Termination by Extinction: The project is stopped due to either successful completion (goals met, deliverables handed to users) or unsuccessful completion (objectives cannot be met). Final budget is audited and assets dispersed.
+Termination by Addition: A very successful project is not disbanded; instead, the project organization is converted into a new permanent operating unit of the parent organization.
+Termination by Integration: Project resources and team members are reintegrated into the organization's existing functional departments upon project conclusion.
+📖 Source: Unit 1, Session 5 — Project Life Cycle (Project Termination), p.20
+b.  Using relevant examples, explain the three (3) main processes used to ensure effective project costs management  [6 marks]
+Model Answer:
+Project Cost Estimating: Approximating the cost to complete project activities by breaking the project into phases or deliverables. Resources considered include labour, materials, equipment, services, and facilities. Example: Estimating a house by separately costing land acquisition, foundation, building, roofing — rather than a single bulk estimate.
+Project Cost Budgeting: Aggregating the estimated costs of individual activities or work packages to establish an authorized cost baseline against which expenditures are measured. Example: Combining cost estimates for a hospital project's civil works, MEP systems, and equipment into one approved budget.
+Project Cost Control: Monitoring the status of the project to update costs and manage changes to the cost baseline. Any deviation in schedule, quality, or scope will have a cost impact. Example: Tracking monthly spending on a road project against the baseline to catch overruns before they escalate.
+📖 Source: Unit 2, Session 3 — Project Cost Management Process, pp.37–39
+c.  Explain any five (5) sources of long-term project funding  [10 marks]
+Model Answer:
+Sale and Leaseback: Assets are sold to a financial institution and leased back for a term. This releases capital tied in assets for investment, offset by rental payments and loss of capital growth if assets appreciate.
+Loan Capital (Debentures): Loans secured by a fixed or floating charge against a company's assets. Debenture holders receive their interest before any dividend is paid to shareholders, and are preferential creditors if the business fails.
+Business Angels: Private investors who invest directly in exchange for an equity stake and sometimes a board seat. They invest lesser amounts than venture capitalists and bring useful entrepreneurial knowledge.
+Venture Capital: Venture capitalists offer substantial funds to companies considered too risky for standard institutions, in exchange for equity and a strategic non-executive role. Their prime aim is to increase share value for future profit.
+Share Capital: Raised through shareholders who receive dividends and potential capital gains. Ordinary shareholders have voting rights but bear risk; preference shareholders receive guaranteed dividends with limited voting rights.
+📖 Source: Unit 2, Session 4 — Sources of Long-Term Project Funding, pp.42–44
+  2020 EXAMINATION  
+Section B — Answer any two (2) questions from this Section
+  QUESTION 1
+a..  Explain the key responsibility of the project manager in defining project scope.  [[2 Marks]]
+Model Answer:
+(Same as 2019 Q1a — the project manager ensures only required work is performed and that each deliverable can be completed within the allotted time and budget.)
+See full answer under 2019 Question 1a above.
+b..  Explain Four (4) common problems associated with project scope management.  [[8 Marks]]
+Model Answer:
+(Ambiguity, Incomplete Definition, Transience/Scope Creep, Uncollaborated Scope — see full answers under 2019 Question 1b above.)
+c..  Explain any Five (5) importance of project scope management.  [[10 marks]]
+Model Answer:
+(Shared Understanding, Verification, Controls Scope Bloat, Defines Exclusions, Enables Accurate Estimation — see full answers under 2019 Question 1c above.)
+
+  QUESTION 2
+a..  State the Four (4) main types of project termination.  [[4 Marks]]
+Model Answer:
+(Starvation, Extinction, Addition, Integration — see full answers under 2019 Question 2a above.)
+b..  Using relevant examples, explain the three (3) main processes used to ensure effective project costs management.  [[6 marks]]
+Model Answer:
+(Cost Estimating, Cost Budgeting, Cost Control — see full answers under 2019 Question 2b above.)
+c..  Explain any Five (5) sources of long-term project funding.  [[10 marks]]
+Model Answer:
+(Sale and Leaseback, Debentures, Business Angels, Venture Capital, Share Capital — see full answers under 2019 Question 2c above.)
+
+  QUESTION 3
+a..  All projects are temporary in nature. Discuss  [[4 Marks]]
+Model Answer:
+This statement is fundamentally correct. A project is defined as a temporary planned endeavor — all project activities must be commenced and completed within a specific period (specific start and end point).
+However, 'temporary' does NOT mean: (i) the project duration is always short — some projects span years; or (ii) the product or outcome created is temporary — a bridge built by a project may stand for a century. What is temporary is the project's engagement and team formation. Projects end when: objectives are fully achieved; objectives cannot or will not be met; the need for the project no longer exists; or sponsors withdraw financial support.
+Therefore, the temporary nature of a project distinguishes it from ongoing operations, which are repetitive and continuous. Each project has a definite beginning and a definite end.
+📖 Source: Unit 1, Session 1 — Nature of a Project, p.3
+b..  Explain any six (6) characteristics of a project  [[6 Marks]]
+Model Answer:
+Objective to Achieve: Every project is an ad hoc endeavor with a specific goal to be achieved.
+Schedule to Closure: Every project has a temporal life cycle with a specific time to accomplish each activity in the project life cycle.
+Complexity: Every project has its level of complexity, requiring specific existing technology to achieve the project's objectives.
+Resource Needs: Every project requires specific labour, personnel, equipment, materials, and budget to ensure successful closure.
+Organizational Structure: Every project has a management structure providing decisions on information controls, budget, scheduling, quality standards, and overall direction.
+Risk and Safety Controls: Every project must have risk management and safety controls to comply with both international and local standards depending on the location and stakeholder requirements.
+📖 Source: Unit 1, Session 1 — Characteristics of a Project, pp.4–5
+c..  With the aid of a diagram, explain the three (3) most important traditional constraints of project management  [[6 Marks]]
+Model Answer:
+The three most important traditional constraints are the Triple Constraints — Scope, Cost (Budget), and Schedule (Time):
+Scope: Defines all the work that must be performed to deliver the project successfully. Expanding scope without adjusting time or cost will compromise quality and lead to project failure.
+Cost (Budget): The approved budget allocated for the project. Cost overruns occur when scope expands or time is extended without corresponding budget increases.
+Schedule (Time): The planned timeline for project completion. Time is the most visible indicator of project success — delays are immediately recognizable.
+DIAGRAM: [Triangle — Scope (top vertex), Cost/Budget (bottom-left vertex), Schedule/Time (bottom-right vertex), Quality in the centre]
+These constraints are interdependent: change in one affects the others. Modern project management also recognizes quality, resources, and risk as additional constraints.
+📖 Source: Unit 1, Session 2 — Constraints to Project Management, p.8
+
+  QUESTION 4
+a..  State two (2) importance of human resource planning in project management  [[4 Marks]]
+Model Answer:
+Identifies Roles and Responsibilities: HR planning identifies the specific roles and responsibilities required to achieve the aim of a project. This gives the project leader clarity on the calibre of people to recruit, making them task and goal-oriented.
+Sets Skills Standards: HR planning sets the standard of skills and intellectual capacity needed in prospective project team members. It prevents mismatching of qualifications and guides the recruitment method.
+📖 Source: Unit 4, Session 2 — Importance of Human Resource Planning, p.94
+b..  Explain any four (4) functions performed by the project manager in managing and leading project teams  [[8 Marks]]
+Model Answer:
+Influencing the Team: The project manager influences human resource factors impacting the project — team environment, geographical locations, cultural issues, and internal/external politics — to maintain project performance.
+Building Trust: The project manager builds trust by persuading team members to ask questions and seek guidance from each other, fostering familiarity and comfort essential for high team performance.
+Performance Appraisals: The project manager uses appraisals to provide feedback to team members, allowing individual reflection and progressive improvement that benefits the entire team in reaching objectives.
+Conflict Management: The project manager resolves inevitable conflicts arising from scarce resources, scheduling priorities, and personal work styles using techniques including: withdraw/avoid, smooth/accommodate, compromise/reconcile, force/direct, and collaborate/problem solve.
+📖 Source: Unit 4, Session 3 — Manage Project Team, pp.100–101
+c..  State the steps to consider in establishing the project risk context  [[8 Marks]]
+Model Answer:
+Step 1: Establish the organizational and project environment in which the risk assessment is taking place.
+Step 2: Specify the main objectives and outcomes required for the project.
+Step 3: Identify a set of success criteria against which the consequences of identified risks can be measured.
+Step 4: Define a set of key elements for structuring the risk identification and assessment process.
+Context inputs include: project execution strategy, project charter, cost and schedule assumptions, scope definitions, engineering designs, economic analyses, and other relevant project documentation.
+The output is: a concise statement of project objectives, specific success criteria, objectives and scope for the risk assessment, and key elements for structuring the risk identification process.
+📖 Source: Unit 6, Session 2 — Establish the Risk Context, p.153
+  2021 EXAMINATION  
+SECTION B — Answer two (2) questions from this section
+  Question 1
+a..  Using relevant examples, explain the four main classifications of project delay types.  [(10 marks)]
+Model Answer:
+Critical vs Non-Critical Delays: A critical delay extends the overall project duration, leading to extended overhead, liquidated damages, idle labour, and cost escalation. A non-critical delay does not extend total project duration but causes individual activities to complete later than scheduled. Example: Delay in foundation work on a hospital extends the project (critical); delay in landscaping does not extend completion (non-critical).
+Excusable vs Non-Excusable Delays: An excusable delay is one the project team has no control over (force majeure, natural disasters, political unrest, client-caused delays) — the project manager may be entitled to time extension or compensation. A non-excusable delay results from the project manager's own failures (delayed procurement, poor scheduling) — the organization bears all cost consequences. Example: A flood delaying construction (excusable); the contractor failing to mobilize on time (non-excusable).
+Concurrent Delays: Occurs when more than one delay event affects multiple activities simultaneously or independently. Not all concurrent delays entitle the manager to extension — it is the causes, not the delays themselves, that must overlap. Example: Equipment failure and material shortage occurring simultaneously on a road project.
+Compensable vs Non-Compensable Delays: A compensable delay entitles the project manager to both time extension and cost compensation (all compensable delays fall under excusable). A non-compensable delay means the project manager is solely at fault and receives no compensation. Example: Client-requested design changes mid-project (compensable); poor project manager scheduling (non-compensable).
+📖 Source: Unit 1, Session 6 — Types of Delays in Projects, pp.23–24
+b..  Examine five causes of delays in projects.  [(10 marks)]
+Model Answer:
+Design Errors: Errors in project design lead to wrong application of techniques, additional work, scope revision, and cost overruns. Example: A structural design error in a bridge requiring demolition and full rework.
+Scope Change: Any change to the initial project scope during execution requires a review of budget, schedule, and quality plans. Causes include wrong initial scope definition, inherent risks, and sudden funding changes. Example: A client requesting additional floors on a building mid-construction.
+Inappropriate Procurement and Faulty Contractual Management: Ambiguous contracts and poor selection of contractors lead to disputes, arbitration, and long negotiations causing delays. Example: An unclear road construction contract generating work-change-order disputes that stall construction for months.
+Complexity: Large, complex projects are prone to delays from inflation, material price changes, exchange rate fluctuations, and omissions in estimation. Example: A major dam project delayed by international material price spikes and complex subcontractor dependencies.
+Subcontractor and Consultant Delays: Inability of subcontractors or consultants to complete their contracts on time. These delays are difficult to anticipate or overcome. Example: A specialized MEP subcontractor on a hospital project failing to complete electrical installations by the agreed date.
+📖 Source: Unit 1, Session 6 — Causes of Project Delays, pp.25–27
+
+  Question 2
+a..  Analyse the processes involved in project procurement management.  [(12 marks)]
+Model Answer:
+Procurement Planning: Identifying which project needs are best met externally — considering whether to procure, how, what, how much, and when. Determines contract type (fixed cost, cost reimbursement, or unit price) and develops the procurement strategy.
+Solicitation Planning: Implements the procurement management plan and ends with sending solicitation documents — Request for Proposal (RFP), Request for Quotes (RFQ), and invitations to tender — to prospective suppliers.
+Solicitation: Obtaining bids and proposals from prospective sellers. Bidder conferences are organized to ensure all sellers have a clear, common understanding of procurement requirements. Proposals describing sellers' ability and willingness to supply are prepared.
+Source Selection: Using standard criteria to evaluate all bids/proposals. Proposals are separated into technical and commercial sections. After scoring, ranking, and negotiation, a contract is signed with the highest-ranked supplier.
+Contract Administration: Ensures the supplier's performance meets contractual requirements. Covers project plan execution, performance reporting, quality control, change control, and payment systems throughout the contract period.
+Contract Closeout: All procurements are formally closed — checking work is done satisfactorily, making final payments, completing cost records, and preparing a final report including lessons learned from all parties.
+📖 Source: Unit 2, Session 5 — Project Procurement Management, pp.45–47
+b..  Examine any four main risks that occur in project procurement process.  [(8 marks)]
+Model Answer:
+Demand Fluctuation: Demand can be higher or lower than projected due to seasonality, taxation, price, and product availability. This affects project cost, schedule, and scope. Mitigation: use financial products such as options and futures, and continuously update demand information.
+Vague Price Information: Prices of materials and services are unstable — purchasing at different times incurs different costs, affecting inventory holding and total project cost. Mitigation: develop flexible buyer-supplier relationships and adopt financial hedging strategies.
+Unreliable Yield: Supply yield is uncertain due to limited supplier production capability or inability to meet product requirements. Mitigation: supplier diversification (using multiple suppliers) or collaboration with the supplier to improve reliability.
+Uncertain Lead Time: If lead time uncertainty cannot be controlled, it increases total cost and reduces service levels. Mitigation: determine optimal ordering time and use backup supply channels to ensure continuity.
+📖 Source: Unit 2, Session 6 — Procurement Risk Management, pp.49–51
+
+  Question 3
+a..  Examine two importance and challenges each of project communication management  [(8 marks)]
+Model Answer:
+Two Importances:
+Relay of Information: Managing communications ensures appropriate information reaches the right people through the right media. It facilitates information flow within and outside the project organization and keeps stakeholders updated with progress reports.
+Clarity of Tasks: Good communication skills ensure all project teams have their tasks clearly communicated, giving them a clear understanding of the creative skills expected to undertake the project successfully.
+Two Challenges:
+Poor Communication During Adversity: When unexpected issues or changes arise, the absence of a dynamic formal communication plan creates gaps. The formal and informal communication plans must complement each other to prevent this.
+Language and Cultural Barriers: In global projects, different word meanings, lack of a common language, and varying cultural communication styles create barriers that the project manager must learn to handle.
+📖 Source: Unit 4, Session 4 — Project Communication Management, pp.104–105
+b..  Explain the activities involved in the project integration management process  [(12 marks)]
+Model Answer:
+Develop Project Charter: Formally authorizes the existence of the project and provides the project manager authority to apply organizational resources. Establishes the partnership between the performing and requesting organizations.
+Develop Project Management Plan: Defines, prepares, and coordinates all subsidiary plans, integrating them into a comprehensive PMP that describes how the project will be executed, monitored, controlled, and closed.
+Direct and Manage Project Work: Leading and performing the work defined in the PMP and implementing approved changes to achieve project objectives. The project manager manages team, resources, communications, risks, and unplanned activities.
+Monitor and Control Project Work: Tracking, reviewing, and reporting project progress against performance objectives. Involves collecting and distributing performance information and determining corrective or preventive actions.
+Perform Integrated Change Control: Reviewing all change requests and approving or rejecting changes to deliverables, project documents, and the PMP. This allows documented changes to be reflected in an integrated approach while reducing project risk.
+Close Project or Phase: Finalizing all activities to formally complete the project or phase. The project manager confirms all work is complete, goals are met, and then releases resources and transfers deliverables.
+📖 Source: Unit 5, Sessions 1–3 — Project Integration Management Activities, pp.119–132
+
+  Question 4
+a..  Examine four common problems associated with project scope management  [(10 Marks)]
+Model Answer:
+(Same as 2019 Q1b — Ambiguity, Incomplete Definition, Transience/Scope Creep, Uncollaborated Scope. See full answers under 2019 Question 1b.)
+b..  Explain four importance of time management in projects.  [(10 marks)]
+Model Answer:
+Assurance of Project Success: Time management provides assurance of project success — at least in terms of meeting the scheduled date. Time is an indicator of project success; projects going beyond the scheduled time are viewed as failures.
+Results in Effectiveness and Efficiency: When time is managed, activities are performed within the stipulated timeframe. Time as a resource is well utilised by the team, enhancing productivity and overall performance.
+Reduces Stress: Project-related stress develops when time management is ignored — when work is not progressing with unnecessary delays. Proper task identification, work flow design, and timing allocation reduces this stress significantly.
+Results in Quality Output: Project time management ensures work is done based on the time scheduled. When activities follow the schedule, quality is more likely to meet the set standard since nothing is done haphazardly under pressure.
+📖 Source: Unit 3, Session 4 — Importance of Time Management, pp.71–72
+  2022 EXAMINATION  
+SECTION B — Answer any Two Questions from this section
+  Question 1
+You have been appointed as the project manager for the next graduation ceremony of the University of Cape Coast.
+Required:
+A..  Explain the steps you would follow in managing this project.  [(10 marks)]
+Model Answer:
+Identify Requirements/Needs: Define what the graduation ceremony requires — venue, logistics, catering, audiovisuals, printing of certificates, security, and guest management.
+Address Stakeholder Needs: Identify and engage all stakeholders (UCC management, graduating students, parents, academic staff, caterers, security, media) and address their needs, concerns, and expectations in planning.
+Set Up Communications: Establish and maintain effective communications among all active stakeholders, ensuring timely, accurate, and collaborative information sharing throughout.
+Develop the Project Management Plan: Create detailed plans covering scope, schedule, budget, quality, risk, procurement, and HR — coordinated into one comprehensive PMP.
+Execute the Plan: Implement the plans: procure services, deploy the project team, manage resources, monitor activities, and handle changes or issues as they arise.
+Monitor and Control: Track progress against the plan — check that logistics are on schedule, costs are within budget, and quality targets are met. Initiate change requests where needed.
+Close the Project: After the ceremony, release resources, settle contracts with suppliers, document lessons learned, and prepare a post-event review.
+📖 Source: Unit 1, Session 2 — Steps to Manage a Project, p.7
+B..  Examine three constraints you are likely to encounter with the aid of a diagram and indicate how these constraints will affect the successful execution of the project.  [(10 marks)]
+Model Answer:
+Scope: Defines all activities — venue setup, rehearsals, ceremony programme, certificates, reception, and media coverage. If additional elements are requested without adjusting time or budget, quality will be compromised and the ceremony may not be delivered as planned.
+Cost (Budget): The ceremony must be delivered within UCC's approved budget. Uncontrolled spending or scope expansion without a budget increase could exhaust funds before the ceremony is complete.
+Schedule (Time): The graduation date is fixed and cannot be moved. All procurement, certificate printing, rehearsals, and setup must be completed before that fixed date — any delay in one activity compresses the remaining tasks.
+DIAGRAM: [Triangle — Scope (top), Cost/Budget (bottom-left), Schedule/Time (bottom-right), Quality at centre]
+Impact: These constraints are interdependent — extending time increases cost; cutting cost reduces scope; expanding scope requires more time and budget. The project manager must continuously balance all three.
+📖 Source: Unit 1, Session 2 — Constraints to Project Management, p.8
+
+  Question 2
+A company has consulted to manage the launch of a new product. As the project manager for the event, you are required to address the following:
+A..  Using relevant examples, examine how the following cost may be applicable to the project:  i. Direct cost  ii. Indirect cost  iii. Fixed cost  iv. Variable cost  v. Expedited cost  [(10 marks)]
+Model Answer:
+Direct Cost: Costs clearly assigned to the specific project activity that generated them. Example: All labour costs of the launch event team and all materials (banners, brochures, demo units) used exclusively for the product launch.
+Indirect Cost: Costs linked to overhead and general administration not exclusively attributable to the launch project. Example: Utilities, insurance, depreciation on shared equipment, secretarial support, and general advertising.
+Fixed Cost: Costs that do not vary with usage throughout the project lifecycle. Example: Lease of the event venue at a fixed fee regardless of actual attendance numbers.
+Variable Cost: Costs that increase or decrease based on actual activity levels. Example: Catering costs that vary with the number of attendees, or printed materials that vary with the guest list size.
+Expedited Cost: Unplanned costs incurred to speed up project completion. Example: Paying overtime to event staff or hiring additional temporary workers to meet the launch deadline after falling behind schedule.
+📖 Source: Unit 2, Session 2 — Nature of Project Cost, pp.33–34
+B..  Examine the three main processes you would use to ensure effective project cost management.  [(10 marks)]
+Model Answer:
+(Cost Estimating, Cost Budgeting, Cost Control — see full answers under 2019 Question 2b.)
+
+  Question 3
+The government of Ghana is putting up a three-storey building as part of its Agenda 111 projects. This project is expected to be completed within three years. You have been appointed as the project consultant.
+Required:
+A..  Assess four reasons why this project must be completed within the stipulated time framework provided.  [(10 marks)]
+Model Answer:
+Time as an Indicator of Project Success: Project time management provides assurance of project success — missing the deadline is viewed as project failure. For a government project (Agenda 111), a missed deadline signals poor governance and budget inefficiency.
+Financial Cost of Delays: A critical delay extends overhead costs, including idle labour, equipment costs, and material cost escalation due to inflation. Prolonging the project increases expenditure beyond the approved budget, requiring supplementary funding.
+Service Delivery Obligation: The project aims to build hospitals to improve healthcare in each district. Every day of delay denies citizens access to critical healthcare infrastructure — a social obligation that makes timely delivery imperative.
+Contractual and Legal Obligations: Construction contracts include liquidated damages clauses imposing financial penalties for every day of delay beyond the agreed completion date. Exceeding the timeline creates legal and financial liability for the government.
+📖 Source: Unit 3, Session 4 — Importance of Time Management, pp.71–72; Unit 1, Session 6 — Project Delays, pp.23–24
+B..  Explain the steps to be followed in developing a human resource management plan for this project.  [(10 marks)]
+Model Answer:
+Step 1 — Identify and Document Roles and Responsibilities: Define all roles required to achieve the project goals (e.g., civil engineers, quantity surveyors, project coordinators, site supervisors, health facility designers). Document the responsibilities attached to each role.
+Step 2 — Specify Skills Requirements: After determining roles, specify the conceptual, human, and technical skills and qualifications expected of each team member to effectively handle their responsibilities.
+Step 3 — Define Reporting Relationships: Draft a project organizational structure showing the chain of command and communication flow between all teams. This enables clear reporting lines and prevents confusion on authority.
+Step 4 — Create a Staffing Management Plan: Describe when and how project team members will be acquired, how long they will be needed, and plans for staff acquisition, release, training needs, and recognition/rewards systems.
+📖 Source: Unit 4, Session 2 — Plan and Acquire Human Resource for Projects, pp.93–94
+
+  Question 4 (Exam Code 01)
+B..  Using relevant examples, distinguish between the following types of cost:  i. direct and indirect project costs  ii. Fixed and variable costs  iii. normal and expedited costs  iv. recurring and nonrecurring costs  [(2.5 marks each)]
+Model Answer:
+i. Direct vs Indirect Project Costs: Direct costs are clearly assigned to the specific project activity that generated them — e.g., direct labour wages of workers on the project, direct materials incorporated into the deliverable. Indirect costs are linked to overhead and general administration, not traceable to any single project activity — e.g., utilities, insurance, depreciation, advertising, and secretarial support.
+ii. Fixed vs Variable Costs: Fixed costs do not vary with usage throughout the project lifecycle — e.g., leasing capital equipment or project hardware at a fixed monthly rate. Variable costs increase or decrease throughout the project lifecycle, subject to significant fluctuations — e.g., equipment usage costs that vary with the number of hours used.
+iii. Normal vs Expedited Costs: Normal costs are incurred in the routine process of completing the project according to the original planned schedule agreed upon by all stakeholders. Expedited costs are unplanned costs incurred when steps are taken to speed up the project's completion — e.g., crashing activities through overtime, hiring additional temporary workers, or contracting external resources to regain lost time.
+iv. Recurring vs Nonrecurring Costs: Recurring costs are continuous in nature throughout the project lifecycle — e.g., labour costs, material costs, logistics, and sales costs. Nonrecurring costs are charged only once at the beginning or closure of the project — e.g., preliminary marketing analysis, personnel training, and outplacement services.
+📖 Source: Unit 2, Session 2 — Nature of Project Cost, pp.33–34
+  2023 EXAMINATION  
+SECTION B — Answer any Two Questions from this section
+  Question 1
+You have been appointed as the project manager for the next graduation ceremony of the University of Cape Coast.
+Required:
+A..  Explain the steps you would follow in managing this project.  [(10 marks)]
+Model Answer:
+(Same as 2022 Q1A — Identify requirements, address stakeholder needs, set up communications, develop PMP, execute, monitor & control, close. See full answer under 2022 Q1A.)
+B..  Examine three constraints you are likely to encounter with the aid of a diagram and indicate how these constraints will affect the successful execution of the project.  [(10 marks)]
+Model Answer:
+(Same as 2022 Q1B — Scope, Cost, Schedule with Triple Constraint diagram. See full answer under 2022 Q1B.)
+
+  Question 2
+A company has consulted to manage the launch of a new product. As the project manager for the event, you are required to address the following:
+A..  Using relevant examples, examine how the following cost may be applicable to the project:  i. Direct cost  ii. Indirect cost  iii. Fixed cost  iv. Variable cost  v. Expedited cost  [(10 marks)]
+Model Answer:
+(Same as 2022 Q2A. See full answers under 2022 Question 2A.)
+B..  Examine the three main processes you would use to ensure effective project cost management.  [(10 marks)]
+Model Answer:
+(Same as 2019 Q2b and 2022 Q2B — Cost Estimating, Cost Budgeting, Cost Control.)
+
+  Question 3
+The government of Ghana is putting up a three-storey building as part of its Agenda 111 projects. This project is expected to be completed within three years. You have been appointed as the project consultant.
+A..  Assess four reasons why this project must be completed within the stipulated time framework provided.  [(10 marks)]
+Model Answer:
+(Same as 2022 Q3A — See full answer under 2022 Question 3A.)
+B..  Explain the steps to be followed in developing a human resource management plan for this project.  [(10 marks)]
+Model Answer:
+(Same as 2022 Q3B — See full answer under 2022 Question 3B.)
+
+  Question 4
+A..  Define project integration management.  [(2 marks)]
+Model Answer:
+Project Integration Management involves the processes and activities to identify, define, combine, unify, and coordinate the various processes and activities within the Project Management Process Groups. It includes making choices about resource allocation and managing the interdependencies among all project management knowledge areas.
+📖 Source: Unit 5, Session 1 — Project Integration Management, p.119
+B..  Explain the processes involved in project integration management.  [(12 marks)]
+Model Answer:
+Develop Project Charter: Formally authorizes the existence of the project and provides the project manager with authority to apply organizational resources to project activities.
+Develop Project Management Plan: Defines, prepares, and coordinates all subsidiary plans and integrates them into a comprehensive PMP that describes how the project will be executed, monitored, controlled, and closed.
+Direct and Manage Project Work: Leading and performing the work defined in the PMP and implementing approved changes to achieve project objectives. Manages team, resources, communications, and risks.
+Monitor and Control Project Work: Tracking, reviewing, and reporting project progress against performance objectives defined in the PMP. Determines corrective or preventive actions when deviations occur.
+Perform Integrated Change Control: Reviewing all change requests and approving or rejecting changes to deliverables, project documents, and the PMP. Reduces project risk by integrating documented changes.
+Close Project or Phase: Finalizing all activities to formally complete the project or phase, releasing resources, and transferring deliverables to the customer.
+📖 Source: Unit 5, Session 1 — Project Integration Management Process, pp.119–120
+C..  State two importance of project integration management.  [(3 marks)]
+Model Answer:
+Initiates Project by Allocating Resources: Managing integration helps initiate the project by allocating resources to commence work. The project charter directs teams to execute the project plan and creates a formal record with senior management commitment.
+Prevents Isolated Project Management: Integration management ensures projects are not managed in isolation — it accounts for how aspects of the project relate to each other and to other parts of the organization, ensuring holistic execution.
+📖 Source: Unit 5, Session 1 — Importance of Project Integration Management, p.120
+D..  State two challenges in project integration management.  [(3 marks)]
+Model Answer:
+Tracking Interdependencies: Keeping track of everything and knowing how one element impacts others is very challenging. If not done accurately, it can lead to project failure — especially in large, complex projects.
+Information Dissemination in Global Teams: Projects with teams spread globally face difficulties regarding information dissemination. Wrong information may be communicated due to noise along the channel of communication. Technology and strong communication skills must be deployed to minimize this problem.
+📖 Source: Unit 5, Session 1 — Challenges of Project Integration Management, p.120
+  2024 EXAMINATION  
+SECTION B — Answer any two questions from this section.
+  Question 1
+A..  Define a project.  [(4 marks)]
+Model Answer:
+A project is defined as a temporary planned complex, one-time, customer-focused endeavor undertaken to create a unique outcome with a limited budget, schedule, and resources. It can broadly be defined as: (i) a temporary planned endeavor to create a product; (ii) a temporary planned endeavor to create a service or a capability to perform a service; (iii) a temporary planned endeavor to create an improvement in existing product or service lines; or (iv) a result, such as an outcome or document (e.g., a research project that develops new knowledge).
+📖 Source: Unit 1, Session 1 — What is a Project?, p.3
+B..  Analyse the statement "a project is temporary in nature".  [(6 marks)]
+Model Answer:
+The statement is fundamentally correct — all projects have a specific start and end point. The temporary nature means project activities must be commenced and completed within a specified period.
+However, 'temporary' does NOT mean: (i) the duration of every project is short — some projects span many years; or (ii) the product or outcome created by the project is automatically short-lived — a building constructed through a project may stand for decades.
+What is temporary is the project's engagement and team formation. Projects end when: objectives are fully achieved; when the project is terminated because objectives will not or cannot be met; when the need for the project no longer exists; or when sponsors withdraw financial support. This distinguishes projects from ongoing operations, which are repetitive and continuous.
+📖 Source: Unit 1, Session 1 — Nature of a Project, p.3
+C..  Examine five characteristics of a project.  [(10 marks)]
+Model Answer:
+Objective to Achieve: Every project is an ad hoc endeavor with a specific goal to be achieved.
+Schedule to Closure: Every project has a temporal life cycle with a specific time to accomplish each activity.
+Complexity: Every project has its level of complexity, hence requiring specific existing technology to achieve project objectives.
+Resource Needs: Every project requires specific labour, personnel, equipment, materials, and budget to ensure successful closure.
+Risk and Safety Controls: Every project must have risk management and safety controls to comply with both international and local standards depending on the location of the project and stakeholder requirements.
+📖 Source: Unit 1, Session 1 — Characteristics of a Project, pp.4–5
+
+  Question 2
+A..  Using relevant examples, distinguish between direct and indirect cost related to a project.  [(2 marks)]
+Model Answer:
+Direct Cost: Costs clearly assigned to the specific project activity that generated them. Examples: all labour costs of the project workers; all material costs directly incorporated into the deliverable.
+Indirect Cost: Costs linked to overhead and general administration — not directly attributable to any single project activity. Examples (overhead): utilities, taxes, insurance, depreciation on equipment, health and retirement benefits. Examples (administration): advertising, shipping, secretarial support, sales commissions.
+📖 Source: Unit 2, Session 2 — Direct and Indirect Costs, p.33
+B..  State and explain four sources of project cost.  [(6 marks)]
+Model Answer:
+Labour Cost: Costs associated with hiring and paying all classifications of workers (skilled, semi-skilled, labourers) involved in developing the project, including salary, hourly/daily rates, and pension or health benefits.
+Materials Cost: The cost of specific requirements and supplies the project team needs to complete tasks as scheduled. Varies by scope, quality standards, and risk thresholds.
+Service Cost: The cost of work done by consultants, experts, designers, and sub-contractors to ensure the successful completion of the project.
+Equipment and Facilities: Costs arising from rental of any equipment or office facilities needed to facilitate the completion of the project.
+📖 Source: Unit 2, Session 1 — Sources of Project Cost, pp.31–32
+C..  Examine the three main processes used to ensure effective project costs management.  [(12 marks)]
+Model Answer:
+(Same as 2019 Q2b — Cost Estimating, Cost Budgeting, Cost Control. See full answers under 2019 Question 2b.)
+
+  Question 3
+A..  Define project stakeholders using relevant examples.  [(2 marks)]
+Model Answer:
+Project stakeholders are individuals and organizations who may have an interest in and may be actively involved in the project. They are typically project team members, project managers, executives, project sponsors, customers, and users. Examples: Owners, Sponsors, Customers, End Users, Contractors, Suppliers, Project Managers, Project Teams, Society and Citizens, Government agents.
+📖 Source: Unit 1, Session 3 — Project Stakeholders, p.12; Unit 5, Session 4, p.135
+B..  Examine four importance of stakeholder management in project management.  [(8 marks)]
+Model Answer:
+Gains Valuable Support: Strong stakeholder support gives the project a valuable sponsor who can help make it a success. Properly managed stakeholders provide moral and organizational support throughout the project lifecycle.
+Gathers Complete Requirements: Gathering all stakeholder requirements upfront leads to project success — you deliver what the customer really needs. A negatively agitated stakeholder can make it very tough to succeed.
+Maintains Stakeholder Engagement: Keeping stakeholders well-informed of progress keeps them engaged throughout the entire project lifecycle, and they serve as a check that the project stays aligned with its initial goals.
+Reduces and Uncovers Risk: The more you engage stakeholders, the more risks are uncovered and reduced. Stakeholders may raise issues and concerns about project needs and constraints that the project team may have overlooked.
+📖 Source: Unit 5, Session 4 — Importance of Stakeholder Management, pp.135–136
+C..  Analyse four techniques involved in identifying project stakeholders.  [(10 marks)]
+Model Answer:
+Power and Interest Grid: Groups stakeholders by their level of power (authority) and level of interest in the project or its outcome. High power/high interest stakeholders are managed closely; high power/low interest are kept satisfied; low power/high interest are kept informed; low power/low interest are simply monitored.
+Power and Influence Grid: Groups stakeholders by their level of power (authority) and level of active influence on the project or its outcome. Useful when power and influence levels are not correlated.
+Influence and Impact Grid: Groups stakeholders based on their active involvement (influence) in the project and their ability to effect changes to project planning or execution (impact).
+Salience Model (Power, Urgency, and Legitimacy): Uses three parameters — power, urgency of needs, and legitimacy of involvement — to classify project stakeholders. This identifies the most critical stakeholders requiring immediate management attention.
+📖 Source: Unit 5, Session 5 — Techniques for Identifying Project Stakeholders, pp.139–140
+
+  Question 4
+A..  Examine five internal sources of project risk.  [(10 marks)]
+Model Answer:
+Top Management Not Recognizing the Activity as a Project: Without proper recognition, the project lacks adequate governance, dedicated resources, and organizational support, leading to mismanagement and failure.
+Too Many Projects Running Simultaneously: Running multiple projects at once causes resource overcommitment and divided management attention, increasing the probability of delays and budget overruns on all active projects.
+Impossible Schedule Commitments: Setting unrealistic timelines without adequate feasibility assessment creates a risk of inevitable delay from the outset of the project.
+No Functional Input into the Planning Phase: Excluding functional departments from the planning phase produces plans that do not reflect operational realities, leading to design omissions and rework during execution.
+Conflicting Project Priorities: Multiple competing organizational priorities and budget allocations may starve individual projects of timely funding and management attention, causing stagnation.
+📖 Source: Unit 6, Session 1 — Internal Sources of Project Risk, p.151
+B..  Analyse five risk response strategies used by project managers in responding to risk related to projects they are managing.  [(10 marks)]
+Model Answer:
+Avoidance/Prevention: Looks for alternative project activities that eliminate potential negative consequences. Involves detailed planning, alternative approaches, training, regular inspections, and procedural changes. Used when risk probability and impact are high.
+Transfer: Project risks are transferred to firms or individuals with greater capacity to manage them — e.g., client, contractor, subcontractor. Insurance policies are used when the risk is beyond the project manager's control.
+Risk Reduction/Mitigation: Partially or fully changes exposed areas to reduce the likelihood or impact of risk occurrence. Includes contingency planning, quality assurance, contract terms and conditions, and crisis management plans.
+Acceptance/Retention: Used when risks cannot be transferred or avoided — particularly for political/natural disaster risks. The project manager conducts a cost-benefit analysis and accepts the risk when other solutions are uneconomical.
+Risk Sharing: The project's common risks are divided proportionally among two or more entities or project partners. Both profits and potential losses of the project are shared between the parties. Example: Cost of a major infrastructure project shared between the Government of Ghana and the European Union.
+📖 Source: Unit 6, Session 4 — Risk Response Strategies, pp.161–162
+  2025 EXAMINATION  
+SECTION B — Answer any two questions from this section
+  Question 1
+The government of Ghana as part of its effort to boost health care in the country has embarked upon Agenda 111. The project is aimed at building hospitals in each district of Ghana. As a project consultant, you have been appointed to analyse the risk associated with the project and advise the government on the following:
+a. i..  Examine five internal and external risks that might affect the project  [(10 marks)]
+Model Answer:
+Five Internal Risks:
+Impossible Schedule Commitments: Unrealistic timelines for completing hospitals across all districts simultaneously — set without adequate feasibility analysis — will inevitably lead to construction delays.
+Organization's Resources Overcommitted: Managing hundreds of hospital construction sites simultaneously may stretch the government's procurement capacity, financial resources, and human resources beyond manageable limits.
+Conflicting Project Priorities: Multiple competing government priorities and budget allocations may starve individual hospital projects of timely funding, causing stagnation.
+No Functional Input in the Planning Phase: If district health authorities and communities are excluded from planning, critical hospital operational requirements may be missed, requiring expensive redesigns during execution.
+Unrealistic Planning and Scheduling: Overly optimistic construction timelines that do not account for material lead times, site-specific conditions, and seasonal weather factors lead to inherent delays.
+Five External Risks:
+Natural Disasters: Floods, earthquakes, or excess rainfall can simultaneously disrupt construction sites across multiple regions.
+Inflation and Currency Rate Fluctuations: Rising material costs (steel, cement, glass) and currency depreciation can cause significant budget overruns that require supplementary funding and negotiation delays.
+Unforeseen Regulatory Requirements: New environmental, health, or safety regulations introduced after project commencement can require costly design revisions and construction stoppages.
+Social/Community Opposition: Local communities may resist hospital siting decisions through protests, litigation, or non-cooperation, causing delays to land acquisition and construction.
+Political Risk: Changes in government policy, budget reallocations, or a change in administration could result in project starvation — reduced funding or outright cancellation of individual sites.
+📖 Source: Unit 6, Session 1 — Sources of Project Risk (Internal and External), pp.151–152
+a. ii..  Evaluate two techniques that can be used to identify project risks.  [(6 marks)]
+Model Answer:
+Brainstorming: A preferred risk identification method due to its flexibility and capability to generate a wide and diverse range of risks when appropriately structured. The technique requires: no criticism of any idea; free expression regardless of how extreme; treating all ideas as belonging to the group and building on them; and generating rather than evaluating ideas. Evaluation: Highly effective for diverse project teams but requires skilled facilitation to maintain productivity and focus.
+Expert Judgement: Involves seeking input from individuals with specialized knowledge or experience in the specific type of project or risk domain. This leverages past experience and deep technical knowledge to identify risks invisible to less experienced team members. Evaluation: Highly credible and targeted — but limited by the expert's scope of knowledge, can be expensive, and may introduce personal bias if not checked against other techniques.
+📖 Source: Unit 6, Session 2 — Risk Identification Methods, pp.153–154
+b..  The project agenda 111 has provided you with the following data on risk analysis:  []
+
+Risk Analysis Data Table
+i..  Calculate the threshold of these risks  [(2 marks)]
+Model Answer:
+Using the formula: Risk (R) = Probability (P) × Severity (S)
+Financial Risk:  R = 0.1 × 0.6 = 0.06
+Political Risk:  R = 0.6 × 0.4 = 0.24
+Technology Risk:  R = 0.3 × 0.8 = 0.24
+📖 Source: Unit 6, Session 3 — Risk Scoring Matrix: R = P × S, p.157
+ii..  Based on the answer in b(i) classify the risk into high, low and medium  [(2 marks)]
+Model Answer:
+Financial Risk (R = 0.06) → LOW — low probability and moderate severity
+Political Risk (R = 0.24) → MEDIUM — high probability but moderate severity
+Technology Risk (R = 0.24) → MEDIUM — moderate probability but high severity
+📖 Source: Unit 6, Session 3 — Risk Scoring Matrix and Classification, p.157
+
+  Question 2
+The government of Ghana has promised to construct a STEM school in your community. As a project consultant, have been asked to identify the stakeholders for the project and draw a plan for their engagement.
+Required:
+a. i..  Using the power interest grid, identify two stakeholders for each of the quadrants and justify their selection.  [(6 marks)]
+Model Answer:
+High Power / High Interest — Manage Closely: (1) Ministry of Education — has the authority to approve and fund the project AND a high direct interest in educational outcomes and policy compliance. (2) District Assembly — has political power over land allocation and construction permits AND a direct interest in the community development impact of the school.
+High Power / Low Interest — Keep Satisfied: (1) Ghana Revenue Authority — has regulatory authority over tax compliance matters but limited day-to-day interest in the school's design or programme. (2) Environmental Protection Agency — has authority to approve environmental impact assessments but low interest in ongoing construction activities.
+Low Power / High Interest — Keep Informed: (1) Parents and Community Members — have a strong interest in the school's design, curriculum, and quality but no formal decision-making authority. (2) Future Teachers/Staff — highly interested in facility quality and working conditions but no authority over project decisions.
+Low Power / Low Interest — Monitor: (1) General Media — may report on the project but have little sustained interest or power unless a major issue arises. (2) Neighbouring Businesses — low formal interest and no power unless construction activities directly disrupt their operations.
+📖 Source: Unit 5, Session 5 — Power/Interest Grid, pp.139–141
+a. ii..  Explain how each of the stakeholders identified in each quadrant is to be managed. Your explanation should be supported with relevant examples.  [(6 marks)]
+Model Answer:
+Manage Closely (High Power/High Interest): Engage frequently through regular meetings, progress reports, and direct involvement in key decisions. Example: Brief the Ministry of Education and District Assembly monthly on project milestones, budget utilization, and any emerging risks requiring decisions.
+Keep Satisfied (High Power/Low Interest): Keep informed of major milestones and compliance matters without overwhelming them with operational detail. Example: Provide GRA with quarterly tax compliance reports and EPA with environmental monitoring updates without including them in weekly construction meetings.
+Keep Informed (Low Power/High Interest): Provide regular, accessible updates through community forums, newsletters, or social media. Collect their feedback and reflect community preferences in design decisions. Example: Hold monthly community town halls to update parents on construction progress and gather input on school facilities and safety measures.
+Monitor (Low Power/Low Interest): Monitor periodically but invest minimal management resources. Update the strategy if their power or interest levels change. Example: Review media coverage weekly to catch any negative reporting early; reach out to neighbouring businesses only if construction creates access or noise issues.
+📖 Source: Unit 5, Session 5 — Plan Stakeholder Engagement, pp.140–141
+b..  Examine four outputs that would be achieved if the project managers of Agenda 111 perform integrated change control successfully.  [(8 marks)]
+Model Answer:
+Approved Change Requests: All change requests are formally processed and those approved are documented and implemented through the Direct and Manage Project Work process. This gives legitimacy to all modifications to the Agenda 111 hospital designs or specifications.
+Change Log: Documents all changes — approved and rejected — that occur during the project, including their impact on time, cost, and risk. Communicated to appropriate stakeholders. For Agenda 111, this creates an audit trail of all design modifications across all 111 hospital sites.
+Project Management Plan Updates: Approved changes require updates to subsidiary plans and baselines (scope, schedule, cost). These updates reflect the new authorized direction and ensure the PMP remains current and actionable.
+Project Documents Updates: All project documents subject to formal change control — risk registers, requirements documentation, stakeholder registers — are updated to reflect the impact of approved changes, maintaining accuracy across all project records.
+📖 Source: Unit 5, Session 3 — Perform Integrated Change Control, pp.130–131
+
+  Question 3
+a..  Examine four importance of project scope management  [(6 marks)]
+Model Answer:
+(Any four from the six listed in the textbook — Shared Understanding, Verification of Work, Prevents Scope Bloat, Defines Exclusions, Establishes Control Mechanisms, Enables Accurate Estimation. See full answers under 2019 Question 1c.)
+b..  Examine four outputs achieved when a project manager validates the scope of the project.  [(4 marks)]
+Model Answer:
+Accepted Deliverables: Deliverables that meet the defined acceptance criteria are formally signed off by the customer or sponsor, confirming they are accepted as complete.
+Change Requests: Deliverables not meeting acceptance criteria may trigger change requests for defect repair or additional rework to bring them to the required standard.
+Work Performance Information: Information on scope completion progress — which deliverables have been accepted and which rejected — is documented and communicated to stakeholders.
+Project Documents Updates: Requirements documentation and the requirements traceability matrix are updated to reflect what has been validated and what remains outstanding.
+📖 Source: Unit 3, Session 3 — Validate Scope, p.57 area
+c..  Explain five guidelines that plan schedule management provides in project management  [(10 marks)]
+Model Answer:
+Scheduling Methodology: Establishes the scheduling model to be used throughout the project — e.g., Critical Path Method (CPM), Precedence Diagramming Method — ensuring all team members use a consistent approach.
+Level of Accuracy: Defines the acceptable range for activity duration estimates, enabling consistent and realistic scheduling across all project phases.
+Units of Measure: Defines measurement units for resources (e.g., staff hours, staff days) and time (weeks, months) for consistent reporting and comparison.
+Control Thresholds: Sets variance thresholds for monitoring schedule performance — e.g., ±5% from baseline — that trigger corrective action when exceeded, providing an early warning system.
+Rules for Performance Measurement: Establishes how Earned Value Management (EVM) data will be reported and recorded, ensuring consistent, comparable performance measurement throughout the project lifecycle.
+📖 Source: Unit 3, Session 5 — Project Time Management Activities, p.71 area
+
+  Question 4
+a..  Using relevant examples, explain what is project delay  [(2 marks)]
+Model Answer:
+Project delay is defined as the inability of a project team to complete all activities stipulated under a particular project within the estimated duration. Project delays manifest as a breach of the time constraint of a project, which could affect the cost, scope, and quality either positively or negatively. A project delay can be a deliberate action or an indeliberate action. Example: A contractor failing to complete an Agenda 111 hospital within the three-year timeline due to material supply disruptions — an indeliberate delay beyond immediate control.
+📖 Source: Unit 1, Session 6 — Project Delays, p.23
+b..  Examine the types of project delays using relevant examples  [(8 marks)]
+Model Answer:
+(Critical/Non-critical, Excusable/Non-excusable, Concurrent, Compensable/Non-compensable — see full answers with examples under 2021 Question 1a.)
+c..  Analyse five causes of project delays. Your answer must reflect relevant examples.  [(10 marks)]
+Model Answer:
+(Design Errors, Scope Change, Inappropriate Procurement, Complexity, Subcontractor Delays — see full answers with examples under 2021 Question 1b.)
+— End of Model Answers —
+Source: Nyamah, E.Y. & Yeboah, A.Y.O. — Introduction to Project Management (CoDEUCC, UCC, 2019)

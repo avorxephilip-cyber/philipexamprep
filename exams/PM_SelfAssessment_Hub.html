@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM Self Assessment Hub | Philip Exam Prep</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #60a5fa;
+            --bg: #09090b;
+            --surface: #18181b;
+            --border: rgba(255,255,255,0.1);
+            --text: #e4e4e7;
+            --text-muted: #a1a1aa;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .unit-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .unit-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-4px);
+            background: rgba(96,165,250,0.05);
+        }
+        .unit-num {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .unit-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        .unit-desc {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+        .back-link {
+            margin-top: 3rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .back-link:hover {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Project Management</h1>
+            <p style="color: var(--text-muted);">Self Assessment Questions & Answers Hub</p>
+        </div>
+
+        <div class="grid">
+            <a href="Project_unit1.html" class="unit-card">
+                <div class="unit-num">Unit 1</div>
+                <div class="unit-title">Nature of Project & PM</div>
+                <div class="unit-desc">Basic definitions, characteristics, and importance of project management.</div>
+            </a>
+            <a href="Unit%202%20Project.html" class="unit-card">
+                <div class="unit-num">Unit 2</div>
+                <div class="unit-title">Cost & Procurement</div>
+                <div class="unit-desc">Resource management, budgeting, and external acquisition processes.</div>
+            </a>
+            <a href="Unit%203Project.html" class="unit-card">
+                <div class="unit-num">Unit 3</div>
+                <div class="unit-title">Planning & Scheduling</div>
+                <div class="unit-desc">Defining scope, work breakdown structures, and time management.</div>
+            </a>
+            <a href="Unit4%20project.html" class="unit-card">
+                <div class="unit-num">Unit 4</div>
+                <div class="unit-title">HR & Communication</div>
+                <div class="unit-desc">Leading teams, planning human resources, and ensuring effective information flow.</div>
+            </a>
+            <a href="Unit5%20Project.html" class="unit-card">
+                <div class="unit-num">Unit 5</div>
+                <div class="unit-title">Integration & Stakeholders</div>
+                <div class="unit-desc">Coordinating project processes and managing interested parties.</div>
+            </a>
+            <a href="Unit6%20Project.html" class="unit-card">
+                <div class="unit-num">Unit 6</div>
+                <div class="unit-title">Risk Management</div>
+                <div class="unit-desc">Identifying, assessing, and responding to project uncertainties.</div>
+            </a>
+        </div>
+
+        <a href="../index.html" class="back-link">← Back to Course Materials</a>
+    </div>
+</body>
+</html>
