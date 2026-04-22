@@ -73,24 +73,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const allCards = document.querySelectorAll('#materials .exam-card');
     
     const searchContainer = document.querySelector('.search-container');
+    const filterSearchCol = document.querySelector('.filter-search-col');
     
     let currentCourseFilter = 'all';
 
     // Sticky Search Bar
     window.addEventListener('scroll', () => {
-        if (searchContainer && searchInput) {
+        if (searchContainer && searchInput && filterSearchCol) {
             const filterBar = document.getElementById('filter-bar');
             if (filterBar) {
                 const filterBarRect = filterBar.getBoundingClientRect();
                 // When filter bar starts to scroll out of view
                 if (filterBarRect.top <= 60 && window.scrollY > 0) {
-                    searchContainer.classList.add('fixed-search');
+                    if (!searchContainer.classList.contains('fixed-search')) {
+                        searchContainer.classList.add('fixed-search');
+                        document.body.appendChild(searchContainer);
+                    }
                 } else {
-                    searchContainer.classList.remove('fixed-search');
+                    if (searchContainer.classList.contains('fixed-search')) {
+                        searchContainer.classList.remove('fixed-search');
+                        filterSearchCol.appendChild(searchContainer);
+                    }
                 }
             }
-        } else if (searchContainer) {
-            searchContainer.classList.remove('fixed-search');
         }
     });
 
