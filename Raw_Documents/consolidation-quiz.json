@@ -1,0 +1,903 @@
+{
+  "title": "Consolidation Quiz",
+  "totalQuestions": 28,
+  "extractedAt": "2026-04-22T12:19:40.340Z",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Under IFRS 10, which element is NOT required to establish that an investor controls an investee?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Power over the investee through existing rights.",
+          "isCorrect": false,
+          "rationale": "Power is a fundamental pillar of control, defined as the current ability to direct relevant activities."
+        },
+        {
+          "label": "B",
+          "text": "Exposure, or rights, to variable returns from its involvement.",
+          "isCorrect": false,
+          "rationale": "An investor must be exposed to risks or rewards that vary based on the performance of the investee."
+        },
+        {
+          "label": "C",
+          "text": "The power to participate in the financial and operating policy decisions of the investee without having control.",
+          "isCorrect": true,
+          "rationale": "This describes significant influence, which is the threshold for an associate under IAS 28, whereas control requires the actual ability to direct relevant activities."
+        },
+        {
+          "label": "D",
+          "text": "The ability to use its power to affect the amount of the investor's returns.",
+          "isCorrect": false,
+          "rationale": "Control requires a link between power and returns, meaning the investor uses their influence to benefit financially."
+        }
+      ],
+      "hint": "Consider the distinction between controlling an entity and merely having significant influence over its policies.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 2,
+      "question": "A parent is exempt from preparing consolidated financial statements under IFRS 10 if it meets specific conditions. Which of the following is one of those conditions?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The parent is a subsidiary, but its other owners were not informed about the decision to omit consolidated statements.",
+          "isCorrect": false,
+          "rationale": "IFRS 10 requires that all other owners must be informed and not object to the parent not presenting consolidated financial statements."
+        },
+        {
+          "label": "B",
+          "text": "Its ultimate or any intermediate parent produces consolidated financial statements available for public use that comply with IFRSs.",
+          "isCorrect": true,
+          "rationale": "This is a key requirement to ensure that consolidated information for the group is still accessible to the public even if a sub-parent doesn't prepare its own."
+        },
+        {
+          "label": "C",
+          "text": "The parent is in the process of filing its financial statements with a securities commission for public issuance.",
+          "isCorrect": false,
+          "rationale": "Filing for public issuance triggers the requirement for consolidation to protect potential public investors."
+        },
+        {
+          "label": "D",
+          "text": "The parent's debt or equity instruments are traded in a domestic stock exchange.",
+          "isCorrect": false,
+          "rationale": "If instruments are publicly traded, the entity is generally required to provide consolidated statements for transparency to market investors."
+        }
+      ],
+      "hint": "Focus on the availability of a 'higher-level' set of group accounts.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 3,
+      "question": "When applying the acquisition method under IFRS 3, how should an acquirer treat acquisition-related costs like legal and accounting fees?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Deduct them from equity if they relate to the issuance of debt securities.",
+          "isCorrect": false,
+          "rationale": "Costs to issue debt are accounted for under IFRS 9, typically adjusting the carrying amount of the debt, not as a direct deduction from equity."
+        },
+        {
+          "label": "B",
+          "text": "Capitalize them as part of the cost of the investment in the separate financial statements only.",
+          "isCorrect": false,
+          "rationale": "While cost-based accounting might be used in separate statements, IFRS 3 strictly requires expensing in the consolidated context."
+        },
+        {
+          "label": "C",
+          "text": "Include them as part of the consideration transferred to determine goodwill.",
+          "isCorrect": false,
+          "rationale": "Capitalizing these costs into goodwill is prohibited as they represent services consumed rather than an asset acquired."
+        },
+        {
+          "label": "D",
+          "text": "Recognize them as an expense in the periods in which the costs are incurred.",
+          "isCorrect": true,
+          "rationale": "Acquisition-related costs are not considered part of the fair value exchange for the business and must be expensed as operating costs."
+        }
+      ],
+      "hint": "Think about whether these costs add long-term value to the acquired business itself.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 4,
+      "question": "How is goodwill measured in a business combination according to IFRS 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The difference between the purchase price and the book value of the subsidiary's equity.",
+          "isCorrect": false,
+          "rationale": "Consolidation requires using the fair value of assets and liabilities, not their historical book values."
+        },
+        {
+          "label": "B",
+          "text": "The excess of (Consideration + NCI + Previously held interest) over the fair value of identifiable net assets acquired.",
+          "isCorrect": true,
+          "rationale": "Goodwill is the residual amount after comparing the total value given (including the value of NCI) against the fair value of the net assets received."
+        },
+        {
+          "label": "C",
+          "text": "The consideration transferred minus the non-controlling interest's share of net assets.",
+          "isCorrect": false,
+          "rationale": "This calculation incorrectly ignores the NCI value as part of the 'total' acquisition value and the full fair value of the net assets."
+        },
+        {
+          "label": "D",
+          "text": "The total value of the subsidiary's intangible assets that were not previously recognized.",
+          "isCorrect": false,
+          "rationale": "Goodwill represents future economic benefits from unidentifiable assets, whereas identifiable intangibles are recognized separately."
+        }
+      ],
+      "hint": "It is the excess of the 'price paid' for the whole entity over the fair value of its 'identifiable' parts.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 5,
+      "question": "If the initial accounting for a business combination is incomplete by the end of the reporting period, IFRS 3 allows for 'provisional amounts.' What is the maximum duration of the 'measurement period' to adjust these amounts?",
+      "options": [
+        {
+          "label": "A",
+          "text": "One year from the acquisition date.",
+          "isCorrect": true,
+          "rationale": "This period allows the acquirer to obtain necessary information about facts existing at the acquisition date, but it is capped at 12 months."
+        },
+        {
+          "label": "B",
+          "text": "The end of the following financial year.",
+          "isCorrect": false,
+          "rationale": "The window is strictly based on the anniversary of the acquisition, not the company's fiscal calendar."
+        },
+        {
+          "label": "C",
+          "text": "Indefinitely, until all fair values are finalized.",
+          "isCorrect": false,
+          "rationale": "Standards require a time limit to ensure financial statements reach a final, comparable state."
+        },
+        {
+          "label": "D",
+          "text": "Three months from the reporting date.",
+          "isCorrect": false,
+          "rationale": "While reporting dates may differ by three months in consolidation, the measurement period for business combinations is specifically one year."
+        }
+      ],
+      "hint": "This timeframe is exactly twelve months long.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 6,
+      "question": "Under IFRS 3, how should a 'Bargain Purchase' (negative goodwill) be recognized?",
+      "options": [
+        {
+          "label": "A",
+          "text": "As an adjustment to the parent's retained earnings at the start of the period.",
+          "isCorrect": false,
+          "rationale": "The gain arises from the transaction itself and must pass through the profit or loss for the period of acquisition."
+        },
+        {
+          "label": "B",
+          "text": "As a gain in profit or loss on the acquisition date after reassessing the identification and measurement of all items.",
+          "isCorrect": true,
+          "rationale": "A bargain purchase represents an immediate gain that must be recognized in the income statement after a thorough review to ensure values are correct."
+        },
+        {
+          "label": "C",
+          "text": "By reducing the fair values of non-current assets proportionately until the excess is eliminated.",
+          "isCorrect": false,
+          "rationale": "Assets must be recorded at their acquisition-date fair values; they are not reduced just to offset a bargain purchase."
+        },
+        {
+          "label": "D",
+          "text": "As a deferred credit in the statement of financial position to be amortized over its useful life.",
+          "isCorrect": false,
+          "rationale": "Amortization of negative goodwill is not permitted; it must be recognized immediately as a gain."
+        }
+      ],
+      "hint": "Consider the impact of a 'lucky' purchase on the current year's performance.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 7,
+      "question": "In the context of IAS 28, what is the 'equity method' of accounting?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Combining the assets, liabilities, income, and expenses of the investor and investee line-by-line.",
+          "isCorrect": false,
+          "rationale": "This describes full consolidation, which is required for subsidiaries, not for associates accounted for under the equity method."
+        },
+        {
+          "label": "B",
+          "text": "The investment is initially recognized at cost and adjusted thereafter for the investor's share of the post-acquisition change in the investee's net assets.",
+          "isCorrect": true,
+          "rationale": "This method reflects the economic reality of the investor's interest by recognizing their share of the investee's profits and losses."
+        },
+        {
+          "label": "C",
+          "text": "Recording the investment at cost and only recognizing income when dividends are received.",
+          "isCorrect": false,
+          "rationale": "This is the 'cost method,' which IAS 28 rejects because it fails to show the investor's share of the investee's performance."
+        },
+        {
+          "label": "D",
+          "text": "Measuring the investment at fair value through other comprehensive income at each reporting date.",
+          "isCorrect": false,
+          "rationale": "While some financial assets are measured this way, IAS 28 requires the equity method for entities with significant influence."
+        }
+      ],
+      "hint": "Think about how an investor tracks their 'piece of the pie' as the investee grows.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 8,
+      "question": "According to IFRS 11, what is the primary characteristic of a 'Joint Operation'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The arrangement must always be structured through a separate legal vehicle.",
+          "isCorrect": false,
+          "rationale": "IFRS 11 states that if an arrangement is not structured through a separate vehicle, it is always a joint operation."
+        },
+        {
+          "label": "B",
+          "text": "Parties have rights to the net assets of the arrangement only.",
+          "isCorrect": false,
+          "rationale": "This describes a 'Joint Venture,' where the interest is in the equity/net assets of a separate entity."
+        },
+        {
+          "label": "C",
+          "text": "A single party has the power to direct all relevant activities without the consent of others.",
+          "isCorrect": false,
+          "rationale": "Joint arrangements require 'joint control,' meaning unanimous consent for strategic decisions."
+        },
+        {
+          "label": "D",
+          "text": "Parties have rights to the assets and obligations for the liabilities relating to the arrangement.",
+          "isCorrect": true,
+          "rationale": "In a joint operation, the operators have a direct interest in the individual assets and liabilities rather than just a share of the net result."
+        }
+      ],
+      "hint": "Look for direct ownership of resources and responsibility for debts.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 9,
+      "question": "How should a joint operator account for its interest in a joint operation in its financial statements?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Recognize its own assets, liabilities, revenues, and expenses, including its share of those held or incurred jointly.",
+          "isCorrect": true,
+          "rationale": "A joint operator reports its specific share of each financial statement line item based on the contractual agreement."
+        },
+        {
+          "label": "B",
+          "text": "Only recognize its share of the net profit as a single line item in the income statement.",
+          "isCorrect": false,
+          "rationale": "Joint operations require line-by-line recognition of the operator's share of assets, liabilities, and expenses."
+        },
+        {
+          "label": "C",
+          "text": "Apply the equity method as described in IAS 28.",
+          "isCorrect": false,
+          "rationale": "The equity method is used for joint ventures (net assets), whereas joint operations require 'pro-rata' recognition of assets/liabilities."
+        },
+        {
+          "label": "D",
+          "text": "Consolidate the operation as a subsidiary if it holds more than $50\\%$ of the voting rights.",
+          "isCorrect": false,
+          "rationale": "Joint control exists only with unanimous consent; if one party has control, it is a subsidiary, not a joint arrangement."
+        }
+      ],
+      "hint": "The operator accounts for its share of the 'pieces' of the operation, not just the 'bottom line'.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 10,
+      "question": "Under IFRS 8, which of the following is NOT one of the $10\\%$ quantitative thresholds used to identify reportable segments?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Reported revenue (external and intersegment) is $10\\%$ or more of the combined revenue of all segments.",
+          "isCorrect": false,
+          "rationale": "Revenue is one of the three primary quantitative metrics used to determine if a segment is significant enough to report."
+        },
+        {
+          "label": "B",
+          "text": "The absolute amount of reported profit or loss is $10\\%$ or more of the greater of combined profit or combined loss.",
+          "isCorrect": false,
+          "rationale": "The profit/loss test is a standard threshold to ensure major performing or loss-making segments are disclosed."
+        },
+        {
+          "label": "C",
+          "text": "The segment's assets are $10\\%$ or more of the combined assets of all operating segments.",
+          "isCorrect": false,
+          "rationale": "Asset size is the third quantitative threshold used to identify reportable segments."
+        },
+        {
+          "label": "D",
+          "text": "The segment's number of employees is $10\\%$ or more of the combined total of all operating segments.",
+          "isCorrect": true,
+          "rationale": "Employee count is not a quantitative threshold for reportability under IFRS 8; thresholds are based on revenue, profit/loss, and assets."
+        }
+      ],
+      "hint": "Thresholds are financial measures like income, results, and resources.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 11,
+      "question": "IFRS 8 requires that the total external revenue of reportable segments must constitute at least what percentage of the entity's total external revenue?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$10\\%$",
+          "isCorrect": false,
+          "rationale": "$10\\%$ is the threshold for identifying an *individual* reportable segment, not the aggregate requirement."
+        },
+        {
+          "label": "B",
+          "text": "$50\\%$",
+          "isCorrect": false,
+          "rationale": "This would likely be too low to provide a representative view of the group's operations to external users."
+        },
+        {
+          "label": "C",
+          "text": "$75\\%$",
+          "isCorrect": true,
+          "rationale": "This rule ensures that the segments identified provide a comprehensive view of the entity's overall business."
+        },
+        {
+          "label": "D",
+          "text": "$90\\%$",
+          "isCorrect": false,
+          "rationale": "While a higher percentage is better, IFRS 8 sets the minimum mandatory coverage at $75\\%$."
+        }
+      ],
+      "hint": "This threshold represents three-quarters of the total.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 12,
+      "question": "When eliminating intra-group sales in the consolidated statement of comprehensive income, how is the adjustment made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Deduct the profit element from Revenue and the cost element from Cost of Sales.",
+          "isCorrect": false,
+          "rationale": "The entire transaction value (sales price) must be removed from both lines to correctly state the group's external results."
+        },
+        {
+          "label": "B",
+          "text": "Only deduct the unrealized profit from the ending inventory balance.",
+          "isCorrect": false,
+          "rationale": "While inventory must be adjusted, the total sales and cost of sales figures must also be reduced to eliminate internal trading."
+        },
+        {
+          "label": "C",
+          "text": "Add the intra-group sales to Revenue and deduct the cost from Cost of Sales.",
+          "isCorrect": false,
+          "rationale": "Adding would inflate the group's performance; the goal is to show only transactions with third parties."
+        },
+        {
+          "label": "D",
+          "text": "Deduct the full value of the intra-group sales from both Revenue and Cost of Sales.",
+          "isCorrect": true,
+          "rationale": "This removes the 'double counting' of turnover and expenses within the group as if the transaction never happened."
+        }
+      ],
+      "hint": "The group should only show sales made to outside customers.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 13,
+      "question": "A Provision for Unrealized Profit (PUP) is necessary when a group company sells inventory to another group company and those goods remain in stock. Where is this adjustment typically made in the consolidated statement of financial position?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Deducted from the consolidated inventory and deducted from the group retained earnings (if the parent sold).",
+          "isCorrect": true,
+          "rationale": "This eliminates the 'fake' profit from the group's perspective and brings the inventory back down to its original cost to the group."
+        },
+        {
+          "label": "B",
+          "text": "Added to consolidated inventory to reflect the higher price paid by the purchasing company.",
+          "isCorrect": false,
+          "rationale": "Adding would further inflate the asset value beyond its cost to the group, which violates accounting principles."
+        },
+        {
+          "label": "C",
+          "text": "Only adjusted in the non-controlling interest's share of equity.",
+          "isCorrect": false,
+          "rationale": "If the parent is the seller, the profit is in the parent's retained earnings; if the subsidiary is the seller, both the parent and NCI share the adjustment."
+        },
+        {
+          "label": "D",
+          "text": "Ignored as it is a realized profit for the individual company that made the sale.",
+          "isCorrect": false,
+          "rationale": "Individual accounts are separate, but consolidation looks at the group as a single entity where profit is only realized upon sale to an external party."
+        }
+      ],
+      "hint": "Think about how to bring the 'inflated' asset value back to its original cost.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 14,
+      "question": "Under IFRS 3, contingent consideration that is classified as a liability must be:",
+      "options": [
+        {
+          "label": "A",
+          "text": "Remeasured with changes recognized directly in other comprehensive income.",
+          "isCorrect": false,
+          "rationale": "IFRS 3 specifically requires these fair value changes to be recognized in profit or loss."
+        },
+        {
+          "label": "B",
+          "text": "Amortized over the period until the contingency is resolved.",
+          "isCorrect": false,
+          "rationale": "Contingencies are measured based on current fair value estimates, not a fixed amortization schedule."
+        },
+        {
+          "label": "C",
+          "text": "Recognized at the original acquisition-date fair value and never adjusted.",
+          "isCorrect": false,
+          "rationale": "This ignores subsequent changes in the probability of payment, which would misrepresent the entity's obligations."
+        },
+        {
+          "label": "D",
+          "text": "Remeasured to fair value at each reporting date with changes recognized in profit or loss.",
+          "isCorrect": true,
+          "rationale": "Liability-classified contingent consideration is a financial instrument that must be kept at fair value through the income statement."
+        }
+      ],
+      "hint": "It is treated as a financial liability where gains or losses go to the bottom line.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 15,
+      "question": "Which of the following is a specific indicator of 'significant influence' under IAS 28?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The power to govern the financial and operating policies of the entity.",
+          "isCorrect": false,
+          "rationale": "The power to 'govern' or 'direct' defines control (subsidiaries), not significant influence (associates)."
+        },
+        {
+          "label": "B",
+          "text": "Holding $50\\%$ or more of the voting power of the investee.",
+          "isCorrect": false,
+          "rationale": "This usually indicates control, whereas significant influence is typically presumed at holdings between $20\\%$ and $50\\%$."
+        },
+        {
+          "label": "C",
+          "text": "Participation in the policy-making processes, including participation in decisions about dividends.",
+          "isCorrect": true,
+          "rationale": "Being involved in high-level strategic decisions is a clear sign that the investor has significant influence despite not having full control."
+        },
+        {
+          "label": "D",
+          "text": "Having the ability to affect returns through power over relevant activities.",
+          "isCorrect": false,
+          "rationale": "This is the definition of control under IFRS 10, which is more robust than significant influence."
+        }
+      ],
+      "hint": "It involves having a seat at the table without being the one to run the whole show.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 16,
+      "question": "If a parent's reporting date is 31 December and its subsidiary's reporting date is 30 September, what does IFRS 10 require for consolidation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The subsidiary must prepare additional financial information as of 31 December unless it is impracticable.",
+          "isCorrect": true,
+          "rationale": "Ideally, all group entities should use the same date; if not, the subsidiary provides interim data for the group's year-end."
+        },
+        {
+          "label": "B",
+          "text": "Consolidation is prohibited because the dates differ by more than one month.",
+          "isCorrect": false,
+          "rationale": "IFRS 10 allows a maximum gap of three months between reporting dates."
+        },
+        {
+          "label": "C",
+          "text": "The parent consolidates using the 30 September accounts with no further adjustments.",
+          "isCorrect": false,
+          "rationale": "Adjustments must be made for significant transactions that occurred in the three-month gap between the dates."
+        },
+        {
+          "label": "D",
+          "text": "The parent must change its reporting date to match the subsidiary's date.",
+          "isCorrect": false,
+          "rationale": "The subsidiary usually conforms to the parent's reporting requirements for consolidation purposes."
+        }
+      ],
+      "hint": "The goal is to align the financial data to the same point in time.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 17,
+      "question": "In a consolidation of a statement of comprehensive income, what is the treatment for a subsidiary acquired halfway through the financial year?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Include the subsidiary's results for the full twelve-month period.",
+          "isCorrect": false,
+          "rationale": "Including pre-acquisition profits would misrepresent the group's performance during the year."
+        },
+        {
+          "label": "B",
+          "text": "Consolidate the subsidiary starting from the beginning of the next financial year.",
+          "isCorrect": false,
+          "rationale": "Consolidation must begin on the date control is obtained, regardless of when the fiscal year starts."
+        },
+        {
+          "label": "C",
+          "text": "Include only the subsidiary's income and expenses from the date of acquisition onwards.",
+          "isCorrect": true,
+          "rationale": "The group only has rights to the subsidiary's results for the period it actually controlled the entity."
+        },
+        {
+          "label": "D",
+          "text": "Only include the subsidiary's net profit for the year as a single line item.",
+          "isCorrect": false,
+          "rationale": "Subsidiaries must be consolidated line-by-line; the equity method (single line) is for associates."
+        }
+      ],
+      "hint": "The group's performance only includes the time it 'owned' the subsidiary.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 18,
+      "question": "Under the new structure proposed in IFRS 18 (referencing the source material), into which categories is profit or loss classified?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Trading, Administrative, and Financial.",
+          "isCorrect": false,
+          "rationale": "This is an older or more simplified classification and doesn't match the new mandatory subtotals of IFRS 18."
+        },
+        {
+          "label": "B",
+          "text": "Revenue, Gross Profit, and Net Profit.",
+          "isCorrect": false,
+          "rationale": "These are line items and subtotals, not the broad classification categories of the statement."
+        },
+        {
+          "label": "C",
+          "text": "Operating, Investing, Financing, Income Taxes, and Discontinued Operations.",
+          "isCorrect": true,
+          "rationale": "IFRS 18 aims to standardize the income statement structure to improve comparability across entities."
+        },
+        {
+          "label": "D",
+          "text": "Core Operations and Non-Core Operations only.",
+          "isCorrect": false,
+          "rationale": "The standard provides more granular categories than just core vs. non-core."
+        }
+      ],
+      "hint": "It aligns closely with the categories found in a statement of cash flows.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 19,
+      "question": "In a joint operation, how does a joint operator recognize its share of revenue from the sale of the output?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only when the joint arrangement is liquidated.",
+          "isCorrect": false,
+          "rationale": "Revenue is recognized as it is earned from ongoing activities, just like any other business."
+        },
+        {
+          "label": "B",
+          "text": "By recognizing $100\\%$ of the revenue and deducting the other parties' shares as an expense.",
+          "isCorrect": false,
+          "rationale": "The operator only recognizes its own share of revenue, not the total revenue of the operation."
+        },
+        {
+          "label": "C",
+          "text": "As a dividend received from the joint arrangement vehicle.",
+          "isCorrect": false,
+          "rationale": "Joint operations are usually not about dividends from an entity but direct shares of production and sales."
+        },
+        {
+          "label": "D",
+          "text": "Based on its specific share of the output arising from the joint operation.",
+          "isCorrect": true,
+          "rationale": "Joint operators recognize revenue based on their contractual entitlement to the output produced."
+        }
+      ],
+      "hint": "They report what they are personally entitled to according to the contract.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 20,
+      "question": "Which of the following would NOT be considered a 'related party' of a reporting entity according to IAS 24?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A member of the key management personnel of the reporting entity or its parent.",
+          "isCorrect": false,
+          "rationale": "Individuals in leadership roles have the power to influence the entity's transactions, making them related parties."
+        },
+        {
+          "label": "B",
+          "text": "A person who has control or joint control over the reporting entity.",
+          "isCorrect": false,
+          "rationale": "Control is the strongest form of relationship, making that person a related party."
+        },
+        {
+          "label": "C",
+          "text": "An entity that simply shares a single common director with the reporting entity.",
+          "isCorrect": true,
+          "rationale": "Sharing a director is not enough to create a related party relationship unless that director has control or significant influence over both entities."
+        },
+        {
+          "label": "D",
+          "text": "An associate or joint venture of the reporting entity.",
+          "isCorrect": false,
+          "rationale": "Entities over which the reporting company has significant influence or joint control are related by definition."
+        }
+      ],
+      "hint": "Relatedness usually requires more than just a coincidental overlapping personnel connection.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 21,
+      "question": "Under IFRS 3, if an acquirer achieves a business combination in stages (a step acquisition), what must it do with its previously held equity interest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Keep it at its original cost to avoid recognizing unrealized gains.",
+          "isCorrect": false,
+          "rationale": "IFRS 3 requires remeasurement to ensure the total consideration used for goodwill calculation is based on current fair values."
+        },
+        {
+          "label": "B",
+          "text": "Move it directly to the non-controlling interest balance.",
+          "isCorrect": false,
+          "rationale": "The previously held interest is part of the *acquirer's* interest, not the NCI's interest."
+        },
+        {
+          "label": "C",
+          "text": "Deduct it directly from the total consideration transferred.",
+          "isCorrect": false,
+          "rationale": "The previously held interest is *added* (at fair value) to the consideration to find the total value of the acquisition."
+        },
+        {
+          "label": "D",
+          "text": "Remeasure it to acquisition-date fair value and recognize any gain or loss in profit or loss.",
+          "isCorrect": true,
+          "rationale": "This 'disposes' of the old investment at its current value before accounting for the new, controlled entity."
+        }
+      ],
+      "hint": "The 'old' stake is treated as if it were sold and repurchased at the current market price.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 22,
+      "question": "Which of the following is one of the aggregation criteria that must be met to combine two operating segments into one reportable segment under IFRS 8?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The segments must have similar economic characteristics, such as similar long-term average gross margins.",
+          "isCorrect": true,
+          "rationale": "Aggregation is only permitted when segments are economically similar and share multiple specific characteristics."
+        },
+        {
+          "label": "B",
+          "text": "One segment must represent at least $75\\%$ of the other segment's revenue.",
+          "isCorrect": false,
+          "rationale": "Aggregation is based on similarity of nature and risk, not on relative revenue size between the two."
+        },
+        {
+          "label": "C",
+          "text": "The segments must operate in the same geographic country.",
+          "isCorrect": false,
+          "rationale": "Segments can be in different countries but still have similar products, customers, and regulatory environments."
+        },
+        {
+          "label": "D",
+          "text": "The segments must be overseen by two different chief operating decision makers.",
+          "isCorrect": false,
+          "rationale": "Aggregation often happens because they are managed as a single unit or reported to the CODM in a similar way."
+        }
+      ],
+      "hint": "Think about whether the segments 'look and feel' like the same type of business.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 23,
+      "question": "How should 'potential voting rights' (like share options or convertible instruments) be treated when assessing control under IFRS 10?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Always included in the calculation of the current ownership percentage.",
+          "isCorrect": false,
+          "rationale": "They are considered for assessing control, but actual consolidation proportions are usually based on current ownership unless the rights provide current access to returns."
+        },
+        {
+          "label": "B",
+          "text": "Ignored until they are actually converted into ordinary shares.",
+          "isCorrect": false,
+          "rationale": "If the rights are substantive, they can give the holder power now, even before they are officially converted."
+        },
+        {
+          "label": "C",
+          "text": "Considered only if they are substantive and currently exercisable.",
+          "isCorrect": true,
+          "rationale": "Potential rights only give 'power' if the holder has the practical ability to exercise them when decisions need to be made."
+        },
+        {
+          "label": "D",
+          "text": "Considered only if they are held by the non-controlling interest to protect their rights.",
+          "isCorrect": false,
+          "rationale": "Potential rights held by the investor are crucial to determining if the investor itself has control."
+        }
+      ],
+      "hint": "Assess whether the holder can actually use them to make a difference right now.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 24,
+      "question": "What is the primary difference between 'wholly-owned' and 'partially-owned' subsidiaries in the consolidated statement of financial position?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Partially-owned subsidiaries require the recognition of a non-controlling interest (NCI) in the equity section.",
+          "isCorrect": true,
+          "rationale": "The NCI represents the portion of the subsidiary's equity that is not owned by the parent company."
+        },
+        {
+          "label": "B",
+          "text": "Wholly-owned subsidiaries do not have their assets and liabilities recognized at fair value.",
+          "isCorrect": false,
+          "rationale": "IFRS 3 requires fair value measurement for all business combinations, regardless of the percentage acquired."
+        },
+        {
+          "label": "C",
+          "text": "Intra-group balances are only eliminated for wholly-owned subsidiaries.",
+          "isCorrect": false,
+          "rationale": "All intra-group transactions and balances must be eliminated in full, regardless of whether there is an NCI."
+        },
+        {
+          "label": "D",
+          "text": "Only wholly-owned subsidiaries are consolidated line-by-line.",
+          "isCorrect": false,
+          "rationale": "Both types are consolidated line-by-line if the parent has control; ownership percentage only affects the NCI calculation."
+        }
+      ],
+      "hint": "Consider the presence of 'other' owners who are not part of the parent group.",
+      "correctAnswer": "A"
+    },
+    {
+      "number": 25,
+      "question": "According to IAS 28, how are 'upstream' transactions between an associate and an investor handled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ignore the transaction as associates are independent legal entities.",
+          "isCorrect": false,
+          "rationale": "Accounting standards require the elimination of unrealized profits to prevent the inflation of group results."
+        },
+        {
+          "label": "B",
+          "text": "Treat the transaction as an intra-group sale and eliminate the revenue and cost of sales line-by-line.",
+          "isCorrect": false,
+          "rationale": "Associates are not consolidated line-by-line; adjustments are made to the 'investment in associate' and 'share of profit' accounts."
+        },
+        {
+          "label": "C",
+          "text": "Eliminate the entire profit of the associate, regardless of the investor's ownership percentage.",
+          "isCorrect": false,
+          "rationale": "The investor only eliminates profit to the extent of its own interest; the other shareholders' portion is considered realized."
+        },
+        {
+          "label": "D",
+          "text": "Eliminate the investor's share in the associate's profits resulting from the transaction.",
+          "isCorrect": true,
+          "rationale": "Profits on sales from an associate to an investor are only considered realized from the group's perspective when the asset is sold to an outside party."
+        }
+      ],
+      "hint": "An investor shouldn't report a profit on their 'own' share of a purchase from their associate.",
+      "correctAnswer": "D"
+    },
+    {
+      "number": 26,
+      "question": "How are distributions (dividends) received from an associate accounted for under the equity method?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are recognized as dividend income in the consolidated statement of comprehensive income.",
+          "isCorrect": false,
+          "rationale": "This would double-count the income, as the investor already recognized its share of the associate's net profit."
+        },
+        {
+          "label": "B",
+          "text": "They increase the carrying amount of the investment to reflect the cash received.",
+          "isCorrect": false,
+          "rationale": "Cash increases, but the 'investment' asset decreases because the associate now has fewer net assets after paying the dividend."
+        },
+        {
+          "label": "C",
+          "text": "They reduce the carrying amount of the investment in the associate.",
+          "isCorrect": true,
+          "rationale": "Since the investor has already recognized their share of the associate's profit as it was earned, the dividend is seen as a return of that investment."
+        },
+        {
+          "label": "D",
+          "text": "They are ignored in the consolidated accounts but recognized in separate accounts at cost.",
+          "isCorrect": false,
+          "rationale": "While true for separate accounts at cost, the equity method in consolidated accounts specifically requires reducing the investment balance."
+        }
+      ],
+      "hint": "The dividend is basically the associate 'paying out' a part of the value the investor already recorded.",
+      "correctAnswer": "C"
+    },
+    {
+      "number": 27,
+      "question": "What is the IFRS 3 recognition principle for contingent liabilities assumed in a business combination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Recognize them only when the contingency is actually resolved and the amount is certain.",
+          "isCorrect": false,
+          "rationale": "Acquisition accounting requires capturing the estimated fair value of all obligations at the date of purchase."
+        },
+        {
+          "label": "B",
+          "text": "Recognize them at fair value if they represent a present obligation from past events and can be measured reliably, regardless of probability.",
+          "isCorrect": true,
+          "rationale": "IFRS 3 has a lower threshold than IAS 37 for recognizing contingent liabilities in a business combination to ensure all risks are reflected."
+        },
+        {
+          "label": "C",
+          "text": "Only recognize them if an outflow of resources is probable (more than $50\\%$).",
+          "isCorrect": false,
+          "rationale": "This is the general rule for provisions, but IFRS 3 makes an exception to recognize these at fair value even if not probable."
+        },
+        {
+          "label": "D",
+          "text": "Only disclose them in the notes to the financial statements.",
+          "isCorrect": false,
+          "rationale": "IFRS 3 requires recognition on the face of the statement of financial position at acquisition if the fair value is reliable."
+        }
+      ],
+      "hint": "Consider how the purchase price would be lower to account for 'maybe' having to pay a future debt.",
+      "correctAnswer": "B"
+    },
+    {
+      "number": 28,
+      "question": "When an entity's interest in an associate equals or exceeds its 'interest in the associate' due to losses, what should the investor do according to IAS 28?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Continue to recognize losses, creating a negative investment (liability) balance.",
+          "isCorrect": false,
+          "rationale": "A liability is only recognized if the investor has a specific obligation to settle the associate's debts."
+        },
+        {
+          "label": "B",
+          "text": "Discontinue recognizing its share of further losses unless it has incurred legal or constructive obligations.",
+          "isCorrect": true,
+          "rationale": "The investor's loss is generally limited to their investment amount unless they've guaranteed the associate's debts."
+        },
+        {
+          "label": "C",
+          "text": "Remeasure the remaining interest at fair value under IFRS 9.",
+          "isCorrect": false,
+          "rationale": "The equity method is still required as long as significant influence exists, even if the balance is zero."
+        },
+        {
+          "label": "D",
+          "text": "Immediately write off the investment and consolidate the associate line-by-line.",
+          "isCorrect": false,
+          "rationale": "Heavy losses don't automatically grant control; without control, line-by-line consolidation is prohibited."
+        }
+      ],
+      "hint": "The investor stops 'taking the hit' once their investment value hits rock bottom.",
+      "correctAnswer": "B"
+    }
+  ]
+}
