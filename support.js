@@ -7,6 +7,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 from { transform: translateY(100px); opacity: 0; }
                 to { transform: translateY(0); opacity: 1; }
             }
+            @keyframes pulseGlow {
+                0% { box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 0 0 rgba(16,185,129,0.3); }
+                70% { box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 0 8px rgba(16,185,129,0); }
+                100% { box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 0 0 rgba(16,185,129,0); }
+            }
             #floating-support {
                 position: fixed;
                 bottom: 30px;
@@ -25,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 display: flex;
                 flex-direction: column;
                 gap: 8px;
-                animation: slideInUp 0.5s ease-out;
+                animation: slideInUp 0.5s ease-out, pulseGlow 3s infinite;
                 cursor: grab;
                 user-select: none;
                 touch-action: none;

@@ -65,6 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Search and Filter Logic
     const searchInput = document.getElementById('search-input');
+    const searchCol = document.querySelector('.filter-search-col');
+    const suggestionsContainer = document.getElementById('search-suggestions');
     const yearFilter = document.getElementById('year-filter');
     const clearFiltersBtn = document.getElementById('clear-filters');
     const chips = document.querySelectorAll('.chip');
@@ -72,19 +74,41 @@ document.addEventListener('DOMContentLoaded', () => {
     
     let currentCourseFilter = 'all';
 
+    // Sticky Search Bar on Mobile
+    window.addEventListener('scroll', () => {
+        if (window.innerWidth <= 640 && searchCol && searchInput) {
+            const filterBar = document.getElementById('filter-bar');
+            if (filterBar) {
+                const filterBarRect = filterBar.getBoundingClientRect();
+                if (filterBarRect.top <= 60 && window.scrollY > 0) {
+                    searchCol.classList.add('fixed-mobile-search');
+                } else {
+                    searchCol.classList.remove('fixed-mobile-search');
+                }
+            }
+        } else if (searchCol) {
+            searchCol.classList.remove('fixed-mobile-search');
+        }
+    });
+
     function filterCards() {
         if (!searchInput) return; // If filter bar isn't on this page
         
         const searchTerm = searchInput.value.toLowerCase();
         const yearTerm = yearFilter.value;
+
+        let exactMatches = []; // For suggestions
         
         allCards.forEach(card => {
-            const title = (card.querySelector('h3') ? card.querySelector('h3').textContent.toLowerCase() : '');
-            const desc = (card.querySelector('p') ? card.querySelector('p').textContent.toLowerCase() : '');
+            const titleElement = card.querySelector('h3');
+            const descElement = card.querySelector('p');
+            const titleText = titleElement ? titleElement.textContent : '';
+            const title = titleText.toLowerCase();
+            const desc = descElement ? descElement.textContent.toLowerCase() : '';
             const course = card.getAttribute('data-course') || '';
             const year = card.getAttribute('data-year') || '';
             
-            const matchSearch = title.includes(searchTerm) || desc.includes(searchTerm);
+            const matchSearch = title.includes(searchTerm) || desc.includes(searchTerm) || course.toLowerCase().includes(searchTerm);
             const matchYear = (yearTerm === 'all') || (year === yearTerm);
             
             // For course filter, allow fuzzy matching or exact matching
@@ -95,6 +119,9 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (matchSearch && matchYear && matchCourse) {
                 card.style.display = 'block';
+                if (searchTerm.length > 0 && exactMatches.length < 5) {
+                    exactMatches.push({title: titleText, course: course, element: card});
+                }
             } else {
                 card.style.display = 'none';
             }
@@ -116,11 +143,56 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         });
+
+        // Update suggestions
+        if (searchTerm.length > 0 && suggestionsContainer && document.activeElement === searchInput) {
+             if (exactMatches.length > 0) {
+                  suggestionsContainer.innerHTML = exactMatches.map(match => `
+                      <div class="suggestion-item">
+                          <div class="suggestion-title">${match.title}</div>
+                          <div class="suggestion-course">${match.course}</div>
+                      </div>
+                  `).join('');
+                  suggestionsContainer.style.display = 'block';
+                  
+                  // Add click handlers
+                  const items = suggestionsContainer.querySelectorAll('.suggestion-item');
+                  items.forEach((item, index) => {
+                       item.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            const card = exactMatches[index].element;
+                            const link = card.getAttribute('href');
+                            if(link && link !== '#') {
+                                window.location.href = link;
+                            } else {
+                                card.scrollIntoView({behavior: 'smooth', block: 'center'});
+                                card.style.boxShadow = '0 0 20px rgba(16, 185, 129, 0.6)';
+                                setTimeout(() => { card.style.boxShadow = ''; }, 2000);
+                            }
+                            suggestionsContainer.style.display = 'none';
+                            searchInput.value = '';
+                            filterCards();
+                       });
+                  });
+             } else {
+                  suggestionsContainer.innerHTML = `<div class="suggestion-item" style="color: var(--text-muted); cursor: default;">No exact matches found</div>`;
+                  suggestionsContainer.style.display = 'block';
+             }
+        } else if (suggestionsContainer) {
+             suggestionsContainer.style.display = 'none';
+        }
     }
 
     if (searchInput) {
         searchInput.addEventListener('input', filterCards);
+        searchInput.addEventListener('focus', filterCards);
         yearFilter.addEventListener('change', filterCards);
+        
+        document.addEventListener('click', (e) => {
+             if (suggestionsContainer && !searchInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
+                  suggestionsContainer.style.display = 'none';
+             }
+        });
         
         clearFiltersBtn.addEventListener('click', () => {
             searchInput.value = '';
@@ -128,6 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentCourseFilter = 'all';
             chips.forEach(c => c.classList.remove('active'));
             document.querySelector('.chip[data-filter="all"]').classList.add('active');
+            if (suggestionsContainer) suggestionsContainer.style.display = 'none';
             filterCards();
         });
         
