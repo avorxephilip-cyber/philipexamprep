@@ -829,10 +829,9 @@ function selectAnswer(selected, btn) {
         document.getElementById('score-pill').textContent = `Score: ${score}`;
         document.getElementById('streak-pill').textContent = `\uD83D\uDD25 Streak: ${streak}`;
         
-        // Auto move on if right
-        setTimeout(() => {
-            nextQuestion();
-        }, 800);
+        // Show next button instead of auto-advancing
+        if(q.explanation) { showExplanation(q.explanation); }
+        document.getElementById('next-btn').style.display = 'block';
     } else {
         btn.classList.add('wrong');
         streak = 0;
