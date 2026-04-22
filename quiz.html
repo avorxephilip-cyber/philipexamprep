@@ -582,7 +582,7 @@
     </div>
 </div>
 
-<script src="quiz_data.js"></script>
+<script src="quiz_data.js?v=3"></script>
 <script>
 let selectedCourses = new Set();
 let selectedTimer = 30;
@@ -660,6 +660,8 @@ function shuffle(arr) {
 
 function buildQuestions() {
     let pool = [];
+    let isSingleCourse = selectedCourses.size === 1 && !selectedCourses.has('random');
+
     if (selectedCourses.has('random')) {
         Object.values(QUIZ_DATA).forEach(c => pool.push(...c.questions));
     } else {
@@ -667,9 +669,16 @@ function buildQuestions() {
             if (QUIZ_DATA[key]) pool.push(...QUIZ_DATA[key].questions);
         });
     }
+
+    if (isSingleCourse) {
+        // For a single course, provide all questions in the defined order
+        return [...pool];
+    }
+
+    // For random/multi-course, keep the shuffle and limit logic
     const shuffled = shuffle([...pool]);
-    // Take up to 20 questions as the main set
-    const main = shuffled.slice(0, Math.min(shuffled.length, 20));
+    // Take up to 30 questions as the main set (increased from 20)
+    const main = shuffled.slice(0, Math.min(shuffled.length, 30));
     // Sprinkle ~4 random repeats from the pool in between (every 5th question = a repeat)
     const repeats = shuffle([...pool]).slice(0, Math.min(4, pool.length));
     const withRepeats = [];
