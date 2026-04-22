@@ -311,25 +311,51 @@
         .option-btn.wrong .opt-letter { background: var(--red); color: white; }
         .option-btn:disabled { cursor: default; }
 
-        /* EXPLANATION */
-        .explanation-box {
-            background: rgba(16,185,129,0.08);
-            border: 1px solid rgba(16,185,129,0.3);
-            border-left: 4px solid var(--emerald);
-            border-radius: 10px;
-            padding: 1rem 1.2rem;
-            margin-top: 1.2rem;
-            font-size: 0.88rem;
-            color: #a1f0d5;
-            line-height: 1.6;
-            display: none;
+        /* HINT BOX (NotebookLM Style) */
+        .hint-container {
+            margin-top: 2rem;
+            text-align: center;
         }
-        .explanation-box .expl-label {
-            font-weight: 700;
-            color: var(--emerald);
-            margin-bottom: 0.4rem;
+        .hint-toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1.2rem;
+            background: transparent;
+            border: 1px dashed var(--border);
+            border-radius: 99px;
+            color: var(--muted);
             font-size: 0.8rem;
-            letter-spacing: 1px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .hint-toggle:hover {
+            border-color: var(--gold);
+            color: var(--gold);
+            background: rgba(251,191,36,0.05);
+        }
+        .hint-box {
+            display: none;
+            background: rgba(39, 39, 42, 0.5);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.2rem;
+            margin-top: 1rem;
+            text-align: left;
+            font-size: 0.9rem;
+            color: #d4d4d8;
+            line-height: 1.6;
+            animation: fadeIn 0.3s ease;
+        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+        .hint-box .hint-label {
+            font-weight: 800;
+            color: var(--gold);
+            font-size: 0.75rem;
+            margin-bottom: 0.5rem;
             text-transform: uppercase;
         }
 
@@ -533,12 +559,6 @@
         <div class="timer-num" id="timer-num">30</div>
     </div>
 
-    
-    <div class="preamble-box" id="preamble-box" style="display:none; background: var(--surface-2); border-left: 4px solid var(--gold); padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem; font-style: italic; color: #d4d4d8; font-size: 0.95rem; line-height: 1.6;">
-        <div style="font-weight: bold; color: var(--gold); margin-bottom: 0.5rem; font-size: 0.8rem; text-transform: uppercase;">Scenario / Preamble</div>
-        <div id="preamble-text"></div>
-    </div>
-
     <div class="question-card">
         <div class="question-text" id="question-text">Loading...</div>
     </div>
@@ -548,6 +568,17 @@
     <div class="explanation-box" id="explanation-box">
         <div class="expl-label">Explanation</div>
         <div id="explanation-text"></div>
+    </div>
+
+    <!-- HINT SECTION -->
+    <div class="hint-container" id="hint-container" style="display:none">
+        <button class="hint-toggle" onclick="toggleHint()">
+            <span>💡</span> View Hint
+        </button>
+        <div class="hint-box" id="hint-box">
+            <div class="hint-label">HINT</div>
+            <div id="hint-text"></div>
+        </div>
     </div>
 
     <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next Question &rarr;</button>
@@ -717,10 +748,11 @@ function renderQuestion() {
     document.getElementById('question-text').textContent = q.q;
 
     if (q.preamble && q.preamble.trim() !== '') {
-        document.getElementById('preamble-box').style.display = 'block';
-        document.getElementById('preamble-text').textContent = q.preamble;
+        document.getElementById('hint-container').style.display = 'block';
+        document.getElementById('hint-text').textContent = q.preamble;
+        document.getElementById('hint-box').style.display = 'none'; // Hide by default
     } else {
-        document.getElementById('preamble-box').style.display = 'none';
+        document.getElementById('hint-container').style.display = 'none';
     }
 
 
@@ -875,6 +907,12 @@ function restartSame() {
     document.getElementById('results').style.display = 'none';
     document.getElementById('quiz').style.display = 'block';
     renderQuestion();
+}
+function toggleHint() {
+    const box = document.getElementById('hint-box');
+    const isHidden = box.style.display === 'none';
+    box.style.display = isHidden ? 'block' : 'none';
+    document.querySelector('.hint-toggle span').textContent = isHidden ? '📖' : '💡';
 }
 </script>
     <script src="support.js"></script>
