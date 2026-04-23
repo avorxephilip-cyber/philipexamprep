@@ -920,62 +920,62 @@ const QUIZ_DATA = {
     {
         "q": "The unrealised profit on the sale is calculated as ____________.",
         "options": [
-            "GH\u20b58,000,000",
-            "GH\u20b54,000,000",
-            "GH\u20b52,400,000",
-            "GH\u20b51,600,000"
+            "GH₵8,000,000",
+            "GH₵4,000,000",
+            "GH₵2,400,000",
+            "GH₵1,600,000"
         ],
         "answer": 3,
-        "explanation": "Selling price (Sweed \u2192 Premier) | GH\u20b512,000,000\nLess: Cost of goods to Sweed | (GH\u20b58,000,000)\nTotal profit on intragroup sale | GH\u20b54,000,000\nGoods still held by Premier at year-end (100% \u2212 60% sold = 40% unsold) | \u00d7 40%\nUnrealised Profit (URP) to eliminate | GH\u20b51,600,000\n\nSweed is a subsidiary selling upstream to Premier (parent). Only unsold goods give rise to unrealised profit because the group has not yet recognised that profit externally. 40% of goods remain in Premier\u2019s closing inventory, so 40% of the GH\u20b54M profit = GH\u20b51,600,000 is unrealised and must be eliminated on consolidation.",
-        "preamble": "Premier has owned 90% of Sweed for many years. During the year, Sweed sold goods to Premier for GH\u20b512,000,000. These goods had originally cost Sweed GH\u20b58,000,000. Premier sold 60% of these goods by the year-end. The cost of sales figures for the two companies were as follows: Premier GH\u20b535,000,000, Sweed GH\u20b520,000,000."
+        "explanation": "Selling price (Sweed → Premier) | GH₵12,000,000\nLess: Cost of goods to Sweed | (GH₵8,000,000)\nTotal profit on intragroup sale | GH₵4,000,000\nGoods still held by Premier at year-end (100% − 60% sold = 40% unsold) | × 40%\nUnrealised Profit (URP) to eliminate | GH₵1,600,000\n\nSweed is a subsidiary selling upstream to Premier (parent). Only unsold goods give rise to unrealised profit because the group has not yet recognised that profit externally. 40% of goods remain in Premier’s closing inventory, so 40% of the GH₵4M profit = GH₵1,600,000 is unrealised and must be eliminated on consolidation.",
+        "preamble": "Premier has owned 90% of Sweed for many years. During the year, Sweed sold goods to Premier for GH₵12,000,000. These goods had originally cost Sweed GH₵8,000,000. Premier sold 60% of these goods by the year-end. The cost of sales figures for the two companies were as follows: Premier GH₵35,000,000, Sweed GH₵20,000,000."
     },
     {
         "q": "At what value will cost of sales appear in the consolidated statement of profit or loss?",
         "options": [
-            "GH\u20b555,000,000",
-            "GH\u20b547,000,000",
-            "GH\u20b544,600,000",
-            "GH\u20b541,400,000"
+            "GH₵55,000,000",
+            "GH₵47,000,000",
+            "GH₵44,600,000",
+            "GH₵41,400,000"
         ],
         "answer": 2,
-        "explanation": "Premier\u2019s cost of sales | GH\u20b535,000,000\nAdd: Sweed\u2019s cost of sales | GH\u20b520,000,000\nCombined COS | GH\u20b555,000,000\nLess: Eliminate intragroup sale (Sweed\u2019s revenue recorded in COS flow) | (GH\u20b512,000,000)\nAdd back: Unrealised profit adjustment (URP from Q1) | GH\u20b51,600,000\nConsolidated Cost of Sales | GH\u20b544,600,000\n\nIn consolidation, intragroup transactions are fully eliminated. Sweed\u2019s GH\u20b512M sale to Premier is removed. However, the URP of GH\u20b51.6M must be added back to COS because it inflates the inventory value sitting in Premier\u2019s books \u2014 the group\u2019s COS must reflect the true cost of goods still held.",
-        "preamble": "Premier has owned 90% of Sweed for many years. During the year, Sweed sold goods to Premier for GH\u20b512,000,000. These goods had originally cost Sweed GH\u20b58,000,000. Premier sold 60% of these goods by the year-end. The cost of sales figures for the two companies were as follows: Premier GH\u20b535,000,000, Sweed GH\u20b520,000,000."
+        "explanation": "Premier’s cost of sales | GH₵35,000,000\nAdd: Sweed’s cost of sales | GH₵20,000,000\nCombined COS | GH₵55,000,000\nLess: Eliminate intragroup sale (Sweed’s revenue recorded in COS flow) | (GH₵12,000,000)\nAdd back: Unrealised profit adjustment (URP from Q1) | GH₵1,600,000\nConsolidated Cost of Sales | GH₵44,600,000\n\nIn consolidation, intragroup transactions are fully eliminated. Sweed’s GH₵12M sale to Premier is removed. However, the URP of GH₵1.6M must be added back to COS because it inflates the inventory value sitting in Premier’s books — the group’s COS must reflect the true cost of goods still held.",
+        "preamble": "Premier has owned 90% of Sweed for many years. During the year, Sweed sold goods to Premier for GH₵12,000,000. These goods had originally cost Sweed GH₵8,000,000. Premier sold 60% of these goods by the year-end. The cost of sales figures for the two companies were as follows: Premier GH₵35,000,000, Sweed GH₵20,000,000."
     },
     {
         "q": "Paapa Ltd acquired 80% of the ordinary share capital of Maami Ltd on 30 August 2024. On 31 December 2024, the share capital and retained earnings of Maami Ltd were as follows:",
         "options": [
-            "GH\u20b51,860,000",
-            "GH\u20b51,800,000",
-            "GH\u20b51,700,000",
-            "GH\u20b51,600,000"
+            "GH₵1,860,000",
+            "GH₵1,800,000",
+            "GH₵1,700,000",
+            "GH₵1,600,000"
         ],
         "answer": 3,
-        "explanation": "Acquisition date: 30 August 2024. Profit accrues evenly \u2192 time-apportion to acquisition (8 months out of 12).\nShare capital | GH\u20b51,200,000\nRetained earnings at 1 January 2024 | GH\u20b5900,000\nProfit accrued Jan\u2013Aug 2024: GH\u20b5600,000 \u00d7 8/12 | GH\u20b5400,000\nNet assets at acquisition date (A) | GH\u20b52,500,000\n\nUsing the goodwill formula:   Goodwill = Cost of Investment + NCI \u2212 Net Assets at Acquisition\nA bargain purchase means Goodwill is negative, i.e. Goodwill = \u2212GH\u20b5300,000\n\u2212300,000 = Cost + 600,000 \u2212 2,500,000 | \nCost = \u2212300,000 + 2,500,000 \u2212 600,000 | \nCost of Investment in Maami Ltd | GH\u20b51,600,000",
-        "preamble": "Premier has owned 90% of Sweed for many years. During the year, Sweed sold goods to Premier for GH\u20b512,000,000. These goods had originally cost Sweed GH\u20b58,000,000. Premier sold 60% of these goods by the year-end. The cost of sales figures for the two companies were as follows: Premier GH\u20b535,000,000, Sweed GH\u20b520,000,000."
+        "explanation": "Acquisition date: 30 August 2024. Profit accrues evenly → time-apportion to acquisition (8 months out of 12).\nShare capital | GH₵1,200,000\nRetained earnings at 1 January 2024 | GH₵900,000\nProfit accrued Jan–Aug 2024: GH₵600,000 × 8/12 | GH₵400,000\nNet assets at acquisition date (A) | GH₵2,500,000\n\nUsing the goodwill formula:   Goodwill = Cost of Investment + NCI − Net Assets at Acquisition\nA bargain purchase means Goodwill is negative, i.e. Goodwill = −GH₵300,000\n−300,000 = Cost + 600,000 − 2,500,000 | \nCost = −300,000 + 2,500,000 − 600,000 | \nCost of Investment in Maami Ltd | GH₵1,600,000",
+        "preamble": "Premier has owned 90% of Sweed for many years. During the year, Sweed sold goods to Premier for GH₵12,000,000. These goods had originally cost Sweed GH₵8,000,000. Premier sold 60% of these goods by the year-end. The cost of sales figures for the two companies were as follows: Premier GH₵35,000,000, Sweed GH₵20,000,000."
     },
     {
         "q": "The fair value gain on the 40% original investment to be recognised in consolidated statement of profit or loss on 1 January 2024 is:",
         "options": [
-            "GH\u20b5960,000",
-            "GH\u20b5640,000",
-            "GH\u20b5600,000",
-            "GH\u20b5400,000"
+            "GH₵960,000",
+            "GH₵640,000",
+            "GH₵600,000",
+            "GH₵400,000"
         ],
         "answer": 2,
-        "explanation": "When Tinda acquires an additional 20% to achieve control (step acquisition), the pre-existing 40% associate interest is remeasured to fair value at the acquisition date. The resulting gain is recognised in consolidated profit or loss (IFRS 3).\nFair value of existing 40% holding on 1 January 2024 | GH\u20b54,200,000\nLess: Carrying amount (original cost) of 40% holding | (GH\u20b53,600,000)\nFair value gain recognised in consolidated P&L | GH\u20b5600,000",
-        "preamble": "Tinda is a parent and also holds a 40% investment in Bruce at GH\u20b53,600,000, measured at cost in the individual financial statement on 1 January 2020. On that date, share capital and retained earnings of Bruce were GH\u20b54,000,000 and GH\u20b53,040,000 respectively. A further 20% of shares were acquired on 1 January 2024 in Bruce for GH\u20b52,800,000. On this date, the fair value of the existing holding in Bruce was GH\u20b54,200,000 and the retained earnings were GH\u20b54,000,000. Non-controlling interest is measured using proportion of net assets method. The fair value of Bruce\u2019s net assets on 1 January 2024 was GH\u20b58,000,000."
+        "explanation": "When Tinda acquires an additional 20% to achieve control (step acquisition), the pre-existing 40% associate interest is remeasured to fair value at the acquisition date. The resulting gain is recognised in consolidated profit or loss (IFRS 3).\nFair value of existing 40% holding on 1 January 2024 | GH₵4,200,000\nLess: Carrying amount (original cost) of 40% holding | (GH₵3,600,000)\nFair value gain recognised in consolidated P&L | GH₵600,000",
+        "preamble": "Tinda is a parent and also holds a 40% investment in Bruce at GH₵3,600,000, measured at cost in the individual financial statement on 1 January 2020. On that date, share capital and retained earnings of Bruce were GH₵4,000,000 and GH₵3,040,000 respectively. A further 20% of shares were acquired on 1 January 2024 in Bruce for GH₵2,800,000. On this date, the fair value of the existing holding in Bruce was GH₵4,200,000 and the retained earnings were GH₵4,000,000. Non-controlling interest is measured using proportion of net assets method. The fair value of Bruce’s net assets on 1 January 2024 was GH₵8,000,000."
     },
     {
         "q": "The value of goodwill on 1 January 2024 is calculated as _________.",
         "options": [
-            "GH\u20b51,600,000",
-            "GH\u20b52,200,000",
-            "GH\u20b52,560,000",
-            "GH\u20b53,160,000"
+            "GH₵1,600,000",
+            "GH₵2,200,000",
+            "GH₵2,560,000",
+            "GH₵3,160,000"
         ],
         "answer": 1,
-        "explanation": "NCI is measured using proportion of net assets. Total post-acquisition interest = 60%; NCI = 40% \u00d7 GH\u20b58,000,000 = GH\u20b53,200,000.",
-        "preamble": "Tinda is a parent and also holds a 40% investment in Bruce at GH\u20b53,600,000, measured at cost in the individual financial statement on 1 January 2020. On that date, share capital and retained earnings of Bruce were GH\u20b54,000,000 and GH\u20b53,040,000 respectively. A further 20% of shares were acquired on 1 January 2024 in Bruce for GH\u20b52,800,000. On this date, the fair value of the existing holding in Bruce was GH\u20b54,200,000 and the retained earnings were GH\u20b54,000,000. Non-controlling interest is measured using proportion of net assets method. The fair value of Bruce\u2019s net assets on 1 January 2024 was GH\u20b58,000,000."
+        "explanation": "NCI is measured using proportion of net assets. Total post-acquisition interest = 60%; NCI = 40% × GH₵8,000,000 = GH₵3,200,000.",
+        "preamble": "Tinda is a parent and also holds a 40% investment in Bruce at GH₵3,600,000, measured at cost in the individual financial statement on 1 January 2020. On that date, share capital and retained earnings of Bruce were GH₵4,000,000 and GH₵3,040,000 respectively. A further 20% of shares were acquired on 1 January 2024 in Bruce for GH₵2,800,000. On this date, the fair value of the existing holding in Bruce was GH₵4,200,000 and the retained earnings were GH₵4,000,000. Non-controlling interest is measured using proportion of net assets method. The fair value of Bruce’s net assets on 1 January 2024 was GH₵8,000,000."
     },
     {
         "q": "Which capital maintenance concept focuses on maintaining productive capacity? __________ concept.",
@@ -987,79 +987,79 @@ const QUIZ_DATA = {
         ],
         "answer": 3,
         "explanation": "Physical capital maintenance defines profit only after ensuring the entity can maintain the same physical productive capacity (i.e., volume of goods/services produced). Financial capital maintenance, by contrast, focuses on maintaining the monetary value of net assets. Options A and C are not recognised capital maintenance concepts under the IASB Conceptual Framework.",
-        "preamble": "Tinda is a parent and also holds a 40% investment in Bruce at GH\u20b53,600,000, measured at cost in the individual financial statement on 1 January 2020. On that date, share capital and retained earnings of Bruce were GH\u20b54,000,000 and GH\u20b53,040,000 respectively. A further 20% of shares were acquired on 1 January 2024 in Bruce for GH\u20b52,800,000. On this date, the fair value of the existing holding in Bruce was GH\u20b54,200,000 and the retained earnings were GH\u20b54,000,000. Non-controlling interest is measured using proportion of net assets method. The fair value of Bruce\u2019s net assets on 1 January 2024 was GH\u20b58,000,000."
+        "preamble": "Tinda is a parent and also holds a 40% investment in Bruce at GH₵3,600,000, measured at cost in the individual financial statement on 1 January 2020. On that date, share capital and retained earnings of Bruce were GH₵4,000,000 and GH₵3,040,000 respectively. A further 20% of shares were acquired on 1 January 2024 in Bruce for GH₵2,800,000. On this date, the fair value of the existing holding in Bruce was GH₵4,200,000 and the retained earnings were GH₵4,000,000. Non-controlling interest is measured using proportion of net assets method. The fair value of Bruce’s net assets on 1 January 2024 was GH₵8,000,000."
     },
     {
         "q": "The gross replacement cost at 31 December 2024 would be ______.",
         "options": [
-            "GH\u20b5325,000",
-            "GH\u20b5265,909",
-            "GH\u20b5590,909",
-            "GH\u20b5400,000"
+            "GH₵325,000",
+            "GH₵265,909",
+            "GH₵590,909",
+            "GH₵400,000"
         ],
         "answer": 2,
         "explanation": "Under Current Cost Accounting (CCA), assets are restated to their current replacement cost using specific price indices. The gross replacement cost is the full cost to replace the asset at current prices, before deducting depreciation.",
-        "preamble": "A company bought an item of plant on 30 June 2019 at a cost of GH\u20b5400,000. Its expected useful life was ten years, with a nil value at the end. An identical model of plant is no longer available, but the following specific price indices are considered suitable: 30 June 2019 \u2014 Index = 132; 31 December 2024 \u2014 Index = 195."
+        "preamble": "A company bought an item of plant on 30 June 2019 at a cost of GH₵400,000. Its expected useful life was ten years, with a nil value at the end. An identical model of plant is no longer available, but the following specific price indices are considered suitable: 30 June 2019 — Index = 132; 31 December 2024 — Index = 195."
     },
     {
         "q": "The accumulated depreciation on the gross replacement cost at 31 December 2024 would be ____________.",
         "options": [
-            "GH\u20b5265,909",
-            "GH\u20b5325,000",
-            "GH\u20b5400,000",
-            "GH\u20b5590,909"
+            "GH₵265,909",
+            "GH₵325,000",
+            "GH₵400,000",
+            "GH₵590,909"
         ],
         "answer": 1,
-        "explanation": "Asset purchased 30 June 2019. Reporting date: 31 December 2024. Age = 5 years and 6 months = 5.5 years.\nGross Replacement Cost (from Q7) | GH\u20b5590,909\nYears of useful life elapsed (30 Jun 2019 \u2192 31 Dec 2024) | 5.5 years\nTotal useful life | 10 years\nAccumulated Depreciation = GH\u20b5590,909 \u00d7 (5.5 \u00f7 10) | GH\u20b5325,000",
-        "preamble": "A company bought an item of plant on 30 June 2019 at a cost of GH\u20b5400,000. Its expected useful life was ten years, with a nil value at the end. An identical model of plant is no longer available, but the following specific price indices are considered suitable: 30 June 2019 \u2014 Index = 132; 31 December 2024 \u2014 Index = 195."
+        "explanation": "Asset purchased 30 June 2019. Reporting date: 31 December 2024. Age = 5 years and 6 months = 5.5 years.\nGross Replacement Cost (from Q7) | GH₵590,909\nYears of useful life elapsed (30 Jun 2019 → 31 Dec 2024) | 5.5 years\nTotal useful life | 10 years\nAccumulated Depreciation = GH₵590,909 × (5.5 ÷ 10) | GH₵325,000",
+        "preamble": "A company bought an item of plant on 30 June 2019 at a cost of GH₵400,000. Its expected useful life was ten years, with a nil value at the end. An identical model of plant is no longer available, but the following specific price indices are considered suitable: 30 June 2019 — Index = 132; 31 December 2024 — Index = 195."
     },
     {
         "q": "The net replacement cost at 31 December 2024 would be ________.",
         "options": [
-            "GH\u20b5590,909",
-            "GH\u20b5400,000",
-            "GH\u20b5325,000",
-            "GH\u20b5265,909"
+            "GH₵590,909",
+            "GH₵400,000",
+            "GH₵325,000",
+            "GH₵265,909"
         ],
         "answer": 3,
         "explanation": "",
-        "preamble": "A company bought an item of plant on 30 June 2019 at a cost of GH\u20b5400,000. Its expected useful life was ten years, with a nil value at the end. An identical model of plant is no longer available, but the following specific price indices are considered suitable: 30 June 2019 \u2014 Index = 132; 31 December 2024 \u2014 Index = 195."
+        "preamble": "A company bought an item of plant on 30 June 2019 at a cost of GH₵400,000. Its expected useful life was ten years, with a nil value at the end. An identical model of plant is no longer available, but the following specific price indices are considered suitable: 30 June 2019 — Index = 132; 31 December 2024 — Index = 195."
     },
     {
         "q": "Calculate the movement in inventories, for inclusion in the group statement of cash flows.",
         "options": [
-            "GH\u20b5375,000 decrease in inventory and increase in cash",
-            "GH\u20b5425,000 decrease in inventory and increase in cash",
-            "GH\u20b5375,000 increase in inventory and decrease in cash",
-            "GH\u20b5425,000 increase in inventory and decrease in cash"
+            "GH₵375,000 decrease in inventory and increase in cash",
+            "GH₵425,000 decrease in inventory and increase in cash",
+            "GH₵375,000 increase in inventory and decrease in cash",
+            "GH₵425,000 increase in inventory and decrease in cash"
         ],
         "answer": 3,
         "explanation": "For group cash flows, working capital movements are adjusted to exclude balances of subsidiaries acquired or disposed of during the year (these are shown separately as investing activities).",
-        "preamble": "The following are extracts from the group statement of financial position of Kayla as at 31 December: Inventory \u2014 2024: GH\u20b51,500,000; 2023: GH\u20b51,100,000. Receivables \u2014 2024: GH\u20b5900,000; 2023: GH\u20b51,250,000. Payables \u2014 2024: GH\u20b51,950,000; 2023: GH\u20b51,700,000. During 2024, Jak was acquired (Inventory: GH\u20b5105,000; Receivables: GH\u20b5160,000; Payables: GH\u20b5180,000) and all shares in Bob were disposed of (Inventory: GH\u20b5130,000; Receivables: GH\u20b5140,000; Payables: GH\u20b5120,000)."
+        "preamble": "The following are extracts from the group statement of financial position of Kayla as at 31 December: Inventory — 2024: GH₵1,500,000; 2023: GH₵1,100,000. Receivables — 2024: GH₵900,000; 2023: GH₵1,250,000. Payables — 2024: GH₵1,950,000; 2023: GH₵1,700,000. During 2024, Jak was acquired (Inventory: GH₵105,000; Receivables: GH₵160,000; Payables: GH₵180,000) and all shares in Bob were disposed of (Inventory: GH₵130,000; Receivables: GH₵140,000; Payables: GH₵120,000)."
     },
     {
         "q": "Calculate the movement in receivables and for inclusion in the group statement of cash flows.",
         "options": [
-            "GH\u20b5330,000 decrease in receivables and increase in cash flows",
-            "GH\u20b5330,000 increase in receivables and decrease in cash flows",
-            "GH\u20b5370,000 increase in receivables and decrease in cash flows",
-            "GH\u20b5370,000 decrease in receivables and increase in cash flows"
+            "GH₵330,000 decrease in receivables and increase in cash flows",
+            "GH₵330,000 increase in receivables and decrease in cash flows",
+            "GH₵370,000 increase in receivables and decrease in cash flows",
+            "GH₵370,000 decrease in receivables and increase in cash flows"
         ],
         "answer": 3,
         "explanation": "",
-        "preamble": "The following are extracts from the group statement of financial position of Kayla as at 31 December: Inventory \u2014 2024: GH\u20b51,500,000; 2023: GH\u20b51,100,000. Receivables \u2014 2024: GH\u20b5900,000; 2023: GH\u20b51,250,000. Payables \u2014 2024: GH\u20b51,950,000; 2023: GH\u20b51,700,000. During 2024, Jak was acquired (Inventory: GH\u20b5105,000; Receivables: GH\u20b5160,000; Payables: GH\u20b5180,000) and all shares in Bob were disposed of (Inventory: GH\u20b5130,000; Receivables: GH\u20b5140,000; Payables: GH\u20b5120,000)."
+        "preamble": "The following are extracts from the group statement of financial position of Kayla as at 31 December: Inventory — 2024: GH₵1,500,000; 2023: GH₵1,100,000. Receivables — 2024: GH₵900,000; 2023: GH₵1,250,000. Payables — 2024: GH₵1,950,000; 2023: GH₵1,700,000. During 2024, Jak was acquired (Inventory: GH₵105,000; Receivables: GH₵160,000; Payables: GH₵180,000) and all shares in Bob were disposed of (Inventory: GH₵130,000; Receivables: GH₵140,000; Payables: GH₵120,000)."
     },
     {
         "q": "Calculate the movement in payables for inclusion in the group statement of cash flows.",
         "options": [
-            "GH\u20b5190,000 increase in payables and increase in cash",
-            "GH\u20b5310,000 decrease in payables and decrease in cash",
-            "GH\u20b5310,000 increase in payable and increase in cash",
-            "GH\u20b5190,000 decrease in payables and decrease in cash"
+            "GH₵190,000 increase in payables and increase in cash",
+            "GH₵310,000 decrease in payables and decrease in cash",
+            "GH₵310,000 increase in payable and increase in cash",
+            "GH₵190,000 decrease in payables and decrease in cash"
         ],
         "answer": 0,
         "explanation": "",
-        "preamble": "The following are extracts from the group statement of financial position of Kayla as at 31 December: Inventory \u2014 2024: GH\u20b51,500,000; 2023: GH\u20b51,100,000. Receivables \u2014 2024: GH\u20b5900,000; 2023: GH\u20b51,250,000. Payables \u2014 2024: GH\u20b51,950,000; 2023: GH\u20b51,700,000. During 2024, Jak was acquired (Inventory: GH\u20b5105,000; Receivables: GH\u20b5160,000; Payables: GH\u20b5180,000) and all shares in Bob were disposed of (Inventory: GH\u20b5130,000; Receivables: GH\u20b5140,000; Payables: GH\u20b5120,000)."
+        "preamble": "The following are extracts from the group statement of financial position of Kayla as at 31 December: Inventory — 2024: GH₵1,500,000; 2023: GH₵1,100,000. Receivables — 2024: GH₵900,000; 2023: GH₵1,250,000. Payables — 2024: GH₵1,950,000; 2023: GH₵1,700,000. During 2024, Jak was acquired (Inventory: GH₵105,000; Receivables: GH₵160,000; Payables: GH₵180,000) and all shares in Bob were disposed of (Inventory: GH₵130,000; Receivables: GH₵140,000; Payables: GH₵120,000)."
     },
     {
         "q": "Which of the following statements is TRUE in a period of upward price level changes?",
@@ -1096,25 +1096,25 @@ const QUIZ_DATA = {
     {
         "q": "The following information has been extracted from the consolidated financial statements of WAGIM:",
         "options": [
-            "GH\u20b5800,000",
-            "GH\u20b51,200,000",
-            "GH\u20b53,600,000",
-            "GH\u20b58,400,000"
+            "GH₵800,000",
+            "GH₵1,200,000",
+            "GH₵3,600,000",
+            "GH₵8,400,000"
         ],
         "answer": 1,
-        "explanation": "NCI dividends reduce the NCI balance. We reconcile the NCI movement:\nOpening NCI balance (end of 2023) | GH\u20b527,600,000\nAdd: Profit attributable to NCI in 2024 | GH\u20b54,800,000\nLess: Closing NCI balance (end of 2024) | (GH\u20b531,200,000)\nDividend paid to NCI | GH\u20b51,200,000",
+        "explanation": "NCI dividends reduce the NCI balance. We reconcile the NCI movement:\nOpening NCI balance (end of 2023) | GH₵27,600,000\nAdd: Profit attributable to NCI in 2024 | GH₵4,800,000\nLess: Closing NCI balance (end of 2024) | (GH₵31,200,000)\nDividend paid to NCI | GH₵1,200,000",
         "preamble": ""
     },
     {
-        "q": "Given an entity\u2019s share of associate\u2019s profit after tax for the year to 31 December 2023 and 2024 as GH\u20b528,000 and GH\u20b530,000: Investment in associate balance for 2023 and 2024 as GH\u20b5264,000 and GH\u20b5276,000 respectively, the dividend received for the year to 31 December 2024 is calculated as ____________",
+        "q": "Given an entity’s share of associate’s profit after tax for the year to 31 December 2023 and 2024 as GH₵28,000 and GH₵30,000: Investment in associate balance for 2023 and 2024 as GH₵264,000 and GH₵276,000 respectively, the dividend received for the year to 31 December 2024 is calculated as ____________",
         "options": [
-            "GH\u20b518,000",
-            "GH\u20b516,000",
-            "GH\u20b512,000",
-            "GH\u20b510,000"
+            "GH₵18,000",
+            "GH₵16,000",
+            "GH₵12,000",
+            "GH₵10,000"
         ],
         "answer": 0,
-        "explanation": "The investment in associate account is maintained under the equity method:\nOpening balance + Share of profit \u2212 Dividend received = Closing balance\nOpening investment in associate (2023 balance) | GH\u20b5264,000\nAdd: Share of associate\u2019s profit (2024) | GH\u20b530,000\nLess: Closing investment in associate (2024 balance) | (GH\u20b5276,000)\nDividend received from associate (2024) | GH\u20b518,000",
+        "explanation": "The investment in associate account is maintained under the equity method:\nOpening balance + Share of profit − Dividend received = Closing balance\nOpening investment in associate (2023 balance) | GH₵264,000\nAdd: Share of associate’s profit (2024) | GH₵30,000\nLess: Closing investment in associate (2024 balance) | (GH₵276,000)\nDividend received from associate (2024) | GH₵18,000",
         "preamble": ""
     },
     {
@@ -1124,7 +1124,7 @@ const QUIZ_DATA = {
             "False"
         ],
         "answer": 1,
-        "explanation": "The statement is FALSE. Under HCA, assets ARE recorded at original acquisition cost and liabilities at the contracted amount \u2014 that part is correct. However, the statement adds \u201cwith a revision to reflect changes in their monetary value\u201d which is INCORRECT. HCA does NOT revise values for changes in purchasing power or price levels. That feature belongs to current value methods such as CPP or CCA.",
+        "explanation": "The statement is FALSE. Under HCA, assets ARE recorded at original acquisition cost and liabilities at the contracted amount — that part is correct. However, the statement adds “with a revision to reflect changes in their monetary value” which is INCORRECT. HCA does NOT revise values for changes in purchasing power or price levels. That feature belongs to current value methods such as CPP or CCA.",
         "preamble": ""
     },
     {
@@ -1138,13 +1138,13 @@ const QUIZ_DATA = {
         "preamble": ""
     },
     {
-        "q": "If environmental expenditure provides access to future economic benefits, it meets the IASB\u2019s definition of an asset. It would normally be capitalised and depreciated over the useful life of the asset.",
+        "q": "If environmental expenditure provides access to future economic benefits, it meets the IASB’s definition of an asset. It would normally be capitalised and depreciated over the useful life of the asset.",
         "options": [
             "True",
             "False"
         ],
         "answer": 0,
-        "explanation": "The statement is TRUE. Under the IASB Conceptual Framework, an asset is a present economic resource controlled by the entity as a result of past events from which future economic benefits are expected to flow. If environmental expenditure (e.g., pollution-control equipment, site restoration infrastructure) creates or gives access to future economic benefits, it satisfies this definition. It should be recognised as an asset on the balance sheet and depreciated over its useful economic life.\nSECTION A \u2014 ANSWER SUMMARY\nPrepared by Claude (Anthropic) for academic study \u2014 ACC402D Advanced Financial Reporting II, UCC 2024/2025",
+        "explanation": "The statement is TRUE. Under the IASB Conceptual Framework, an asset is a present economic resource controlled by the entity as a result of past events from which future economic benefits are expected to flow. If environmental expenditure (e.g., pollution-control equipment, site restoration infrastructure) creates or gives access to future economic benefits, it satisfies this definition. It should be recognised as an asset on the balance sheet and depreciated over its useful economic life.\nSECTION A — ANSWER SUMMARY\nPrepared by Claude (Anthropic) for academic study — ACC402D Advanced Financial Reporting II, UCC 2024/2025",
         "preamble": ""
     }
 ]

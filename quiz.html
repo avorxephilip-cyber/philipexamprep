@@ -6,6 +6,28 @@
     <title>Practice Quiz | Philip Exam Prep</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- MathJax for Formula Rendering -->
+    <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        macros: {
+          text: ["\\text{#1}", 1]
+        }
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      },
+      startup: {
+        pageReady: () => {
+          return MathJax.startup.defaultPageReady();
+        }
+      }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
         :root {
             --bg: #09090b;
@@ -252,15 +274,19 @@
         .question-card {
             background: var(--surface);
             border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 2rem;
-            margin-bottom: 1.5rem;
+            border-radius: 20px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+            animation: fadeInCard 0.5s ease-out;
         }
+        @keyframes fadeInCard { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
         .question-text {
             font-size: 1.05rem;
             font-weight: 500;
             line-height: 1.65;
             color: var(--text);
+            white-space: pre-wrap; /* Preserve formatting */
         }
 
         /* OPTIONS */
@@ -348,6 +374,7 @@
             font-size: 0.9rem;
             color: #d4d4d8;
             line-height: 1.6;
+            white-space: pre-wrap; /* Preserve formatting */
             animation: fadeIn 0.3s ease;
         }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
@@ -377,6 +404,33 @@
             display: none;
         }
         .next-btn:hover { background: rgba(16,185,129,0.2); }
+
+        /* EXPLANATION BOX */
+        .explanation-box {
+            display: none;
+            background: rgba(16, 185, 129, 0.08);
+            border: 1px solid var(--emerald);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            animation: slideUp 0.4s ease;
+        }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .expl-label {
+            font-weight: 800;
+            color: var(--emerald);
+            font-size: 0.75rem;
+            margin-bottom: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        #explanation-text {
+            font-size: 0.92rem;
+            line-height: 1.6;
+            color: var(--text);
+            white-space: pre-wrap; /* Preserve newlines from quiz_data.js */
+        }
+        #explanation-text strong { color: var(--gold); }
 
         /* RESULTS SCREEN */
         #results {
@@ -788,6 +842,11 @@ function renderQuestion() {
     } else {
         timerContainer.style.display = 'none';
     }
+
+    // Trigger MathJax rendering
+    if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise();
+    }
 }
 
 function updateTimerUI() {
@@ -846,6 +905,11 @@ function showExplanation(text) {
     const box = document.getElementById('explanation-box');
     document.getElementById('explanation-text').textContent = text;
     box.style.display = 'block';
+    
+    // Trigger MathJax rendering for explanation
+    if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise();
+    }
 }
 
 function nextQuestion() {
