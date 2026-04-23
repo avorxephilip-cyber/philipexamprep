@@ -105,6 +105,367 @@ const QUIZ_DATA = {
     icon: "📈",
     color: "#f472b6",
     questions: [
+      {
+    "q": "According to the Altman Z-score model for public companies, which formula represents the variable $X_{1}$ used to measure liquidity?",
+    "options": [
+      "$X_{1} = \\frac{\\text{Working Capital}}{\\text{Total Assets}}$",
+      "$X_{1} = \\frac{\\text{Sales}}{\\text{Total Assets}}$",
+      "$X_{1} = \\frac{\\text{Retained Earnings}}{\\text{Total Assets}}$",
+      "$X_{1} = \\frac{\\text{Current Assets}}{\\text{Total Liabilities}}$"
+    ],
+    "answer": 0,
+    "explanation": "This ratio compares the net liquid assets of the firm to its total capitalization to assess short-term solvency.",
+    "preamble": "Consider the relationship between net current assets and the entire asset base of the firm."
+  },
+  {
+    "q": "In the DuPont Analysis, the Return on Equity ($ROE$) is decomposed into which three specific components?",
+    "options": [
+      "Profit Margin $\\times$ Asset Turnover $\\times$ Equity Multiplier",
+      "Operating Income $\\times$ Financial Leverage $\\times$ Tax Rate",
+      "Gross Margin $\\times$ Inventory Turnover $\\times$ Debt Ratio",
+      "Net Profit $\\times$ Sales $\\times$ Total Assets"
+    ],
+    "answer": 0,
+    "explanation": "This identity shows how operational efficiency, asset use, and financial leverage combine to generate returns for shareholders.",
+    "preamble": "The formula involves a profitability measure, an efficiency measure, and a leverage measure."
+  },
+  {
+    "q": "Which formula is used to calculate the Degree of Financial Leverage ($DFL$)?",
+    "options": [
+      "$DFL = \\frac{\\text{Total Debt}}{\\text{Total Equity}}$",
+      "$DFL = \\frac{EBIT}{EBT}$",
+      "$DFL = \\frac{\\text{Sales}}{EBIT}$",
+      "$DFL = \\frac{\\text{Contribution}}{EBIT}$"
+    ],
+    "answer": 1,
+    "explanation": "This ratio measures the responsiveness of earnings per share to changes in operating income due to fixed interest charges.",
+    "preamble": "Think about the relationship between operating profit and earnings before taxes."
+  },
+  {
+    "q": "How is the Economic Value Added ($EVA$) calculated using Net Operating Profit After Tax ($NOPAT$)?",
+    "options": [
+      "$EVA = \\frac{NOPAT}{WACC}$",
+      "$EVA = NOPAT - (WACC \\times \\text{Invested Capital})$",
+      "$EVA = (\\text{Net Income} - \\text{Dividends}) \\times WACC$",
+      "$EVA = NOPAT + (WACC \\times \\text{Invested Capital})$"
+    ],
+    "answer": 1,
+    "explanation": "This formula subtracts the dollar cost of all capital used from the operating profits to determine true economic profit.",
+    "preamble": "Economic profit is what remains after paying for the use of all debt and equity funds."
+  },
+  {
+    "q": "The Altman Z-score for private companies uses which coefficient for the $X_{3}$ variable (EBIT / Total Assets)?",
+    "options": [
+      "$3.107$",
+      "$0.717$",
+      "$1.200$",
+      "$3.300$"
+    ],
+    "answer": 0,
+    "explanation": "The 1983 revised model for private firms adjusted the coefficients, assigning 3.107 to the profitability measure.",
+    "preamble": "The coefficient for profitability is the highest in both the public and private models, but it is slightly lower in the private version."
+  },
+  {
+    "q": "When reformulating the Statement of Shareholders' Equity, which item is subtracted from Net Income to find the total income available to equity shareholders?",
+    "options": [
+      "Retained Earnings",
+      "Other Comprehensive Income",
+      "Preference Dividends",
+      "Ordinary Dividends"
+    ],
+    "answer": 2,
+    "explanation": "Preference shares are treated as liabilities in this reformulation, so their dividends must be removed to isolate returns for ordinary shareholders.",
+    "preamble": "Identify the payment made to a specific class of 'owners' who are treated like creditors in the reformulation process."
+  },
+  {
+    "q": "In cash flow analysis, what does the 'Interest Coverage Ratio' specifically measure?",
+    "options": [
+      "$\\frac{\\text{Cash Flow from Operating Activities}}{\\text{Interest Payment}}$",
+      "$\\frac{\\text{Net Income}}{\\text{Interest Payment}}$",
+      "$\\frac{\\text{Operating Cash Flow}}{\\text{Total Debt}}$",
+      "$\\frac{EBIT}{\\text{Interest Expense}}$"
+    ],
+    "answer": 0,
+    "explanation": "This evaluates the firm's ability to service its interest obligations using cash generated from primary business operations.",
+    "preamble": "Focus on the cash-based ability to pay periodic financing costs."
+  },
+  {
+    "q": "According to the Gordon Growth Model, how is the Terminal Value ($TV$) calculated at the end of a forecast period?",
+    "options": [
+      "$TV = NOPAT \\times \\text{Growth Rate}$",
+      "$TV = \\frac{FCF_{n}}{WACC - g}$",
+      "$TV = FCF_{n} \\times (1 + WACC)^{n}$",
+      "$TV = \\frac{FCF_{n}}{WACC + g}$"
+    ],
+    "answer": 1,
+    "explanation": "This formula treats the final year's free cash flow as a perpetuity that grows at a constant rate $g$ into the future.",
+    "preamble": "The calculation relies on the difference between the cost of capital and the long-term growth rate."
+  },
+  {
+    "q": "In the Lev and Schwartz Model for Human Resource Accounting, the value of human capital is determined by which primary factor?",
+    "options": [
+      "The total cost of recruiting and training the employee.",
+      "The present value of the individual's remaining earnings from employment.",
+      "The replacement cost of the employee at current market rates.",
+      "The bidding price offered by different departments within the firm."
+    ],
+    "answer": 1,
+    "explanation": "This economic model values an employee based on the discounted stream of future income they are expected to receive until retirement.",
+    "preamble": "This model treats an employee's future salary as a series of cash flows to be discounted."
+  },
+  {
+    "q": "How is the 'Equity Multiplier' calculated for use in the DuPont identity?",
+    "options": [
+      "$\\frac{\\text{Average Total Assets}}{\\text{Average Total Equity}}$",
+      "$\\frac{\\text{Current Assets}}{\\text{Current Liabilities}}$",
+      "$\\frac{\\text{Total Debt}}{\\text{Total Equity}}$",
+      "$\\frac{\\text{Sales}}{\\text{Average Total Equity}}$"
+    ],
+    "answer": 0,
+    "explanation": "This ratio indicates the degree to which a firm uses debt to finance its asset base.",
+    "preamble": "It measures how many dollars of assets are supported by each dollar of shareholder equity."
+  },
+  {
+    "q": "The formula for 'Free Cash Flow ($FCF$)' typically starts with Net Operating Profit After Tax ($NOPAT$) and then makes which adjustments?",
+    "options": [
+      "Add Interest Expense and subtract Dividends.",
+      "Add Accounts Receivable and subtract Accounts Payable.",
+      "Add Depreciation, subtract Capital Expenditures, and subtract change in Working Capital.",
+      "Subtract Depreciation, add Capital Expenditures, and add change in Working Capital."
+    ],
+    "answer": 2,
+    "explanation": "Depreciation is added back as a non-cash expense, while cash outflows for assets and working capital are removed to find truly 'free' cash.",
+    "preamble": "You must reverse non-cash items and account for the cash reinvested in the business."
+  },
+  {
+    "q": "Market Value Added ($MVA$) is defined by which relationship?",
+    "options": [
+      "$MVA = \\text{Market Value of Equity} - \\text{Book Value of Equity}$",
+      "$MVA = \\text{Total Assets} - \\text{Total Liabilities}$",
+      "$MVA = \\text{Net Income} \\times \\text{Price-Earnings Ratio}$",
+      "$MVA = \\text{Market Value of Company} - \\text{Invested Capital}$"
+    ],
+    "answer": 3,
+    "explanation": "MVA measures the cumulative value created for shareholders over the life of the firm relative to the capital contributed.",
+    "preamble": "It is the difference between what the company is worth in the market and what was put into it."
+  },
+  {
+    "q": "What is the formula for 'Dividend Yield' as used in investment ratio analysis?",
+    "options": [
+      "$\\frac{\\text{Dividend Per Share}}{\\text{Market Value Per Share}}$",
+      "$\\frac{\\text{Market Value Per Share}}{\\text{Dividend Per Share}}$",
+      "$\\frac{\\text{Total Dividends}}{\\text{Net Income}}$",
+      "$\\frac{\\text{Dividend Per Share}}{\\text{Earnings Per Share}}$"
+    ],
+    "answer": 0,
+    "explanation": "This ratio shows the percentage return an investor receives from dividends relative to the current stock price.",
+    "preamble": "Think about the return on the current price of the stock."
+  },
+  {
+    "q": "In the context of 'Trend Analysis', how is the trend percentage for a specific year calculated?",
+    "options": [
+      "$\\text{Amount in Current Year} - \\text{Amount in Base Year}$",
+      "$\\frac{\\text{Amount in Current Year}}{\\text{Amount in Previous Year}} \\times 100$",
+      "$\\frac{\\text{Amount in Current Year}}{\\text{Amount in Base Year}} \\times 100$",
+      "$\\frac{\\text{Amount in Current Year}}{\\text{Total Sales}} \\times 100$"
+    ],
+    "answer": 2,
+    "explanation": "This formula indexes all subsequent years to a starting point (base year) to observe growth or decline over time.",
+    "preamble": "You must compare the current figure to a fixed starting point in time."
+  },
+  {
+    "q": "For a private company, the Altman Z-score model predicts 'Distress' if the calculated $Z$ value is below what threshold?",
+    "options": [
+      "$2.90$",
+      "$2.99$",
+      "$1.23$",
+      "$1.81$"
+    ],
+    "answer": 2,
+    "explanation": "For the 1983 private firm model, a Z-score below 1.23 indicates the company is in the distress zone.",
+    "preamble": "The thresholds for private firms are different and generally lower than those for public firms."
+  },
+  {
+    "q": "The formula for the 'Asset Turnover' ratio, a driver of operating profitability, is defined as:",
+    "options": [
+      "$\\frac{\\text{Gross Profit}}{\\text{Total Assets}}$",
+      "$\\frac{\\text{Net Sales}}{\\text{Average Total Equity}}$",
+      "$\\frac{\\text{Total Assets}}{\\text{Net Sales}}$",
+      "$\\frac{\\text{Net Sales}}{\\text{Average Total Assets}}$"
+    ],
+    "answer": 3,
+    "explanation": "This ratio measures how effectively management uses its assets to generate revenue.",
+    "preamble": "Consider the relationship between revenue and the resources used to produce it."
+  },
+  {
+    "q": "Which formula is used to calculate 'Earnings Per Share ($EPS$)'?",
+    "options": [
+      "$\\frac{\\text{Dividends Paid}}{\\text{Number of Ordinary Shares}}$",
+      "$\\frac{\\text{Net Profit After Tax}}{\\text{Number of Ordinary Shares}}$",
+      "$\\frac{\\text{Net Profit After Tax - Preference Dividend}}{\\text{Number of Ordinary Shares}}$",
+      "$\\frac{\\text{Market Price}}{\\text{Net Income}}$"
+    ],
+    "answer": 2,
+    "explanation": "This isolates the earnings that strictly belong to ordinary shareholders per unit of ownership.",
+    "preamble": "Remember to remove the fixed 'liabilities-like' owner distributions from the net profit."
+  },
+  {
+    "q": "How is the 'Weighted Average Cost of Capital ($WACC$)' fundamentally calculated?",
+    "options": [
+      "$WACC = \\frac{K_{d} + K_{e}}{2}$",
+      "$WACC = K_{d} + K_{e}$",
+      "$WACC = K_{d}(1-t) \\times (\\frac{D}{V}) + K_{e} \\times (\\frac{E}{V})$",
+      "$WACC = (\\text{Net Income} - \\text{Interest}) \\times \\text{Tax Rate}$"
+    ],
+    "answer": 2,
+    "explanation": "This formula averages the after-tax cost of debt and the cost of equity based on their respective proportions in the firm's total value ($V$).",
+    "preamble": "It involves the proportions of debt and equity and includes a tax shield on debt."
+  },
+  {
+    "q": "In the context of Valuation Principles, the 'Principle of Time Value of Money' implies that the value of an asset is equal to:",
+    "options": [
+      "The total sum of all future cash flows without adjustment.",
+      "The historical cost of the asset adjusted for inflation.",
+      "The present value of future cash flows discounted at an appropriate rate.",
+      "The current market price of a similar substitute asset."
+    ],
+    "answer": 2,
+    "explanation": "This principle recognizes that a cedi today is worth more than a cedi tomorrow, necessitating the use of discounting.",
+    "preamble": "Focus on the mathematical process used to bring future money to the current day."
+  },
+  {
+    "q": "What is the formula for the 'Inventory Turnover Ratio'?",
+    "options": [
+      "$\\frac{\\text{Average Inventory}}{\\text{Cost of Goods Sold}}$",
+      "$\\frac{\\text{Opening Inventory} + \\text{Closing Inventory}}{\\text{Sales}}$",
+      "$\\frac{\\text{Cost of Goods Sold}}{\\text{Average Inventory}}$",
+      "$\\frac{\\text{Net Sales}}{\\text{Closing Inventory}}$"
+    ],
+    "answer": 2,
+    "explanation": "This measures how many times a company's inventory is sold and replaced over a period.",
+    "preamble": "It relates the cost of products sold to the typical amount of stock held."
+  },
+  {
+    "q": "In the Capital Asset Pricing Model ($CAPM$), the formula for 'Cost of Equity ($K_{e}$)' is:",
+    "options": [
+      "$K_{e} = \\text{Risk Free Rate} + \\text{Beta}$",
+      "$K_{e} = \\frac{\\text{Dividend}}{\\text{Price}} + g$",
+      "$K_{e} = R_{m} + \\beta(R_{f})$",
+      "$K_{e} = R_{f} + \\beta(R_{m} - R_{f})$"
+    ],
+    "answer": 3,
+    "explanation": "This model calculates the required return by adding a risk-free rate to a risk premium adjusted by the asset's beta.",
+    "preamble": "The formula involves a risk-free rate and a premium for systemic risk."
+  },
+  {
+    "q": "The 'Operating Cash Flow after Interest / Total Debt' ratio is known as the:",
+    "options": [
+      "Interest Coverage Ratio",
+      "Debt Coverage Ratio",
+      "Cash Return on Assets",
+      "Current Ratio"
+    ],
+    "answer": 1,
+    "explanation": "This ratio indicates the extent to which net cash from operations can redeem existing debt principal.",
+    "preamble": "It assesses the solvency of a firm by looking at its ability to pay off all borrowings."
+  },
+  {
+    "q": "When performing 'Common-Size Statement' analysis for an Income Statement, what is used as the base ($100\\%$)?",
+    "options": [
+      "Gross Profit",
+      "Net Income",
+      "Net Sales",
+      "Total Assets"
+    ],
+    "answer": 2,
+    "explanation": "In vertical analysis, each line item on the income statement is expressed as a percentage of revenue to identify cost structures.",
+    "preamble": "Every expense and profit figure is compared to the total revenue generated."
+  },
+  {
+    "q": "Which formula is used to calculate 'Net Working Capital'?",
+    "options": [
+      "$\\text{Cash} + \\text{Marketable Securities}$",
+      "$\\text{Total Assets} - \\text{Total Liabilities}$",
+      "$\\text{Current Assets} - \\text{Current Liabilities}$",
+      "$\\frac{\\text{Current Assets}}{\\text{Current Liabilities}}$"
+    ],
+    "answer": 2,
+    "explanation": "Net working capital represents the liquidity available to a firm for its day-to-day operations after meeting short-term obligations.",
+    "preamble": "It is the difference between short-term resources and short-term obligations."
+  },
+  {
+    "q": "The 'Efficiency Ratio' used in Hermanson's Human Resource Accounting model is based on:",
+    "options": [
+      "The ratio of sales per employee divided by the industry average.",
+      "The percentage of net income attributed to human capital investments.",
+      "A weighted average of the ROI of the firm relative to all firms in the economy.",
+      "The growth rate of employee salaries over a five-year period."
+    ],
+    "answer": 2,
+    "explanation": "This ratio adjusts future wage streams to reflect how much more (or less) efficiently the firm's human resources are being used compared to the average.",
+    "preamble": "The ratio compares the firm's accounting income on owned assets to the economy's average over several years."
+  },
+  {
+    "q": "How is the 'Acid Test Ratio' (or Quick Ratio) calculated?",
+    "options": [
+      "$\\frac{\\text{Current Assets}}{\\text{Current Liabilities}}$",
+      "$\\frac{\\text{Current Assets - Inventory}}{\\text{Current Liabilities}}$",
+      "$\\frac{\\text{Current Assets - Liabilities}}{\\text{Inventory}}$",
+      "$\\frac{\\text{Cash}}{\\text{Current Liabilities}}$"
+    ],
+    "answer": 1,
+    "explanation": "By excluding inventory, this ratio provides a more stringent test of liquidity, focusing on assets that can be converted to cash immediately.",
+    "preamble": "It measures liquidity while ignoring the least liquid component of current assets."
+  },
+  {
+    "q": "The 'Price-Earnings ($P/E$) Ratio' is calculated using which formula?",
+    "options": [
+      "$\\frac{\\text{Market Value Per Share}}{\\text{Earnings Per Share}}$",
+      "$\\frac{\\text{Net Income}}{\\text{Number of Shares}}$",
+      "$\\frac{\\text{Earnings Per Share}}{\\text{Market Value Per Share}}$",
+      "$\\frac{\\text{Market Value Per Share}}{\\text{Book Value Per Share}}$"
+    ],
+    "answer": 0,
+    "explanation": "This ratio shows how much the market is willing to pay for each cedi of current earnings.",
+    "preamble": "It relates the current stock price to the profit generated per unit of ownership."
+  },
+  {
+    "q": "In the Altman model, what is the $X_{4}$ variable for a public company?",
+    "options": [
+      "$\\frac{\\text{Market Value of Equity}}{\\text{Total Assets}}$",
+      "$\\frac{\\text{Market Value of Equity}}{\\text{Book Value of Total Debt}}$",
+      "$\\frac{\\text{Book Value of Equity}}{\\text{Total Assets}}$",
+      "$\\frac{\\text{Net Income}}{\\text{Total Debt}}$"
+    ],
+    "answer": 1,
+    "explanation": "This variable adds a market value dimension to the leverage measure, showing how much asset value can drop before insolvency.",
+    "preamble": "This variable compares the market's appraisal of the company's worth to its fixed legal obligations."
+  },
+  {
+    "q": "The 'Debtor Turnover Ratio' is used to measure:",
+    "options": [
+      "The amount of bad debts relative to total debtors.",
+      "How quickly credit sales are converted into cash.",
+      "The percentage of sales that are made on credit.",
+      "The average number of days it takes to pay suppliers."
+    ],
+    "answer": 1,
+    "explanation": "A higher turnover indicates that the company is efficient in collecting its receivables.",
+    "preamble": "Think about the speed of collecting money from customers."
+  },
+  {
+    "q": "What is the result of the 'Combined Leverage' formula?",
+    "options": [
+      "$\\text{Operating Leverage} \\times \\text{Financial Leverage}$",
+      "$\\frac{\\text{Operating Leverage}}{\\text{Financial Leverage}}$",
+      "$DOL - DFL$",
+      "$\\text{Operating Leverage} + \\text{Financial Leverage}$"
+    ],
+    "answer": 0,
+    "explanation": "Combined leverage measures the total risk of the firm by showing how changes in sales impact earnings per share.",
+    "preamble": "Total risk is the product of the risks associated with the cost structure and the capital structure."
+  },
+
       { q: "The three main tools for analysing a company's financial statements are:", options: ["Ratio analysis, cash flow, and profit forecast","Economic analysis, industry analysis, and company analysis","SWOT, PESTLE, and Porter's Five Forces","Balance sheet, income statement, and cash flow statement"], answer: 1, explanation: "Corporate financial analysis uses a top-down approach: Economic Analysis (macroeconomic environment) → Industry Analysis (sector performance) → Company Analysis (specific firm evaluation)." },
       { q: "Corporate distress is best defined as:", options: ["A company with declining profits","A situation where a firm is unable to meet its debts — when total assets are insufficient to discharge external liabilities","A firm with surplus inventory","A company experiencing rapid growth"], answer: 1, explanation: "Corporate distress (or corporate sickness) is when the value of total assets is insufficient to discharge external liabilities, moving the company towards insolvency or bankruptcy." },
       { q: "Which of the following is an indicator of corporate distress?", options: ["Increasing sales revenue","Favourable liquidity position","Adverse long-term solvency position","Improving return on equity"], answer: 2, explanation: "Indicators of corporate distress include: unfavourable liquidity, adverse long-term solvency, outdated production processes, deteriorating sales, poor administrative setup, and overall adverse economic conditions." },
