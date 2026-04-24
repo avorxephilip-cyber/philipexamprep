@@ -683,9 +683,19 @@
 <!-- ============ QUIZ ============ -->
 <div id="quiz">
     <div class="quiz-header">
-        <span class="q-counter" id="q-counter">Question 1 of 10</span>
-        <span class="streak-pill" id="streak-pill">&#128293; Streak: 0</span>
-        <span class="score-pill" id="score-pill">Score: 0</span>
+        <div class="q-counter" id="q-counter">Question 1 of 10</div>
+        
+        <!-- Jump Control for Project Trial (Internal Review) -->
+        <div id="trial-jump-container" style="display: none; align-items: center; gap: 0.5rem; background: rgba(251,191,36,0.1); padding: 0.3rem 0.6rem; border-radius: 8px; border: 1px solid rgba(251,191,36,0.3);">
+            <span style="font-size: 0.75rem; color: var(--gold); font-weight: 600;">Jump:</span>
+            <input type="number" id="jump-q-num" style="width: 50px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); color: white; border-radius: 4px; padding: 2px 4px; font-size: 0.8rem;" placeholder="#">
+            <button onclick="jumpToQuestion()" style="background: var(--gold); color: black; border: none; border-radius: 4px; padding: 2px 8px; font-size: 0.75rem; font-weight: 800; cursor: pointer;">Go</button>
+        </div>
+
+        <div style="display: flex; gap: 0.5rem;">
+            <span class="streak-pill" id="streak-pill">&#128293; Streak: 0</span>
+            <span class="score-pill" id="score-pill">Score: 0</span>
+        </div>
     </div>
 
     <div class="progress-track">
@@ -804,6 +814,14 @@ function startTrial(key) {
     selectedTimer = 0; 
     lastConfig = { courses: [key], timer: selectedTimer, trial: true };
     
+    // Show jump control ONLY for project trial
+    const jumpCont = document.getElementById('trial-jump-container');
+    if (key === 'project') {
+        jumpCont.style.display = 'flex';
+    } else {
+        jumpCont.style.display = 'none';
+    }
+    
     if (QUIZ_DATA[key]) {
         questions = [...QUIZ_DATA[key].questions];
     } else {
@@ -816,6 +834,18 @@ function startTrial(key) {
     document.getElementById('results').style.display = 'none';
     document.getElementById('quiz').style.display = 'block';
     renderQuestion();
+}
+
+function jumpToQuestion() {
+    const input = document.getElementById('jump-q-num');
+    const num = parseInt(input.value);
+    if (!isNaN(num) && num >= 1 && num <= questions.length) {
+        currentQ = num - 1;
+        renderQuestion();
+        input.value = '';
+    } else {
+        alert("Please enter a valid question number (1-" + questions.length + ")");
+    }
 }
 
 let lastConfig = { courses: [], timer: 30 };
