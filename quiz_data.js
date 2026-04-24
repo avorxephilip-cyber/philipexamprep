@@ -120,10 +120,10 @@ const QUIZ_DATA = {
   {
     "q": "In the DuPont Analysis, the Return on Equity ($ROE$) is decomposed into which three specific components?",
     "options": [
-      "Profit Margin $\\times$ Asset Turnover $\\times$ Equity Multiplier",
-      "Operating Income $\\times$ Financial Leverage $\\times$ Tax Rate",
-      "Gross Margin $\\times$ Inventory Turnover $\\times$ Debt Ratio",
-      "Net Profit $\\times$ Sales $\\times$ Total Assets"
+      "Profit Margin × Asset Turnover × Equity Multiplier",
+      "Operating Income × Financial Leverage × Tax Rate",
+      "Gross Margin × Inventory Turnover × Debt Ratio",
+      "Net Profit × Sales × Total Assets"
     ],
     "answer": 0,
     "explanation": "This identity shows how operational efficiency, asset use, and financial leverage combine to generate returns for shareholders.",
@@ -456,10 +456,10 @@ const QUIZ_DATA = {
   {
     "q": "What is the result of the 'Combined Leverage' formula?",
     "options": [
-      "$\\text{Operating Leverage} \\times \\text{Financial Leverage}$",
+      "Operating Leverage × Financial Leverage",
       "$\\frac{\\text{Operating Leverage}}{\\text{Financial Leverage}}$",
       "$DOL - DFL$",
-      "$\\text{Operating Leverage} + \\text{Financial Leverage}$"
+      "Operating Leverage + Financial Leverage"
     ],
     "answer": 0,
     "explanation": "Combined leverage measures the total risk of the firm by showing how changes in sales impact earnings per share.",
