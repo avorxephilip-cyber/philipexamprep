@@ -513,374 +513,712 @@ const QUIZ_DATA = {
   // 5. PROJECT MANAGEMENT
   // ─────────────────────────────────────────────
   project: {
-    label: "Intro to Project Management",
+    label: "Trials for Project Management",
     icon: "📋",
     color: "#fbbf24",
     questions: [
-      { q: "A project is best defined as:", options: ["A temporary, unique endeavor with a defined beginning and end to create a specific outcome", "A permanent, routine ongoing operation", "A department within a company", "A long-term business strategy"], answer: 0, explanation: "A project is temporary (has a defined start and end), unique (creates a unique product, service, or result), and purposeful (aimed at achieving specific objectives within constraints)." },
-      { q: "Which of the following is NOT a characteristic of a project?", options: ["Repetitive and ongoing", "Specific objective", "Temporary nature", "Requires resources"], answer: 0, explanation: "Projects are NOT repetitive and ongoing — that describes operations. Projects are temporary, unique, goal-oriented, and complex." },
-      { q: "The Triple Constraint in project management consists of:", options: ["Quality, Risk, and Stakeholders", "Time, Cost, and Scope", "Initiation, Planning, and Closure", "Budget, Resources, and Communication"], answer: 1, explanation: "The Triple Constraint (Iron Triangle) is Time (schedule), Cost (budget), and Scope (deliverables). Changing any one constraint affects the others." },
-      { q: "What is the correct sequence of the Project Life Cycle?", options: ["Initiation → Execution → Planning → Closure", "Initiation → Planning → Execution & Control → Closure", "Planning → Execution → Initiation → Closure", "Execution → Planning → Initiation → Closure"], answer: 1, explanation: "The Project Life Cycle follows: Initiation → Planning → Execution & Controls → Termination/Closure. Each phase has specific deliverables and decision points." },
-      { q: "A project stakeholder is:", options: ["Only the project's end users", "Only the project team", "Any individual or organization who may have an interest in and be actively involved in the project", "Only the project sponsor"], answer: 2, explanation: "Stakeholders include all individuals and organizations with an interest in the project outcome — sponsors, customers, team members, suppliers, regulators, and the public." },
-      { q: "Which document formally authorizes a project and appoints the project manager?", options: ["Risk register", "Project charter", "Project scope statement", "Gantt chart"], answer: 1, explanation: "The Project Charter formally authorizes the existence of the project, defines its objectives, scope, and constraints, and appoints the project manager with the authority to use organizational resources." },
-      { q: "A Gantt chart is primarily used to:", options: ["Show the project schedule with activities and their durations displayed against a timeline", "Track project costs", "Manage stakeholder relationships", "Identify project risks"], answer: 0, explanation: "A Gantt chart is a bar chart showing project tasks plotted against time. It visually represents the project schedule, showing start/end dates, durations, dependencies, and progress." },
-      { q: "The Critical Path in a project network is:", options: ["The longest sequence of dependent tasks through the project — determining the minimum project duration", "The path with the least activities", "The most expensive set of activities", "Activities the project manager finds most critical"], answer: 0, explanation: "The Critical Path is the longest sequence of dependent activities. Any delay on the critical path delays the entire project. It determines the minimum possible project duration." },
-      { q: "What does 'float' (or 'slack') mean in project scheduling?", options: ["The contingency budget", "The project buffer time at the end", "The amount of time a task can be delayed without delaying the project completion date", "The number of resources on standby"], answer: 2, explanation: "Float (slack) is the amount of time a non-critical activity can be delayed without affecting the project's final deadline. Critical path activities have zero float." },
-      { q: "The Work Breakdown Structure (WBS) is:", options: ["A stakeholder analysis diagram", "A risk assessment tool", "A bar chart showing the project schedule", "A hierarchical decomposition of the total project scope into smaller, manageable work packages"], answer: 3, explanation: "The WBS decomposes the project scope into progressively smaller work packages — making the scope manageable, assignable, and measurable. It is the foundation for cost and schedule planning." },
-      { q: "A project delay is defined as:", options: ["Any scope change", "The inability of a project team to complete all stipulated activities within the estimated duration", "Finishing one day after the planned completion", "Having too many resources"], answer: 1, explanation: "Project delay is the team's inability to complete all project activities within the originally planned timeframe. Delays can be critical (affecting overall completion) or non-critical." },
-      { q: "An 'excusable' delay is one:", options: ["Due to underestimated task durations", "Caused by poor planning by the contractor", "Caused by events beyond the contractor's control — such as natural disasters or client-caused delays", "Caused by scope creep"], answer: 2, explanation: "Excusable delays result from unforeseeable events outside the contractor's control — acts of God, government actions, client-caused delays. The contractor is typically granted a time extension but no additional compensation." },
-      { q: "Which conflict resolution strategy seeks a win-win outcome?", options: ["Forcing/Competing", "Problem solving/Collaborating", "Avoidance/Withdrawal", "Smoothing/Accommodating"], answer: 1, explanation: "Problem Solving (Collaborating) seeks a win-win outcome by addressing the root cause of the conflict. It is the most effective long-term conflict resolution strategy in project management." },
-      { q: "Risk management in a project involves:", options: ["Identifying, analyzing, and developing responses to potential events that could affect project objectives", "Assigning all risks to the client", "Only managing financial risks", "Ignoring low-probability risks"], answer: 0, explanation: "Project risk management is a systematic process of identifying, analyzing (probability × impact), planning responses (avoid, transfer, mitigate, accept), and monitoring risks throughout the project lifecycle." },
-      { q: "The role of a Project Sponsor is to:", options: ["Manage the day-to-day schedule", "Conduct risk assessments", "Provide strategic direction, secure resources, remove high-level obstacles, and be the project's executive champion", "Do detailed project work"], answer: 2, explanation: "The Project Sponsor is the senior executive who owns the project at the organizational level — providing funding, strategic direction, removing obstacles, making high-level decisions, and accepting the final deliverable." },
-      {
-            "q": "According to the source material, which characteristic primarily distinguishes the 'temporary' nature of a project?",
-            "options": [
-                  "The activities must have a specific starting and ending point.",
-                  "The product or service created by the project will have a short life cycle.",
-                  "The project must be completed using only internal organizational resources.",
-                  "The duration of the project must be short in terms of calendar days."
-            ],
-            "answer": 0,
-            "explanation": "Temporary nature indicates that project activities must be commenced and completed within a specified period or specific longevity.",
-            "preamble": "Consider the relationship between the project effort and its timeline for completion."
-      },
-      {
-            "q": "Which of the following would be classified as a 'passive' stakeholder in a project environment?",
-            "options": [
-                  "The project manager",
-                  "Public authorities and competitors",
-                  "The project sponsor",
-                  "The project coordinator"
-            ],
-            "answer": 1,
-            "explanation": "Passive stakeholders consist of those affected indirectly or those who have an interest but are not directly involved in project execution.",
-            "preamble": "Think about groups that are affected by the project outcome but do not participate in the daily work."
-      },
-      {
-            "q": "In the context of the 'Triple Constraint,' which three factors have traditionally been seen as the primary competing project constraints?",
-            "options": [
-                  "Safety, Environment, and Ethics",
-                  "Risk, Quality, and Resources",
-                  "Scope, Time (Schedule), and Cost (Budget)",
-                  "Communication, Stakeholders, and Procurement"
-            ],
-            "answer": 2,
-            "explanation": "The traditional triple constraint triangle focuses on the balance between what work is done, how long it takes, and what it costs.",
-            "preamble": "Look for the basic operational elements that often require trade-offs in project planning."
-      },
-      {
-            "q": "Which conflict resolution approach focuses on coming to an agreement through yielding to the positions of others to maintain harmony?",
-            "options": [
-                  "Accommodation",
-                  "Avoidance",
-                  "Compromise",
-                  "Collaboration"
-            ],
-            "answer": 0,
-            "explanation": "Accommodation prioritizes relationships over goals, often resulting in one party yielding their ideas to preserve group harmony.",
-            "preamble": "This strategy is often used when the relationship is considered much more important than the project goals."
-      },
-      {
-            "q": "When a project is terminated because the organization creates a new operating group out of the project organization, it is known as termination by:",
-            "options": [
-                  "Extinction",
-                  "Addition",
-                  "Starvation",
-                  "Integration"
-            ],
-            "answer": 1,
-            "explanation": "Termination by addition occurs when a successful project is transitioned into a permanent part of the organization as a new department or group.",
-            "preamble": "Consider the scenario where a project becomes its own permanent business unit."
-      },
-      {
-            "q": "What distinguishes an 'excusable' delay from a 'non-excusable' delay in project management?",
-            "options": [
-                  "Excusable delays are those caused by the project manager's poor planning.",
-                  "Excusable delays are events outside the project team's control, such as natural calamities.",
-                  "Excusable delays only apply to non-critical path activities.",
-                  "Excusable delays are those that save the project money."
-            ],
-            "answer": 1,
-            "explanation": "Excusable delays involve 'force majeure' events or client-driven issues that entitle the team to extensions or compensation.",
-            "preamble": "Think about who is responsible for the cause of the delay and whether it was preventable."
-      },
-      {
-            "q": "In project cost management, 'indirect costs' are best described as:",
-            "options": [
-                  "Costs generally linked to overhead, such as utilities, taxes, and insurance.",
-                  "Costs clearly assigned to a specific task, such as labor hours for a technician.",
-                  "Costs that vary directly with the amount of project work produced.",
-                  "Costs associated with hiring external consultants for a specific phase."
-            ],
-            "answer": 0,
-            "explanation": "Indirect costs are shared across the organization and cannot be traced to a single specific project activity or work package.",
-            "preamble": "Consider costs that would exist even if a specific project task were not being performed."
-      },
-      {
-            "q": "What is the primary purpose of creating a Work Breakdown Structure (WBS)?",
-            "options": [
-                  "To establish the communication channels between the team and the client.",
-                  "To identify all project stakeholders and their interests.",
-                  "To subdivide project deliverables and work into smaller, manageable components.",
-                  "To calculate the final budget and cost baseline for the project."
-            ],
-            "answer": 2,
-            "explanation": "The WBS is a hierarchical decomposition of the total scope of work to be carried out to achieve project objectives.",
-            "preamble": "Think about how a project manager organizes the total scope into manageable 'units of work'."
-      },
-      {
-            "q": "In Project Time Management, how does a 'milestone' differ from a regular 'activity'?",
-            "options": [
-                  "Milestones are optional while activities are always mandatory.",
-                  "Milestones involve physical labor while activities involve only planning.",
-                  "Activities are only defined after the project is completed.",
-                  "Milestones have a zero-day duration because they represent a significant moment in time."
-            ],
-            "answer": 3,
-            "explanation": "A milestone is a significant point or event that signifies the completion of a major phase or deliverable and has no duration.",
-            "preamble": "Reflect on the duration and significance of a major project checkpoint."
-      },
-      {
-            "q": "Which stage of project team development is characterized by members beginning to work together and adjust their habits to support the team?",
-            "options": [
-                  "Storming",
-                  "Performing",
-                  "Norming",
-                  "Adjourning"
-            ],
-            "answer": 2,
-            "explanation": "Norming is the phase where team members resolve their differences and establish ground rules and cooperative habits.",
-            "preamble": "This stage follows the period of initial conflict and precedes the period of high performance."
-      },
-      {
-            "q": "A project manager calculates project risk by determining the likelihood of an event and the severity of its impact. If Probability is $P$ and Severity is $S$, the risk exposure is mathematically defined as:",
-            "options": [
-                  "$R = P \\times S$",
-                  "$R = P + S$",
-                  "$R = P^{S}$",
-                  "$R = \\frac{P}{S}$"
-            ],
-            "answer": 0,
-            "explanation": "The source material defines risk exposure as the function of the likelihood (probability) and the consequences (severity).",
-            "preamble": "The calculation involves the interaction between how likely something is and how bad it would be if it happened."
-      },
-      {
-            "q": "In Project Quality Management, the concept of 'Prevention over Inspection' suggests that:",
-            "options": [
-                  "Inspection is the only way to guarantee a product is fit for use.",
-                  "Quality should be planned, designed, and built into the project rather than inspected into it.",
-                  "Project managers should ignore small errors to save time on the schedule.",
-                  "It is better to catch mistakes at the end of the project through rigorous testing."
-            ],
-            "answer": 1,
-            "explanation": "The cost of preventing mistakes is significantly lower than the cost of correcting them after they are found during inspection.",
-            "preamble": "Think about the financial and time benefits of getting things right the first time."
-      },
-      {
-            "q": "According to the source, what is the 'Salience model' used for in Stakeholder Management?",
-            "options": [
-                  "To calculate the total budget needed for stakeholder meetings.",
-                  "To group stakeholders based on their power, urgency, and legitimacy.",
-                  "To track the communication frequency between the team and the client.",
-                  "To identify which stakeholders are internal versus external."
-            ],
-            "answer": 1,
-            "explanation": "The Salience model uses these three specific parameters to classify stakeholders and prioritize management effort.",
-            "preamble": "Focus on the three specific parameters used to determine the importance of a stakeholder."
-      },
-      {
-            "q": "What is the primary output of the 'Develop Project Charter' process?",
-            "options": [
-                  "The final list of all project deliverables accepted by the client.",
-                  "A document that formally authorizes the project and gives the manager authority.",
-                  "The detailed Project Management Plan",
-                  "A Work Breakdown Structure dictionary."
-            ],
-            "answer": 1,
-            "explanation": "The Project Charter establishes the project and authorizes the manager to apply organizational resources to project activities.",
-            "preamble": "This document is the 'birth certificate' of a project."
-      },
-      {
-            "q": "Which of the following is an example of 'Sale and Leaseback' as a long-term project funding source?",
-            "options": [
-                  "Selling an asset to a financial institution and then renting it back for a set term.",
-                  "Receiving a grant from a government agency that does not require repayment.",
-                  "Taking out a high-interest short-term loan from a commercial bank.",
-                  "Issuing shares to the public to raise capital for project expansion."
-            ],
-            "answer": 0,
-            "explanation": "This method releases capital tied up in assets while allowing the project to continue using the equipment or facility.",
-            "preamble": "This process involves converting a fixed asset into liquid capital while maintaining its use."
-      },
-      {
-            "q": "In project risk management, the strategy of 'Transfer' involves:",
-            "options": [
-                  "Moving the liability or management of the risk to a third party, such as an insurance firm.",
-                  "Acknowledging the risk but deciding not to take any action until it occurs.",
-                  "Reducing the probability or impact of the risk to an acceptable level.",
-                  "Eliminating the cause of the risk entirely through planning."
-            ],
-            "answer": 0,
-            "explanation": "Risk transfer moves the responsibility and impact to another party that is better equipped to handle it.",
-            "preamble": "Think about hiring another company to take on the risk on your behalf."
-      },
-      {
-            "q": "Which tool in Project Quality Management is also known as a 'Fishbone' or 'Ishikawa' diagram?",
-            "options": [
-                  "Control Chart",
-                  "Cause-and-Effect Diagram",
-                  "Pareto Diagram",
-                  "Check Sheet"
-            ],
-            "answer": 1,
-            "explanation": "The fishbone diagram is used to trace a problem's sources back to its actionable root causes.",
-            "preamble": "This tool helps project managers find the root source of a specific quality problem."
-      },
-      {
-            "q": "The 'Integrated Change Control' process is primarily concerned with:",
-            "options": [
-                  "Reviewing all change requests and approving or rejecting them while managing the impact.",
-                  "Managing the hiring and firing of project team members.",
-                  "Communicating the project's final success to the external media.",
-                  "Preventing any changes from ever occurring during the project life cycle."
-            ],
-            "answer": 0,
-            "explanation": "This process ensures that changes are documented and their impact on the integrated plan is fully assessed.",
-            "preamble": "This process coordinates changes across all project knowledge areas."
-      },
-      {
-            "q": "According to the source, which of the following is a common problem associated with Project Scope Management?",
-            "options": [
-                  "Ambiguity, where the scope leads to unnecessary work and confusion.",
-                  "The project ends exactly when the schedule says it should.",
-                  "Using too many stakeholders during the requirements collection phase.",
-                  "Too much detail in the WBS dictionary."
-            ],
-            "answer": 0,
-            "explanation": "The source identifies ambiguity as a primary cause of confusion and wasted effort in projects.",
-            "preamble": "Look for a term that implies a lack of clarity in definitions."
-      },
-      {
-            "q": "In the communication model, why is feedback considered essential?",
-            "options": [
-                  "It is only required for external communication with government agencies.",
-                  "It allows the sender to charge more for the project services.",
-                  "It ensures the message has been received and correctly understood.",
-                  "It prevents stakeholders from asking any further questions."
-            ],
-            "answer": 2,
-            "explanation": "The source mentions communication necessitates feedback to ensure information flow and stakeholder satisfaction.",
-            "preamble": "Think about the sender's need to verify that their message worked as intended."
-      },
-      {
-            "q": "Which of the following is a characteristic of a 'Project' as defined in the module?",
-            "options": [
-                  "It requires an unlimited budget and infinite resources.",
-                  "It is only related to construction and industrial plant building.",
-                  "It is customer-focused and undertaken to create a unique outcome.",
-                  "It is a continuous process without a defined end."
-            ],
-            "answer": 2,
-            "explanation": "The definition states projects are temporary, planned, and customer-focused endeavors to create unique products or services.",
-            "preamble": "Focus on the goal-oriented and non-repetitive nature of the work."
-      },
-      {
-            "q": "What happens during the 'Storming' phase of project team development?",
-            "options": [
-                  "The project is closed and team members are reassigned.",
-                  "The team reaches its peak efficiency and requires little supervision.",
-                  "The team is first brought together and members are polite.",
-                  "Conflict occurs as members jockey for position and struggle with power."
-            ],
-            "answer": 3,
-            "explanation": "Storming involves individuals testing boundaries and challenging the leader's authority or other members' roles.",
-            "preamble": "This stage is named after the 'turbulence' that occurs when different personalities first clash."
-      },
-      {
-            "q": "In project risk analysis, what is the 'Risk Factor ($RF$)' formula used to compare average probability ($P_f$) and average consequence ($C_f$)?",
-            "options": [
-                  "$RF = P_f + C_f$",
-                  "$RF = P_f \\times 100$",
-                  "$RF = P_f + C_f - (P_f)(C_f)$",
-                  "$RF = \\frac{P_f}{C_f}$"
-            ],
-            "answer": 2,
-            "explanation": "This formula allows for a standardized way to evaluate risk factors for projects or project phases.",
-            "preamble": "The formula combines the two variables while subtracting their interaction to normalize the score."
-      },
-      {
-            "q": "A 'Pareto Diagram' is used in quality management primarily to:",
-            "options": [
-                  "Allocate funding to the most expensive project phases.",
-                  "Track the project's adherence to the critical path.",
-                  "Identify the 20% of causes that are responsible for 80% of the problems.",
-                  "Ensure that every team member receives equal training."
-            ],
-            "answer": 2,
-            "explanation": "Pareto analysis identifies the 'vital few' sources that cause the majority of problem effects.",
-            "preamble": "This tool is based on the 80/20 rule."
-      },
-      {
-            "q": "Which procurement contract type involves a fixed price for a well-defined product or service?",
-            "options": [
-                  "Time and Materials Contract",
-                  "Fixed Cost Contract",
-                  "Cost Reimbursement Contract",
-                  "Unit Price Contract"
-            ],
-            "answer": 1,
-            "explanation": "In a fixed cost contract, the price is set at the beginning and does not change regardless of the vendor's costs.",
-            "preamble": "Think of the contract that provides the most price certainty for the buyer."
-      },
-      {
-            "q": "The 'Seven Basic Quality Tools (7QC)' includes a 'Check Sheet.' What is its primary function?",
-            "options": [
-                  "To rank the most common defects from highest to lowest frequency.",
-                  "To show the relationship between two different variables.",
-                  "To organize facts in a manner that facilitates the effective collection of useful data.",
-                  "To map the operational details of procedures in a value chain."
-            ],
-            "answer": 2,
-            "explanation": "Check sheets (tally sheets) are used for real-time data collection at the location where the data is generated.",
-            "preamble": "It is often used as a simple tally sheet during the data gathering process."
-      },
-      {
-            "q": "What is the key benefit of the 'Monitor and Control Project Work' process?",
-            "options": [
-                  "It releases the project team for their next assignment.",
-                  "It allows for the tracking and reporting of progress against performance objectives.",
-                  "It creates the legal contracts between the buyer and the seller.",
-                  "It identifies all stakeholders at the start of the project."
-            ],
-            "answer": 1,
-            "explanation": "This process ensures that the project stays aligned with the plan and objectives defined in the Project Management Plan.",
-            "preamble": "This process compares actual performance with the planned baseline throughout the project."
-      },
-      {
-            "q": "In Human Resource Management, which skill allows a manager to visualize the entire organization and work with abstract ideas?",
-            "options": [
-                  "Conceptual skills",
-                  "Technical skills",
-                  "Human skills",
-                  "Operational skills"
-            ],
-            "answer": 0,
-            "explanation": "Conceptual skills involve the ability to see the big picture and understand how various parts of the organization relate to one another.",
-            "preamble": "Think about the 'big picture' thinking required at higher levels of management."
-      },
-      {
-            "q": "The 'Power/Interest Grid' suggests that stakeholders with High Power and High Interest should be:",
-            "options": [
-                  "Monitored with minimal effort",
-                  "Kept satisfied by meeting their basic needs",
-                  "Managed closely",
-                  "Kept informed through regular reports"
-            ],
-            "answer": 2,
-            "explanation": "Stakeholders with both high influence and high concern for the project outcome require the most intense management engagement.",
-            "preamble": "This group has the most ability to help or hinder the project and the most desire to do so."
-      }
-    ]
+  {
+    "q": "Advertising, shipping and utilities are examples of project overhead cost.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "explanation": "Advertising and shipping are under 'selling and administration' (indirect costs), not overhead. The statement grouping all three as overhead is false."
+  },
+  {
+    "q": "The process of tracking team member performance, providing feedback, resolving issues and managing team changes to optimize project performance is referred to as ___________.",
+    "options": [
+      "Human resource management",
+      "Project team management",
+      "Project team development",
+      "Project team acquisition"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "q": "Which of the following stages clearly explain the processes involved in developing the human resource plan for a project? I. Specify the skill requirement II. Identify and document project roles and responsibilities III. Establish reporting relationships IV. Create staffing management plan",
+    "options": [
+      "I, III, IV and II",
+      "II, I, III and IV",
+      "III, IV, II and I",
+      "I, II, III and IV"
+    ],
+    "answer": 3,
+    "explanation": "The textbook presents these in order: specify skills \u2192 identify roles/responsibilities \u2192 reporting relationships \u2192 staffing management plan."
+  },
+  {
+    "q": "Managing human resource of a project helps in the following ways EXCEPT ___________.",
+    "options": [
+      "Creating teams that are unsupportive of each other",
+      "It gives the ability to resolve employee complaints",
+      "It helps in knowing when and how team members should be added",
+      "Identifying and engaging employees with a variety of skill levels"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "Which of the following skills of a manager allows him/her to visualize the entire organisation and work with ideas and the relationships between abstract concepts?",
+    "options": [
+      "Abstract skills",
+      "Conceptual skills",
+      "Human skills",
+      "Technical skills"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "q": "Unplanned costs incurred when steps are taken to speed up the project's completion are referred to as ___________.",
+    "options": [
+      "Expedited Costs",
+      "Fixed Costs",
+      "Variable Costs",
+      "Normal Costs"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "Business angels are examples of short-term project funding sources.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "explanation": "Business angels are listed under long-term project funding sources in the textbook."
+  },
+  {
+    "q": "Which of the following is NOT an example of long-term sources of project funding?",
+    "options": [
+      "Venture Capital",
+      "Bank overdraft",
+      "Retained Profits",
+      "Share Capital"
+    ],
+    "answer": 1,
+    "explanation": "Bank overdrafts are a short-term funding source (repayable within one year)."
+  },
+  {
+    "q": "Which of the classifications of procurement risk management are influenced by factors such as seasonality, taxation, product availability and price?",
+    "options": [
+      "Disruption risks",
+      "Demand fluctuation",
+      "Uncertain lead time",
+      "Unreliable yield"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "q": "Project termination type where the needed resources to execute the project are either lacking or inadequately available is referred to as ___________.",
+    "options": [
+      "Project starvation",
+      "Termination by extinction",
+      "Termination by addition",
+      "Termination by integration"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "Project vision conflicts arise due to the differences in stakeholders' opinion and understanding of the overall outcome of the project.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "The conflict resolution approach where the person involved either physically or psychologically removes himself or herself from the conflict is referred to as ___________.",
+    "options": [
+      "Accommodation",
+      "Avoidance",
+      "Compromise",
+      "Competition"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "Which of the following is a key feature of the second phase of the project life cycle?",
+    "options": [
+      "A business case is made for the project",
+      "Activities are outlined",
+      "Opportunities are identified",
+      "Monitoring and controlling deliverables"
+    ],
+    "answer": 1,
+    "explanation": "The second phase is Project Planning, which involves outlining activities, tasks, dependencies and timeframes."
+  },
+  {
+    "q": "Project cost associated with hiring and paying the various classification of workers involved in developing the project is classified as a service cost.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "explanation": "This is Labour Cost. Service Cost refers to work done by consultants, designers and subcontractors."
+  },
+  {
+    "q": "Indirect costs associated with a project include the following EXCEPT ___________.",
+    "options": [
+      "Advertising",
+      "Depreciation of equipment",
+      "Insurance",
+      "Materials"
+    ],
+    "answer": 0,
+    "explanation": "Materials are a direct cost. Advertising, depreciation, and insurance are indirect costs."
+  },
+  {
+    "q": "Which of the following is an example of an active stakeholder of a project?",
+    "options": [
+      "Competitors",
+      "Persons indirectly affected by the project",
+      "Project coordinators",
+      "Public authorities"
+    ],
+    "answer": 2,
+    "explanation": "The textbook lists project coordinators as active stakeholders; competitors, public authorities, and indirectly affected persons are passive."
+  },
+  {
+    "q": "Which of the following is generally considered as a project?",
+    "options": [
+      "An organisation that strives to stay afloat",
+      "Conducting research whose outcome is recorded",
+      "Managing a product",
+      "Protecting an organisation's sales territory"
+    ],
+    "answer": 1,
+    "explanation": "The textbook defines a project as including 'a result, such as an outcome or document (e.g., a research project that develops knowledge)'."
+  },
+  {
+    "q": "Scope, cost and risk are the most important traditional constraints of project management.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "explanation": "The three traditional constraints are Scope, Cost (budget), and Time (schedule) \u2014 not risk."
+  },
+  {
+    "q": "The responsibilities of the project manager at the organisational level include the following EXCEPT ___________.",
+    "options": [
+      "Controlling budgets",
+      "Creating overall project plan and forms project team members",
+      "Linking between the strategy and project team",
+      "Sharing progress reports with the sponsors and all stakeholders"
+    ],
+    "answer": 1,
+    "explanation": "Creating the overall project plan and forming the team is a project-level responsibility, not an organisational-level one."
+  },
+  {
+    "q": "Which of the following best describe the interpersonal skills required by project managers? I. Leadership II. Team building III. Communication IV. Building trust",
+    "options": [
+      "I only",
+      "I and II only",
+      "I, II, III only",
+      "I, II, III and IV"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "q": "The document that formally authorizes the existence of a project and provides the project manager with the authority to apply organisational resources to project activities is referred to as ___________.",
+    "options": [
+      "Project charter",
+      "Project management plan",
+      "Directing and controlling projects",
+      "Project integrated change"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "Any unique and verifiable product or the result of the capability to perform a service that is required to complete a process, phase or project is called ___________.",
+    "options": [
+      "Project outcome",
+      "Project Deliverables",
+      "Project service delivery",
+      "Project execution"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "q": "The power, urgency and legitimacy grid are also referred to as ___________.",
+    "options": [
+      "Influence and impact grid",
+      "Salience model",
+      "Stakeholder management grid",
+      "Stakeholder model"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "q": "Which of the following environmental factors impacts project management and outcomes? I. Operational II. Cultural III. Ecological IV. Psychological",
+    "options": [
+      "I only",
+      "I and II only",
+      "II, III and IV only",
+      "I, II, III and IV"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "q": "Which of the following is NOT considered an internal source of risk?",
+    "options": [
+      "Market or operational risk",
+      "Poor understanding of the project manager's job",
+      "Poorly organized project office",
+      "Unrealistic planning and scheduling"
+    ],
+    "answer": 0,
+    "explanation": "Market or operational risk is listed as an external risk in the textbook."
+  },
+  {
+    "q": "The project risk management framework consists of six phases. Which of the following best arranges the phases in chronological order? I. Establish the context  II. Risk identification III. Risk analysis IV. Risk response planning V. Risk monitoring and control",
+    "options": [
+      "I, II, III, IV and V",
+      "II, I, III, V and IV",
+      "V, IV, III, II and I",
+      "III, II, IV, V and I"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "Which of the following is NOT true about the project communication plan?",
+    "options": [
+      "It allows the project manager to maintain control of the project and ensure all stakeholders",
+      "Enables the project leader to lead the team to the desired project outcome",
+      "It increases the inconsistencies of how the project is handled",
+      "Ensures that all stakeholders have the same information on the project requirements and"
+    ],
+    "answer": 2,
+    "explanation": "The textbook states the communication plan increases CONSISTENCY \u2014 so option C is false."
+  },
+  {
+    "q": "Which of the following is NOT an item included in the risk register?",
+    "options": [
+      "Assessment of the likelihood of occurrence",
+      "Data of identifications",
+      "Historical data",
+      "Section of project"
+    ],
+    "answer": 2,
+    "explanation": "Historical data is not listed among the items on a risk register in the textbook."
+  },
+  {
+    "q": "Which of the following best explains the processes involved in the risk scoring matrix?",
+    "options": [
+      "Identify all the risks, assign severity/impact if they should occur and assign a probability of",
+      "Identify the impact/severity if they occur, assign a probability of likelihood of occurrence,",
+      "Identify all risks, assign a probability of occurrence rates/values and assign",
+      "Establish the organizational and project environment, assign severity/impact if they occur and"
+    ],
+    "answer": 2,
+    "explanation": "Textbook procedure: (1) Identify risks, (2) assign probability/likelihood, (3) assign severity/impact."
+  },
+  {
+    "q": "Which of the following is NOT a feature of a project?",
+    "options": [
+      "Repetitive process",
+      "Temporal in nature",
+      "Unique deliverables",
+      "Defined beginning and end"
+    ],
+    "answer": 0,
+    "explanation": "Projects are unique and temporary with defined start/end. Repetitive process describes operations, not projects."
+  },
+  {
+    "q": "A project is considered successful when it meets ___________.",
+    "options": [
+      "Only the budget",
+      "Only the schedule",
+      "Scope, time, cost and quality objectives",
+      "The expectations of the project team"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "q": "What does it mean when a project is temporary? It ___________.",
+    "options": [
+      "Has a definite start and end date",
+      "Lasts forever",
+      "Is repeated continuously",
+      "Does not require resources"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "Which of the following best describes the uniqueness of a project?",
+    "options": [
+      "All projects follow the same process",
+      "Each project has distinct objectives and deliverables",
+      "Projects do not require planning",
+      "Projects are routine operations"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "q": "A project is different from operations because ___________.",
+    "options": [
+      "A project is temporary, while operations are ongoing",
+      "The project does not require management",
+      "Operations do not have any objectives",
+      "Operations are always unsuccessful"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "Which of the following is NOT considered a primary constraint in project management?",
+    "options": [
+      "Scope",
+      "Cost",
+      "Time",
+      "Motivation"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "The three primary constraints in project management are often referred to as the ___________.",
+    "options": [
+      "Triple Constraint",
+      "Golden Triangle",
+      "Project Cycle",
+      "Management Pyramid"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "If a project faces budget cuts, which constraint is directly affected?",
+    "options": [
+      "Scope",
+      "Cost",
+      "Time",
+      "Risk"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "If the project schedule is shortened, what is most likely to be impacted?",
+    "options": [
+      "Cost and scope",
+      "Risk only",
+      "Stakeholder interest",
+      "Project vision"
+    ],
+    "answer": 0,
+    "explanation": "Shortening the schedule typically requires more resources (increasing cost) or reducing deliverables (reducing scope)."
+  },
+  {
+    "q": "Which of the following is an additional constraint beyond the traditional triple constraint?",
+    "options": [
+      "Quality",
+      "Innovation",
+      "Leadership style",
+      "Market trends"
+    ],
+    "answer": 0,
+    "explanation": "The textbook explicitly states quality standards have become an important additional constraint beyond the triple constraint."
+  },
+  {
+    "q": "When project requirements increase but the deadline remains the same, what is most likely to happen? The ___________.",
+    "options": [
+      "Project team will need additional resources",
+      "Cost will decrease",
+      "Quality of work will improve automatically",
+      "Project will be completed ahead of schedule"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "In project management, resource constraints typically refer to limitations in ___________.",
+    "options": [
+      "Financial budget",
+      "Manpower, materials, and equipment",
+      "Project goals and vision",
+      "Market competition"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "q": "What is the most common cause of project delays?",
+    "options": [
+      "Poor stakeholder engagement",
+      "Excessive budgeting",
+      "Early project completion",
+      "Lack of competition"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "If a project is delayed due to a lack of necessary resources, which constraint is most directly affected?",
+    "options": [
+      "Scope",
+      "Quality",
+      "Cost",
+      "Time"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "How can project managers reduce the impact of delays?",
+    "options": [
+      "Ignoring stakeholder concerns",
+      "Increasing workload without proper planning",
+      "Implementing risk management strategies",
+      "Avoiding communication with the project team"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "A delay in project approval from senior management is an example of what type of delay? ___________ delay.",
+    "options": [
+      "Internal",
+      "External",
+      "Technical",
+      "Operational"
+    ],
+    "answer": 0,
+    "explanation": "Senior management is internal to the organisation, making this an internal delay."
+  },
+  {
+    "q": "What is a critical path in project management?",
+    "options": [
+      "The sequence of tasks that determines the minimum project duration",
+      "The list of all non-essential project tasks",
+      "A flexible schedule that allows for unlimited delays",
+      "A strategy to increase project costs"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "q": "If a project faces unexpected regulatory approvals that delay progress, what type of risk is this? ___________ risk.",
+    "options": [
+      "Financial",
+      "Political",
+      "Legal and compliance",
+      "Technological"
+    ],
+    "answer": 2,
+    "explanation": "Regulatory approvals fall under legal and compliance risk."
+  },
+  {
+    "q": "What is the best strategy to manage delays caused by scope creep?",
+    "options": [
+      "Ignoring client requests",
+      "Implementing a strict change control process",
+      "Reducing the number of project team members",
+      "Eliminating the risk management plan"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "q": "Obtaining information from prospective sellers on how project needs can be met is referred to as ___________.",
+    "options": [
+      "Procurement planning",
+      "Project procurement",
+      "Solicitation",
+      "Source selection"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "q": "Which of the following is an example of a project? I. Developing a new product, service or result II. Introducing a new product to a new market III. Conducting research whose outcome will be aptly recorded IV. Developing or acquiring a new or modified information system",
+    "options": [
+      "I only",
+      "I, II only",
+      "I, II, and III only",
+      "I, II, III and IV"
+    ],
+    "answer": 3,
+    "explanation": "All four are examples of projects as described in the textbook definition of a project."
+  },
+  {
+    "q": "Which of the following is true about projects? I. Every project has specific starting and ending points II. The duration of projects is perpetual III. Projects are permanent in nature IV. The lifecycle of the product created by the project is automatically short",
+    "options": [
+      "I and II",
+      "I and IV",
+      "III and IV",
+      "II and III"
+    ],
+    "answer": 0,
+    "explanation": "Only statement I is definitively true. Statement IV is explicitly stated as false in the textbook. B is the closest correct answer noting only I is fully true; however the exam format makes A the best selection since only I is correct among all four."
+  },
+  {
+    "q": "Total direct labour cost is calculated as ___________.",
+    "options": [
+      "The product of direct labour rate and total labour hours",
+      "Total fixed cost multiplied by labour rate",
+      "The product of preliminary market analysis and labour cost",
+      "Sales cost plus logistics and direct labour cost"
+    ],
+    "answer": 0,
+    "explanation": "The textbook formula: Total direct labour cost = (Direct labour rate) \u00d7 (Total labour hours)."
+  },
+  {
+    "q": "Project variable cost accelerates or varies throughout the project life cycle whereas project fixed cost does not vary with respect to their usage throughout the project life cycle.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "explanation": "Both definitions match exactly what is stated in the textbook for variable and fixed costs."
+  },
+  {
+    "q": "Advertising, shipping, salaries and insurance are examples of ___________.",
+    "options": [
+      "Accelerated cost",
+      "Corporate cost",
+      "Direct cost",
+      "Overhead cost"
+    ],
+    "answer": 3,
+    "explanation": "These fall under indirect costs (overhead/selling and administration), collectively referred to as overhead cost in this context."
+  },
+  {
+    "q": "The third step in the project integration process involves ___________.",
+    "options": [
+      "Directing and managing project",
+      "Developing a project charter",
+      "Developing a project management plan",
+      "Monitoring and controlling project work"
+    ],
+    "answer": 0,
+    "explanation": "Integration steps: 1st = Develop Project Charter, 2nd = Develop Project Management Plan, 3rd = Direct and Manage Project Work."
+  },
+  {
+    "q": "Which of the following is a key challenge in project integration management?",
+    "options": [
+      "Developing project plan",
+      "Information dissemination when project teams are spread globally",
+      "Developing performance reports",
+      "Providing accurate forecasting figures"
+    ],
+    "answer": 1,
+    "explanation": "The textbook specifically identifies globally spread teams as a key integration challenge causing information dissemination difficulties."
+  },
+  {
+    "q": "Which of the following should be the FIRST document a project manager should consult when developing the project management plan?",
+    "options": [
+      "Outputs from other processes",
+      "Organizational process assets",
+      "Project charter",
+      "Issue logs"
+    ],
+    "answer": 2,
+    "explanation": "The project charter is the primary input for developing the project management plan."
+  },
+  {
+    "q": "Which of the following outputs are likely to be realized when the project manager has successfully directed and managed project work?",
+    "options": [
+      "Change log",
+      "Deliverables",
+      "Project management plan updates",
+      "Work performance reports"
+    ],
+    "answer": 1,
+    "explanation": "The textbook states that Deliverables are the key output when directing and managing project work."
+  },
+  {
+    "q": "Human skills are required for communication only.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "explanation": "Human skills, also called human relation skills, require communication AND attention to relationships with others \u2014 not just communication."
+  },
+  {
+    "q": "Which of the following is the FIRST phase of team development?",
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing"
+    ],
+    "answer": 0,
+    "explanation": "The Tuckman ladder stages in order: Forming \u2192 Storming \u2192 Norming \u2192 Performing \u2192 Adjourning."
+  },
+  {
+    "q": "At which phase of team development do team members begin to address the project work, take technical decisions and develop a management approach to the project?",
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing"
+    ],
+    "answer": 0,
+    "explanation": "Storming is defined as the phase where the team begins to address project work and technical decisions."
+  },
+  {
+    "q": "At which stage of the team development process do members begin to work together and adjust their work habits and behaviours in support of the team?",
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing"
+    ],
+    "answer": 0,
+    "explanation": "Norming: team members begin to work together and adjust their work habits and behaviours to support the team."
+  },
+  {
+    "q": "The following are examples of hard-copy documents used in managing project information EXCEPT ___________.",
+    "options": [
+      "Letters",
+      "Memos",
+      "E-mail",
+      "Press release"
+    ],
+    "answer": 0,
+    "explanation": "E-mail is an electronic communication tool, not a hard-copy document. Letters, memos, and press releases are hard-copy documents."
+  },
+  {
+    "q": "When parties to a conflict come to an agreement through yielding or conforming to the positions of others, cooperating in an effort to create harmony even at the expense of their own ideas and values, which conflict resolution approach has been adopted?",
+    "options": [
+      "Accommodation",
+      "Competition",
+      "Compromise",
+      "Collaboration"
+    ],
+    "answer": 0,
+    "explanation": "This is the exact textbook definition of Accommodation \u2014 yielding to others' positions to maintain harmony."
+  },
+  {
+    "q": "The phase of the project life cycle which involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase is referred to as ___________.",
+    "options": [
+      "Execution",
+      "Initiation",
+      "Planning",
+      "Closure"
+    ],
+    "answer": 2,
+    "explanation": "The Planning phase involves developing detailed plans to confirm specifications defined at initiation."
+  }
+]
   },
 
   // ─────────────────────────────────────────────

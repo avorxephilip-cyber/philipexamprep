@@ -364,6 +364,53 @@
         .option-btn:disabled { cursor: default; }
 
         /* HINT BOX (NotebookLM Style) */
+        /* TIMER */
+        #trials-timer {
+            display: none; /* Shown via JS if active */
+            background: linear-gradient(135deg, rgba(251, 191, 36, 0.1), rgba(16, 185, 129, 0.1));
+            border: 1px solid var(--gold);
+            border-radius: 12px;
+            padding: 1.2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            backdrop-filter: blur(5px);
+        }
+        .timer-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        .timer-countdown {
+            font-size: 1.8rem;
+            font-weight: 800;
+            font-variant-numeric: tabular-nums;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);
+        }
+        .timer-countdown span {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin: 0 0.2rem;
+            font-weight: 400;
+        }
+        
+        .trial-badge {
+            background: var(--gold);
+            color: #000;
+            font-size: 0.65rem;
+            font-weight: 800;
+            padding: 2px 6px;
+            border-radius: 4px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            text-transform: uppercase;
+        }
+
         .hint-container {
             margin-top: 0.75rem;
             text-align: center;
@@ -540,7 +587,15 @@
 
 <nav>
     <div class="nav-logo">Philip<span>Prep</span> &mdash; Practice Mode</div>
-    <a href="index.html" class="back-btn">&#8592; Back to Hub</a>
+    <div class="nav-links">
+        <a href="index.html" class="update-link">
+            <span>⚡</span> Recently Updated
+        </a>
+        <a href="index.html" class="back-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            Home
+        </a>
+    </div>
 </nav>
 
 <!-- ============ LOBBY ============ -->
@@ -548,6 +603,11 @@
     <div class="lobby-header">
         <h1>Practice Quiz</h1>
         <p>Choose your course and difficulty. Test your knowledge!</p>
+    </div>
+
+    <div id="trials-timer">
+        <div class="timer-label">⏳ PM Trials Countdown (Expires May 2, 2026)</div>
+        <div id="countdown-display" class="timer-countdown">00<span>d</span> 00<span>h</span> 00<span>m</span> 00<span>s</span></div>
     </div>
 
     
@@ -580,10 +640,11 @@
             <div class="icon">💡</div>
             <h3>Entrepreneurship</h3>
         </div>
-        <div class="course-card" data-course="project" onclick="toggleCourse(this)">
+        <div class="course-card" data-course="project" onclick="toggleCourse(this)" style="position: relative;">
+            <div class="trial-badge">Trial</div>
             <div class="check-badge">&#10003;</div>
             <div class="icon">📋</div>
-            <h3>Intro to Project Management</h3>
+            <h3>Trials for Project Management</h3>
         </div>
         <div class="course-card" data-course="investment" onclick="toggleCourse(this)">
             <div class="check-badge">&#10003;</div>
@@ -707,6 +768,39 @@ let timeLeft = 0;
 let answered = false;
 
 let isExamTrial = false;
+
+// PM Trials Timer
+function initTrialsTimer() {
+    const deadline = new Date("May 2, 2026 12:00:00 GMT").getTime();
+    const timerContainer = document.getElementById('trials-timer');
+    const display = document.getElementById('countdown-display');
+
+    if (!timerContainer || !display) return;
+
+    function updateTimer() {
+        const now = new Date().getTime();
+        const distance = deadline - now;
+
+        if (distance < 0) {
+            timerContainer.style.display = 'none';
+            return;
+        }
+
+        timerContainer.style.display = 'block';
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        display.innerHTML = `${days}<span>d</span> ${hours}<span>h</span> ${minutes}<span>m</span> ${seconds}<span>s</span>`;
+    }
+
+    updateTimer();
+    setInterval(updateTimer, 1000);
+}
+
+window.addEventListener('DOMContentLoaded', initTrialsTimer);
 
 function startExamTrial() {
     isExamTrial = true;
