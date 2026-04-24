@@ -611,10 +611,13 @@
     </div>
 
     
-    <div class="section-label">Special Trial</div>
-    <div style="margin-bottom: 2rem;">
-        <button onclick="startExamTrial()" style="width: 100%; padding: 1.2rem; border-radius: 12px; background: linear-gradient(135deg, var(--gold), #d97706); color: #000; font-family: 'Inter', sans-serif; font-size: 1.1rem; font-weight: 800; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3); transition: transform 0.2s;">
-            🎯 Advance Financial Reporting Pasco 2025 Trial
+    <div class="section-label">Special Trials</div>
+    <div style="display: grid; grid-template-columns: 1fr; gap: 1rem; margin-bottom: 2rem;">
+        <button onclick="startTrial('acc402d')" style="width: 100%; padding: 1.2rem; border-radius: 12px; background: linear-gradient(135deg, var(--gold), #d97706); color: #000; font-family: 'Inter', sans-serif; font-size: 1.1rem; font-weight: 800; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3); transition: all 0.2s; display: flex; align-items: center; justify-content: center; gap: 0.5rem;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+            🎯 Advance Financial Reporting Pasco 2025
+        </button>
+        <button onclick="startTrial('project')" style="width: 100%; padding: 1.2rem; border-radius: 12px; background: linear-gradient(135deg, var(--gold), #d97706); color: #000; font-family: 'Inter', sans-serif; font-size: 1.1rem; font-weight: 800; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3); transition: all 0.2s; display: flex; align-items: center; justify-content: center; gap: 0.5rem;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+            📋 Project Management Consolidated Trials
         </button>
     </div>
 
@@ -639,12 +642,6 @@
             <div class="check-badge">&#10003;</div>
             <div class="icon">💡</div>
             <h3>Entrepreneurship</h3>
-        </div>
-        <div class="course-card" data-course="project" onclick="toggleCourse(this)" style="position: relative;">
-            <div class="trial-badge">Trial</div>
-            <div class="check-badge">&#10003;</div>
-            <div class="icon">📋</div>
-            <h3>Trials for Project Management</h3>
         </div>
         <div class="course-card" data-course="investment" onclick="toggleCourse(this)">
             <div class="check-badge">&#10003;</div>
@@ -802,15 +799,13 @@ function initTrialsTimer() {
 
 window.addEventListener('DOMContentLoaded', initTrialsTimer);
 
-function startExamTrial() {
+function startTrial(key) {
     isExamTrial = true;
-    selectedTimer = 0; // No limit for trial usually, or maybe 60s? Let's use whatever is selected or no limit
-    // Actually, let's just use what they selected in the timer grid
-    lastConfig = { courses: ['acc402d'], timer: selectedTimer, trial: true };
+    selectedTimer = 0; 
+    lastConfig = { courses: [key], timer: selectedTimer, trial: true };
     
-    // Select ALL 20 questions in order
-    if (QUIZ_DATA['acc402d']) {
-        questions = [...QUIZ_DATA['acc402d'].questions];
+    if (QUIZ_DATA[key]) {
+        questions = [...QUIZ_DATA[key].questions];
     } else {
         alert("Trial data not loaded!");
         return;
