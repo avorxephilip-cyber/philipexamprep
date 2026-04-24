@@ -523,8 +523,8 @@ const QUIZ_DATA = {
       "False",
       "True"
     ],
-    "answer": 0,
-    "explanation": "Advertising and shipping are under 'selling and administration' (indirect costs), not overhead. The statement grouping all three as overhead is false."
+    "answer": 1,
+    "explanation": ""
   },
   {
     "q": "The process of tracking team member performance, providing feedback, resolving issues and managing team changes to optimize project performance is referred to as ___________.",
@@ -629,7 +629,7 @@ const QUIZ_DATA = {
       "False",
       "True"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -640,7 +640,7 @@ const QUIZ_DATA = {
       "Compromise",
       "Competition"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -671,7 +671,7 @@ const QUIZ_DATA = {
       "Insurance",
       "Materials"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Materials are a direct cost. Advertising, depreciation, and insurance are indirect costs."
   },
   {
@@ -713,8 +713,8 @@ const QUIZ_DATA = {
       "Linking between the strategy and project team",
       "Sharing progress reports with the sponsors and all stakeholders"
     ],
-    "answer": 1,
-    "explanation": "Creating the overall project plan and forming the team is a project-level responsibility, not an organisational-level one."
+    "answer": 0,
+    "explanation": ""
   },
   {
     "q": "Which of the following best describe the interpersonal skills required by project managers? I. Leadership II. Team building III. Communication IV. Building trust",
@@ -889,7 +889,7 @@ const QUIZ_DATA = {
       "Time",
       "Motivation"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -911,7 +911,7 @@ const QUIZ_DATA = {
       "Time",
       "Risk"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": ""
   },
   {
@@ -977,7 +977,7 @@ const QUIZ_DATA = {
       "Cost",
       "Time"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": ""
   },
   {
@@ -988,7 +988,7 @@ const QUIZ_DATA = {
       "Implementing risk management strategies",
       "Avoiding communication with the project team"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": ""
   },
   {
@@ -1065,8 +1065,8 @@ const QUIZ_DATA = {
       "III and IV",
       "II and III"
     ],
-    "answer": 0,
-    "explanation": "Only statement I is definitively true. Statement IV is explicitly stated as false in the textbook. B is the closest correct answer noting only I is fully true; however the exam format makes A the best selection since only I is correct among all four."
+    "answer": 1,
+    "explanation": ""
   },
   {
     "q": "Total direct labour cost is calculated as ___________.",
@@ -1085,7 +1085,7 @@ const QUIZ_DATA = {
       "False",
       "True"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Both definitions match exactly what is stated in the textbook for variable and fixed costs."
   },
   {
@@ -1171,7 +1171,7 @@ const QUIZ_DATA = {
       "Norming",
       "Performing"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Storming is defined as the phase where the team begins to address project work and technical decisions."
   },
   {
@@ -1182,7 +1182,7 @@ const QUIZ_DATA = {
       "Norming",
       "Performing"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Norming: team members begin to work together and adjust their work habits and behaviours to support the team."
   },
   {
@@ -1193,7 +1193,7 @@ const QUIZ_DATA = {
       "E-mail",
       "Press release"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "E-mail is an electronic communication tool, not a hard-copy document. Letters, memos, and press releases are hard-copy documents."
   },
   {
