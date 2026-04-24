@@ -1068,6 +1068,9 @@ function showResults() {
     clearInterval(timerInterval);
     document.getElementById('quiz').style.display = 'none';
     document.getElementById('results').style.display = 'block';
+    
+    // Hide jump control when leaving quiz screen
+    document.getElementById('trial-jump-container').style.display = 'none';
 
     const total = questions.length;
     const pct = Math.round((score / total) * 100);
@@ -1103,11 +1106,14 @@ function showResults() {
 function showLobby() {
     document.getElementById('results').style.display = 'none';
     document.getElementById('lobby').style.display = 'block';
+    document.getElementById('trial-jump-container').style.display = 'none';
 }
 
 function restartSame() {
     if (lastConfig && lastConfig.trial) {
-        questions = [...QUIZ_DATA['acc402d'].questions];
+        const key = lastConfig.courses[0];
+        questions = [...QUIZ_DATA[key].questions];
+        if (key === 'project') document.getElementById('trial-jump-container').style.display = 'flex';
     } else {
         questions = buildQuestions();
     }
