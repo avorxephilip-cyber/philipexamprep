@@ -45,9 +45,18 @@
 
         /* Prevent unintended highlighting & wrapping */
         mark { background: transparent !important; color: inherit !important; padding: 0 !important; }
-        mjx-container { background: transparent !important; color: inherit !important; max-width: 100%; overflow-x: auto; }
-        mjx-container[jax="CHTML"] { display: inline !important; }
+        mjx-container { 
+            background: transparent !important; 
+            color: inherit !important; 
+            max-width: 100%; 
+            overflow: visible !important; 
+        }
+        mjx-container:focus { outline: none !important; }
         
+        /* Hide any potential scrollbars from MathJax containers */
+        mjx-container::-webkit-scrollbar { display: none !important; }
+        mjx-container { -ms-overflow-style: none !important; scrollbar-width: none !important; }
+
         /* Neutralize MathJax error highlighting (yellow backgrounds) */
         mjx-merror { background: transparent !important; color: var(--red) !important; }
         mjx-merror > mjx-mtext { background: transparent !important; }
