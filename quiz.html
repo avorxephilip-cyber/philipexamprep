@@ -13,9 +13,7 @@
         inlineMath: [['$', '$'], ['\\(', '\\)']],
         displayMath: [['$$', '$$'], ['\\[', '\\]']],
         processEscapes: true,
-        macros: {
-          text: ["\\text{#1}", 1]
-        }
+        maxMacros: 10000
       },
       options: {
         skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
@@ -48,6 +46,12 @@
         /* Prevent unintended highlighting & wrapping */
         mark { background: transparent !important; color: inherit !important; padding: 0 !important; }
         mjx-container { background: transparent !important; color: inherit !important; max-width: 100%; overflow-x: auto; }
+        mjx-container[jax="CHTML"] { display: inline !important; }
+        
+        /* Neutralize MathJax error highlighting (yellow backgrounds) */
+        mjx-merror { background: transparent !important; color: var(--red) !important; }
+        mjx-merror > mjx-mtext { background: transparent !important; }
+        .MathJax_Error { background: transparent !important; color: var(--red) !important; }
         
         /* Custom Selection Color */
         ::selection { background: rgba(16, 185, 129, 0.3); color: #fff; }
