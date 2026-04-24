@@ -43,7 +43,15 @@
             --text: #e4e4e7;
             --muted: #71717a;
         }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * { margin: 0; padding: 0; box-sizing: border-box; outline: none; -webkit-tap-highlight-color: transparent; }
+
+        /* Prevent unintended highlighting & wrapping */
+        mark { background: transparent !important; color: inherit !important; padding: 0 !important; }
+        mjx-container { background: transparent !important; color: inherit !important; max-width: 100%; overflow-x: auto; }
+        
+        /* Custom Selection Color */
+        ::selection { background: rgba(16, 185, 129, 0.3); color: #fff; }
+        ::-moz-selection { background: rgba(16, 185, 129, 0.3); color: #fff; }
 
         body {
             font-family: 'Inter', sans-serif;
