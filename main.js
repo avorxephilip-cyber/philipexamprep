@@ -51,17 +51,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, 100);
 
-    // Navigation background blur on scroll
+    // Navigation background on scroll — throttled via rAF
+    // Previously ran on every scroll event (60-120x/sec on Android), causing layout thrashing.
     const header = document.querySelector('header');
+    let headerScrollPending = false;
     window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            header.style.background = 'rgba(5, 5, 5, 0.85)';
-            header.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.5)';
-        } else {
-            header.style.background = 'rgba(5, 5, 5, 0.6)';
-            header.style.boxShadow = 'none';
+        if (!headerScrollPending) {
+            headerScrollPending = true;
+            requestAnimationFrame(() => {
+                if (window.scrollY > 50) {
+                    header.style.background = 'rgba(5, 5, 5, 0.85)';
+                    header.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.5)';
+                } else {
+                    header.style.background = 'rgba(5, 5, 5, 0.6)';
+                    header.style.boxShadow = 'none';
+                }
+                headerScrollPending = false;
+            });
         }
-    });
+    }, { passive: true });
 
     // Search and Filter Logic
     const searchInput = document.getElementById('search-input');
@@ -77,27 +85,33 @@ document.addEventListener('DOMContentLoaded', () => {
     
     let currentCourseFilter = 'all';
 
-    // Sticky Search Bar
+    // Sticky Search Bar — throttled via rAF + passive listener
+    let stickyScrollPending = false;
     window.addEventListener('scroll', () => {
-        if (searchContainer && searchInput && filterSearchCol) {
-            const filterBar = document.getElementById('filter-bar');
-            if (filterBar) {
-                const filterBarRect = filterBar.getBoundingClientRect();
-                // When filter bar starts to scroll out of view
-                if (filterBarRect.top <= 60 && window.scrollY > 0) {
-                    if (!searchContainer.classList.contains('fixed-search')) {
-                        searchContainer.classList.add('fixed-search');
-                        document.body.appendChild(searchContainer);
-                    }
-                } else {
-                    if (searchContainer.classList.contains('fixed-search')) {
-                        searchContainer.classList.remove('fixed-search');
-                        filterSearchCol.appendChild(searchContainer);
+        if (!stickyScrollPending) {
+            stickyScrollPending = true;
+            requestAnimationFrame(() => {
+                if (searchContainer && searchInput && filterSearchCol) {
+                    const filterBar = document.getElementById('filter-bar');
+                    if (filterBar) {
+                        const filterBarRect = filterBar.getBoundingClientRect();
+                        if (filterBarRect.top <= 60 && window.scrollY > 0) {
+                            if (!searchContainer.classList.contains('fixed-search')) {
+                                searchContainer.classList.add('fixed-search');
+                                document.body.appendChild(searchContainer);
+                            }
+                        } else {
+                            if (searchContainer.classList.contains('fixed-search')) {
+                                searchContainer.classList.remove('fixed-search');
+                                filterSearchCol.appendChild(searchContainer);
+                            }
+                        }
                     }
                 }
-            }
+                stickyScrollPending = false;
+            });
         }
-    });
+    }, { passive: true });
 
     function filterCards() {
         if (!searchInput) return; // If filter bar isn't on this page
